@@ -1,0 +1,34 @@
+# Algoritmo de Bisseção
+
+Basicamente, o algoritmo de bisseção é um algoritmo de Busca Linear que tenta simplifcar o processo reduzindo o problema em uma função unidimencional, que é derivada do problema multivariável.
+
+# Transformando o problema multivariável em unidimensional
+
+O que a gente pode fazer é reduzir o problema de otimização de **várias dimensões** ($x$ tendo vários componentes) pra um **problema de uma única dimensão** (e uma única variável, o $\alpha$).
+
+Ele define:
+$$
+h(\alpha) := f(\bar x + \alpha \bar d)
+$$
+
+Onde:
+ - $\bar x$ é o ponto atual;
+ - $\bar d$ é a direção escolhida (ex.: $-\nabla f(\bar x)$); e
+ - $\alpha$ é o escalar que diz **o quanto** você anda nessa direção.
+
+Então, $h(\alpha)$ representa o **valor da função** $f$ se você andar $\alpha$ unidades na direção $d$.
+Agora, em vez de minizar $f(x_1, x_2, x_3...)$, a gente só precisa **minimizar uma função simples** de $\alpha$.
+
+# Um novo problema
+
+O novo problema que vamos encontrar no caminho é:
+$$
+\bar \alpha = \arg \min\limits_{\alpha} h(\alpha)
+$$
+
+Ou seja:
+> "Encontre o valor de $\alpha$ que faz $h(\alpha)$ mínimo"
+
+Que é a mesma ideia da busca linear que falamos anteriormente.
+
+# Propriedades de $h(\alpha)$
