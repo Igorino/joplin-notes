@@ -1,6 +1,6 @@
 # Gradiente
 ## Definição:
-Basicamente, o Gradiente ($\nabla f(x)$) representa a inclinação da função no ponto $x$. Ela diz o quanto a função "sobe" ou "desce" em cada ++underlined text++direção da função.
+Basicamente, o Gradiente ($\nabla f(x)$) representa a inclinação da função no ponto $x$. Ela diz o quanto a função "sobe" ou "desce" em cada direção da função.
 
 ## Definição formal:
 
