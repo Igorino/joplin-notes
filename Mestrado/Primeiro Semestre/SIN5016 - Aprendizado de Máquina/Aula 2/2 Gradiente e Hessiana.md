@@ -1,6 +1,6 @@
 # Gradiente
 ## Definição:
-Basicamente, o Gradiente ($\nabla f(x)$) representa a inclinação da função no ponto $x$. Ela diz o quanto a função "sobe" ou "desce" em cada direção da função.
+Basicamente, o Gradiente ($\nabla f(x)$) representa a inclinação da função no ponto $x$. Ela diz o quanto a função "sobe" ou "desce" em cada ++underlined text++direção da função.
 
 ## Definição formal:
 
@@ -338,7 +338,7 @@ Definição:
 
 |Tipo de Matriz|Condição matemática|Interpretação
 |:---:|:---:|:---:|
-|**Definida Positiva** <br>(PD)|${{x^TMx > 0}, \forall ~ x \ne 0}$| Curvatura sem pra cima $\to$ **mínimo local**
+|**Definida Positiva** <br>(PD)|${{x^TMx > 0}, \forall ~ x \ne 0}$|
 |**Semidefinida Positiva** <br> (PSD)|${x^TMx \ge 0, \forall ~ x \ne 0}$|Pode ser plana em algumas direções $\to$ **mínimo ou ponto plano** |
 |**Definida Negativa** <br> (ND)|${x^TMx < 0, \forall x \ne 0~}$|Curvatura sempre pra baixo $\to$ **máximo local**|
 |**Semidefinida Negativa** <br> (NSD)|${x^TMx \le 0, \forall ~ x \ne 0}$|Pode ser plana em algumas direções $\to$ **máximo ou ponto plano**|
