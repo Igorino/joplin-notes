@@ -34,4 +34,6 @@ Que é a mesma ideia da busca linear que falamos anteriormente.
 # Propriedades de $h(\alpha)$
 O Slide diz:
 
-> $h(zalpha$
+> $h(\alpha)$ é uma função convexa na variável escalar $a$.
+
+Isso significa que o gráfico de $h(\alpha)$ é em uma **forma de tigela (convexo)**, então tem um ú
