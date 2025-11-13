@@ -21,7 +21,7 @@ Onde:
 
 Se o objetivo é **minimizar** $f$, a gente quer que esse incremento $\nabla f(\bar x)^T d$ seja o **menor possível**. Ou seja, queremos andar na **direção que mais faz $f$ cair**. 
 
-O gradiente sempre vai apontar pra **direção de maior subida**. Então, a direção de **maior descida** é o **oposto** do gradiente.
+O gradiente sempre vai apontar pra **direção de maior subida**. Logo, a direção de **maior descida** é o **oposto** do gradiente.
 
 Então, o que precisamos saber é qual é o vetor $d$ minimiza o produto interno $\nabla f(\bar x)^Td$.
 
