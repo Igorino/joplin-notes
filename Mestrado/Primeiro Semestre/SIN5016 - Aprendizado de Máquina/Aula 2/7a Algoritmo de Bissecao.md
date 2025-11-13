@@ -36,4 +36,7 @@ O Slide diz:
 
 > $h(\alpha)$ é uma função convexa na variável escalar $a$.
 
-Isso significa que o gráfico de $h(\alpha)$ é em uma **forma de tigela (convexo)**, então tem um ú
+Isso significa que o gráfico de $h(\alpha)$ é em uma **forma de tigela (convexo)**, então tem um **único ponto mínimo**.
+
+Esse é o ideal, o nosso $\bar \alpha$.
+
