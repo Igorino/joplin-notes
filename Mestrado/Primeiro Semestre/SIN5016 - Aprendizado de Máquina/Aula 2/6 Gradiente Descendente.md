@@ -72,7 +72,7 @@ $$
 O sinal de menos é porque andamos na **direção contrária ao gradiente**, e o $\alpha_k$ controla o **tamanho do passo** 
 
 # Algoritmo matemático
-> Obs: Em otimização, a gente usa indices superiores (⁰, ¹, ², ³...) pra indicar a **iteração** do algoritmo, não pra fazer potenciação. $:=$ é atribuição.
+> Obs: Em otimização, a gente usa indices superiores (⁰, ¹, ², ³...) pra indicar a **iteração** do algoritmo, não pra fazer potenciação. Aliás, "$:=$" é atribuição.
 
 0.  Dado $x⁰$, faça $k := 0$;
 1.  $d^k := -\nabla f(x^k)$  (direção contrária ao gradiente). Se $d^k = 0$, então pare.
