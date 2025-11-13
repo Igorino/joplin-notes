@@ -26,7 +26,7 @@ $$
 | $\bar x$ | Ponto atual | É o ponto onde a gente tá agora (na iteração atual) |
 | $\bar d$ | Direção de descida | É o vetor que aponta pra onde a função diminui mais rápido (normalmente é $-\nabla f(\bar x)$) |
 | $\alpha$ | Tamanho do passo | É o quanto a gente vai andar na direção $\bar d$ |
-| $f(\bar x + \alpha \bar d)$ | Função ao longo da reta | Representa o valor de $f$ ao andar um pouco ($\alpha$) na direção $\bar d$ |
+| ${f(\bar x + \alpha \bar d)}$ | Função ao longo da reta | Representa o valor de $f$ ao andar um pouco ($\alpha$) na direção $\bar d$ |
 | $\arg \min\limits_{\alpha}$ | "O valor de $\alpha$ que minimiza" | É o $\alpha$ ótimo que faz $f(\bar + \alpha \bar d)$ ser o menor possível |
 | $\bar \alpha$ | O passo ótimo | É o tamanho ideal para do passo nessa direção |
 
