@@ -32,3 +32,4 @@ Ou seja:
 Que é a mesma ideia da busca linear que falamos anteriormente.
 
 # Propriedades de $h(\alpha)$
+O Slide diz que
