@@ -1,6 +1,7 @@
-# Primeiro Algoritmo: Algoritmo de Bisseção
+# 1) Algoritmo de Bisseção
+O primeiro algortimo que vamos ver é o algoritmo de bisseção. 
 
-Basicamente, o primeiro algortimo que vamos ver é o  algoritmo de bisseção é um algoritmo de Busca Linear que tenta simplifcar o processo reduzindo o problema em uma função unidimencional, que é derivada do problema multivariável.
+Basicamente, algoritmo de bisseção é um algoritmo de Busca Linear que tenta simplifcar o processo reduzindo o problema em uma função unidimencional, que é derivada do problema multivariável.
 
 # Transformando o problema multivariável em unidimensional
 
