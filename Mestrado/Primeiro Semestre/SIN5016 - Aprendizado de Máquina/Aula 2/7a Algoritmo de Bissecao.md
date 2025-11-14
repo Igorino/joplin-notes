@@ -87,8 +87,8 @@ Em funções convexas, a derivada é **crescente**. Ela começa negativa (descen
 ![Freehand Drawing.svg](Freehand Drawing.svg)
 
 Então: 
-- Para $\alpha < \text{ótimo}$, o $h'(\alpha) < 0 \text{descendo}$
-- Para $\alpha < \text{ótimo}$, o $h'(\alpha) > 0 \text{subindo}$
+- Para $\alpha < \text{ótimo}$, o $h'(\alpha) < 0 \text{ descendo}$
+- Para $\alpha < \text{ótimo}$, o $h'(\alpha) > 0 \text{ subindo}$
 - No mínimo, temos $h'(\alpha) = 0$.
 
 Essa propriedade é o que permite a gente a usar **bisseção** pra achar o ponto onde $h'(\alpha) = 0$
