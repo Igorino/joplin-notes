@@ -67,4 +67,7 @@ h'(0) < 0
 $$
 
 Isso quer dizer:
-> No ponto atual ($\alpha$)
+> No ponto atual ($\alpha = 0$), a função $f$ tá **diminuindo** se eu andar na direção $d$.
+
+Ou seja, se a derivada é negativa, o gráfico tá descendo naquele ponto.
+Então, o primeiro passo na direção $d$ faz $f$ diminui
