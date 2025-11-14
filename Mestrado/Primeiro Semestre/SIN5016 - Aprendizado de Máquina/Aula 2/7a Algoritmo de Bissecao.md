@@ -56,4 +56,8 @@ $$
 {\delta h \over \delta \alpha} = {\delta f \over \delta x} * {\delta x \over \delta \alpha} = \nabla f(\bar x + \alpha \bar d)^T \bar d
 $$
 
-O gradiente $\nabla f$ é o vetor de derivadas parciais
+Lembrando que o gradiente $\nabla f$ é o vetor de derivadas parciais, e $\bar d$ é a direção que estamos percorrendo.
+
+O produto interno $\nabla f^T \bar d$ diz como **$f$ varia a longo dessa direção**.
+
+#
