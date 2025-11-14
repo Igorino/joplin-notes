@@ -88,4 +88,7 @@ Então:
 Essa propriedade é o que permite a gente a usar **bisseção** pra achar o ponto onde $h'(\alpha) = 0$
 
 # Como entra o algoritmo de bisseção
-O **algoritmo de bisseção** é um método clássico pra resolver equações do tipi
+O **algoritmo de bisseção** é um método clássico pra resolver equações do tipo:
+$$
+h'(\alpha) = 0
+$$
