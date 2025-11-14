@@ -82,3 +82,7 @@ Em funções convexas, a derivada é **crescente**. Ela começa negativa (descen
 
 Então: 
 - Para $\alpha < \text{ótimo}$, o $h'(\alpha) < 0 \text{descendo}$
+- Para $\alpha < \text{ótimo}$, o $h'(\alpha) > 0 \text{subindo}$
+- No mínimo, temos $h'(\alpha) = 0$.
+
+Essa proprei
