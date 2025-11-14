@@ -78,3 +78,4 @@ O Slide conclui:
 
 Isso vem da convexidade!
 Em funções convexas, a derivada é **crescente**. Ela começa negativa (descendo), passa por zero (mínimo), e depois fica positiva (subindo): 
+![Freehand Drawing.svg](Freehand Drawing.svg)
