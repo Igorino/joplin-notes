@@ -77,4 +77,4 @@ O Slide conclui:
 > Como $h'(\alpha)$ é uma função crescente monotônica de $\alpha$
 
 Isso vem da convexidade!
-Em funções convexas, a derivada é **crescente**. Ela começa negativa (descendo), passa por zero (mínimo), e depois fica positiva (subindo).
+Em funções convexas, a derivada é **crescente**. Ela começa negativa (descendo), passa por zero (mínimo), e depois fica positiva (subindo): 
