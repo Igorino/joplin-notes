@@ -55,3 +55,5 @@ Pela regra de cadeia:
 $$
 {\delta h \over \delta \alpha} = {\delta f \over \delta x} * {\delta x \over \delta \alpha} = \nabla f(\bar x + \alpha \bar d)^T \bar d
 $$
+
+O gradiente $\nabla f$ é o vetor de derivadas parciais
