@@ -74,7 +74,9 @@ Então, o primeiro passo na direção $d$ faz $f$ diminuir, o que faz de $d$ uma
 
 
 # Monotocidade e convexidade
-Uma função é **monotônica** quando ela **sempre cresce** ou **sempre decresce**, sem nunca "voltar atrás".
+Uma função é **monotônica** quando ela **sempre cresce** ou **sempre decresce**, sem nunca "voltar atrás". Ou seja, todos os pontos da função tem que ser pelo menos igual ou maior/menor que o anterior.
+
+Exemplos:
 ![Monotic_Examples_Dark.png](Monotic_Examples_Dark.png)
 
 O Slide conclui:
