@@ -53,5 +53,5 @@ Pela regra de cadeia:
  - $f(\alpha) = f(\bar x + \alpha \bar d)$
  - Logo, derivando em relação à $\alpha$:
 $$
-{\delta h \over \delta \alpha} = {\delta f \over \e}
+{\delta h \over \delta \alpha} = {\delta f \over \delta x} * {\delta x \over \delta \alpha} = \nabla f(\bar x + \alpha \bar \delta)^T \bar d
 $$
