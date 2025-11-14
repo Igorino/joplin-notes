@@ -98,3 +98,5 @@ O **algoritmo de bisseção** é um método clássico pra resolver equações do
 $$
 h'(\alpha) = 0
 $$
+
+Como $$
