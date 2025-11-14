@@ -74,4 +74,7 @@ Então, o primeiro passo na direção $d$ faz $f$ diminuir, o que faz de $d$ uma
 
 # Monotonicidade e convexidade
 O Slide conclui:
-> Como $h'(\alpha)$ é uma função crescente monotônica de $za
+> Como $h'(\alpha)$ é uma função crescente monotônica de $\alpha$
+
+Isso vem da convexidade!
+Em funções convexas, a derivada é **crescente**. Ela começa negativa (descendo), passa por zero (mínimo), e depois fica positiva (subindo).
