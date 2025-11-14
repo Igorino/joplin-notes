@@ -42,9 +42,11 @@ Isso significa que o gráfico de $h(\alpha)$ é em uma **forma de tigela (convex
 Esse é o ideal, o nosso $\bar \alpha$.
 
 # Derivando $h(\alpha)$
-No Slide vemos:
+No Slide, é dito que devemos demonstrar:
 $$
 h'(\alpha) = \delta f(\bar x + \alpha \bar d)^T * \bar d
 $$
 
-Vamos destrinchar isso: 
+Vamos destrinchar essa equação: 
+
+Pela regra de cadeia ()
