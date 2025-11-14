@@ -75,7 +75,7 @@ Então, o primeiro passo na direção $d$ faz $f$ diminuir, o que faz de $d$ uma
 
 # Monotocidade e convexidade
 Uma função é **monotônica** quando ela **sempre cresce** ou **sempre decresce**, sem nunca "voltar atrás".
-
+![Monotic_Examples_Dark.png](Monotic_Examples_Dark.png)
 
 O Slide conclui:
 > Como $h'(\alpha)$ é uma função crescente monotônica de $\alpha$
