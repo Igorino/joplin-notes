@@ -49,4 +49,9 @@ $$
 
 Vamos destrinchar essa equação: 
 
-Pela regra de cadeia ()
+Pela regra de cadeia: 
+ - $f(\alpha) = f(\bar x + \alpha \bar d)$
+ - Logo, derivando em relação à $\alpha$:
+$$
+
+$$
