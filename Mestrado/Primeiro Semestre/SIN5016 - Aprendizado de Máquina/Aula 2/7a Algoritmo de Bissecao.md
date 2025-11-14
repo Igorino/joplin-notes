@@ -60,4 +60,11 @@ Lembrando que o gradiente $\nabla f$ é o vetor de derivadas parciais, e $\bar d
 
 O produto interno $\nabla f^T \bar d$ diz como **$f$ varia a longo dessa direção**.
 
-#
+# O significado de $h'(0) < 0$
+A proposição diz: 
+$$
+h'(0) < 0
+$$
+
+Isso quer dizer:
+> No ponto atual ($\alpha$)
