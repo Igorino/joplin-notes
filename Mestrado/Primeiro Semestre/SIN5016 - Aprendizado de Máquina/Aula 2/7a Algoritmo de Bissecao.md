@@ -81,4 +81,4 @@ Em funções convexas, a derivada é **crescente**. Ela começa negativa (descen
 ![Freehand Drawing.svg](Freehand Drawing.svg)
 
 Então: 
-- Para $
+- Para $\alpha < \text{ótimo}$, o $h'(\alpha) < 0 \text{descendo}$
