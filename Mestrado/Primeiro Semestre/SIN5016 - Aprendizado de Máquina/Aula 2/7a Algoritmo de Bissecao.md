@@ -117,7 +117,7 @@ $$
 | :---:      | :---:       |
 |$h(\alpha) = f(\bar x \alpha \bar d)$| $f$ transformada numa função 1D|
 |$h'(\alpha) = \nabla f(\bar x \alpha \bar d)^T\bar d$| Variação de $f$ ao longo de $d$|
-|$h'(0) < 0$| Estamos descendo inicialmente|
-|$h'(\alpha)$ crescente| Típico de uma função convexa|
+|$h'(0) < 0$|Estamos descendo inicialmente|
+|$h'(\alpha)$ crescente|Típico de uma função convexa|
 |$h'(\bar \alpha) = 0$|Ponto ótimo (mínimo)|
-|Método de bisse
+|Método de bisseção|Encontra o $\alpha$ que zera o $h'(\alpha)$|
