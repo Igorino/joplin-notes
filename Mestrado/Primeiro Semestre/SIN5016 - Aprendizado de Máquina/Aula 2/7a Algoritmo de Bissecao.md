@@ -113,5 +113,7 @@ $$
 4. Continuamos até que o intervalo fique pequeno o bastante para encontrarmos o $\alpha$ ótimo.
 
 # Em resumo: 
-|Símbolo| Significado|
-| :---:
+|Símbolo     | Significado |
+| :---:      | :---:       |
+|$h(\alpha) = f(\bar x \alpha \bar d)$| $f$ transformada numa função 1D|
+|$h'(\alpha) = \
