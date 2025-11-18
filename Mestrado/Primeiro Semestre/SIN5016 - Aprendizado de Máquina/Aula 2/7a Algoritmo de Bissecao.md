@@ -107,4 +107,7 @@ $$
 
 2. Sabemos que o zero (onde a derivada muda de sinal) está entre eles.
 3. Fazemos repetidamente:
-	1. Pegamos o ponto médio 
+	1. Pegamos o ponto médio $\alpha_m = {(\alpha_1 + \alpha_2) \over 2}$
+	2. Avaliamos $h'(\alpha_m)
+	3. Dependendo do sinal, substituímos um dos extremos.
+4. Continuamos até que o 
