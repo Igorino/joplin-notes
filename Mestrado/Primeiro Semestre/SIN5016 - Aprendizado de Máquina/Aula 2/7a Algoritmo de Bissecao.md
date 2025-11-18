@@ -110,4 +110,8 @@ $$
 	1. Pegamos o ponto médio $\alpha_m = {(\alpha_1 + \alpha_2) \over 2}$
 	2. Avaliamos $h'(\alpha_m)
 	3. Dependendo do sinal, substituímos um dos extremos.
-4. Continuamos até que o 
+4. Continuamos até que o intervalo fique pequeno o bastante para encontrarmos o $\alpha$ ótimo.
+
+# Em resumo: 
+|Símbolo| Significado|
+| :---:
