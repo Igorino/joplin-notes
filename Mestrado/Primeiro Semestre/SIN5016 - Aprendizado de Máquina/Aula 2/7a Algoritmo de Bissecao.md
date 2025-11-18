@@ -116,4 +116,6 @@ $$
 |Símbolo     | Significado |
 | :---:      | :---:       |
 |$h(\alpha) = f(\bar x \alpha \bar d)$| $f$ transformada numa função 1D|
-|$h'(\alpha) = \
+|$h'(\alpha) = \nabla f(\bar x \alpha \bar d)^T\bar d$| Variação de $f$ ao longo de $d$|
+|$h'(0) < 0 | Estamos descendo inicialmente|
+|
