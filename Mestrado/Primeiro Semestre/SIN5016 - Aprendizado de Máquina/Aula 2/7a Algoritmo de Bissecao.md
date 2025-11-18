@@ -99,4 +99,5 @@ $$
 h'(\alpha) = 0
 $$
 
-Como $$
+Como $h'(\alpha)$ é crescente (monotônica): 
+1. Pegamos dois pontos $\alpha_1$ e $\alpha_2
