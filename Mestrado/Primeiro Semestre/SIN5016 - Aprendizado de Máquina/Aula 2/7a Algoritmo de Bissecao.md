@@ -100,4 +100,11 @@ h'(\alpha) = 0
 $$
 
 Como $h'(\alpha)$ é crescente (monotônica): 
-1. Pegamos dois pontos $\alpha_1$ e $\alpha_2
+1. Pegamos dois pontos $\alpha_1$ e $\alpha_2$, onde:
+$$
+h'(\alpha_1) < 0, h1(\alpha_2) > 0
+$$
+
+2. Sabemos que o zero (onde a derivada muda de sinal) está entre eles.
+3. Fazemos repetidamente:
+	1. Pegamos o ponto médio 
