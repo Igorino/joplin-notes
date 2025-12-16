@@ -82,4 +82,4 @@ Valores baixos permitem mais erros no treino, mas produzem uma margem maior, o q
 
 .
 
-**e)** A margem é a distância entre a fronteira de decisao e o
+**e)** A margem é a distância entre a fronteira de decisao e os pontos mais próximos das classes. Maximizar essa margem significa separar os dados com mais espaço entre eles, o que torna o modelo mais robusto a ruídos. Isso ajuda a melhorar a generalização.
