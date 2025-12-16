@@ -45,4 +45,4 @@ O erro de classificação é o menos sensível a pequenas melhorias, e costuma s
 
 Isso leva a arquiteturas mais compactas, com melhor generalização e menor custo. Também motiva o uso de redes profundas, que exploram estrutura, composição e reutilização de características ao longo das camadas.
 
-**b)** O dropout remove aleatoriamente partes da rede a cada passo, o que faz com que o modelo 
+**b)** O dropout remove aleatoriamente neurônios da rede a cada passo, criando várias versões diferentes do mesmo modelo. Com isso, o aprendizado acontece como se múltiplos modelos estivessem sendo treinados ao mesmo tempo, usando os mesmos parâmetros. Isso reduz a dependência excessiva entre 
