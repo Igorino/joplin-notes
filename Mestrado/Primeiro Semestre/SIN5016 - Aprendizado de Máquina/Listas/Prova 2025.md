@@ -32,7 +32,7 @@ Modelos lineares, como discutido anteriormente, são mais robustos à ruídos da
 
 .
 
-**e)** Os critérios de impureza influencia diretamente como a árvore escolhe a divisões e logo, a sua estrutura final.
+**e)** Os critérios de impureza influenciam diretamente como a árvore escolhe a divisões e a sua estrutura final.
 Entropia tende a busca divisões mais "puras", mesmo que desbalanceadas, sendo útil quando separar bem classes é importante. 
 O Índice Gini é o mais simples e rápido, gerando árvores semelhantes, mas com menor custo computacional.
 O erro de classificação é o menos sensível a pequenas melhorias, e costuma ser mais adequado pra decisçoes mais grossas (ou para poda)
@@ -41,8 +41,8 @@ O erro de classificação é o menos sensível a pequenas melhorias, e costuma s
 
 ## Exercício 3:
 
-**a)** Ela  pode ser mais eficiente do que a largura já permite representar funções complexas de forma hierárquica (combinando transformações simples em vários níveis) em vez de tentar aprender tudo de uma vez. Algumas funções que exigiriam um número gigantesco de neurônios em uma camada rasa, podem ser representadas com muito menos parâmetros usando várias camadas menores (já que cada camada reaproveita e refina os padrões aprendidos anteriormente). 
+**a)** Ela pode ser mais eficiente do que a largura já permite representar funções complexas de forma hierárquica (combinando transformações simples em vários níveis) em vez de tentar aprender tudo de uma vez. Algumas funções que exigiriam um número gigantesco de neurônios em uma camada rasa, podem ser representadas com muito menos parâmetros usando várias camadas menores (já que cada camada reaproveita e refina os padrões aprendidos anteriormente). 
 
-Isso leva a arquiteuras mais compactas, com melhor generalização e menor custo. Também motiva o uso de redes profundas, que exploram estrutura, composição e reutilização de características ao longo das camadas.
+Isso leva a arquiteturas mais compactas, com melhor generalização e menor custo. Também motiva o uso de redes profundas, que exploram estrutura, composição e reutilização de características ao longo das camadas.
 
-**b)** O dropout desliga aleatoriamente partes da rede 
+**b)** O dropout desliga aleatoriamente partes da rede a cada passo, o que faz 
