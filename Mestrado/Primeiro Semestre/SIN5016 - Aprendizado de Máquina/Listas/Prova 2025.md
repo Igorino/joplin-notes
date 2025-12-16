@@ -41,4 +41,4 @@ O erro de classificação é o menos sensível a pequenas melhorias, e costuma s
 
 ## Exercício 3:
 
-**a)** 
+**a)** A profundidade de uma rede pode ser mais eficiente do que a largura porque permite representar funções complexas de forma hierárquica (combinando transformações simples em vários níveis) em vez de tentar aprender tudo de uma vez
