@@ -66,4 +66,4 @@ Ensembles tradicionais combinan modelos de forma fixa, sem essa adaptação ao t
 
 .
 
-**c)** 
+**c)** Mistura de especialistas podem ter dificuldades em conver
