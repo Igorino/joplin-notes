@@ -74,4 +74,8 @@ Ensembles tradicionais combinan modelos de forma fixa, sem essa adaptação ao t
 
 **b)** O parâmetro C controla o quanto o modelo penaliza os erros de classificação em relação ao tamanho da margem. 
 Valores altos fazem o modelo tentar classificar corretamente quase todos os exemplos de treino, o que resulta em uma margem menor e maior risco de sobreajuste. 
-Valores baixos permitem mais erros no treino, mas produzem uma margem maior, o que tentde a melhorar a generalização.
+Valores baixos permitem mais erros no treino, mas produzem uma margem maior, o que tende a melhorar a generalização.
+
+.
+
+**d)**
