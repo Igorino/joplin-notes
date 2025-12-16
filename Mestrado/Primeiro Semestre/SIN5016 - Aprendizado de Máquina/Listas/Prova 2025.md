@@ -21,4 +21,4 @@ Logo, esses tipos de modelos são populares para análises econômicas, investim
 ---
 ## Exercício 2:
 
-**a)**
+**a)** Começa avaliando, em cada nó da árvore, qual é o atributo que separa melhor os dados em grupos mais homgêneos. 
