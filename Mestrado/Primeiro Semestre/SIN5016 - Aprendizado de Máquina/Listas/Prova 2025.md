@@ -21,4 +21,4 @@ Logo, esses tipos de modelos são populares para análises econômicas, investim
 ---
 ## Exercício 2:
 
-**a)** Começa avaliando, em cada nó da árvore, qual é o atributo que separa melhor os dados em grupos mais homgêneos. O algoritmo testa possíveis divisões e escolhe a que organiza melhor os exemplos, e vai repetindo esse processo até chegar no critério de parada definido. 
+**a)** Começa avaliando, em cada nó da árvore, qual é o atributo que separa melhor os dados em grupos mais homgêneos. O algoritmo testa possíveis divisões e escolhe a que organiza melhor os exemplos, e vai repetindo esse processo até chegar no critério de parada definido, usando como base métricas como entropia e ganho de informação para ver o quão misturados estão os dados, e fazendo as divisões com base neles.
