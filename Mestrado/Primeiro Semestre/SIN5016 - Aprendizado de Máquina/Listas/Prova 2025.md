@@ -25,4 +25,4 @@ Logo, esses tipos de modelos são populares para análises econômicas, investim
 
 .
 
-**d)** Modelos lineares 
+**d)** Modelos lineares mostram o peso de cada atributo, enquanto árvores explicam decisões por meio de regras simples do tipo "se, então".
