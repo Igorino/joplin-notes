@@ -88,4 +88,4 @@ Valores baixos permitem mais erros no treino, mas produzem uma margem maior, o q
 
 ## Exercício 6:
 
-**
+**c)** Isso acontece porque o domínio das imagens naturais é muito diferente do que as de sensoriamento remoto. 
