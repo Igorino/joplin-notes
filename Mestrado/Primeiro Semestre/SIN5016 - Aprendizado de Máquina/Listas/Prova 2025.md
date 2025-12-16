@@ -45,6 +45,8 @@ O erro de classificação é o menos sensível a pequenas melhorias, e costuma s
 
 Isso leva a arquiteturas mais compactas, com melhor generalização e menor custo. Também motiva o uso de redes profundas, que exploram estrutura, composição e reutilização de características ao longo das camadas.
 
+.
+
 **b)** O dropout remove aleatoriamente neurônios da rede a cada passo, criando várias versões diferentes do mesmo modelo. Então, o aprendizado acontece como se múltiplos modelos estivessem sendo treinados ao mesmo tempo, usando os mesmos parâmetros. Isso reduz a dependência excessiva entre os neurônios e ajuda a ter representações mais gerais, o que reduz overfitting. 
 
-**e)** A inicialização dos pesos deve ser compatível com a função de ativação para evitar um aprendizado lento ou instável. Com sigmoide, pesos grandes causam saturação; com ReLU, uma má inicialização pode fazer neurônios pararem de aprender
+**e)** A inicialização dos pesos deve ser compatível com a função de ativação para evitar um aprendizado lento ou instável. Uma inicialização correta mantém o fluxo de informação estável entre as camadas. Por exemplo: com sigmoide, pesos grandes causam saturação; com ReLU, uma má inicialização pode fazer neurônios pararem de aprender
