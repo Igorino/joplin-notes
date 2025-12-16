@@ -28,4 +28,4 @@ Logo, esses tipos de modelos são populares para análises econômicas, investim
 **d)** Modelos lineares mostram o peso de cada atributo, enquanto árvores explicam decisões por meio de regras simples do tipo "se, então", logo, os dois conseguem ser interpretáveis para seu tipo de análise.
 Modelos lineares obviamente não conseguem modelar não-linearidades, enquanto árvores conseguem.
 Modelos lineares, como discutido anteriormente, são mais robustos à ruídos dado sua simplicidade, o que não é o caso de árvores.
-Árvores de decisão são preferíveis quando o prroblema envolve relações não-lineares, combinações específicas de atributos, ou 
+Árvores de decisão são preferíveis quando o prroblema envolve relações não-lineares, combinações específicas de atributos, ou quando explicações baseadas em regras claras são mais úteis.
