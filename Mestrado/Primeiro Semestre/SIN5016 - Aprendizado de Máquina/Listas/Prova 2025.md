@@ -41,8 +41,8 @@ O erro de classificação é o menos sensível a pequenas melhorias, e costuma s
 
 ## Exercício 3:
 
-**a)** A profundidade de uma rede pode ser mais eficiente do que a largura porque permite representar funções complexas de forma hierárquica (combinando transformações simples em vários níveis) em vez de tentar aprender tudo de uma vez. Algumas funções que exigiriam um número gigantesco de neurônios em uma camada rasa, podem ser representadas com muito menos parâmetros usando várias camadas menores (já que cada camada reaproveita e refina os padrões aprendidos anteriormente). 
+**a)** Ela  pode ser mais eficiente do que a largura já permite representar funções complexas de forma hierárquica (combinando transformações simples em vários níveis) em vez de tentar aprender tudo de uma vez. Algumas funções que exigiriam um número gigantesco de neurônios em uma camada rasa, podem ser representadas com muito menos parâmetros usando várias camadas menores (já que cada camada reaproveita e refina os padrões aprendidos anteriormente). 
 
 Isso leva a arquiteuras mais compactas, com melhor generalização e menor custo. Também motiva o uso de redes profundas, que exploram estrutura, composição e reutilização de características ao longo das camadas.
 
-**b)** O dropout atua como um método ensemble implícito, já que durante o treino, ele desliga aleatoriamente partes da rede 
+**b)** O dropout desliga aleatoriamente partes da rede 
