@@ -12,4 +12,6 @@ Por outro lado, quanto mais features temos, maior tende a ser a variância, já 
 
 .
 
-**d)** Como dito anteriormente, modelos lineares são mais simples de interpretar do que modelos mais complexos: é mais fácil ver aumentos e diminuições na progressão dos dados, e prever esses mesmos para dados que ainda não temos. Como também costumam usar ferramen
+**d)** Como dito anteriormente, modelos lineares são mais simples de interpretar do que modelos mais complexos: é mais fácil ver aumentos e diminuições na progressão dos dados, e prever esses mesmos para dados que ainda não temos. 
+
+Além disso, costumam serem treinados mais rapidamente, usam menos memória e precisam de menos dados do que 
