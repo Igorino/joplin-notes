@@ -78,4 +78,4 @@ Valores baixos permitem mais erros no treino, mas produzem uma margem maior, o q
 
 .
 
-**d)**
+**d)** Esparcidade se refere a quanto o modelo depende de poucos elementos para fazer uma previsão. A LSVM tende a ser mais esparsa do ponto de vista computacional, pois a predição usa apenas um vetor de pesos. Já a SVM kernelizada depende de vários 
