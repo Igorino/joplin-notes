@@ -16,4 +16,7 @@ Por outro lado, quanto mais features temos, maior tende a ser a variância, já 
 
 Além disso, costumam serem treinados mais rapidamente, usam menos memória e precisam de menos dados do que modelos mais complexos.
 
-Logo, esses tipos de modelos são populares para análises econômicas, investimentos, e estudos médicos que tentam relacionar fatores de risco a  
+Logo, esses tipos de modelos são populares para análises econômicas, investimentos, e estudos médicos que tentam relacionar fatores de risco a diagnósticos. 
+
+---
+## Exercício 1:
