@@ -58,4 +58,8 @@ Isso leva a arquiteturas mais compactas, com melhor generalização e menor cust
 ## Exercício 4:
 
 **a)** Mistura de especialistas é mais adequada para dados heterogêneos ou multimodais porque permite que diferentes modelos se especializem em partes específicas dos dados (em vez de tentar aprender tudo ao mesmo tempo). Escolhe-se um epecialista para cada entrada, o que é útil quando os dados vem de fontes ou padrões diferentes.
-Ensembles tradicionais combinan modelos de forma fixa, s
+Ensembles tradicionais combinan modelos de forma fixa, sem essa adaptação ao tipo de entrada.
+
+.
+
+**b)**
