@@ -47,4 +47,4 @@ Isso leva a arquiteturas mais compactas, com melhor generalização e menor cust
 
 **b)** O dropout remove aleatoriamente neurônios da rede a cada passo, criando várias versões diferentes do mesmo modelo. Então, o aprendizado acontece como se múltiplos modelos estivessem sendo treinados ao mesmo tempo, usando os mesmos parâmetros. Isso reduz a dependência excessiva entre os neurônios e ajuda a ter representações mais gerais, o que reduz overfitting. 
 
-**e)** A inicialização dos pesos deve ser compatível com a função de ativação p
+**e)** A inicialização dos pesos deve ser compatível com a função de ativação para evitar um aprendizado lento ou instável. Com sigmoide, pesos grandes causam saturação; com ReLU, uma má inicialização pode fazer neurônios pararem de aprender
