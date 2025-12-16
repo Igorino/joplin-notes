@@ -12,3 +12,4 @@ Por outro lado, quanto mais features temos, maior tende a ser a variância, já 
 
 .
 
+**d)** Como dito anteriormente, modelos lineares são mais simples de interpretar do que modelos mais complexos: é mais fácil ver aumentos e diminuições na 
