@@ -88,4 +88,4 @@ Valores baixos permitem mais erros no treino, mas produzem uma margem maior, o q
 
 **c)** Isso acontece porque o domínio das imagens naturais é muito diferente do que as de sensoriamento remoto. Imagens de satélite tem outra escala, outro ponto de vista, resuoluções distintas, etc. As características aprendidas no pré-treinamento não se adaptam tão bem à esse caso de uso.
 
-**d)** 
+**d)** O pooling causa perda de informação porque reduz uma região da imagem a um único valor, e joga fora detalhes. Quando aplicado várias vezes, ele diminui a resolução espacial e elimina 
