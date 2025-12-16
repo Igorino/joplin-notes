@@ -6,7 +6,7 @@ R: A dimensionalidade é a quantidade de atributos (features) usados pra represe
 
 O problema é que conforme o númeor de atributos aumenta, também corremos os risco de termos atributos redundantes (que descrevem coisas muito parecidas), como por exemplo, idade em mêses e idade em anos, ou peso e altura, o que  pode deixar o modelo mais instável. Esse é o problema da multicolinearidade.
 
-Por outro lado, quanto mais features temos, maior tende a ser a variância, já que o ruído dos dados começam a afetar significativamente o modelo na hora do treino. Por exemplo, se treinarmos um modelo com poucas amostrar mas com muitas medições médicas, o ruído começa a aumentar em proporção aos dados úteis, o que faz o modelo generalize mal.
+Por outro lado, quanto mais features temos, maior tende a ser a variância, já que o ruído dos dados começam a afetar significativamente o modelo na hora do treino. Por exemplo, se treinarmos um modelo com poucas amostrar mas com muitas medições médicas, o ruído começa a aumentar em proporção aos dados úteis, o que faz o modelo generalize mal fora dos testes.
 
 - c) Discuta em quais cenários **modelos lineares** continuam sendo competitivos, mesmo usando comparados a **modelos não lineares** mais complexos. Em quais situações os modelos lineares podem ser mais vantajosos, apesar das limitações de não modelar não-
 linearidades?
