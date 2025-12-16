@@ -6,4 +6,9 @@ O problema é que conforme o númeor de atributos aumenta, também corremos os r
 
 Por outro lado, quanto mais features temos, maior tende a ser a variância, já que o ruído dos dados começam a afetar significativamente o modelo na hora do treino. Por exemplo, se treinarmos um modelo com poucas amostrar mas com muitas medições médicas, o ruído começa a aumentar em proporção aos dados úteis, o que faz o modelo generalize mal fora dos testes.
 
+.
+
 **c)** O modelos lineares continuam sendo competitivos exatamente quando a relação entre atributo e saída é aproximadamente linear. Nesses casos, modelos mais complexos podem aprender padrões que não são relevantes ao que queremos. Além do fato de que modelos linears, pelo fato de serem mais simples, são mais fáceis de interpretar e treinar do que modelos, bem, mais complexos.
+
+.
+
