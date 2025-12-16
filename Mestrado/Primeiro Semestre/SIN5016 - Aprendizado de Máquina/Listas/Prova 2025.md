@@ -20,3 +20,5 @@ Logo, esses tipos de modelos são populares para análises econômicas, investim
 
 ---
 ## Exercício 2:
+
+**a)**
