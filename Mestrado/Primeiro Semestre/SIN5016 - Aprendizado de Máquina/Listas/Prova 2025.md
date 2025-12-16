@@ -32,4 +32,5 @@ Modelos lineares, como discutido anteriormente, são mais robustos à ruídos da
 
 .
 
-**e)** Os critérios de impureza 
+**e)** Os critérios de impureza influencia diretamente como a árvore escolhe a divisões e logo, a sua estrutura final.
+Entropia tende a busca divisões mais "puras", mesmo que desbalanceadas, sendo útil quando separar bem as 
