@@ -41,3 +41,4 @@ O erro de classificação é o menos sensível a pequenas melhorias, e costuma s
 
 ## Exercício 3:
 
+**a)** 
