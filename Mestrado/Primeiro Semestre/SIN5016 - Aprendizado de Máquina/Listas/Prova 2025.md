@@ -56,3 +56,5 @@ Isso leva a arquiteturas mais compactas, com melhor generalização e menor cust
 ---
 
 ## Exercício 4:
+
+**a)** Mistura de especialistas é mais adequada para dados
