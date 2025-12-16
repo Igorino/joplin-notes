@@ -45,4 +45,4 @@ O erro de classificação é o menos sensível a pequenas melhorias, e costuma s
 
 Isso leva a arquiteuras mais compactas, com melhor generalização e menor custo. Também motiva o uso de redes profundas, que exploram estrutura, composição e reutilização de características ao longo das camadas.
 
-**e)**
+**b)** O dropout atua como um método ensemble implícito, já que durante o treino, ele desliga aleatoriamente partes da rede 
