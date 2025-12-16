@@ -90,4 +90,4 @@ Valores baixos permitem mais erros no treino, mas produzem uma margem maior, o q
 
 **d)** O pooling causa perda de informação porque reduz uma região da imagem a um único valor, e joga fora os detalhes. Quando aplicado várias vezes, ele diminui a resolução espacial e causa perda informações finas importantes para a tarefa.
 
-**e)** Um batch size pequeno gera gradientes cheios de ruídos
+**e)** Um batch size pequeno gera gradientes cheios de ruídos, o que faz com que as atualizações oscilem bastante. Issotornando o treinamento instávele dificultando a convergência
