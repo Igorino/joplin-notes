@@ -72,4 +72,4 @@ Ensembles tradicionais combinan modelos de forma fixa, sem essa adaptação ao t
 
 ## Exercício 5: 
 
-**b)**
+**b)** O parâmetro C controla o quanto o modelo penaliza os erros de classifa
