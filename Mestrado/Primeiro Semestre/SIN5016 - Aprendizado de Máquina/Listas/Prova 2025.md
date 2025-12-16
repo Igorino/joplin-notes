@@ -14,9 +14,7 @@ Por outro lado, quanto mais features temos, maior tende a ser a variância, já 
 
 **d)** Como dito anteriormente, modelos lineares são mais simples de interpretar do que modelos mais complexos: é mais fácil ver aumentos e diminuições na progressão dos dados, e prever esses mesmos para dados que ainda não temos. 
 
-Além disso, costumam serem treinados mais rapidamente, usam menos memória e precisam de menos dados do que modelos mais complexos.
-
-Logo, esses tipos de modelos são populares para análises econômicas, investimentos, e estudos médicos que tentam relacionar fatores de risco a diagnósticos. 
+Além disso, costumam serem treinados mais rapidamente, usam menos memória e precisam de menos dados do que modelos mais complexos.Logo, esses tipos de modelos são populares para análises econômicas, investimentos, e estudos médicos que tentam relacionar fatores de risco a diagnósticos. 
 
 ---
 ## Exercício 2:
@@ -88,4 +86,6 @@ Valores baixos permitem mais erros no treino, mas produzem uma margem maior, o q
 
 ## Exercício 6:
 
-**c)** Isso acontece porque o domínio das imagens naturais é muito diferente do que as de sensoriamento remoto. Imagens de satélite tem outra escala, outro ponto de vista, resuoluções distintas, etc. As características aprendidas no pré-treinamento não se adaptam tão bem à esse domínio.
+**c)** Isso acontece porque o domínio das imagens naturais é muito diferente do que as de sensoriamento remoto. Imagens de satélite tem outra escala, outro ponto de vista, resuoluções distintas, etc. As características aprendidas no pré-treinamento não se adaptam tão bem à esse caso de uso.
+
+**d)** 
