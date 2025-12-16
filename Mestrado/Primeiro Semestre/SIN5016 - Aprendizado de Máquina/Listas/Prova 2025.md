@@ -66,4 +66,4 @@ Ensembles tradicionais combinan modelos de forma fixa, sem essa adaptação ao t
 
 .
 
-**c)** Mistura de especialistas podem ter dificuldades em conver
+**c)** Mistura de especialistas podem ter dificuldades em convergir para uma resposta porque o mecanismo de roteamento pode acabar favorecendo os mesmos especialistas, enquanto os oturos quase não aprendem.Para lidar com isso e evitar o ris
