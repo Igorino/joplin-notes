@@ -19,4 +19,4 @@ Além disso, costumam serem treinados mais rapidamente, usam menos memória e pr
 Logo, esses tipos de modelos são populares para análises econômicas, investimentos, e estudos médicos que tentam relacionar fatores de risco a diagnósticos. 
 
 ---
-## Exercício 1:
+## Exercício 2:
