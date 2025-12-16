@@ -57,4 +57,4 @@ Isso leva a arquiteturas mais compactas, com melhor generalização e menor cust
 
 ## Exercício 4:
 
-**a)** Mistura de especialistas é mais adequada para dados
+**a)** Mistura de especialistas é mais adequada para dados heterogêneos ou multimodais porque permite que diferentes modelos se especializem em partes específicas dos dados (em vez de tentar aprender tudo ao mesmo tempo).
