@@ -62,4 +62,8 @@ Ensembles tradicionais combinan modelos de forma fixa, sem essa adaptação ao t
 
 .
 
-**b)** Uma combinação de múltiplos modelos tende a ter melhor desempenho porque diferentes modelos cometem erros diferentes. Juntar esses modelos ajuda a reduzir esses erros individuais.
+**b)** Uma combinação de múltiplos modelos tende a ter melhor desempenho porque diferentes modelos cometem erros diferentes. Juntar esses modelos ajuda a reduzir esses erros individuais, um compensando pela falha do outro, o que gera resultado melhor, mais estável no final.
+
+.
+
+**c)** 
