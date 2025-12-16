@@ -36,3 +36,8 @@ Modelos lineares, como discutido anteriormente, são mais robustos à ruídos da
 Entropia tende a busca divisões mais "puras", mesmo que desbalanceadas, sendo útil quando separar bem classes é importante. 
 O Índice Gini é o mais simples e rápido, gerando árvores semelhantes, mas com menor custo computacional.
 O erro de classificação é o menos sensível a pequenas melhorias, e costuma ser mais adequado pra decisçoes mais grossas (ou para poda)
+
+---
+
+## Exercício 3:
+
