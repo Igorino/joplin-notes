@@ -10,3 +10,5 @@ Por outro lado, quanto mais features temos, maior tende a ser a variância, já 
 
 - c) Discuta em quais cenários **modelos lineares** continuam sendo competitivos, mesmo usando comparados a **modelos não lineares** mais complexos. Em quais situações os modelos lineares podem ser mais vantajosos, apesar das limitações de não modelar não-
 linearidades?
+
+O modelos lineares continuam sendo competitivos exatamente quando a re
