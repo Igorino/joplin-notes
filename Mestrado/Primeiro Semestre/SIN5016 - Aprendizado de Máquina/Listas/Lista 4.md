@@ -23,4 +23,4 @@ $$
 	{\partial² f \over {\partial x_i \partial x_j}} (x) \approx {{f(x + he_i + he_j) - f(x + he_i - he_j) - f(x - he_i + he_j) + f(x - he_i - he_j)} \over 4h²}
 $$
 
-Foram utilizados valores típicos $h = 10^{-6}
+Foram utilizados valores típicos $h = 10^{-6}$
