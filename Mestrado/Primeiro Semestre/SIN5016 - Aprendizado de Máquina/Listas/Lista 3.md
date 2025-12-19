@@ -14,8 +14,9 @@ $$
  - Para $\delta f / \delta x$: Avaliei $f(1+h, 2)$ e $f(1-h,2)$.
  - Para $\delta f / \delta y$: Avaliei $f(1, 2+h)$ e $f(1, 2-h)$
  - Para Hessiana:
-	 - Diagonais com $f(1+-h, 2)$, $f(1,2)$, $f(1,2+-h)$
+	 - Diagonais com $f(1\pm h, 2)$, $f(1,2)$, $f(1,2+-h)$
 	 - Termo misto com os 4 cantos $(1+-h, 2+-h)$
 
 ## c) Resultado numérico com $h = 10^{-4}$
 $$
+\nabla f_h(1,2) \aprox
