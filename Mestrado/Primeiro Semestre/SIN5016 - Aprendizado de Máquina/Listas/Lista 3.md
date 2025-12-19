@@ -10,3 +10,5 @@ H(x,y) = \begin{bmatrix}
 \end{bmatrix}
 $$
 
+## b) Diferenças 
+
