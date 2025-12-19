@@ -125,3 +125,6 @@ $$
 
 ## b) Diferenças finitas
 Aqui $n = 3$:
+ * Gradiente: para cada variável $x, y, z$, avaliei $f(p \pm he_i)$
+ * Hessiana:
+	 * 3 diagonais com fórmula de 2
