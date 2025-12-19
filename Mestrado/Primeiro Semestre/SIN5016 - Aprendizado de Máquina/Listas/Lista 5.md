@@ -54,7 +54,11 @@ $$
 onde:
 $$
 	x = \begin{cases}
-	   +1, & w_j  \\
-	   c &\text{if } d
-	\end{cases}
+	   +1, & w_j  > 0 \\
+	   -1, & 2_J < 0 \\
+	   \in [-1, 1], & w_j = 0
+ 	\end{cases}
 $$
+
+# 5) Resultado final (gradiente + subgradiente)
+Juntando tudo
