@@ -36,4 +36,8 @@ $$
 	\nabla_w ( {\lambda_2 \over 2} ||w||²) = \lambda_2 w
 $$
 
-# 4_ 
+# 4) "Derivada" do termo L1
+$$
+	\lambda_1||w||_1 = \lambda_1 \sum_j |w_j|
+$$
+Para cada componente:
