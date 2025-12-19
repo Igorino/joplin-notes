@@ -72,4 +72,5 @@ $$
 
 ## b) Diferenças finitas
 Mesma lógica do exercício 1:
-* Gradiente: 4 avaliações $(x \pm h, y)
+* Gradiente: 4 avaliações $(x \pm h, y)$, $(x , y \pm h)$
+* Hessiana: reutiliza essas + 4 avaliações nos cantos $(x \pm h, y \pm h)$
