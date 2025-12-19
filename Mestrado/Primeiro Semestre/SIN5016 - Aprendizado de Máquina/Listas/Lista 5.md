@@ -33,5 +33,7 @@ $$
 $$
 Em vetor:
 $$
-	\nabla
+	\nabla_w ( {\lambda_2 \over 2} ||w||²) = \lambda_2 w
 $$
+
+# 4_ 
