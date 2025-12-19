@@ -65,4 +65,4 @@ Juntando tudo:
 $$
 	\partial J(w) = {1 \over N} X^T (Xw-y) + \lambda_2 w + \lambda_1 s
 $$
-Com $s$ definido como acima (sign com "itner")
+Com $s$ definido como acima (sign com "intervalo" no zero).
