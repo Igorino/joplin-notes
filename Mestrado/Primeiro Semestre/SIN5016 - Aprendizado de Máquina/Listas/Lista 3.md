@@ -60,12 +60,12 @@ $$
 Hessiana:
 $$
 	H = \begin{bmatrix}
-		{2 \over D} - {4x² \over D²} & -{4xy \over D²}
+		{2 \over D} - {4x² \over D²} & -{4xy \over D²} \\
 		-{4xy \over D²} & {2 \over D} - {4x² \over D²}
 	\end{bmatrix}
 	\to
 	H \approx \begin{bmatrix}
-		.0.89 & 0.45
+		.0.89 & 0.45 \\
 		0.45 & 0.89
 	\end{bmatrix}
 $$
