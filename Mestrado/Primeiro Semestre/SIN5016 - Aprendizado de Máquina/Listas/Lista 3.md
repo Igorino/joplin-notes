@@ -208,5 +208,13 @@ A Hessiana vai bem até chegar mais ou menos no $10^{-4}$
 # **5)** $f(x,y) = x⁴ + y⁴ - 3xy$ no ponto $(1,1)$
 ## a) Analítico
 $$
-	\nabla f = (4x³ - 3y, 4y³ - 3x) \to 
+	\nabla f = (4x³ - 3y, 4y³ - 3x) \to \nabla f(1,1) = (1,1)
+$$
+$$
+	H = \begin{bmatrix}
+		12x² & -3 \\
+		-3 & 12y²
+	\end{bmatrix}
+	\to
+	H(1,)
 $$
