@@ -69,3 +69,7 @@ $$
 		0.45 & 0.89
 	\end{bmatrix}
 $$
+
+## b) Diferenças finitas
+Mesma lógica do exercício 1:
+* Gradiente: 4 avaliações $(x \pm h, y)
