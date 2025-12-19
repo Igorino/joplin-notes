@@ -188,3 +188,7 @@ $$
 		-0.35 & -0.61
 	\end{bmatrix}
 $$
+
+Erros:
+ * $|| \nabla f_h = \nabla f||_2 \approx 1.18 * 10^{-9}$
+ * $||H_h - H||_F \approx 1.72 * 10^{-8}$
