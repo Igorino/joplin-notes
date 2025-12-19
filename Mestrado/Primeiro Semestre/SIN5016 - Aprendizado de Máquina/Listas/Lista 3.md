@@ -30,4 +30,5 @@ H_h(1,2) \approx \begin{bmatrix}
 $$
 
 Erros: 
-- 
+ * $||f_h - \nabla f||_2 \approx 4.01 * 10^{-12}$
+ * $||H_h - H||_F \approx 1.13 *10^{-}$
