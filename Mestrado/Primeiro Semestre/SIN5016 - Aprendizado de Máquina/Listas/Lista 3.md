@@ -182,3 +182,9 @@ Idêntico ao caso 2d dos exercícios 1 e 2
 $$
 	\nabla \approx (0.61, -0.35)
 $$
+$$
+	H_h \approx \begin{bmatrix}
+		-0.61 & -0.35 \\
+		-0.35 & -0.61
+	\end{bmatrix}
+$$
