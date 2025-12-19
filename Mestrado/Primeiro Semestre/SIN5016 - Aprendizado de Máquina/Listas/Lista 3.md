@@ -156,4 +156,6 @@ Erros:
 | $10^{-5}$ | $1.483*10^{-11}$ | $1.260*10^{-6}$ |
 | $10^{-6}$ | $3.991*10^{-11}$ | $1.763*10^{-4}$ |
 
-Gradiente melhora até $10^{-5}$, mas a Hessiana começa a "desandar" depois do $10^{-4}$
+Gradiente melhora até $10^{-5}$, mas a Hessiana começa a "desandar" depois do $10^{-4}$.
+
+# **4)** $f(x,y) = \sin(x) \cos(y)$ no ponto $(\pi / 4, \pi / 6)$
