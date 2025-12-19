@@ -41,4 +41,4 @@ $$
 	\lambda_1||w||_1 = \lambda_1 \sum_j |w_j|
 $$
 Para cada componente:
-* Se $w_j > 0$, $$
+* Se $w_j > 0$, ${d \over dw_j}|$
