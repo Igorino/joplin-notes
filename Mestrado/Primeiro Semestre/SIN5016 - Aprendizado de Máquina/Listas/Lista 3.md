@@ -103,3 +103,7 @@ Erros:
 O erro cai até chegar no $10^{-4}$. Depois a Hessiana piora.
 
 # **3)** $f(x,y,z) = xe^y + y \cos(z)$ no ponto $(1, 0, {\pi \over 4})$
+## a) Analítico
+$$
+	\nabla f (e^y, xe^y + \cos(z), -y \sin(z)) \to \nabla f(1, 0, )
+$$
