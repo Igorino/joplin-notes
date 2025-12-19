@@ -17,4 +17,5 @@ $$
 	 - Diagonais com $f(1+-h, 2)$, $f(1,2)$, $f(1,2+-h)$
 	 - Termo misto com os 4 cantos $(1+-h, 2+-h)$
 
-## c
+## c) Resultado numérico com $h = 10^{-4}$
+$$
