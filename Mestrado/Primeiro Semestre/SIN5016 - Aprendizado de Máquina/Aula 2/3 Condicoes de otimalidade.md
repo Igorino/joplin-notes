@@ -316,9 +316,9 @@ $$
 \nabla f(x) = 
 \begin{bmatrix}
 	\\
-	{\delta f \over \delta x_1} \\
+	{\partial f \over \partial x_1} \\
 	\\
-	{\delta f \over \delta x_2} \\
+	{\partial f \over \partial x_2} \\
 	\\
 \end{bmatrix}
 $$
@@ -328,11 +328,11 @@ $$
 #### Para $x_1$:
 
 $$
-{\delta f \over \delta x_1} = {\delta \over \delta x_1} ({1 \over 2} x_1² + x_1 x_2 + 2x_2² - 4x_1 - 4x_2 - x_2³)
+{\partial f \over \partial x_1} = {\partial \over \partial x_1} ({1 \over 2} x_1² + x_1 x_2 + 2x_2² - 4x_1 - 4x_2 - x_2³)
 $$
 
 $$
-{\delta \over \delta x_1} ({1 \over 2} x_1²) + {\delta \over \delta x_1} (x_1 x_2) - {\delta \over \delta x_1} (4x_1)
+{\partial \over \partial x_1} ({1 \over 2} x_1²) + {\partial \over \partial x_1} (x_1 x_2) - {\partial \over \partial x_1} (4x_1)
 $$
 
 $$
@@ -352,17 +352,17 @@ x_1 +  x_2 - 4
 $$
 
 $$
-\therefore {\delta f \over \delta x_1} = \boxed{x_1 +  x_2 - 4}
+\therefore {\partial f \over \partial x_1} = \boxed{x_1 +  x_2 - 4}
 $$
 
 #### Para $x_2$:
 
 $$
-{\delta f \over \delta x_2} = {\delta \over \delta x_2} ({1 \over 2} x_1² + x_1 x_2 + 2x_2² - 4x_1 - 4x_2 - x_2³)
+{\partial f \over \partial x_2} = {\partial \over \partial x_2} ({1 \over 2} x_1² + x_1 x_2 + 2x_2² - 4x_1 - 4x_2 - x_2³)
 $$
 
 $$
-{\delta \over \delta x_2}(x_1 x_2) + {\delta \over \delta x_2}(2x_2²) - {\delta \over \delta x_2}(4x_2) - {\delta \over \delta x_2}(x_2³)
+{\partial \over \partial x_2}(x_1 x_2) + {\partial \over \partial x_2}(2x_2²) - {\partial \over \partial x_2}(4x_2) - {\partial \over \partial x_2}(x_2³)
 $$
 
 $$
@@ -382,17 +382,17 @@ $$
 $$
 
 $$
-\therefore {\delta f \over \delta x_2}= \boxed{x_1 + 4x_2 - 4 - 3x_2^{2}}
+\therefore {\partial f \over \partial x_2}= \boxed{x_1 + 4x_2 - 4 - 3x_2^{2}}
 $$
 
 Então:
 
 $$
-{\delta f \over \delta x_1} = x_1 + x_2 -4
+{\partial f \over \partial x_1} = x_1 + x_2 -4
 $$
 
 $$
-{\delta f \over \delta x_2} = x_1 + 4x_2 - 4 - 3x_2²
+{\partial f \over \partial x_2} = x_1 + 4x_2 - 4 - 3x_2²
 $$
 
 Logo:
@@ -500,8 +500,8 @@ Logo
 $$
 H(x) =
 \begin{bmatrix}
-{\delta²f \over x_1x_1} & {\delta²f \over x_1x_2} \\
-{\delta²f \over x_2x_1} & {\delta²f \over x_2x_2}
+{\partial²f \over x_1x_1} & {\partial²f \over x_1x_2} \\
+{\partial²f \over x_2x_1} & {\partial²f \over x_2x_2}
 \end{bmatrix} 
 $$
 
@@ -510,27 +510,27 @@ $$
 $$
 H(x)=
 \begin{bmatrix}
-{\delta²f \over x_1²} & {\delta²f \over x_1x_2} \\
-{\delta²f \over x_2x_1} & {\delta²f \over x_2²}
+{\partial²f \over x_1²} & {\partial²f \over x_1x_2} \\
+{\partial²f \over x_2x_1} & {\partial²f \over x_2²}
 \end{bmatrix} 
 $$
 
 Agora, só precisamos fazer as segundas derivadas:
 
 $$
-{\delta²f \over x_1²} = {\delta \over x_1} ({\delta f \over x_1}) = {\delta \over x_1}(x_1 + \cancel x_2 - \cancel 4) = 1
+{\partial²f \over x_1²} = {\partial \over x_1} ({\partial f \over x_1}) = {\partial \over x_1}(x_1 + \cancel x_2 - \cancel 4) = 1
 $$
 
 $$
-{\delta²f \over x_2²} = {\delta \over x_2}({\delta f \over x_2}) = {\delta \over x_2}(\cancel x_1 + 4x_2 - \cancel 4 - 3x_2²) =  4 - 6x_2
+{\partial²f \over x_2²} = {\partial \over x_2}({\partial f \over x_2}) = {\partial \over x_2}(\cancel x_1 + 4x_2 - \cancel 4 - 3x_2²) =  4 - 6x_2
 $$
 
 $$
-{\delta²f \over x_1x_2} = {\delta \over x_1} ({\delta f \over x_2}) = {\delta \over x_1}(x_1 + \cancel 4x_2 - \cancel 4 - \cancel 3x_2²) = 1
+{\partial²f \over x_1x_2} = {\partial \over x_1} ({\partial f \over x_2}) = {\partial \over x_1}(x_1 + \cancel 4x_2 - \cancel 4 - \cancel 3x_2²) = 1
 $$
 
 $$
-{\delta²f \over x_2x_1} = {\delta \over x_2} ({\delta f \over x_1}) = {\delta \over x_1}(\cancel x_1 + x_2 - \cancel 4) = 1
+{\partial²f \over x_2x_1} = {\partial \over x_2} ({\partial f \over x_1}) = {\partial \over x_1}(\cancel x_1 + x_2 - \cancel 4) = 1
 $$
 
 Então, a matrix $H(x)$ é:
@@ -640,15 +640,15 @@ $$
 #### $x_1$:
 
 $$
-{\delta f \over \delta x_1} = {\delta \over \delta x_1}( (2x_1 - x_2)² + (3x_1 - x_3)² + \cancel{(3x_2 - 2x_3)²}) 
+{\partial f \over \partial x_1} = {\partial \over \partial x_1}( (2x_1 - x_2)² + (3x_1 - x_3)² + \cancel{(3x_2 - 2x_3)²}) 
 $$
 
 $$
-={\delta \over \delta x_1}(2x_1 - x_2)² + {\delta \over \delta x_1}(3x_1 - x_3)²
+={\partial \over \partial x_1}(2x_1 - x_2)² + {\partial \over \partial x_1}(3x_1 - x_3)²
 $$
 
 $$
-=2(2x_1 - x_2) * {\delta \over \delta x_1}(2x_1 - x_2) + 2(3x_1 - x_3) + {\delta \over \delta x_1}(3x_1 - x_3)
+=2(2x_1 - x_2) * {\partial \over \partial x_1}(2x_1 - x_2) + 2(3x_1 - x_3) + {\partial \over \partial x_1}(3x_1 - x_3)
 $$
 
 $$
@@ -668,21 +668,21 @@ $$
 $$
 
 $$
-\therefore {\delta f \over \delta x_1} = \boxed{26x_1 - 4x_2 - 6x_3}
+\therefore {\partial f \over \partial x_1} = \boxed{26x_1 - 4x_2 - 6x_3}
 $$
 
 #### $x_2$:
 
 $$
-{\delta f \over \delta x_2} = {\delta \over \delta x_2}( (2x_1 - x_2)² + \cancel{(3x_1 - x_3)²} + (3x_2 - 2x_3)²) 
+{\partial f \over \partial x_2} = {\partial \over \partial x_2}( (2x_1 - x_2)² + \cancel{(3x_1 - x_3)²} + (3x_2 - 2x_3)²) 
 $$
 
 $$
- =  {\delta \over \delta x_2}(2x_1 - x_2)² + {\delta \over \delta x_2}(3x_2 - 2x_3)²
+ =  {\partial \over \partial x_2}(2x_1 - x_2)² + {\partial \over \partial x_2}(3x_2 - 2x_3)²
 $$
 
 $$
- =  2(2x_1 - x_2)*{\delta \over \delta x_2}(2x_1 - x_2) + 2(3x_2 - 2x_3)*{\delta \over \delta x_2}(3x_2 - 2x_3)
+ =  2(2x_1 - x_2)*{\partial \over \partial x_2}(2x_1 - x_2) + 2(3x_2 - 2x_3)*{\partial \over \partial x_2}(3x_2 - 2x_3)
 $$
 
 $$
@@ -702,25 +702,25 @@ $$
 $$
 
 $$
-\therefore {\delta f \over \delta x_2} = \boxed{-4x_1 + 20x_2 - 12x_3}
+\therefore {\partial f \over \partial x_2} = \boxed{-4x_1 + 20x_2 - 12x_3}
 $$
 
 #### $x_3$:
 
 $$
-{\delta f \over \delta x_3} = {\delta \over \delta x_3}( \cancel{(2x_1 - x_2)²} + (3x_1 - x_3)² + (3x_2 - 2x_3)²) 
+{\partial f \over \partial x_3} = {\partial \over \partial x_3}( \cancel{(2x_1 - x_2)²} + (3x_1 - x_3)² + (3x_2 - 2x_3)²) 
 $$
 
 $$
-= {\delta \over \delta x_3}(3x_1 - x_3)² + {\delta \over \delta x_3}(3x_2 - 2x_3)²
+= {\partial \over \partial x_3}(3x_1 - x_3)² + {\partial \over \partial x_3}(3x_2 - 2x_3)²
 $$
 
 $$
-= {\delta \over \delta x_3}(3x_1 - x_3)² + {\delta \over \delta x_3}(3x_2 - 2x_3)²
+= {\partial \over \partial x_3}(3x_1 - x_3)² + {\partial \over \partial x_3}(3x_2 - 2x_3)²
 $$
 
 $$
-= 2(3x_1 - x_3)*{\delta \over \delta x_3}(\cancel {3x_1} - x_3) + 2(3x_2 - 2x_3)*{\delta \over \delta x_3}(\cancel{3x_2} - 2x_3)
+= 2(3x_1 - x_3)*{\partial \over \partial x_3}(\cancel {3x_1} - x_3) + 2(3x_2 - 2x_3)*{\partial \over \partial x_3}(\cancel{3x_2} - 2x_3)
 $$
 
 $$
@@ -740,7 +740,7 @@ $$
 $$
 
 $$
-\therefore {\delta f \over \delta x_3} = \boxed{-6x_1 - 12x_2 + 10x_3}
+\therefore {\partial f \over \partial x_3} = \boxed{-6x_1 - 12x_2 + 10x_3}
 $$
 
 #### Logo:
@@ -914,9 +914,9 @@ Vamos checar usando a Hessiana:
 $$
 H(x) = 
 \begin{bmatrix}
-	{\delta² \over {\delta x_1x_1}} & {\delta² \over {\delta x_1x_2}} & {\delta² \over {\delta x_1x_3}} \\
-	{\delta² \over {\delta x_2x_1}} & {\delta² \over {\delta x_2x_2}} & {\delta² \over {\delta x_2x_3}} \\
-	{\delta² \over {\delta x_3x_1}} & {\delta² \over {\delta x_3x_2}} & {\delta² \over {\delta x_3x_3}}
+	{\partial² \over {\partial x_1x_1}} & {\partial² \over {\partial x_1x_2}} & {\partial² \over {\partial x_1x_3}} \\
+	{\partial² \over {\partial x_2x_1}} & {\partial² \over {\partial x_2x_2}} & {\partial² \over {\partial x_2x_3}} \\
+	{\partial² \over {\partial x_3x_1}} & {\partial² \over {\partial x_3x_2}} & {\partial² \over {\partial x_3x_3}}
 \end{bmatrix}
 $$
 

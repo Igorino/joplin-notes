@@ -44,7 +44,7 @@ Esse é o ideal, o nosso $\bar \alpha$.
 # Derivando $h(\alpha)$
 No Slide, é dito que devemos demonstrar:
 $$
-h'(\alpha) = \delta f(\bar x + \alpha \bar d)^T * \bar d
+h'(\alpha) = \partial f(\bar x + \alpha \bar d)^T * \bar d
 $$
 
 Vamos destrinchar essa equação: 
@@ -53,7 +53,7 @@ Pela regra de cadeia:
  - $f(\alpha) = f(\bar x + \alpha \bar d)$
  - Logo, derivando em relação à $\alpha$:
 $$
-{\delta h \over \delta \alpha} = {\delta f \over \delta x} * {\delta x \over \delta \alpha} = \nabla f(\bar x + \alpha \bar d)^T \bar d
+{\partial h \over \partial \alpha} = {\partial f \over \partial x} * {\partial x \over \partial \alpha} = \nabla f(\bar x + \alpha \bar d)^T \bar d
 $$
 
 Lembrando que o gradiente $\nabla f$ é o vetor de derivadas parciais, e $\bar d$ é a direção que estamos percorrendo.

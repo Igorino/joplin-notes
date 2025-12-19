@@ -8,10 +8,10 @@ $$
 \nabla f(x) = 
 
 \begin{bmatrix}
-	\frac {\delta f(\bar x)} {\delta x_1} , 
-	\frac {\delta f(\bar x)} {\delta x_2} , 
+	\frac {\partial f(\bar x)} {\partial x_1} , 
+	\frac {\partial f(\bar x)} {\partial x_2} , 
 	\cdots , 
-	\frac {\delta f(\bar x)} {\delta x_n}
+	\frac {\partial f(\bar x)} {\partial x_n}
 \end{bmatrix}^T
 $$
 
@@ -21,7 +21,7 @@ $$
 
 $$
 \boxed {
-	\frac {\delta(x^n)} {\delta x} = n * ax^{n-1}
+	\frac {\partial(x^n)} {\partial x} = n * ax^{n-1}
 }
 $$
 
@@ -38,7 +38,7 @@ $$
 #### $x_1$:
 
 $$
-\frac {\delta f(\bar x)} {\delta x_1} = {{\delta \over \delta x_1} (4x_1²  5x_2⁴)}
+\frac {\partial f(\bar x)} {\partial x_1} = {{\partial \over \partial x_1} (4x_1²  5x_2⁴)}
 $$
 
 $$
@@ -46,35 +46,35 @@ $$
 $$
 
 $$
-\frac {\delta (4x_1²  5x_2⁴)}{\delta x_1} + \frac {\delta (6x_2⁴ 2x_3³)}{\delta x_1}
+\frac {\partial (4x_1²  5x_2⁴)}{\partial x_1} + \frac {\partial (6x_2⁴ 2x_3³)}{\partial x_1}
 $$
 
 Não tem o X1 no segundo termo, então o primeiro termo fica igual:
 
 
 $$
-\frac {\delta (4x_1²  5x_2⁴)}{\delta x_1} + \cancel{\frac {\delta (6x_2⁴ 2x_3³)}{\delta x_1}}
+\frac {\partial (4x_1²  5x_2⁴)}{\partial x_1} + \cancel{\frac {\partial (6x_2⁴ 2x_3³)}{\partial x_1}}
 $$
 
 $$
-\frac {\delta (4x_1²  5x_2⁴)}{\delta x_1} + 0
+\frac {\partial (4x_1²  5x_2⁴)}{\partial x_1} + 0
 $$
 
 $$
-\frac {\delta (4x_1²  5x_2⁴)}{\delta x_1}
+\frac {\partial (4x_1²  5x_2⁴)}{\partial x_1}
 $$
 
 X2 não tem influência no X1, então ele continua do mesmo jeito:
 
 $$
-\frac {\delta}{\delta x_1} {(4x_1²)} * 5x_2⁴
+\frac {\partial}{\partial x_1} {(4x_1²)} * 5x_2⁴
 $$
 
 Aplicamos aquela regra:
 
 $$
 \boxed {
-	\frac {\delta(x^n)} {\delta x} = n * ax^{n-1}
+	\frac {\partial(x^n)} {\partial x} = n * ax^{n-1}
 }
 $$
 
@@ -99,7 +99,7 @@ $$
 $$
 
 $$
-\therefore \frac {\delta f(\bar x)} {\delta x_1} 
+\therefore \frac {\partial f(\bar x)} {\partial x_1} 
 =  \boxed{40x_1 x_2⁴}
 $$
 
@@ -108,7 +108,7 @@ $$
 ####  $x_2$:
 
 $$
-\frac {\delta f(\bar x)} {\delta x_2} 
+\frac {\partial f(\bar x)} {\partial x_2} 
 $$
 
 $$
@@ -116,21 +116,21 @@ $$
 $$
 
 $$
-\frac {\delta (4x_1²  5x_2⁴)}{\delta x_2} + \frac {\delta (6x_2⁴ 2x_3³)}{\delta x_2}
+\frac {\partial (4x_1²  5x_2⁴)}{\partial x_2} + \frac {\partial (6x_2⁴ 2x_3³)}{\partial x_2}
 $$
 
 Como o x2 tem nos dois, não cancela nenhum.
 
 $$
-\frac {\delta (4x_1²  5x_2⁴)}{\delta x_2} + \frac {\delta (6x_2⁴ 2x_3³)}{\delta x_2}
+\frac {\partial (4x_1²  5x_2⁴)}{\partial x_2} + \frac {\partial (6x_2⁴ 2x_3³)}{\partial x_2}
 $$
 
 X1 e X3 não tem influência no X2, então eles continuam do mesmo jeito:
 
 $$
-4x_1² * \frac {\delta}{\delta x_2} {(5x_2⁴)} 
+4x_1² * \frac {\partial}{\partial x_2} {(5x_2⁴)} 
 +
-\frac {\delta}{\delta x_2} {(6x_2⁴)} * 2x_3³
+\frac {\partial}{\partial x_2} {(6x_2⁴)} * 2x_3³
 $$
 
 Aplicamos a regra:
@@ -160,7 +160,7 @@ $$
 $$
 
 $$
-\therefore \frac {\delta f(\bar x)} {\delta x_2} 
+\therefore \frac {\partial f(\bar x)} {\partial x_2} 
 =  \boxed{80x_1² x_2^{3}
 +
 48x_2^3 x_3³}
@@ -171,7 +171,7 @@ $$
 #### $x_3$:
 
 $$
-\frac {\delta f(\bar x)} {\delta x_3} 
+\frac {\partial f(\bar x)} {\partial x_3} 
 $$
 
 $$
@@ -179,24 +179,24 @@ $$
 $$
 
 $$
-\frac {\delta (4x_1²  5x_2⁴)}{\delta x_3} + \frac {\delta (6x_2⁴ 2x_3³)}{\delta x_3}
+\frac {\partial (4x_1²  5x_2⁴)}{\partial x_3} + \frac {\partial (6x_2⁴ 2x_3³)}{\partial x_3}
 $$
 
 Como o x3 não tem no primeiro termo, cancelamos ele.
 
 $$
-\cancel {\frac {\delta (4x_1²  5x_2⁴)}{\delta x_2}} + \frac {\delta (6x_2⁴ 2x_3³)}{\delta x_2}
+\cancel {\frac {\partial (4x_1²  5x_2⁴)}{\partial x_2}} + \frac {\partial (6x_2⁴ 2x_3³)}{\partial x_2}
 $$
 
 $$
 0 + 
-\frac {\delta (6x_2⁴ 2x_3³)}{\delta x_2}
+\frac {\partial (6x_2⁴ 2x_3³)}{\partial x_2}
 $$
 
 X2 não afeta X3, então é como uma constante:
 
 $$
-6x_2^4 * \frac {\delta}{\delta x_3}(2x_3^2)
+6x_2^4 * \frac {\partial}{\partial x_3}(2x_3^2)
 $$
 
 Aplicamos a regra da derivada parcial:
@@ -218,7 +218,7 @@ $$
 $$
 
 $$
-\therefore \frac {\delta f(\bar x)} {\delta x_3} 
+\therefore \frac {\partial f(\bar x)} {\partial x_3} 
 =  \boxed{
 	24x_2^4 x_3
 }
@@ -234,31 +234,31 @@ $$
 \nabla f(x) = 
 
 \begin{bmatrix}
-	\frac {\delta f(\bar x)} {\delta x_1} , 
-	\frac {\delta f(\bar x)} {\delta x_2} , 
+	\frac {\partial f(\bar x)} {\partial x_1} , 
+	\frac {\partial f(\bar x)} {\partial x_2} , 
 	\cdots , 
-	\frac {\delta f(\bar x)} {\delta x_n}
+	\frac {\partial f(\bar x)} {\partial x_n}
 \end{bmatrix}^T
 =
 \begin{bmatrix}
 	\\
-	\frac {\delta f(\bar x)} {\delta x_1} \\ 
+	\frac {\partial f(\bar x)} {\partial x_1} \\ 
 	\\
-	\frac {\delta f(\bar x)} {\delta x_2} \\
+	\frac {\partial f(\bar x)} {\partial x_2} \\
 	\\
 	\vdots \\
 	\\
-	\frac {\delta f(\bar x)} {\delta x_n} \\
+	\frac {\partial f(\bar x)} {\partial x_n} \\
 	\\
 \end{bmatrix}
 =
 \begin{bmatrix}
 	\\
-	\frac {\delta f(\bar x)} {\delta x_1} \\ 
+	\frac {\partial f(\bar x)} {\partial x_1} \\ 
 	\\
-	\frac {\delta f(\bar x)} {\delta x_2} \\
+	\frac {\partial f(\bar x)} {\partial x_2} \\
 	\\
-	\frac {\delta f(\bar x)} {\delta x_3} \\
+	\frac {\partial f(\bar x)} {\partial x_3} \\
 	\\
 \end{bmatrix}
 $$
@@ -267,9 +267,9 @@ $$
 
 As soluções encontradas foram:
 	
-$\frac {\delta f(\bar x)} {\delta x_1} =  \boxed{40x_1 x_2⁴}$ 
-$\frac {\delta f(\bar x)} {\delta x_2} =  \boxed{80x_1² x_2^{3} + 48x_2^3 x_3³}$
-$\frac {\delta f(\bar x)} {\delta x_3} =  \boxed{24x_2^4 x_3}$
+$\frac {\partial f(\bar x)} {\partial x_1} =  \boxed{40x_1 x_2⁴}$ 
+$\frac {\partial f(\bar x)} {\partial x_2} =  \boxed{80x_1² x_2^{3} + 48x_2^3 x_3³}$
+$\frac {\partial f(\bar x)} {\partial x_3} =  \boxed{24x_2^4 x_3}$
 
 Logo:
 
@@ -310,21 +310,21 @@ H(x) =
 
 \begin{bmatrix}
 	\\
-	{\delta² f \over \delta x_1²} & {\delta² f \over \delta x_1 \delta x_2} & \cdots & {\delta² f \over \delta x_1 \delta x_n} 
+	{\partial² f \over \partial x_1²} & {\partial² f \over \partial x_1 \partial x_2} & \cdots & {\partial² f \over \partial x_1 \partial x_n} 
 	\\ \\
-	{\delta² f \over \delta x_2 \delta x_1} & {\delta² f \over \delta x_2²} & \cdots & {\delta² f \over \delta x_2 \delta x_n}
+	{\partial² f \over \partial x_2 \partial x_1} & {\partial² f \over \partial x_2²} & \cdots & {\partial² f \over \partial x_2 \partial x_n}
 	\\ \\
 	\vdots & \vdots & \ddots & \vdots
 	\\ \\
-	{\delta² f \over \delta x_n \delta x_1} & {\delta² f \over \delta x_n \delta x_2} & \cdots & {\delta² f \over \delta x_n²}
+	{\partial² f \over \partial x_n \partial x_1} & {\partial² f \over \partial x_n \partial x_2} & \cdots & {\partial² f \over \partial x_n²}
 	\\ \\
 \end{bmatrix}
 
 $$
 
 > Adendo:
-> Para fazer a segunda derivada parcial ($\delta² f \over \delta x_n$), é só fazer a derivada parcial de uma derivada parcial (${\delta \over \delta x_n} ({\delta \over \delta x_n})$)
-> Por exemplo, se ${\delta f \over \delta x_1} = 6x_1 x_2³$, então ${\delta² f \over \delta x_1²} = 6x_2³$
+> Para fazer a segunda derivada parcial ($\partial² f \over \partial x_n$), é só fazer a derivada parcial de uma derivada parcial (${\partial \over \partial x_n} ({\partial \over \partial x_n})$)
+> Por exemplo, se ${\partial f \over \partial x_1} = 6x_1 x_2³$, então ${\partial² f \over \partial x_1²} = 6x_2³$
 
 ---
 # Matriz Definida Positiva e Semipositiva

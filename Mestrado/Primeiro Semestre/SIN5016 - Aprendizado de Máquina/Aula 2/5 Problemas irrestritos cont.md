@@ -102,7 +102,7 @@ $$
 $$
 Daí o resultado fica limpo e **estritamente positivo**
 
-Logo, como o $r(d) = \text{o}(||d||²)$, existe $\delta > 0$ tal que, se $||d|| < \delta$:
+Logo, como o $r(d) = \text{o}(||d||²)$, existe $\partial > 0$ tal que, se $||d|| < \partial$:
 $$
 \tag{4} |r(d)| \le {1 \over 4} \lambda_{\min} ||d||²
 $$
@@ -110,7 +110,7 @@ $$
 
 ## Passo 4: Concluir
 
-Das equações $(3)$ e $(4)$, como sabemos que $0 < ||d|| < \delta$, substituimos:
+Das equações $(3)$ e $(4)$, como sabemos que $0 < ||d|| < \partial$, substituimos:
 $$
 f(\bar x + d) -f(\bar x) \ge {1 \over 2} \lambda_{\min} ||d||² - {1 \over 4} \lambda_{\min} ||d||²
 $$
