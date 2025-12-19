@@ -46,8 +46,7 @@ def rosenbrock3(x: np.ndarray) -> float:
 
 
 # ============================================================
-# Diferenças finitas (centrais) - base Aula 2
-# h_grad ~ 1e-6, h_hess ~ 1e-4 (valores típicos)
+# Diferenças finitas (centrais)
 # ============================================================
 
 def approx_grad(f, x, h=1e-6):
@@ -133,7 +132,7 @@ def golden_section_search(phi, a=0.0, b=1.0, tol=1e-5, max_iter=200):
 
 
 # ============================================================
-# Hessiana "definida positiva": H + lambda I (Aula 2)
+# Hessiana "definida positiva": H + lambda I
 # ============================================================
 
 def make_pos_def(H, tau=1e-8, max_tries=30):
