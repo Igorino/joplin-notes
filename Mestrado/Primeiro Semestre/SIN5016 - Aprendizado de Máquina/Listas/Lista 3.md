@@ -85,3 +85,7 @@ $$
 		0.45 & 0.89
 	\end{bmatrix}
 $$
+
+Erros:
+ * $|| \nabla f_h - \nabla f||_2 \approx 4.89 * 10^{-9}$
+ * $||H_h - H||_F$ 
