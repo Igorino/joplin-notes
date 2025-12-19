@@ -28,3 +28,10 @@ $$
 	{\lambda_2 \over 2}||w||² = {\lambda_2 \over 2} \displaystyle\sum_{j}w_j²
 $$
 Derivando componente a componente:
+$$
+	{\partial \over \partial w_j} ( {\lambda_2 \over 2} w_j²) \lambda_2 w_j
+$$
+Em vetor:
+$$
+	\nabla
+$$
