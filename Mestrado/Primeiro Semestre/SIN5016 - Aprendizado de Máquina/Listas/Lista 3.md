@@ -129,3 +129,5 @@ Aqui $n = 3$:
  * Hessiana:
 	 * 3 diagonais com fórmula de 2ª derivada (que usa $f(p)$ e $f(p \pm he_i)$)
 	 * 3 termos mistos $(xy, xz, yz)$, cada um usa 4 avaliações do tipo $p \pm he_i \pm he_j$.
+
+## c) Resultado numérico com $h = 10^{-4}
