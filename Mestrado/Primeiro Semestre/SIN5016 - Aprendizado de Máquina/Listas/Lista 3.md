@@ -216,5 +216,13 @@ $$
 		-3 & 12y²
 	\end{bmatrix}
 	\to
-	H(1,)
+	H(1,1) = \begin{bmatrix}
+		12 & -3 \\
+		-3 & 12
+	\end{bmatrix}
 $$
+
+## b) Diferenças finitas
+Mesmo esquema do 2d:
+ * Gradiente com 4 avaliações
+ * Hessiana com diagonais 
