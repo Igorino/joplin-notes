@@ -11,5 +11,6 @@ H(x,y) = \begin{bmatrix}
 $$
 
 ## b) Diferenças finitas
- - Para $\delta f / \delta x$: Avaliei $f(1 + h,2)$ e f(1-h,2) e apliquei a fóruml
+ - Para $\delta f / \delta x$: Avaliei $f(1+h, 2)$ e $f(1-h,2)$.
+ - Para $\delta f / \delta y$: Avaliei $f(1, 2+h)
 
