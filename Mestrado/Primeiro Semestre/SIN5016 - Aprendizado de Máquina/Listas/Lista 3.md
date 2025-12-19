@@ -49,5 +49,7 @@ Como a função é polinômio de grau 2, as diferenças centrais quase acertam. 
 ## a) Analítico
 Se $D = 1 + x² + y²$,
 $$
-\nabla f({2x \over D}, {2y \over D})
+\nabla f=({2x \over D}, {2y \over D})
 $$
+
+No ponto, $D = 1 + 0.25 + 0.25 = 1.5$:
