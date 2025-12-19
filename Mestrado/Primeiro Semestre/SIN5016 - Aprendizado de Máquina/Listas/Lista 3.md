@@ -165,6 +165,10 @@ $$
 $$
 $$
 	H = \begin{bmatrix}
-		\sin(x)\cos
+		-\sin(x)\cos(y) & -\cos(x)\sin(y) \\
+		-\cos(x)\sin(y) & -\sin(x)\cos(y)
 	\end{bmatrix}
+$$
+$$
+	H \approx \begin{}
 $$
