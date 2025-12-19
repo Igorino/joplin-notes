@@ -208,5 +208,5 @@ A Hessiana vai bem até chegar mais ou menos no $10^{-4}$
 # **5)** $f(x,y) = x⁴ + y⁴ - 3xy$ no ponto $(1,1)$
 ## a) Analítico
 $$
-	\nabla 
+	\nabla f = (4x³ - 3y, 4y³ - 3x) \to 
 $$
