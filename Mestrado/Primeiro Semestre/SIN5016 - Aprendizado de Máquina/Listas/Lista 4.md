@@ -98,7 +98,7 @@ def backtracking_armijo(f, x, p, g, alpha0=1.0, rho=0.5, c=1e-4, min_alpha=1e-12
     alpha = alpha0
     fx = f(x)
     gTp = float(np.dot(g, p))
-    # Queremos descida: gTp < 0 normalmente (direção de descida)
+	
     while alpha >= min_alpha:
         if f(x + alpha*p) <= fx + c*alpha*gTp:
             return alpha
@@ -153,7 +153,6 @@ def make_pos_def(H, tau=1e-8, max_tries=30):
 
 # ============================================================
 # 1) Gradiente Descendente + Razão Áurea
-# x_{k+1} = x_k - alpha_k * g_k
 # ============================================================
 
 def grad_desc_golden(f, x0, tol=1e-6, max_iter=2000, h_grad=1e-6, verbose=False):
@@ -176,7 +175,6 @@ def grad_desc_golden(f, x0, tol=1e-6, max_iter=2000, h_grad=1e-6, verbose=False)
 
 # ============================================================
 # 2) Newton (FD grad/hess + positivação + backtracking)
-# resolve H d = -g
 # ============================================================
 
 def newton_fd(f, x0, tol=1e-6, max_iter=200, h_grad=1e-6, h_hess=1e-4, verbose=False):
@@ -194,11 +192,10 @@ def newton_fd(f, x0, tol=1e-6, max_iter=200, h_grad=1e-6, h_hess=1e-4, verbose=F
         H = approx_hess(f, x, h=h_hess)
         Hpos, lam = make_pos_def(H)
 
-        # direção de Newton
-        try:
+		try:
             p = -np.linalg.solve(Hpos, g)
         except np.linalg.LinAlgError:
-            p = -g  # fallback simples
+            p = -g  
 
         alpha = backtracking_armijo(f, x, p, g, alpha0=1.0)
         x = x + alpha*p
@@ -235,7 +232,6 @@ def bfgs_fd(f, x0, tol=1e-6, max_iter=1000, h_grad=1e-6, verbose=False):
         y = g_new - g
         ys = float(np.dot(y, s))
 
-        # Atualização BFGS padrão (só se condição numérica ok)
         if ys > 1e-12:
             rho = 1.0 / ys
             I = np.eye(n)
@@ -263,7 +259,6 @@ def summarize(name, x):
     print("dist até (1,1,1) =", dist)
 
 if __name__ == "__main__":
-    # ponto inicial clássico "difícil" pro Rosenbrock:
     x0 = np.array([-1.2, 1.0, 1.0])
 
     x_gd, it_gd = grad_desc_golden(rosenbrock3, x0, verbose=False)
@@ -274,9 +269,4 @@ if __name__ == "__main__":
 
     x_bf, it_bf = bfgs_fd(rosenbrock3, x0, verbose=False)
     summarize(f"BFGS FD + Armijo (it={it_bf})", x_bf)
-
-    # (opcional) testar influência de h no Newton:
-    # for hg, hh in [(1e-4,1e-2),(1e-6,1e-4),(1e-8,1e-6)]:
-    #     x_nt2, it_nt2 = newton_fd(rosenbrock3, x0, h_grad=hg, h_hess=hh, verbose=False)
-    #     print(f"\nNewton com h_grad={hg}, h_hess={hh} -> it={it_nt2}, f={rosenbrock3(x_nt2):.3e}, x={x_nt2}")
 ```
