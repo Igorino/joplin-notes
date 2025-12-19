@@ -5,4 +5,8 @@ $$
 $$
 $$
 H(x,y) = \begin{bmatrix}
+	2 & 0 \\
+	0 & 2
+\end{bmatrix}
 $$
+
