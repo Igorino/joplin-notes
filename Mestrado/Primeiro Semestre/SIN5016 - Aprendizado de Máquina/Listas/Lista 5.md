@@ -25,5 +25,6 @@ $$
 
 # 3) Derivada do termo L2
 $$
-	{\lambda_2 \over 2}||w||² = {\lambda_2 \over 2} \sum
+	{\lambda_2 \over 2}||w||² = {\lambda_2 \over 2} \displaystyle\sum_{j}w_j²
 $$
+Derivando componente a componente:
