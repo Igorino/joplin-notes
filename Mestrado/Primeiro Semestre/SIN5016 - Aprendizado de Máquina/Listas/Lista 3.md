@@ -132,5 +132,10 @@ Aqui $n = 3$:
 
 ## c) Resultado numérico com $h = 10^{-4}$
 $$
-	\nabla f_h()
+	\nabla f_h \approx (1, 1.71, 0)
+$$
+$$
+	H_h \approx \begin{bmatrix}
+		0 & 
+	\end{bmatrix}
 $$
