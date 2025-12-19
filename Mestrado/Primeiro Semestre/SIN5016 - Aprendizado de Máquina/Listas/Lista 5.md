@@ -41,4 +41,9 @@ $$
 	\lambda_1||w||_1 = \lambda_1 \sum_j |w_j|
 $$
 Para cada componente:
-* Se $w_j > 0$, ${d \over dw_j}|$
+* Se $w_j > 0$, ${d \over dw_j} |w_j| = +1$
+* Se $w_j < 0$, ${d \over dw_j} |w_j| = -1$
+* Se $w_j = 0$, não é diferenciável, então a gente usa subgradiente:
+$$
+	\partial |w_j|
+$$
