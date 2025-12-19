@@ -13,4 +13,5 @@ $$
 ## b) Diferenças finitas
  - Para $\delta f / \delta x$: Avaliei $f(1+h, 2)$ e $f(1-h,2)$.
  - Para $\delta f / \delta y$: Avaliei $f(1, 2+h)$ e $f(1, 2-h)$
-
+ - Para Hessiana:
+	 - Diagonais com $f(1+-h, 2)$, $f
