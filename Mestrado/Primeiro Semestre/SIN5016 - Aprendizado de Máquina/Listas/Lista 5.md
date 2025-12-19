@@ -52,3 +52,9 @@ $$
 	\partial (\lambda_1 ||w||_1 ) = \lambda_1 s
 $$
 onde:
+$$
+	x = \begin{cases}
+	   +1, & w_j  \\
+	   c &\text{if } d
+	\end{cases}
+$$
