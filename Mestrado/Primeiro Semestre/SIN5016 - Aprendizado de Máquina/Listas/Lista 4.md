@@ -23,4 +23,9 @@ $$
 	{\partial² f \over {\partial x_i \partial x_j}} (x) \approx {{f(x + he_i + he_j) - f(x + he_i - he_j) - f(x - he_i + he_j) + f(x - he_i - he_j)} \over 4h²}
 $$
 
-Foram utilizados valores típicos $h = 10^{-6}$ para o gradeinte e $$
+Foram utilizados valores típicos $h = 10^{-6}$ para o gradeinte e $h = 10^{-4}$ para a Hessiana
+
+# Métodos utilizados
+Foram implementados os seguintes métodos de otimização irrestrita:
+ * **Gradiente descendente**, com escolha do passo via busca linera (razão áurea);
+ * **Método de Newton**, com Hessiana A
