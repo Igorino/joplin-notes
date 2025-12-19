@@ -34,7 +34,7 @@ Erros:
  * $||H_h - H||_F \approx 1.13 *10^{-7}$
 
 ## d) Influência de $h$ (erro vs $h$)
-| h | $mod(erro grad_2$ | $erro Hess_F$ |
+| h | $mod(\text{erro grad})_2$ | $mod(\text{erro Hess})_F$ |
 |:---:|:---:|:---:|
 | 1e-01 | 4.441e-15 | 7.024e-14 |
 | 1e-02 | 8.528e-14 | 6.288e-12 |
