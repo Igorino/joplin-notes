@@ -114,5 +114,10 @@ $$
 		e^y & xe^y & -\sin(z) \\
 		0 & -\sin(z) & -y \cos(z)
 	\end{bmatrix}
-	
+$$
+$$
+	H(1, 0, {\pi \over 4}) = \begin{bmatrix}
+		0 & 1 & 0 \\
+		1 & 1 & 
+	\end{bmatrix}
 $$
