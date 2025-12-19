@@ -12,3 +12,9 @@ $$
 Defina o resíduo: $r(w) = Xw-y$.
 
 O termo de erro é:
+$$
+	{1 \over 2N} ||r||² = {1 \over 2N}r^Tr
+$$
+
+Derivando:
+* $\nabla w (r^Tr) = 2X^Tr$ (Porque)
