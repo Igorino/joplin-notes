@@ -136,6 +136,11 @@ $$
 $$
 $$
 	H_h \approx \begin{bmatrix}
-		0 & 
+		0 & 1 & 0 \\
+		1 & 0.99 & -0.71 \\
+		0 & -0.71 & 0
 	\end{bmatrix}
 $$
+
+Erros:
+ * $||\nabla f_h - $
