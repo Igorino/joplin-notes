@@ -176,4 +176,9 @@ $$
 	\end{bmatrix}
 $$
 ## b) Diferenças finitas
-Idêntico ao caso 2D 
+Idêntico ao caso 2d dos exercícios 1 e 2
+
+## c) Resultado numérico com $h = 10{-4}$
+$$
+	\nabla \approx (0.61, -0.35)
+$$
