@@ -143,4 +143,5 @@ $$
 $$
 
 Erros:
- * $||\nabla f_h - $
+ * $||\nabla f_h - \nabla f||_2 \approx 1.67 * 10^{-9}$
+ * $H_h - H||_F \approx 7.07 * 10$
