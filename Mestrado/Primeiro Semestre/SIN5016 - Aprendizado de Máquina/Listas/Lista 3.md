@@ -170,5 +170,10 @@ $$
 	\end{bmatrix}
 $$
 $$
-	H \approx \begin{}
+	H \approx \begin{bmatrix}
+		-0.61 & -0.35 \\
+		-0.35 & -0.61
+	\end{bmatrix}
 $$
+## b) Diferenças finitas
+Idêntico ao caso 2D 
