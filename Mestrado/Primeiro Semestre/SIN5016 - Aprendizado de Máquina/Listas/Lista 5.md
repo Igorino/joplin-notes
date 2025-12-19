@@ -20,5 +20,10 @@ Derivando:
 * $\nabla w (r^Tr) = 2X^Tr$ (pq $e = Xw-y$)
 * Multiplicando pelo $1/(2N)$, fica:
 $$
-	\nabla_w ({1 \over 2N}||Xw-y||²) = {1 \over N}
+	\nabla_w ({1 \over 2N}||Xw-y||²) = {1 \over N} X^T(Xw-y)
+$$
+
+# 3) Derivada do termo L2
+$$
+	{\lambda_2 \over 2}||w||² = {\lambda_2 \over 2} \sum
 $$
