@@ -60,6 +60,8 @@ $$
 Hessiana:
 $$
 	H = \begin{bmatrix}
-		{2 \over D} - {4x² \over D²} && 
+		{2 \over D} - {4x² \over D²} & -{4xy \over D²}
+		-{4xy \over D²} & {2 \over D} - {4x² \over D²}
 	\end{bmatrix}
+	\
 $$
