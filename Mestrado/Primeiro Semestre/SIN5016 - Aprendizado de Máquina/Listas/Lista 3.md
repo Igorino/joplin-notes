@@ -11,8 +11,8 @@ H(x,y) = \begin{bmatrix}
 $$
 
 ## b) Diferenças finitas
- - Para $\delta f / \delta x$: Avaliei $f(1+h, 2)$ e $f(1-h,2)$.
- - Para $\delta f / \delta y$: Avaliei $f(1, 2+h)$ e $f(1, 2-h)$
+ - Para $\partial f / \partial x$: Avaliei $f(1+h, 2)$ e $f(1-h,2)$.
+ - Para $\partial f / \partial y$: Avaliei $f(1, 2+h)$ e $f(1, 2-h)$
  - Para Hessiana:
 	 - Diagonais com $f(1 \pm h, 2)$, $f(1,2)$, $f(1,2 \pm h)$
 	 - Termo misto com os 4 cantos $(1 \pm h, 2 \pm h)$
