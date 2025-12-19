@@ -54,5 +54,12 @@ $$
 
 No ponto, $D = 1 + 0.25 + 0.25 = 1.5$:
 $$
-	\nabla f(0.5, -0.5) = ({2 \over 3}, -{2 \over 3}) \approx 
+	\nabla f(0.5, -0.5) = ({2 \over 3}, -{2 \over 3}) \approx (0.67, -0.67)
+$$
+
+Hessiana:
+$$
+	H = \begin{bmatrix}
+
+	\
 $$
