@@ -110,6 +110,9 @@ $$
 A Hessiana:
 $$
 	H = \begin{bmatrix}
-		0
+		0 & e^y & 0 \\
+		e^y & xe^y & -\sin(z) \\
+		0 & -\sin(z) & -y \cos(z)
 	\end{bmatrix}
+	
 $$
