@@ -161,5 +161,10 @@ Gradiente melhora até $10^{-5}$, mas a Hessiana começa a "desandar" depois do 
 # **4)** $f(x,y) = \sin(x) \cos(y)$ no ponto $(\pi / 4, \pi / 6)$
 ## a) Analítico
 $$
-	\nabla f(\cos(x)\sin(y), \sin(x)\sin(y)) \to \nabla f \approx (0.61)
+	\nabla f(\cos(x)\sin(y), \sin(x)\sin(y)) \to \nabla f \approx (0.61, -0.35)
+$$
+$$
+	H = \begin{bmatrix}
+		\sin(x)\cos
+	\end{bmatrix}
 $$
