@@ -17,4 +17,8 @@ $$
 $$
 
 Derivando:
-* $\nabla w (r^Tr) = 2X^Tr$ (Porque)
+* $\nabla w (r^Tr) = 2X^Tr$ (pq $e = Xw-y$)
+* Multiplicando pelo $1/(2N)$, fica:
+$$
+	\nabla_w ({1 \over 2N}||Xw-y||²) = {1 \over N}
+$$
