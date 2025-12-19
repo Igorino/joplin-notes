@@ -118,6 +118,10 @@ $$
 $$
 	H(1, 0, {\pi \over 4}) = \begin{bmatrix}
 		0 & 1 & 0 \\
-		1 & 1 & 
+		1 & 1 & -0.71 \\
+		0 & -0.71 & 0
 	\end{bmatrix}
 $$
+
+## b) Diferenças finitas
+Aqui $n = 3$:
