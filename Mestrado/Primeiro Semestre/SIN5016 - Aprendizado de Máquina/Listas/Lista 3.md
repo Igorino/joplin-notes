@@ -43,4 +43,6 @@ Erros:
 | $10^{-5}$ | $2.930*10^{-11}$ | $2.340*10^{-07}$ |
 | $10^{-6}$ | $3.023*10^{-10}$ | $1.125*10^{-03}$ |
 
-Como a função é polinômio de grau 2, as diferenças centrais quase acertam. O que aparece é o erro numérico
+Como a função é polinômio de grau 2, as diferenças centrais quase acertam. O que aparece é o erro numérico, principalmente na Hessiana quando $h$ fica pequeno demais.
+
+# **2)** $f(x,y) = 
