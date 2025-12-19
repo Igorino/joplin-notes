@@ -46,3 +46,8 @@ Erros:
 Como a função é polinômio de grau 2, as diferenças centrais quase acertam. O que aparece é o erro numérico, principalmente na Hessiana quando $h$ fica pequeno demais.
 
 # **2)** $f(x,y) = \ln(1 + x² + y²)$ no ponto $(0.5, -0.5)$
+## a) Analítico
+Se $D = 1 + x² + y²$,
+$$
+\nabla f(2x \over{D}, 2y \over{D})
+$$
