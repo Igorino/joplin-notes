@@ -11,4 +11,7 @@ O mínimo global ocorre em $(1, 1, 1)$, com $f = 0$
 
 # Aproximação do Gradiente e da Hessiana
 O Gradiente e a Hessiana foram aproximados por diferenças finitas centrais, usando um passo pequeno de $h$.
-* 
+* Gradiente:
+$$
+	{\delta f \over \delta x_i} (x) \approx {{f(x +)} \over 2h}
+$$
