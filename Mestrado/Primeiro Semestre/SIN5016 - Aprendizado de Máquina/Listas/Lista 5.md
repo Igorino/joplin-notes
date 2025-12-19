@@ -45,5 +45,10 @@ Para cada componente:
 * Se $w_j < 0$, ${d \over dw_j} |w_j| = -1$
 * Se $w_j = 0$, não é diferenciável, então a gente usa subgradiente:
 $$
-	\partial |w_j|
+	\partial |w_j| = [-1, 1]
 $$
+O subgradiente de L1 é:
+$$
+	\partial (\lambda_1 ||w||_1 ) = \lambda_1 s
+$$
+onde:
