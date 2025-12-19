@@ -88,4 +88,6 @@ $$
 
 Erros:
  * $|| \nabla f_h - \nabla f||_2 \approx 4.89 * 10^{-9}$
- * $||H_h - H||_F$ 
+ * $||H_h - H||_F \approx 1.75 * 10^{-8}$
+
+## d) Influêcia de $h$
