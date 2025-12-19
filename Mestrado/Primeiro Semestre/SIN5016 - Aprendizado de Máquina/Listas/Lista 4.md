@@ -28,4 +28,5 @@ Foram utilizados valores típicos $h = 10^{-6}$ para o gradeinte e $h = 10^{-4}$
 # Métodos utilizados
 Foram implementados os seguintes métodos de otimização irrestrita:
  * **Gradiente descendente**, com escolha do passo via busca linera (razão áurea);
- * **Método de Newton**, com Hessiana A
+ * **Método de Newton**, com Hessiana aproximada, positivação da matriz e backtracking;
+ * **Quasi-Newton (BFGS)**, com atualização da aproximação da Hessiana inversa e busca linear.
