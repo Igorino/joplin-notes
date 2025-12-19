@@ -74,3 +74,8 @@ $$
 Mesma lógica do exercício 1:
 * Gradiente: 4 avaliações $(x \pm h, y)$, $(x , y \pm h)$
 * Hessiana: reutiliza essas + 4 avaliações nos cantos $(x \pm h, y \pm h)$
+
+## c) Resultado numérico com $h = 10^{-4}$
+$$
+\nabla f_h \approx (0.67, -0.67)
+$$
