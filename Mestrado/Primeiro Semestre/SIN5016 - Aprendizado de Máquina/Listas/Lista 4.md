@@ -17,7 +17,7 @@ $$
 $$
 * Hessiana:
 $$
-	{\delta² f \over \delta x_i²} (x) \approx {{f(x + he_i) - 2f(x) + f(x - he_i)} \over h²}
+	{\partial² f \over \delta x_i²} (x) \approx {{f(x + he_i) - 2f(x) + f(x - he_i)} \over h²}
 $$
 $$
 	{\delta² f \over {\delta x_i \delta x_j}} (x) \approx {{f(x + he_i + he_j) - f(x + he_i - he_j) - f(x - he_i + he_j) + f(x - he_i - he_j)} \over 4h²}
