@@ -77,5 +77,11 @@ Mesma lógica do exercício 1:
 
 ## c) Resultado numérico com $h = 10^{-4}$
 $$
-\nabla f_h \approx (0.67, -0.67)
+	\nabla f_h \approx (0.67, -0.67)
+$$
+$$
+	H_h \approx \begin{bmatrix}
+		0.89 & 0.45 \\
+		0.45 & 0.89
+	\end{bmatrix}
 $$
