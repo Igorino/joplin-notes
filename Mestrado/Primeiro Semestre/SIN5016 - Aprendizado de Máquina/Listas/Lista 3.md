@@ -229,5 +229,10 @@ Mesmo esquema do 2d:
 
 ## c) Resultado numérico com $h = 10^{-4}$
 $$
-	\nabla f_h \approx (1 + 4*10^{-8}, )
+	\nabla f_h \approx (1 + 4*10^{-8}, 1 + 4*10^{-8})
+$$
+$$
+	H_h \approx \begin{bmatrix}
+		12 + 2 
+	\end{bmatrix}
 $$
