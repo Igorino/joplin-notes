@@ -225,4 +225,9 @@ $$
 ## b) Diferenças finitas
 Mesmo esquema do 2d:
  * Gradiente com 4 avaliações
- * Hessiana com diagonais 
+ * Hessiana com diagonais + 4 cantos do misto.
+
+## c) Resultado numérico com $h = 10^{-4}$
+$$
+	\nabla f_h \approx (1 + 4*10^{-8}, )
+$$
