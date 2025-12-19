@@ -19,4 +19,9 @@ $$
 
 ## c) Resultado numérico com $h = 10^{-4}$
 $$
-\nabla f_h(1,2) \approx (2.000000)
+\nabla f_h(1,2) \approx (2.00000000, 4.00000000)
+$$
+
+$$
+H_h(1,2) \approx \begin{bmatrix}
+	2.00000008
