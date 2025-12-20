@@ -30,11 +30,9 @@ Se $f: \reals^n \to \reals$ é uma constante $C²$ num bairro de $\bar x$, $\nab
 
 > ##### Adendo :
 > Quando um teorema diz que:
-> - "$f(x)$ é duas vezes diferenciável **num bairro** de $\bar x$"
-
->Ele quer dizer basicamente que:
-> - "A função $f$ tem derivadas até a segunda ordem **não só exatamente em $\bar x$**, mas também em **ponto próximos**".
-
+>*"$f(x)$ é duas vezes diferenciável **num bairro** de $\bar x$"*
+> Ele quer dizer basicamente que:
+> *"A função $f$ tem derivadas até a segunda ordem **não só exatamente em $\bar x$**, mas também em **ponto próximos**"*.
 > Ou seja, precisamos que $f$ seja "suave" (sem quebras, pontas ou descontinuidades) **numa região em volta do ponto $\bar x$**.
 
 ### Passo 0: Ferramentas a serem usadas

@@ -45,7 +45,7 @@ No caso do **gradiente descendente**, $X = \reals^n$ (Sem restrições), então 
 Ele é:
 
 $$
-f(\bar x + \epsilon \bar d) < f(\bar x), \forall \epsilon > 0 \text{(e suficientemente pequeno)}
+f(\bar x + \epsilon \bar d) < f(\bar x), \forall \epsilon > 0 \text{ (e suficientemente pequeno)}
 $$
 
 Ou seja, $d$ é realmente uma **direção de descida** (downhill direction).

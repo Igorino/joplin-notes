@@ -204,7 +204,6 @@ def newton_fd(f, x0, tol=1e-6, max_iter=200, h_grad=1e-6, h_hess=1e-4, verbose=F
 
 # ============================================================
 # 3) BFGS (quasi-Newton) + backtracking
-# mantém aproximação da inversa da Hessiana: Hk ~ inv(Hess)
 # ============================================================
 
 def bfgs_fd(f, x0, tol=1e-6, max_iter=1000, h_grad=1e-6, verbose=False):
