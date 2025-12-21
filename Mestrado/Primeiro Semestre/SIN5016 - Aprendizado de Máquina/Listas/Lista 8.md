@@ -69,21 +69,21 @@ $$
 	\text{Gain}_\text{(student)} = 0.940 - 0.789 = 0.151
 $$
 
-# 3) Atributo "cred"
+# 3) Atributo "credit_rating"
 ## Valores:
- * **yes**
- * **no**
+ * **fair**
+ * **excellent**
 
 ## Distribuição
-| student | yes | no | total |
+| credit_rating | yes | no | total |
 | :---: | :---: | :---: | :---: |
-| yes | 6 | 1 | 7 |
-| no | 3 | 4 | 7 |
+| fair | 6 | 2 | 8 |
+| excellent | 3 | 3 | 6 |
 
 ## Entropias parciais:
-### student = **yes**
+### credit_rating = **fair**
 $$
-	\text{info} = -{6 \over 7} \log_2 {6 \over 7} - {1 \over 7} \log_2 {1 \over 7} \approx 0.592
+	\text{info} = -{6 \over 8} \log_2 {6 \over 8} - {2 \over 8} \log_2 {2 \over 8} \approx 0.811
 $$
 
 ### student = **no**
