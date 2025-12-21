@@ -1,6 +1,11 @@
-# Atributo "Income"
-Valores: high, medium, low
+# 1) Atributo "Income"
+## Valores: 
+*high, medium, low
 
-Distribuição:
+## Distribuição:
 | Income | yes | no | total |
-| :---: | :---: | :
+| :---: | :---: | :---: | :---: |
+| high | 2 | 2 | 4 |
+| medium | 4 | 2 | 6 |
+| low | 3 | 1 | 4 |
+
