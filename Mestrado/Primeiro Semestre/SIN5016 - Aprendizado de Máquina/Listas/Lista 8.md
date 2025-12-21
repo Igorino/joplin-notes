@@ -31,3 +31,8 @@ $$
 $$
 	\text{info}_\text{income}(D) = {4 \over 14}(1.0) + {6 \over 14}(0.918) + {4 \over 14}(0.811) \approx 0.911
 $$
+
+## Ganho de informação:
+$$
+	\text{Gain}_\text{(income)} = 
+$$
