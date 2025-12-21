@@ -125,9 +125,9 @@ $$
 # Árvore:
                            age?
             ┌───────────────┼────────────────┐
-        [youth]        [middle_aged]       senior
+        [youth]        [middle_aged]      [senior]
             |               |                |
          student?          yes        credit_rating?
         ┌────────┐                     ┌───────────┐
-      yes        no                 fair        excellent
+      [yes]        [no]            [fair]        [excellent]
       yes        no                  yes            no
