@@ -2,7 +2,7 @@
 ## Valores: 
 * **high**
 * **medium**
-* low
+* **low**
 
 ## Distribuição:
 | Income | yes | no | total |
@@ -12,4 +12,7 @@
 | low | 3 | 1 | 4 |
 
 ## Entropias parciais:
-### Income = high
+### Income = **high**
+$$
+	\text{info} = -{2 \over 4} \log_2 {2 \over 4} - {2 \over 4} \log_2 {2 \over 4} = 1.0 
+$$
