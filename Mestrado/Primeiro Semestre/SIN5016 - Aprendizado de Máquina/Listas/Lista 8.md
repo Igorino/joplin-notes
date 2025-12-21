@@ -1,3 +1,9 @@
+# 0) Conjunto total D:
+ * **yes** = 9
+ * **no** = 5
+$$
+	\text{Info}(D) = -{9 \over 14} \log_2 {9 \over 14} - {5 \over 14}
+$$
 # 1) Atributo "Income"
 ## Valores: 
 * **high**
