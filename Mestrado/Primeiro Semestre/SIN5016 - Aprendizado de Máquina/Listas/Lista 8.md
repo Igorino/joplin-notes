@@ -123,11 +123,11 @@ $$
 * Se **age = senior** e **credit_rating = excellent**, no.
 
 # Árvore:
-                           age
+                           age?
             ┌───────────────┼────────────────┐
-          youth         middle_aged        senior
-            |                 |                |
-         student?              yes        credit_rating
-        ┌────────┐                          ┌───────────┐
-      yes        no                       fair        excellent
-      yes        no                        yes            no
+        [youth]        [middle_aged]       senior
+            |               |                |
+         student?          yes        credit_rating?
+        ┌────────┐                     ┌───────────┐
+      yes        no                 fair        excellent
+      yes        no                  yes            no
