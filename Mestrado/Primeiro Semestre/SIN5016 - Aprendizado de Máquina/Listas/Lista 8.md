@@ -2,7 +2,7 @@
  * **yes** = 9
  * **no** = 5
 $$
-	\text{Info}(D) = -{9 \over 14} \log_2 {9 \over 14} - {5 \over 14}
+	\text{Info}(D) = -{9 \over 14} \log_2 {9 \over 14} - {5 \over 14} \log_2 {5 \over 14} = 0.940
 $$
 # 1) Atributo "Income"
 ## Valores: 
@@ -107,7 +107,7 @@ $$
 	\text{Gain}_\text{(student)} = 0.940 - 0.892 = 0.048
 $$
 
-# Ganho de informação:
+# Ganho de informação total:
 | Atributo | Ganho de informação |
 | :---: | :---: |
 | age | 0.246 |
