@@ -47,3 +47,19 @@ $$
 | :---: | :---: | :---: | :---: |
 | yes | 6 | 1 | 7 |
 | no | 3 | 4 | 7 |
+
+## Entropias parciais:
+### student = **yes**
+$$
+	\text{info} = -{6 \over 7} \log_2 {6 \over 7} - {1 \over 7} \log_2 {1 \over 7} \approx 0.592
+$$
+
+### student = **no**
+$$
+	\text{info} = -{3 \over 7} \log_2 {3 \over 7} - {4 \over 7} \log_2 {4 \over 7 \approx 0.918 
+$$
+
+## Entropia ponderada:
+$$
+	\text{info}_\text{income}(D) = {4 \over 14}(1.0) + {6 \over 14}(0.918) + {4 \over 14}(0.811) \approx 0.911
+$$
