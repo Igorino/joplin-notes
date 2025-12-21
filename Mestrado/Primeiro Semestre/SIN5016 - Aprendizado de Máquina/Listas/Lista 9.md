@@ -34,4 +34,4 @@ $$
 H_{kl} = -{1 \over n} X^T \text{diag}(p_k p_l) & (k \ne l)
 $$
 
-O que exatamente 
+O que exatamente a expressão descrita no ```build_hessian()``` no código.
