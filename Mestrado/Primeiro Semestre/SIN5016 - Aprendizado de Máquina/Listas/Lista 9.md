@@ -24,4 +24,9 @@ $$
 
 Equivalente em termos de $p_{ik}$:
 * Se $k = l: R_i [k, k] = p_{ik}(1 - p_{ik})$
-* Se $k \ne l: R_i [k,l$
+* Se $k \ne l: R_i [k,l] = -p_{ik} p_{il}$
+
+Logo:
+$$
+	H_{kk} = {1 \over n} X^T \text{diag} (p_k(1-P))
+$$
