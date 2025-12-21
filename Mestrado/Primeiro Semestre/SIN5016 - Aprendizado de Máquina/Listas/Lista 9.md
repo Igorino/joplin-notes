@@ -22,4 +22,6 @@ $$
 	H_kl = {1 \over n} \sum_{i=1}^n R_i [k,l] x_i x_i^T
 $$
 
-Equivalente em termos de $p
+Equivalente em termos de $p_{ik}$:
+* Se $k = l: R_i [k, k] = p_{ik}(1 - p_{ik})$
+* Se $k \ne l: R_i [k,l$
