@@ -104,7 +104,7 @@ $$
 # Ganho de informação:
 | Atributo | Ganho de informação |
 | :---: | :---: |
-| age | 0.246
-| student |
-| credit_rating
-| income |
+| age | 0.246 |
+| student | 0.151 |
+| credit_rating | 0.048 |
+| income | 0.029 |
