@@ -15,3 +15,6 @@ Para cada amostra $i$:
 $$
 	R_i \text{diag}(p_i) - p_i p_i^T
 $$
+Onde $p_i$ é a linha $P_{i:}$.
+
+Então, o bloco $(k, l)$
