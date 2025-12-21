@@ -29,5 +29,5 @@ $$
 
 ## Entropia ponderada:
 $$
-	\text{info}_\text{income}(D) = {4 \over 14}(1.0) + {3 \over 4} - {1 \over 4} \log_2 {1 \over 4} \approx 0.811
+	\text{info}_\text{income}(D) = {4 \over 14}(1.0) + {6 \over 14}(0.918) + {4 \over 14}(0.811) \approx 0.911
 $$
