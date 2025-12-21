@@ -56,10 +56,47 @@ $$
 
 ### student = **no**
 $$
-	\text{info} = -{3 \over 7} \log_2 {3 \over 7} - {4 \over 7} \log_2 {4 \over 7 \approx 0.918 
+	\text{info} = -{3 \over 7} \log_2 {3 \over 7} - {4 \over 7} \log_2 {4 \over 7} \approx 0.985 
 $$
 
 ## Entropia ponderada:
 $$
-	\text{info}_\text{income}(D) = {4 \over 14}(1.0) + {6 \over 14}(0.918) + {4 \over 14}(0.811) \approx 0.911
+	\text{info}_\text{student}(D) = {7 \over 14}(1.0) + {7 \over 14}(0.918) \approx 0.789
+$$
+
+## Ganho de informação:
+$$
+	\text{Gain}_\text{(student)} = 0.940 - 0.789 = 0.151
+$$
+
+# 3) Atributo "cred"
+## Valores:
+ * **yes**
+ * **no**
+
+## Distribuição
+| student | yes | no | total |
+| :---: | :---: | :---: | :---: |
+| yes | 6 | 1 | 7 |
+| no | 3 | 4 | 7 |
+
+## Entropias parciais:
+### student = **yes**
+$$
+	\text{info} = -{6 \over 7} \log_2 {6 \over 7} - {1 \over 7} \log_2 {1 \over 7} \approx 0.592
+$$
+
+### student = **no**
+$$
+	\text{info} = -{3 \over 7} \log_2 {3 \over 7} - {4 \over 7} \log_2 {4 \over 7} \approx 0.985 
+$$
+
+## Entropia ponderada:
+$$
+	\text{info}_\text{student}(D) = {7 \over 14}(1.0) + {7 \over 14}(0.918) \approx 0.789
+$$
+
+## Ganho de informação:
+$$
+	\text{Gain}_\text{(student)} = 0.940 - 0.789 = 0.151
 $$
