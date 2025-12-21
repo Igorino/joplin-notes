@@ -34,5 +34,9 @@ $$
 
 ## Ganho de informação:
 $$
-	\text{Gain}_\text{(income)} = 
+	\text{Gain}_\text{(income)} = 0.940 - 0.911 = 0.029
 $$
+
+# 2) Atributo "student"
+## Valores:
+ * **tes
