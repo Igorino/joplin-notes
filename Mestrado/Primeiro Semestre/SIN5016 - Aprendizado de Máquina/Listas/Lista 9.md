@@ -7,5 +7,11 @@ $$
 
 # Gradiente: 
 $$
-	\nabla_w L = {1 \over n} X^T
- (P - Y)$$
+	\nabla_w L = {1 \over n} X^T (P - Y)
+$$
+
+# Hessiana:
+Para cada amostra $i$:
+$$
+	R_i \text{diag}(p_i) - p_i p_i^T
+$$
