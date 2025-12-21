@@ -28,5 +28,10 @@ Equivalente em termos de $p_{ik}$:
 
 Logo:
 $$
-	H_{kk} = {1 \over n} X^T \text{diag} (p_k(1-P))
+	H_{kk} = {1 \over n} X^T \text{diag} (p_k(1-p_k)) X
 $$
+$$
+H_{kl} = -{1 \over n} X^T \text{diag}(p_k p_l) & (k \ne l)
+$$
+
+O que exatamente 
