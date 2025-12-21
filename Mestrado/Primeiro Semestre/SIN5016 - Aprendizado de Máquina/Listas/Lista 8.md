@@ -98,5 +98,13 @@ $$
 
 ## Ganho de informação:
 $$
-	\text{Gain}_\text{(student)} = 0.940 - 0.789 = 0.151
+	\text{Gain}_\text{(student)} = 0.940 - 0.892 = 0.048
 $$
+
+# Ganho de informação:
+| Atributo | Ganho de informação |
+| :---: | :---: |
+| age | 0.246
+| student |
+| credit_rating
+| income |
