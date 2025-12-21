@@ -17,4 +17,9 @@ $$
 $$
 Onde $p_i$ é a linha $P_{i:}$.
 
-Então, o bloco $(k, l)$
+Então, o bloco $(k, l)$ da Hessiana é:
+$$
+	H_kl = {1 \over n} \sum_{i=1}^n R_i [k,l] x_i x_i^T
+$$
+
+Equivalente em termos de $p
