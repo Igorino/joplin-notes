@@ -16,3 +16,8 @@
 $$
 	\text{info} = -{2 \over 4} \log_2 {2 \over 4} - {2 \over 4} \log_2 {2 \over 4} = 1.0 
 $$
+
+### Income = **medium**
+$$
+	\text{info} = -{2 \over 4} \log_2 {2 \over 4} - {2 \over 4} \log_2 {2 \over 4} \approx 0.918 
+$$
