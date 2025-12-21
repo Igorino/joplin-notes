@@ -119,5 +119,15 @@ $$
 * Se **age = middle_aged**, yes;
 * Se **age = youth** e **student = yes**, yes;
 * Se **age = youth** e **student = no**, no;
-* Se **age = senior** e **credit_rating = fair**, yes
-* Se **age = senior**
+* Se **age = senior** e **credit_rating = fair**, yes;
+* Se **age = senior** e **credit_rating = excellent**, no.
+
+# Árvore:
+                           age
+            ┌───────────────┼────────────────┐
+          youth         middle_aged        senior
+            |                 |                |
+         student?              yes        credit_rating
+        ┌────────┐                          ┌───────────┐
+      yes        no                       fair        excellent
+      yes        no                        yes            no
