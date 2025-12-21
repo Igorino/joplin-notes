@@ -116,4 +116,8 @@ $$
 | income | 0.029 |
 
 # Regras finais:
-* Se **age = middle_aged**, ye
+* Se **age = middle_aged**, yes;
+* Se **age = youth** e **student = yes**, yes;
+* Se **age = youth** e **student = no**, no;
+* Se **age = senior** e **credit_rating = fair**, yes
+* Se **age = senior**
