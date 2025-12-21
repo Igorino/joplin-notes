@@ -88,12 +88,12 @@ $$
 
 ### student = **no**
 $$
-	\text{info} = -{3 \over 7} \log_2 {3 \over 7} - {4 \over 7} \log_2 {4 \over 7} \approx 0.985 
+	\text{info} = -{3 \over 6} \log_2 {3 \over 6} - {3 \over 6} \log_2 {3 \over 6} = 1.0
 $$
 
 ## Entropia ponderada:
 $$
-	\text{info}_\text{student}(D) = {7 \over 14}(1.0) + {7 \over 14}(0.918) \approx 0.789
+	\text{info}_\text{credit}(D) = {8 \over 14}(0.811) + {6 \over 14}(1.0) \approx 0.892
 $$
 
 ## Ganho de informação:
