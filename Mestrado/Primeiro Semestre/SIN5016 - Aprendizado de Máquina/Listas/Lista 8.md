@@ -39,4 +39,11 @@ $$
 
 # 2) Atributo "student"
 ## Valores:
- * **tes
+ * **yes**
+ * **no**
+
+## Distribuição
+| student | yes | no | total |
+| :---: | :---: | :---: | :---: |
+| yes | 6 | 1 | 7 |
+| no | 3 | 4 | 7 |
