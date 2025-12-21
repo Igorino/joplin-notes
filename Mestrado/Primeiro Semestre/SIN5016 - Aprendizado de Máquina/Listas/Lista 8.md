@@ -19,5 +19,11 @@ $$
 
 ### Income = **medium**
 $$
-	\text{info} = -{2 \over 4} \log_2 {2 \over 4} - {2 \over 4} \log_2 {2 \over 4} \approx 0.918 
+	\text{info} = -{4 \over 6} \log_2 {4 \over 6} - {2 \over 6} \log_2 {2 \over 6} \approx 0.918 
+$$
+
+### Income = **low**
+$$
+	\text{info} = -{3 \over 4} \log_2 {3 \over 4} - {1 \over 4} \log_2 {1 \over 4} \approx 0.811
+$$
 $$
