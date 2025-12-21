@@ -114,3 +114,6 @@ $$
 | student | 0.151 |
 | credit_rating | 0.048 |
 | income | 0.029 |
+
+# Regras finais:
+* Se **age = middle_aged**, ye
