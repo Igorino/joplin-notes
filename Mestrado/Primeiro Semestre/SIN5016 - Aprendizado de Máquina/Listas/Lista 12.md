@@ -112,4 +112,4 @@ $$
 	\nabla_{b_1} L = {1 \over n} \sum_i \delta_i^{(1)}
 $$
 
-A cobinação da função softmax com a entropia cruzada simplifica significativamente a expressão do gradiente, resultando em um termo de erro na camada de saída dado por $P - Y$. A partir desse termo, o gradiente dos parâmetros do MLP é ob
+A cobinação da função softmax com a entropia cruzada simplifica a expressão do gradiente, o que resulta em um termo de erro na camada de saída dado por $P - Y$. A partir disso, o gradiente dos parâmetros do MLP é obtido por backpropagation usando a regra da cadeia mostrada nos slides.
