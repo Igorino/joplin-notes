@@ -77,3 +77,8 @@ Onde:
 * $\odot$ é o produto elemento a elemento. (Multiplicação "naivé", [Produto de Hammard](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)))
 * $\phi'$ é a derivada da ativação
 
+## Gradiente da camada escondida:
+Pesos:
+$$
+	{\partial L \over \partial W_1} = {1 \over n} \sum_{i=1}^n x
+$$
