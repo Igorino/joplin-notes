@@ -37,3 +37,10 @@ Loss média no dataset:
 $$
 	L = {1 \over n} \sum_{i=1}^n L_i
 $$
+
+# 3) Dedução no gradiente (usando backpropagation)
+## Passo 1: Gradiente da loss em relação ao logits da saída
+Resultado fundamental (softmax + entropia cruzada):
+$$
+	{\partial L_i }
+$$
