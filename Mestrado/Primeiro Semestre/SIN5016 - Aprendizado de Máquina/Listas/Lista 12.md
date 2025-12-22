@@ -102,3 +102,11 @@ $$
 	\nabla_{W_2} L = {1 \over n} H^T \delta^{(2)} \quad, \quad
 	\nabla_{b_2} L = {1 \over n} \sum_i \delta_i^{(2)}
 $$
+
+$$
+	\delta^{(1)} = ( \delta^{(2)} W_2^T) \odot \phi'(Z^{(1)} )
+$$
+
+$$
+	\nabla_{W_1} L 
+$$
