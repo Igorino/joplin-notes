@@ -99,5 +99,6 @@ $$
 	\delta^{(2)} = P - Y
 $$
 $$
-	\nabla_{W}
+	\nabla_{W_2} L = {1 \over n} H^T \delta^{(2)} \quad, \quad
+	\nabla_{b_2} L = {1 \over n} \sum_i 
 $$
