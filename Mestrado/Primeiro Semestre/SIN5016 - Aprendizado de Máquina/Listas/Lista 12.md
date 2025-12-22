@@ -92,3 +92,12 @@ Forma matricial:
 $$
 	\nabla_{W_1} L = {1 \over n} X^T \delta^{(1)}
 $$
+
+# 4) Resultado:
+Gradientes da MLP com entropia cruzada:
+$$
+	\delta^{(2)} = P - Y
+$$
+$$
+	\nabla_{W}
+$$
