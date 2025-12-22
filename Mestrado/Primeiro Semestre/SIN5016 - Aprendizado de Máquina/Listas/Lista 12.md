@@ -7,5 +7,10 @@ $$
 	z_i^{(1)} = W_i^T x_i + b_1
 $$
 $$
-	h_i = \phi (z_i^{(1)}) \space 
+	h_i = \phi (z_i^{(1)}) \qquad \text{(exemplo: tanh ou ReLU)}
+$$
+
+* Camada de saída:
+$$
+	z_i^{}
 $$
