@@ -50,3 +50,9 @@ Daí definimos:
 $$
 	\partial_i^{(2)} = p_i - y_i
 $$
+
+## Pass o2: Gradiente em relação aos parâmetros da camada de saída:
+Pesos:
+$$
+	{\partial L \over partial W_2} = {1 \over n} \sum_{i=1}^n
+$$
