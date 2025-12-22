@@ -42,5 +42,11 @@ $$
 ## Passo 1: Gradiente da loss em relação ao logits da saída
 Resultado fundamental (softmax + entropia cruzada):
 $$
-	{\partial L_i }
+	{\partial L_i \over \partial z_i^{(2)}}
+$$
+Elimina as derivadas complicadas do softmax.
+
+Daí definimos:
+$$
+	\partial_i^{(20)}
 $$
