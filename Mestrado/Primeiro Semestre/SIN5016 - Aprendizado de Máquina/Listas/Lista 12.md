@@ -85,5 +85,10 @@ $$
 
 Bias:
 $$
-	{\partial L \over b_1} = {1 \over n} \sum_{i=1}^n \delta
+	{\partial L \over b_1} = {1 \over n} \sum_{i=1}^n \delta_i^{(1)}
+$$
+
+Forma matricial:
+$$
+	\nabla_{W_1} L = {1 \over n} X^T \delta^{(1)}
 $$
