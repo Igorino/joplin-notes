@@ -54,5 +54,10 @@ $$
 ## Pass o2: Gradiente em relação aos parâmetros da camada de saída:
 Pesos:
 $$
-	{\partial L \over partial W_2} = {1 \over n} \sum_{i=1}^n
+	{\partial L \over partial W_2} = {1 \over n} \sum_{i=1}^n h_i (\delta_i^{(2)})^T
+$$
+
+Bias:
+$$
+	{\partial L \over \partial b_2} = {1 \over n} \sum_{i=1}^n \delta_i^{(2)}
 $$
