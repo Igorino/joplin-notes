@@ -4,5 +4,8 @@ Consideremos um MLP com uma camada escondida:
 Para uma amostra $x_i$:
 * Camada escondida:
 $$
-	z_i
+	z_i^{(1)} = W_i^T x_i + b_1
+$$
+$$
+	h
 $$
