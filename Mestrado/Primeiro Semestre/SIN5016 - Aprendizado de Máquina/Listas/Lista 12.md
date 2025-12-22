@@ -72,5 +72,8 @@ Usando a regra da cadeia:
 $$
 	\delta_i^{(1)} = (W_2 \delta_i^{(2)}) \odot \phi' (z_i^{(1)})
 $$
+
 Onde:
-* $\o$
+* $\odot$ é o produto elemento a elemento. (Multiplicação "naivé")
+* $\phi'$ é a derivada da ativação
+
