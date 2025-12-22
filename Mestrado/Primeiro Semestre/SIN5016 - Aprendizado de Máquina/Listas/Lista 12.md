@@ -35,5 +35,5 @@ $$
 
 Loss média no dataset:
 $$
-	L = {1 \over n} \sum_{i=}
+	L = {1 \over n} \sum_{i=1}^n L_i
 $$
