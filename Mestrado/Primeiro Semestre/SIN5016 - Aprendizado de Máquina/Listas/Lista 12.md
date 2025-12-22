@@ -108,5 +108,6 @@ $$
 $$
 
 $$
-	\nabla_{W_1} L 
+	\nabla_{W_1} L = {1 \over n} X^T \delta^{(1)} \quad , \quad
+	\nabla_{b_1} L = {1 \over n} \sum_i \delta_i^{(1)}
 $$
