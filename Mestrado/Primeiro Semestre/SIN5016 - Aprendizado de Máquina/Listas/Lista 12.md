@@ -28,4 +28,12 @@ $$
 $$
 
 # 2) Função de perda: Entropia cruzada
-Para classificação multiclasse com rótulo one-hot $y_i#
+Para classificação multiclasse com rótulo one-hot $y_i$:
+$$
+	L_i = - \sum_{k=1}^K y_{ik} \log(p_{ik})
+$$
+
+Loss média no dataset:
+$$
+	L = {1 \over n} \sum_{i=}
+$$
