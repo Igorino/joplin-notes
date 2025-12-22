@@ -70,5 +70,5 @@ $$
 ## Propagação do erro para a camada escondida
 Usando a regra da cadeia:
 $$
-	\delta
+	\delta_i^{(1)} = (W_2 \delta_i^{(2)})
 $$
