@@ -39,7 +39,7 @@ $$
 $$
 
 # 3) Dedução no gradiente (usando backpropagation)
-## Passo 1: Gradiente da loss em relação ao logits da saída
+## Gradiente da loss em relação ao logits da saída
 Resultado fundamental (softmax + entropia cruzada):
 $$
 	{\partial L_i \over \partial z_i^{(2)}}
@@ -51,7 +51,7 @@ $$
 	\partial_i^{(2)} = p_i - y_i
 $$
 
-## Passo 2: Gradiente em relação aos parâmetros da camada de saída:
+## Gradiente em relação aos parâmetros da camada de saída
 Pesos:
 $$
 	{\partial L \over partial W_2} = {1 \over n} \sum_{i=1}^n h_i (\delta_i^{(2)})^T
@@ -64,5 +64,11 @@ $$
 
 Forma matricial:
 $$
-	\delta_{W_2} L = {1 \over n} H^T
+	\delta_{W_2} L = {1 \over n} H^T ( P - Y )
+$$
+
+## Propagação do erro para a camada escondida
+Usando a regra da cadeia:
+$$
+	\delta
 $$
