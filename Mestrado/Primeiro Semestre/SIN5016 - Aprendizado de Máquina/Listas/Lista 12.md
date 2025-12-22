@@ -80,5 +80,10 @@ Onde:
 ## Gradiente da camada escondida:
 Pesos:
 $$
-	{\partial L \over \partial W_1} = {1 \over n} \sum_{i=1}^n x
+	{\partial L \over \partial W_1} = {1 \over n} \sum_{i=1}^n x_i (\delta_i^{(1)})^T
+$$
+
+Bias:
+$$
+	{\partial L \over b_1} = {1 \over n} \sum_{i=1}^n \delta
 $$
