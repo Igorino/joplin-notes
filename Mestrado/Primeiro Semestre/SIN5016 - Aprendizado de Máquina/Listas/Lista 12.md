@@ -17,5 +17,12 @@ $$
 
 * Softmax:
 $$
-	p_{ik} = { e^{z_{ik}^{(2)} } \over \sum_{j=1}^K e^{z_{ij}^{(2)}
+	p_{ik} = { 
+		e^{
+			z_{ik}^{(2)} 
+		} \over 
+		\sum_{j=1}^K e^{
+			z_{ij}^{(2)} 
+		} 
+	}
 $$
