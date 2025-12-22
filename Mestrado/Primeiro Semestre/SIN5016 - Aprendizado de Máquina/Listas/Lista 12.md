@@ -74,6 +74,6 @@ $$
 $$
 
 Onde:
-* $\odot$ é o produto elemento a elemento. (Multiplicação "naivé")
+* $\odot$ é o produto elemento a elemento. (Multiplicação "naivé", [Produto de Hammard](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)))
 * $\phi'$ é a derivada da ativação
 
