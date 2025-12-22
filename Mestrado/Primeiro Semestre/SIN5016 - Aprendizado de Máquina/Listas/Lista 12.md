@@ -111,3 +111,5 @@ $$
 	\nabla_{W_1} L = {1 \over n} X^T \delta^{(1)} \quad , \quad
 	\nabla_{b_1} L = {1 \over n} \sum_i \delta_i^{(1)}
 $$
+
+A cobinação da função softmax com a entropia cruzada simplifica significativamente a expressão do gradiente, resultando em um termo de erro na camada de saída dado por $P - Y$. A partir desse termo, o gradiente dos parâmetros do MLP é ob
