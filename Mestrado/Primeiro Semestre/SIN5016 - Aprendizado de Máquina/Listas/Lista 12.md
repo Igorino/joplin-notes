@@ -26,3 +26,6 @@ $$
 		} 
 	}
 $$
+
+# 2) Função de perda: Entropia cruzada
+Para classificação multiclasse com rótulo one-hot $y_i#
