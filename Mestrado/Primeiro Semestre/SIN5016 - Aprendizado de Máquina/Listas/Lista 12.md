@@ -100,5 +100,5 @@ $$
 $$
 $$
 	\nabla_{W_2} L = {1 \over n} H^T \delta^{(2)} \quad, \quad
-	\nabla_{b_2} L = {1 \over n} \sum_i 
+	\nabla_{b_2} L = {1 \over n} \sum_i \delta_i^{(2)}
 $$
