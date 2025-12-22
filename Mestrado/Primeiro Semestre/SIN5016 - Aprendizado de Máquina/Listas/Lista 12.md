@@ -70,5 +70,7 @@ $$
 ## Propagação do erro para a camada escondida
 Usando a regra da cadeia:
 $$
-	\delta_i^{(1)} = (W_2 \delta_i^{(2)})
+	\delta_i^{(1)} = (W_2 \delta_i^{(2)}) \odot \phi' (z_i^{(1)})
 $$
+Onde:
+* $\o$
