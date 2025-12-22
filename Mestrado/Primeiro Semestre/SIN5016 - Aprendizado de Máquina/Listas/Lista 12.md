@@ -12,5 +12,10 @@ $$
 
 * Camada de saída:
 $$
-	z_i^{}
+	z_i^{(2)} = W_2^T h_i + b_2
+$$
+
+* Softmax:
+$$
+	p_{ik} = {e^{z_{ik}²} \over \sum}
 $$
