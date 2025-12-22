@@ -61,3 +61,8 @@ Bias:
 $$
 	{\partial L \over \partial b_2} = {1 \over n} \sum_{i=1}^n \delta_i^{(2)}
 $$
+
+Forma matricial:
+$$
+	\delta_{W_2} L = {1 \over n} H^T
+$$
