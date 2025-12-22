@@ -48,5 +48,5 @@ Elimina as derivadas complicadas do softmax.
 
 Daí definimos:
 $$
-	\partial_i^{(20)}
+	\partial_i^{(2)} = p_i - y_i
 $$
