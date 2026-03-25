@@ -3,7 +3,8 @@ https://edisciplinas.usp.br/pluginfile.php/9501669/mod_resource/content/1/Exerc%
 
 ---
 
-1. 
+1. Conceitos de linguagem natural para conceitos ALC:
+
 **i.** Pessoa feliz:
 $$\text{Pessoa} \sqcap \text{Feliz}$$
 
@@ -13,7 +14,7 @@ $$\text{Pessoa} \sqcap \text{Feliz} \sqcap \exists \text{donoDe.Animal}$$
 **iii.** Pessoa que é dona só de gatos: 
 $$\text{Pessoa} \sqcap \forall\text{donoDe.Gato}$$
 
-**iv.** Pesosa que não é feliz e é dona de pet, e que tem um gato velho:
+**iv.** Pesosa que não é feliz, é dona de pet, e que tem um gato velho:
 $$\text{Pessoa} \sqcap \neg \text{Feliz} \sqcap \exists \text{donoDe.}(\text{Animal} \sqcap \text{Gato} \sqcap \text{Velho})$$
 
 **v.** Pessoa que é dona só de gatos ou peixes 
