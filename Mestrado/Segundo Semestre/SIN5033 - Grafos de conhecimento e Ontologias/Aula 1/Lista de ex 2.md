@@ -21,8 +21,13 @@ $$\text{Pessoa} \sqcap \neg \text{Feliz} \sqcap \exists \text{donoDe.}(\text{Ani
 $$\text{Pessoa} \sqcap \exists \text{donoDe.Animal} \sqcap \forall \text{donoDe.(Gato} \sqcup \text{Peixe} \text{)}$$
 
 ---
+
+
+
+
+
 2. 
 **i.** Carros são exatamente aqueles veículos que têm rodas e são movidos por um motor:
 $$
-
+\text{Carros} \sqcap \forall
 $$
