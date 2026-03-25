@@ -58,4 +58,8 @@ $$
 \text{Roda} \equiv \text{Dispositivo} \sqsubseteq \text{temParte.Eixo} \text{WIP}
 $$
 
-3.
+3. Qual dos seguintes conceitos é satisfatório?
+**i.** $A \sqcap \neg A$
+**ii.**
+**iii.**
+**iv.**
