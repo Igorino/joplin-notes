@@ -12,7 +12,7 @@ https://edisciplinas.usp.br/pluginfile.php/9501653/mod_resource/content/1/Lista%
 8)
 $${
 C \equiv D
-
+C \sqsubseteq D 
 }$$
 
 > *Obs*:
