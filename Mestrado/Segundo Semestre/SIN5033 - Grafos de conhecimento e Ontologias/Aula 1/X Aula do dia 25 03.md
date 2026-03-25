@@ -14,8 +14,9 @@ $$
 C \equiv D
 $$
 $$
-C \sqsubseteq D 
+C \sqsubseteq D \sqcap
 $$
 
+9) 
 > *Obs*:
 	⊑ é implicação, não referência.
