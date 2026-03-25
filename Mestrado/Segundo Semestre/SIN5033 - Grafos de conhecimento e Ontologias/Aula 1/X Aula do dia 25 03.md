@@ -8,7 +8,7 @@ https://edisciplinas.usp.br/pluginfile.php/9501653/mod_resource/content/1/Lista%
 4) V, V, F, V, F
 5) F, V, V, V, F
 6) V, F, F, V
-7) F, V, 
+7) F, V, ?, ?
 
-> *Obs:
+> *Obs*:
 	⊑ é implicação, não referência.
