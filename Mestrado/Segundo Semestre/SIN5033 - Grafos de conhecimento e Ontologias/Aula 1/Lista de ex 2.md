@@ -29,5 +29,5 @@ $$\text{Pessoa} \sqcap \exists \text{donoDe.Animal} \sqcap \forall \text{donoDe.
 2. 
 **i.** Carros são exatamente aqueles veículos que têm rodas e são movidos por um motor:
 $$
-\text{Carros} \equiv \text{Veículo} \sqcap \exists temParte.Roda
+\text{Carros} \equiv \text{Veículo} \sqcap \exists \text{temParte.Roda} \sqcap \exists \text{movidoPor.Motor}
 $$
