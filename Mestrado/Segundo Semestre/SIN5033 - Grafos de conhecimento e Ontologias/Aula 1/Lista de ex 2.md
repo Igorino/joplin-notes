@@ -45,7 +45,7 @@ $$
 
 **iv.** Os barcos não têm rodas.
 $$
-\text{Barcos} \sqsubseteq \neg \text{temParte.Roda}
+\text{Barcos} \sqsubseteq \forall \text{temParte.} \neg \text{Roda}
 $$
 
 **v.** Carros e bicicletas não viajam na água.
