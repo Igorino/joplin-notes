@@ -21,5 +21,4 @@ $$\text{Pessoa} \sqcap \neg \text{Feliz} \sqcap \exists \text{donoDe.}(\text{Ani
 $$\text{Pessoa} \sqcap \exists \text{donoDe.Animal} \sqcap \forall \text{donoDe.(Gato} \sqcup \text{Peixe} \text{)}$$
 
 ---
-
 2. 
