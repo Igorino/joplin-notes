@@ -40,5 +40,10 @@ $$
 
 **iii.** Os barcos são exatamente aqueles veículos que viajam na água.
 $$
-\text{Carros} \equiv \text{Veículo} \sqcap \exists \text{temParte.Roda} \sqcap \exists \text{movidoPor.Motor}
+\text{Barcos} \equiv \text{Veículo} \sqcap \exists \text{viajamNa.Água}
+$$
+
+**iii.** Os barcos são exatamente aqueles veículos que viajam na água.
+$$
+\text{Barcos} \equiv \text{Veículo} \sqcap \exists \text{viajamNa.Água}
 $$
