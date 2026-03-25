@@ -52,3 +52,8 @@ $$
 $$
 \text{Carros} \sqcup \text{Bicicletas} \sqsubseteq \text{viajamNa.} \neg \text{Água}
 $$
+
+**vi.** *Rodas são exatamente aqueles dispositivos que possuem um eixo e podem girar*
+$$
+\text{Carros} \sqcup \text{Bicicletas} \sqsubseteq \text{viajamNa.} \neg \text{Água}
+$$
