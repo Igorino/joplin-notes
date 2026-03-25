@@ -60,6 +60,7 @@ $$
 
 3. Qual dos seguintes conceitos é satisfatório?
 **i.** $A \sqcap \neg A$
-**ii.**
-**iii.**
-**iv.**
+**ii.** $A \sqcup \neg A$
+**iii.** $A \sqcap \exists r.B \sqcap \exists r.\neg B$
+**iv.** $$
+**v.** $$
