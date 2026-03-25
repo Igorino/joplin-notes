@@ -32,4 +32,13 @@ $$
 \text{Carros} \equiv \text{Veículo} \sqcap \exists \text{temParte.Roda} \sqcap \exists \text{movidoPor.Motor}
 $$
 
-**ii.** As bisci
+**ii.** As bicicletas são exatamente aqueles veículos que têm rodas e são movidos por um ser humano:
+
+$$
+\text{Bicicletas} \equiv \text{Veículo} \sqcap \exists \text{temParte.Roda} \sqcap \exists \text{movidoPor.SerHumano}
+$$
+
+**iii.** Os barcos são exatamente aqueles veículos que viajam na água.
+$$
+\text{Carros} \equiv \text{Veículo} \sqcap \exists \text{temParte.Roda} \sqcap \exists \text{movidoPor.Motor}
+$$
