@@ -7,4 +7,4 @@ ii. $\text{Pessoa} \sqcap \text{Feliz} \sqcap \exists \text{donoDe.Animal}$
 
 iii. $\text{Pessoa} \sqcap \forall\text{donoDe.Gato}$
 
-iv. $\text{Pessoa} \sqcap \text{-Feliz} \sqcap \text{donoDe.}$
+iv. $\text{Pessoa} \sqcap \text{-Feliz} \sqcap \text{donoDe.}(\text{Animal} \sqcap \text{Gato} \sqcap \text)$
