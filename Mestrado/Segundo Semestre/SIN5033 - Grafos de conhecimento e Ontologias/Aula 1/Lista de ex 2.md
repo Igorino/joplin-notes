@@ -47,3 +47,8 @@ $$
 $$
 \text{Barcos} \sqcap \neg \text{temParte.Roda}
 $$
+
+**v.** Carros e bicicletas não viajam na água.
+$$
+\text{Carros} z \sqcap \neg \text{temParte.Roda}
+$$
