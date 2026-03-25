@@ -3,7 +3,7 @@ https://edisciplinas.usp.br/pluginfile.php/9501669/mod_resource/content/1/Exerc%
 
 ---
 
-1. Conceitos de linguagem natural para conceitos ALC:
+## 1. Passar conceitos de linguagem natural para conceitos ALC:
 
 **i.** Pessoa feliz:
 $$\text{Pessoa} \sqcap \text{Feliz}$$
@@ -26,7 +26,7 @@ $$\text{Pessoa} \sqcap \exists \text{donoDe.Animal} \sqcap \forall \text{donoDe.
 
 
 
-2. 
+## 2. Idem 
 **i.** *Carros são exatamente aqueles veículos que têm rodas e são movidos por um motor:*
 $$
 \text{Carros} \equiv \text{Veículo} \sqcap \exists \text{temParte.Roda} \sqcap \exists \text{movidoPor.Motor}
@@ -58,7 +58,7 @@ $$
 \text{Roda} \equiv \text{Dispositivo} \sqsubseteq \text{temParte.Eixo} \text{WIP}
 $$
 
-3. Qual dos seguintes conceitos é satisfatório?
+## 3. Qual dos seguintes conceitos é satisfatório?
 **i.** $A \sqcap \neg A$ $\rarr$ **NÃO**
 **ii.** $A \sqcup \neg A$ $\rarr$ **SIM**
 **iii.** $A \sqcap \exists r.B \sqcap \exists r.\neg B$ $\rarr$ **SIM**
