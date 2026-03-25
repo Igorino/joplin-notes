@@ -31,3 +31,5 @@ $$\text{Pessoa} \sqcap \exists \text{donoDe.Animal} \sqcap \forall \text{donoDe.
 $$
 \text{Carros} \equiv \text{Veículo} \sqcap \exists \text{temParte.Roda} \sqcap \exists \text{movidoPor.Motor}
 $$
+
+**ii.** As bisci
