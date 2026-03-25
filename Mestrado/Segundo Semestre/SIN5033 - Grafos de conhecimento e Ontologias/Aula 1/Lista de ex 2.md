@@ -1,4 +1,6 @@
 # Lista de ex. 2:
+https://edisciplinas.usp.br/pluginfile.php/9501669/mod_resource/content/1/Exerc%C3%ADciosLogicaDs.pdf
+
 1.
 **i.** $\text{Pessoa} \sqcap \text{Feliz}$
 
