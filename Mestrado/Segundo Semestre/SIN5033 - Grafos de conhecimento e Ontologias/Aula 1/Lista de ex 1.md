@@ -13,12 +13,12 @@ https://edisciplinas.usp.br/pluginfile.php/9501653/mod_resource/content/1/Lista%
 > *Obs*:
 	⊑ é implicação, não referência.
 
-8) Resolver
+8) Resolver:
 $$
 C \equiv D
 $$
 $$
-C \sqsubseteq D \sqcap
+C \sqsubseteq D \sqcap TESTE
 $$
 
 9) Teste
