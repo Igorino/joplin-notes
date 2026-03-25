@@ -59,8 +59,8 @@ $$
 $$
 
 3. Qual dos seguintes conceitos é satisfatório?
-**i.** $A \sqcap \neg A$
-**ii.** $A \sqcup \neg A$
-**iii.** $A \sqcap \exists r.B \sqcap \exists r.\neg B$
-**iv.** $$
-**v.** $$
+**i.** $A \sqcap \neg A$ $\rarr$ **NÃO**
+**ii.** $A \sqcup \neg A$ $\rarr$ **SIM**
+**iii.** $A \sqcap \exists r.B \sqcap \exists r.\neg B$ $\rarr$ **SIM**
+**iv.** $$ $\rarr$ **SIM**
+**v.** $$ $\rarr$ **NÃO**
