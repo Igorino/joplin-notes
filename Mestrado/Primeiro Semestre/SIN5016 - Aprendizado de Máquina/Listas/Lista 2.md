@@ -1,4 +1,6 @@
-# Problemas irrestritos (Continuação)
+> Obs: Professor, eu fiz as listas usando o [Joplin](https://joplinapp.org/), que é um aplicativo de anotação que usa Markup language. É mais fácil pra eu conseguir digitar, e foi como eu fiz as anotações pra estudar. Vou mandar sempre o PDF das anotações e "código fonte" das anotações pra o senhor não achar que eu peguei isso de algum lugar haha
+
+# Lista 2
 
 Como identificar se um ponto é mínimo, máximo ou indefinido em funções sem restrições?
 
