@@ -43,7 +43,7 @@ $$
 \text{Barcos} \equiv \text{Veículo} \sqcap \exists \text{viajamNa.Água}
 $$
 
-**iii.** Os barcos são exatamente aqueles veículos que viajam na água.
+**iv.** Os barcos não têm rodas.
 $$
-\text{Barcos} \equiv \text{Veículo} \sqcap \exists \text{viajamNa.Água}
+\text{Barcos} \equiv \text{Veículo} \sqcap \neg \text{temParte.Roda}
 $$
