@@ -10,10 +10,12 @@ https://edisciplinas.usp.br/pluginfile.php/9501653/mod_resource/content/1/Lista%
 6) V, F, F, V
 7) F, V, ?, ?
 8)
-$${
+$$
 C \equiv D
+$$
+$$
 C \sqsubseteq D 
-}$$
+$$
 
 > *Obs*:
 	⊑ é implicação, não referência.
