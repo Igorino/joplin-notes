@@ -4,9 +4,11 @@ https://edisciplinas.usp.br/pluginfile.php/9501669/mod_resource/content/1/Exerc%
 ---
 
 1. 
-**i.** Pessoa feliz: $\text{Pessoa} \sqcap \text{Feliz}$
+**i.** Pessoa feliz:
+$$\text{Pessoa} \sqcap \text{Feliz}$$
 
-**ii.** $\text{Pessoa} \sqcap \text{Feliz} \sqcap \exists \text{donoDe.Animal}$
+**ii.** Pessoa feliz dona de pet: 
+$$\text{Pessoa} \sqcap \text{Feliz} \sqcap \exists \text{donoDe.Animal}$$
 
 **iii.** $\text{Pessoa} \sqcap \forall\text{donoDe.Gato}$
 
