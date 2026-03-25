@@ -10,11 +10,14 @@ $$\text{Pessoa} \sqcap \text{Feliz}$$
 **ii.** Pessoa feliz dona de pet: 
 $$\text{Pessoa} \sqcap \text{Feliz} \sqcap \exists \text{donoDe.Animal}$$
 
-**iii.** $\text{Pessoa} \sqcap \forall\text{donoDe.Gato}$
+**iii.** Pessoa que é dona só de gatos: 
+$$\text{Pessoa} \sqcap \forall\text{donoDe.Gato}$$
 
-**iv.** $\text{Pessoa} \sqcap \neg \text{Feliz} \sqcap \exists \text{donoDe.}(\text{Animal} \sqcap \text{Gato} \sqcap \text{Velho})$
+**iv.** Pesosa que não é feliz e é dona de pet, e que tem um gato velho:
+$$\text{Pessoa} \sqcap \neg \text{Feliz} \sqcap \exists \text{donoDe.}(\text{Animal} \sqcap \text{Gato} \sqcap \text{Velho})$$
 
-**v.** $\text{Pessoa} \sqcap \exists \text{donoDe.Animal} \sqcap \forall \text{donoDe.(Gato} \sqcup \text{Peixe} \text{)}$
+**v.** Pessoa que é dona só de gatos ou peixes 
+$$\text{Pessoa} \sqcap \exists \text{donoDe.Animal} \sqcap \forall \text{donoDe.(Gato} \sqcup \text{Peixe} \text{)}$$
 
 ---
 
