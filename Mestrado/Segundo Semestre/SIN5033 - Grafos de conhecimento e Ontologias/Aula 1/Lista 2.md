@@ -1,6 +1,7 @@
 Lista 2
 
 # Lista de ex. 2:
+i. 
 $$ 
-\text{PessoaFeliz} \sqsubseteq \text{Dona} \forall
+\text{Pessoa} \sqsubseteq forall
 $$
