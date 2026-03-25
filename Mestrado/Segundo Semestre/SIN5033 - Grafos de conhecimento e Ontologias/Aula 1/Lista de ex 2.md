@@ -1,5 +1,3 @@
-Lista 2
-
 # Lista de ex. 2:
 i. $\text{Pessoa} \sqcap \text{Feliz}$
 
@@ -9,4 +7,4 @@ iii. $\text{Pessoa} \sqcap \forall\text{donoDe.Gato}$
 
 iv. $\text{Pessoa} \sqcap \neg \text{Feliz} \sqcap \exists \text{donoDe.}(\text{Animal} \sqcap \text{Gato} \sqcap \text{Velho})$
 
-vi. $$
+vi. $\text{$
