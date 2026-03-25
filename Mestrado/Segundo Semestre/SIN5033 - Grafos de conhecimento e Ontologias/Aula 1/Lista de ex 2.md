@@ -55,5 +55,7 @@ $$
 
 **vi.** *Rodas são exatamente aqueles dispositivos que possuem um eixo e podem girar*
 $$
-\text{Carros} \sqcup \text{Bicicletas} \sqsubseteq \text{viajamNa.} \neg \text{Água}
+\text{Roda} \equiv \text{Dispositivo} \sqsubseteq \text{temParte.Eixo} \text{WIP}
 $$
+
+3.
