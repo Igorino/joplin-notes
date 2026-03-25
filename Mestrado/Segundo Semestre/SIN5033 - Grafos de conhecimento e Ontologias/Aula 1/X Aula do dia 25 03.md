@@ -17,6 +17,6 @@ $$
 C \sqsubseteq D \sqcap
 $$
 
-9) 
+ 9) 
 > *Obs*:
 	⊑ é implicação, não referência.
