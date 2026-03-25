@@ -45,5 +45,5 @@ $$
 
 **iv.** Os barcos não têm rodas.
 $$
-\text{Barcos} \equiv \text{Veículo} \sqcap \neg \text{temParte.Roda}
+\text{Barcos} \sqcap \neg \text{temParte.Roda}
 $$
