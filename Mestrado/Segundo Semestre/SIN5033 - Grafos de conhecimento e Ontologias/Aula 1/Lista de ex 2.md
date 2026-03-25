@@ -27,28 +27,28 @@ $$\text{Pessoa} \sqcap \exists \text{donoDe.Animal} \sqcap \forall \text{donoDe.
 
 
 2. 
-**i.** Carros são exatamente aqueles veículos que têm rodas e são movidos por um motor:
+**i.** *Carros são exatamente aqueles veículos que têm rodas e são movidos por um motor:*
 $$
 \text{Carros} \equiv \text{Veículo} \sqcap \exists \text{temParte.Roda} \sqcap \exists \text{movidoPor.Motor}
 $$
 
-**ii.** As bicicletas são exatamente aqueles veículos que têm rodas e são movidos por um ser humano:
+**ii.** *As bicicletas são exatamente aqueles veículos que têm rodas e são movidos por um ser humano:*
 
 $$
 \text{Bicicletas} \equiv \text{Veículo} \sqcap \exists \text{temParte.Roda} \sqcap \exists \text{movidoPor.SerHumano}
 $$
 
-**iii.** Os barcos são exatamente aqueles veículos que viajam na água.
+**iii.** *Os barcos são exatamente aqueles veículos que viajam na água.*
 $$
 \text{Barcos} \equiv \text{Veículo} \sqcap \exists \text{viajamNa.Água}
 $$
 
-**iv.** Os barcos não têm rodas.
+**iv.** *Os barcos não têm rodas.*
 $$
 \text{Barcos} \sqsubseteq \forall \text{temParte.} \neg \text{Roda}
 $$
 
-**v.** Carros e bicicletas não viajam na água.
+**v.** *Carros e bicicletas não viajam na água.*
 $$
 \text{Carros} \sqcup \text{Bicicletas} \sqsubseteq \text{viajamNa.} \neg \text{Água}
 $$
