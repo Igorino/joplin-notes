@@ -3,8 +3,8 @@ https://edisciplinas.usp.br/pluginfile.php/9501669/mod_resource/content/1/Exerc%
 
 ---
 
-1.
-**i.** $\text{Pessoa} \sqcap \text{Feliz}$
+1. 
+**i.** Pessoa feliz: $\text{Pessoa} \sqcap \text{Feliz}$
 
 **ii.** $\text{Pessoa} \sqcap \text{Feliz} \sqcap \exists \text{donoDe.Animal}$
 
