@@ -50,5 +50,5 @@ $$
 
 **v.** Carros e bicicletas não viajam na água.
 $$
-\text{Carros} \sqcup \text{Bicicletas} \equiv \text{Veículos} \sqcap \neg \text{viajamNa.Água}
+\text{Carros} \sqcup \text{Bicicletas} \sqsubseteq \text{viajamNa.} \neg \text{Água}
 $$
