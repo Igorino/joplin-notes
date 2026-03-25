@@ -5,3 +5,8 @@ i.
 $$ 
 \text{Pessoa} \sqcap \text{Feliz}
 $$
+
+ii.
+$$
+\text{Pessoa} \sqcap \text{Feliz} \exists
+$$
