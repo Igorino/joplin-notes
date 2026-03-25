@@ -1,5 +1,5 @@
 # Lista de exercícios LD:
 1) a, b, c.
 
-2) V, F, 
+2) V, F, V, V, F 
 	
