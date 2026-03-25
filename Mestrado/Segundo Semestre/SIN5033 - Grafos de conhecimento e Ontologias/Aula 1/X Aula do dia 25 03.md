@@ -20,3 +20,8 @@ $$
  9) 
 > *Obs*:
 	⊑ é implicação, não referência.
+
+# Lista de ex. 2:
+$$ 
+\text{PessoaFeliz} \
+$$
