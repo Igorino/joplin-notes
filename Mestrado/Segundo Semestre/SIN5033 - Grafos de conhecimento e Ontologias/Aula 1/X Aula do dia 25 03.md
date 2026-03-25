@@ -10,4 +10,5 @@ https://edisciplinas.usp.br/pluginfile.php/9501653/mod_resource/content/1/Lista%
 6) V, F, F, V
 7) F, V, 
 
-(⊑ é implicação, não referência)
+> *Obs:
+	⊑ é implicação, não referência.
