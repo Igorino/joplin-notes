@@ -62,5 +62,5 @@ $$
 **i.** $A \sqcap \neg A$ $\rarr$ **NÃO**
 **ii.** $A \sqcup \neg A$ $\rarr$ **SIM**
 **iii.** $A \sqcap \exists r.B \sqcap \exists r.\neg B$ $\rarr$ **SIM**
-**iv.** $$ $\rarr$ **SIM**
-**v.** $$ $\rarr$ **NÃO**
+**iv.** $A \sqcap \exists r.B \sqcap \forall s.\neg B$ $\rarr$ **SIM**
+**v.** $A \sqcap \exists r.B \sqcap \forall r.\neg B$ $\rarr$ **NÃO**
