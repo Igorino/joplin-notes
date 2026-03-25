@@ -8,5 +8,5 @@ $$
 
 ii.
 $$
-\text{Pessoa} \sqcap \text{Feliz} \exists
+\text{Pessoa} \sqcap \text{Feliz} \sqcap \exists \text{temPet.Pet}
 $$
