@@ -141,7 +141,12 @@ Já em linguagens formais, ela é um **subconjunto de regras** pelas quais expre
 
 Por exemplo:
 * *Essa frase não verbo.* ❌️
-* *A frase anterior não tem verbo.* ✅️
+* *A frase anterior não **tem** verbo.* ✅️
+
+### Semântica
+A **Semântica** vem do Grego, que se diz respeito ao **caráter**, ao **estudo do significado**.
+
+Ela é a parte da linguística que se concentra no **sentido**
 .
 .
 .
