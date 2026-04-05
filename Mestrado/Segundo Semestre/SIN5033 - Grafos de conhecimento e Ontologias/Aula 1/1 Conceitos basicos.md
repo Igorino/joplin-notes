@@ -1,7 +1,8 @@
 # Conceitos
 Dos dados ao conhecimento: como vamos representá-los?
 
-A arte do entendimento:
+
+Exemplos:
 * Quantidade,
 * Ponto no tempo,
 * Período,
@@ -35,7 +36,7 @@ mindmap
 
 # Conhecimento
 
-ConceÉ a coleta apropriada de info, com intenção dela ser útil.
+Conchecimento é a coleta apropriada de info, com intenção dela ser útil.
 
 Sabedoria é a cap de fazer julg e decis sensatas.
 
