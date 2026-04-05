@@ -103,7 +103,7 @@ Para essa ***linguagem comum***, precisamos de:
 * **Tesauros:** Associações e relações de conceitos;
 * **Ontologias:** Regras e conhecimento sobre que relações são permitidas e fazem sentido.
 
-Assim, a máquina será capaz de fazer a captura 
+Assim, a máquina será capaz de fazer a captura da semântica de **conceitos**, **propriedades**, **relacionamentos** e **entidades**
 
 .
 .
