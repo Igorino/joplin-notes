@@ -49,7 +49,7 @@ root(Podem ser respostas a perguntas como)
 	[O quê?]
 	[Onde?]
 	[Quantos?]
-	etc.
+	(etc.)
 ```
 
 # Conhecimento
