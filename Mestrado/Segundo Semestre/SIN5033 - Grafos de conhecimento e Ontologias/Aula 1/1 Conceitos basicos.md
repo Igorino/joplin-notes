@@ -7,7 +7,7 @@ Exemplos:
 * Período,
 * etc.
 
-Tudo isso são dados. Eles são a matéria prima do estudo.
+Tudo isso são dados. Eles são a matéria prima dessa área de estudo.
 
 Dados não existem e não tem significado além da sua existência (pelo menos em si mesmo). Eles tem várias formas, sendo utilizáveis ou não.
 
@@ -15,7 +15,7 @@ Dados não existem e não tem significado além da sua existência (pelo menos e
 
 É o dado que recebeu um significado por meio de uma conexão relacional.
 
-Pode ser útil, mas não precisa ser. As info são contidas nas descrições.
+Pode ser útil, mas não precisa ser. As informações são contidas nas descrições.
 
 
 ```mermaid
@@ -33,7 +33,7 @@ mindmap
 	((etc.))
 ```
 
-# Conhecimento
+# Conhecimento, Sabeo
 
 ### Conhecimento:
 É a coleta apropriada de info, com intenção dela ser útil.
@@ -51,7 +51,7 @@ graph LR
 
 Conhecimento é um **subconjunto justificado** de todas as crenças verdadeiras.
 
-## Precisamos de uma representação formal do conhecimento:
+# Representação formal do conhecimento:
 
 Segundo Davenport e Prusak (1997): "As pessoas não podem compartilhar conhecimento se não falarem uma ***linguagem comum***".
 
