@@ -7,26 +7,7 @@ A arte do entendimento:
 * Período,
 * etc.
 
-```mermaid
----
-config:
-  layout: tidy-tree
----
-mindmap
-root((Conhecimento))
-	id[Como representá-lo?]
-		)Arte do entendimento:(
-			(Quantidade)
-			(Ponto no tempo)
-			(Período)
-	Dados
-	
-```
-
-
-
-Tudo isso são dados.
-Eles são a matéria prima.
+Tudo isso são dados. Eles são a matéria prima do estudo.
 
 Dados não existem e não tem significado além da sua existência (pelo menos em si mesmo). Eles tem várias formas, sendo utilizáveis ou não.
 
@@ -54,7 +35,7 @@ mindmap
 
 # Conhecimento
 
-É a coleta apropriada de info, com intenção dela ser útil.
+ConceÉ a coleta apropriada de info, com intenção dela ser útil.
 
 Sabedoria é a cap de fazer julg e decis sensatas.
 
