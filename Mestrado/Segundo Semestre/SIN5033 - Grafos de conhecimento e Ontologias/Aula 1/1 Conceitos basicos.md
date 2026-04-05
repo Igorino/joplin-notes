@@ -135,7 +135,9 @@ Para uma interpretação correta, precisa-se das características de uma linguag
 ### Sintaxe:
 A **Sintaxe** vem do Grego que significa: Arranjo, Ordenação.
 
-Na gramática, ela denota o estudo dos princípios e processos pelos quais as frases são construidas em línguas específicas
+Na gramática, ela denota o estudo dos princípios e processos pelos quais as frases são construídas em línguas específicas.
+
+Já em linguagens formais, ela é um **subconjunto de regras** pelas quais expressões bem formadas podem er criadas a partir de um conjunto fundamental de símbolos.
 
 .
 .
