@@ -97,8 +97,9 @@ sequenceDiagram
 
 Porém a Linguagem Natural (LN) **não é perfeita**: ela é afligida por coisas como **Ambiguidade**, **Parafraseio**, etc...
 
-Por isso precisamos de uma representação formal do conhecimento:
-Para podermos lidar com ele sem 
+Por isso precisamos de uma **representação formal do conhecimento**: Para podermos lidar com ele sem precisar lidar com a linguagem natural e todas as suas imperfeições.
+
+Assim, as máquinas que lidarão com esses conhecimento vão ser capazes de entender o seu conteúdo e 
 
 .
 .
