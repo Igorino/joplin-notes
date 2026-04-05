@@ -38,14 +38,17 @@ Pode ser útil, mas não precisa ser. As info são contidas nas descrições.
 
 
 ```mermaid
+---
+config:
+  layout: tidy-tree
+---
 mindmap
 root(Podem ser respostas a perguntas como)
 	[Como?]
-	:::urgent
-	Quem?
-	O quê?
-	Onde?
-	Quantos?
+	[Quem?]
+	[O quê?]
+	[Onde?]
+	[Quantos?]
 	etc.
 ```
 
