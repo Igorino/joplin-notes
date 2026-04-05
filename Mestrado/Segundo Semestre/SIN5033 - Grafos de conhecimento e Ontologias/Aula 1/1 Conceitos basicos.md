@@ -15,6 +15,10 @@ mindmap
 	Tema B
       Conceito 2
 	    ((Conceito 3))
+			Fazer
+			Isso
+			Aqui
+			Funcionar
 	  Conceito 4
 	Tema C
 		Conceito
