@@ -96,6 +96,10 @@ sequenceDiagram
 ```
 
 Porém a Linguagem Natural (LN) **não é perfeita**: ela é afligida por coisas como **Ambiguidade**, **Parafraseio**, etc...
+
+Por isso precisamos de uma representação formal do conhecimento:
+Para podermos lidar com ele sem 
+
 .
 .
 .
