@@ -110,6 +110,8 @@ O **Significado** é um **relacionamento** entre dois tipos de coisas:
 * Símbolos; e
 * Objetos.
 
+Palavras (e outros símbolos não verbais) são necessariamente **significativas**, ou seja, possuem algum significado.
+
 
 .
 .
