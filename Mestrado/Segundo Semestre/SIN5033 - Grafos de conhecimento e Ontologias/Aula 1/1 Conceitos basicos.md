@@ -57,11 +57,11 @@ Conhecimento é um **subconjunto justificado** de todas as crenças verdadeiras.
 Segundo Davenport e Prusak (1997): "As pessoas não podem compartilhar conhecimento se não falarem uma ***linguagem comum***".
 
 Para essa ***linguagem comum***, precisamos de:
-* **Sintaxe:** Símbolos e conceitos comuns (**Sintaxe**)
-* **Semântica:** Acordo sobre o seus significados (**Semântica**)
-* **Taxonomia:** Classificação de conceitos (**Taxonomia**)
-* **Tesauros** Associações e relações de conceitos (**Tesauros**)
-* Regras e conhecimento sobre que relações são premitidas e fazem sentido (**Ontologias**)
+* **Sintaxe:** Símbolos e conceitos comuns;
+* **Semântica:** Acordo sobre o seus significados;
+* **Taxonomia:** Classificação de conceitos;
+* **Tesauros:** Associações e relações de conceitos;
+* **Ontologias:** Regras e conhecimento sobre que relações são premitidas e fazem sentido.
 
 
 .
