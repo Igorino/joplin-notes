@@ -49,9 +49,10 @@ Compreensão (entendimento) é um continuum que leva dos dados, informação, co
 graph LR
 	Dados --> Informação --> Conhecimento --> Sabedoria
 ```
-Conhecimento é um subconj justificado de todas as crenças verdadeiras.
 
-Precisamos de uma representação formal do conhecimento.
+Conhecimento é um **subconjunto justificado** de todas as crenças verdadeiras.
+
+## Precisamos de uma representação formal do conhecimento:
 
 Segundo Davenport e Prusak (1997): "As pessoas não podem compartilhar conhecimento se não falarem uma ***linguagem comum***".
 
