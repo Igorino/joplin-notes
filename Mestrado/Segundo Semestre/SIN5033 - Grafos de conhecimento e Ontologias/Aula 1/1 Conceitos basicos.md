@@ -16,10 +16,10 @@ mindmap
 root((Conhecimento))
 	id[Como representá-lo?]
 		)Arte do entendimento:(
-			Quantidade
+			(Quantidade)
 			(Ponto no tempo)
-			Período
-			
+			(Período)
+	Dados
 	
 ```
 
@@ -37,6 +37,11 @@ Dados não existem e não tem significado além da sua existência (pelo menos e
 Pode ser útil, mas não precisa ser. As info são contidas nas descrições.
 
 Podem ser respostas a perguntas como:
+
+```mermaid
+mindmap
+root((Perguntas))]
+```
 * Como?
 * Quem?
 * O quê?
