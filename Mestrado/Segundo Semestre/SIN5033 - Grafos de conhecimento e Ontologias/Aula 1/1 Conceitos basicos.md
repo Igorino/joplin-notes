@@ -62,7 +62,9 @@ Compreensão (entendimento) é um continuum que leva dos dados, informação, co
 
 ``` mermaid
 graph LR
-	dados -> info -> conhec -> sabedoria
+	A[dados] --> B[info]
+	B --> C(conhec)
+	C --> D(sabedoria)
 ```
 Conhecimento é um subconj justificado de todas as crenças verdadeiras.
 
