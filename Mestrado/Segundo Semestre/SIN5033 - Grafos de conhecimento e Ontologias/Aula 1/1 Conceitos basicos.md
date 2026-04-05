@@ -112,6 +112,11 @@ O **Significado** é um **relacionamento** entre dois tipos de coisas:
 
 Palavras (e outros símbolos não verbais) são necessariamente **significativas**, ou seja, possuem algum significado.
 
+```mermaid
+flowchart LR
+	Símbolos/Palavras -- denotam --> Objetos
+```
+
 
 .
 .
