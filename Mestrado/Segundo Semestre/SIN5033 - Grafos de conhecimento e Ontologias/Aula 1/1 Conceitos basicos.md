@@ -16,6 +16,8 @@ mindmap
 			Conceito 2
 ```
 
+
+
 Tudo isso são dados.
 Eles são a matéria prima.
 
