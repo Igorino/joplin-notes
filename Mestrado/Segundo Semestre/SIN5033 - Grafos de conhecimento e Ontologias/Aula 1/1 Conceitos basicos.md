@@ -40,8 +40,8 @@ Pode ser útil, mas não precisa ser. As info são contidas nas descrições.
 ```mermaid
 mindmap
 root(Podem ser respostas a perguntas como)
-	Como?
-	:::urgent large
+	[Como?]
+	:::urgent
 	Quem?
 	O quê?
 	Onde?
