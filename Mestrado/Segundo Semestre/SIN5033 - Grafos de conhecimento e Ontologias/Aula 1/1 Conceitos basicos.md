@@ -14,10 +14,10 @@ config:
 ---
 mindmap
 root((Conhecimento))
-	[Como representá-lo?]
-		Arte do entendimento:
+	id[Como representá-lo?]
+		)Arte do entendimento:(
 			Quantidade
-			Ponto no tempo
+			(Ponto no tempo)
 			Período
 			
 	
