@@ -64,8 +64,11 @@ Para essa ***linguagem comum***, precisamos de:
 
 # Linguagem como representação do conhecimento
 
-A Linguagem, mais especificamente a **Linguagem Natural**, pode ser usada para representar o conhecimento. Ela é a maneira mais antiga de 
+A Linguagem, mais especificamente a **Linguagem Natural**, pode ser usada para representar o conhecimento. Ela é a maneira mais antiga que nós descobrimos para fazer essa representação.
 
+Mas o que exatamente é "linguagem" nesse contexto?
+
+Uma Linguagem é um sistema de **símbolos** convencionais
 
 .
 .
