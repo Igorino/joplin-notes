@@ -61,3 +61,33 @@ Para essa ***linguagem comum***, precisamos de:
 * Classificação de conceitos (**Taxonomia**)
 * Associações e relações de conceitos (**Tesauros**)
 * Regras e conhecimento sobre que relações são premitidas e fazem sentido (**Ontologias**)
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
