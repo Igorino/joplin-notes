@@ -75,8 +75,15 @@ Por meio dela, nós humanos (como membros de um grupo social e/ou cultural) expr
 Uma das maiores funções de uma linguagem é a **comunicação.**
 
 # Comunicação e significado
-
 A comunicação é a transmissão de informações entre 1 à N indivíduos através de um meio.
+
+Exemplo de uma comunicação:
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+```
 
 ```mermaid
 
