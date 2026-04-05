@@ -7,6 +7,11 @@ A arte do entendimento:
 * Período,
 * etc.
 
+```mermaid
+mindmap
+	root((Conceitos ))
+```
+
 Tudo isso são dados.
 Eles são a matéria prima.
 
