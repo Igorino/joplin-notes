@@ -36,18 +36,17 @@ Dados não existem e não tem significado além da sua existência (pelo menos e
 
 Pode ser útil, mas não precisa ser. As info são contidas nas descrições.
 
-Podem ser respostas a perguntas como:
 
 ```mermaid
 mindmap
-root((Perguntas))]
+root(Podem ser respostas a perguntas como)
+	Como?
+	Quem?
+	O quê?
+	Onde?
+	Quantos?
+	etc.
 ```
-* Como?
-* Quem?
-* O quê?
-* Onde?
-* Quantos?
-* etc.
 
 # Conhecimento
 
