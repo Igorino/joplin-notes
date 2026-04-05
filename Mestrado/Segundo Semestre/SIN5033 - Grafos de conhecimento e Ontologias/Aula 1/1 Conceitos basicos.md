@@ -146,7 +146,9 @@ Por exemplo:
 ### Semântica
 A **Semântica** vem do Grego, que se diz respeito ao **caráter**, ao **estudo do significado**.
 
-Ela é a parte da linguística que se concentra no **sentido**
+Na  linguística, ela é a parte que se concentra no **sentido** e no **significado** da linguagem (ou símbolos da linguagem).
+
+Ela é o
 .
 .
 .
