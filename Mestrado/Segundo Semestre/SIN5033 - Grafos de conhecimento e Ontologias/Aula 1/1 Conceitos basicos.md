@@ -146,11 +146,13 @@ Por exemplo:
 ### Semântica
 A **Semântica** vem do Grego, que se diz respeito ao **caráter**, ao **estudo do significado**.
 
-Na  linguística, ela é a parte que se concentra no **sentido** e no **significado** da linguagem (ou símbolos da linguagem).
+Na linguística, ela é a parte que se concentra no **sentido** e no **significado** da linguagem (ou símbolos da linguagem).
 
 Ela é o **estudo da interpretação de sinais ou símbolos**, que são usados por agentes ou comunidades em **circunstâncias e contextos específicos**.
 
-A **Semântica** pergunta como o sentido e o significado de conceitos complexos podem ser 
+A **Semântica** pergunta como o sentido e o significado de conceitos complexos podem ser derivados de conceitos simples baseados nas **regras da sintaxe**.
+
+
 .
 .
 .
