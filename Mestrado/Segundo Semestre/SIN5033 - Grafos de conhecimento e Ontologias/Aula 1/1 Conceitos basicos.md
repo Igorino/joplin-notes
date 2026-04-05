@@ -14,7 +14,12 @@ config:
 ---
 mindmap
 root((Conhecimento))
-	Como r
+	[Como representá-lo?]
+		Arte do entendimento:
+			Quantidade
+			Ponto no tempo
+			Período
+			
 	
 ```
 
