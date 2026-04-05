@@ -43,7 +43,7 @@ config:
   layout: tidy-tree
 ---
 mindmap
-root(Podem ser respostas a perguntas como)
+(Podem ser respostas a perguntas:)
 	[Como?]
 	[Quem?]
 	[O quê?]
