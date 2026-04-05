@@ -51,17 +51,6 @@ graph LR
 
 Conhecimento é um **subconjunto justificado** de todas as crenças verdadeiras.
 
-# Representação formal do conhecimento:
-
-Segundo Davenport e Prusak (1997): "As pessoas não podem compartilhar conhecimento se não falarem uma ***linguagem comum***".
-
-Para essa ***linguagem comum***, precisamos de:
-* **Sintaxe:** Símbolos e conceitos comuns;
-* **Semântica:** Acordo sobre o seus significados;
-* **Taxonomia:** Classificação de conceitos;
-* **Tesauros:** Associações e relações de conceitos;
-* **Ontologias:** Regras e conhecimento sobre que relações são permitidas e fazem sentido.
-
 # Linguagem como representação do conhecimento
 
 A Linguagem, mais especificamente a **Linguagem Natural**, pode ser usada para representar o conhecimento. Ela é a maneira mais antiga que nós descobrimos para fazer essa representação.
@@ -99,7 +88,20 @@ Porém a Linguagem Natural (LN) **não é perfeita**: ela é afligida por coisas
 
 Por isso precisamos de uma **representação formal do conhecimento**: Para podermos lidar com ele sem precisar lidar com a linguagem natural e todas as suas imperfeições.
 
-Assim, as máquinas que lidarão com esses conhecimento vão ser capazes de entender o seu conteúdo e 
+Assim, as máquinas que lidarão com esses conhecimento vão ser capazes de entender o seu conteúdo e interpretá-los corretamente.
+
+# Representação formal do conhecimento:
+
+Segundo Davenport e Prusak (1997): "As pessoas não podem compartilhar conhecimento se não falarem uma ***linguagem comum***".
+
+Para essa ***linguagem comum***, precisamos de:
+* **Sintaxe:** Símbolos e conceitos comuns;
+* **Semântica:** Acordo sobre o seus significados;
+* **Taxonomia:** Classificação de conceitos;
+* **Tesauros:** Associações e relações de conceitos;
+* **Ontologias:** Regras e conhecimento sobre que relações são permitidas e fazem sentido.
+
+
 
 .
 .
