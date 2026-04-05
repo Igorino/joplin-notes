@@ -8,20 +8,24 @@ A arte do entendimento:
 * etc.
 
 ```mermaid
+---
+config:
+  layout: tidy-tree
+---
 mindmap
-  root[Conceitos básicos]
-    Tema D
-	  Conceitos 1
-	Tema B
-      Conceito 2
-	    ((Conceito 3))
-			Fazer
-			Isso
-			Aqui
-			Funcionar
-	  Conceito 4
-	Tema C
-		Conceito
+root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
 	
 ```
 
