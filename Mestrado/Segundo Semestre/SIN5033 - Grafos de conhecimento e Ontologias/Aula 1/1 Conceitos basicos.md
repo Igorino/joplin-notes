@@ -33,7 +33,7 @@ mindmap
 	((etc.))
 ```
 
-# Conhecimento, Sabeo
+# Conhecimento, sabedoria e compreensão
 
 ### Conhecimento:
 É a coleta apropriada de info, com intenção dela ser útil.
@@ -41,7 +41,7 @@ mindmap
 ### Sabedoria:
 É a capacidade de fazer julgamento e decisões sensatas.
 
-### Compreensão (entendimento) 
+### Compreensão (entendimento)
 É um continuum que leva dos dados, informação, conhecimento e sabedoria.
 
 ```mermaid
@@ -60,7 +60,7 @@ Para essa ***linguagem comum***, precisamos de:
 * **Semântica:** Acordo sobre o seus significados;
 * **Taxonomia:** Classificação de conceitos;
 * **Tesauros:** Associações e relações de conceitos;
-* **Ontologias:** Regras e conhecimento sobre que relações são premitidas e fazem sentido.
+* **Ontologias:** Regras e conhecimento sobre que relações são permitidas e fazem sentido.
 
 
 .
