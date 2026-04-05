@@ -78,10 +78,10 @@ Exemplo de uma comunicação:
 ```mermaid
 sequenceDiagram
 	actor Alice
-	actor John
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-    Alice-)John: See you later!
+	actor João
+    Alice->>João: Oi João, tudo bem?
+    João-->>Alice: Tudo ótimo!
+    Alice-)João: Beleza então!
 ```
 
 Porém a Linguagem Natural (LN) **não é perfeita**: ela é afligida por coisas como **Ambiguidade**, **Parafraseio**, etc...
