@@ -1,6 +1,7 @@
 # Conceitos
 Dos dados ao conhecimento: como vamos representá-los?
 
+---
 
 Exemplos:
 * Quantidade,
@@ -9,6 +10,8 @@ Exemplos:
 * etc.
 
 Tudo isso são dados. Eles são a matéria prima do estudo.
+
+---
 
 Dados não existem e não tem significado além da sua existência (pelo menos em si mesmo). Eles tem várias formas, sendo utilizáveis ou não.
 
