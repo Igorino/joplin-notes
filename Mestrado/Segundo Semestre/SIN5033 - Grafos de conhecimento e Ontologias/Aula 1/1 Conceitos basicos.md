@@ -137,8 +137,11 @@ A **Sintaxe** vem do Grego que significa: Arranjo, Ordenação.
 
 Na gramática, ela denota o estudo dos princípios e processos pelos quais as frases são construídas em línguas específicas.
 
-Já em linguagens formais, ela é um **subconjunto de regras** pelas quais expressões bem formadas podem er criadas a partir de um conjunto fundamental de símbolos.
+Já em linguagens formais, ela é um **subconjunto de regras** pelas quais expressões bem formadas podem ser criadas a partir de um conjunto fundamental de símbolos.
 
+Por exemplo:
+* Essa frase não verbo. e
+* A frase anterior não tem verbo.
 .
 .
 .
