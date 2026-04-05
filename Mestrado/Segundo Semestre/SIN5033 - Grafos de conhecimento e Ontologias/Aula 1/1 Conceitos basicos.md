@@ -49,7 +49,7 @@ mindmap
 	[O quê?]
 	[Onde?]
 	[Quantos?]
-	(etc.)
+	((etc.))
 ```
 
 # Conhecimento
