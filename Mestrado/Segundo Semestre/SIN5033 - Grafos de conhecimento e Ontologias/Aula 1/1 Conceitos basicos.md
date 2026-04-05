@@ -41,6 +41,7 @@ Pode ser útil, mas não precisa ser. As info são contidas nas descrições.
 mindmap
 root(Podem ser respostas a perguntas como)
 	Como?
+	::icon(wind)
 	Quem?
 	O quê?
 	Onde?
