@@ -1,8 +1,6 @@
 # Conceitos
 Dos dados ao conhecimento: como vamos representá-los?
 
----
-
 Exemplos:
 * Quantidade,
 * Ponto no tempo,
@@ -10,8 +8,6 @@ Exemplos:
 * etc.
 
 Tudo isso são dados. Eles são a matéria prima do estudo.
-
----
 
 Dados não existem e não tem significado além da sua existência (pelo menos em si mesmo). Eles tem várias formas, sendo utilizáveis ou não.
 
@@ -39,9 +35,9 @@ mindmap
 
 # Conhecimento
 
-Conchecimento é a coleta apropriada de info, com intenção dela ser útil.
+Conhecimento é a coleta apropriada de info, com intenção dela ser útil.
 
-Sabedoria é a cap de fazer julg e decis sensatas.
+Enquanto **sabedoria** é a capacidade de fazer julgamento e decisões sensatas.
 
 Compreensão (entendimento) é um continuum que leva dos dados, informação, conhecimento e sabedoria.
 
