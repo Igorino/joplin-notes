@@ -85,6 +85,8 @@ A comunicação é a transmissão de informações entre 1 à N indivíduos atra
 Exemplo de uma comunicação:
 ```mermaid
 sequenceDiagram
+	actor Alice
+	actor John
     Alice->>John: Hello John, how are you?
     John-->>Alice: Great!
     Alice-)John: See you later!
