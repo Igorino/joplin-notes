@@ -78,7 +78,8 @@ Uma das maiores funções de uma linguagem é a **comunicação.**
 A comunicação é a transmissão de informações entre 1 à N indivíduos através de um meio.
 
 ```mermaid
-
+Flowchart LR
+	Conceito -- se refere a -> Objeto
 ```
 
 
