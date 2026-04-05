@@ -66,11 +66,13 @@ Para essa ***linguagem comum***, precisamos de:
 
 A Linguagem, mais especificamente a **Linguagem Natural**, pode ser usada para representar o conhecimento. Ela é a maneira mais antiga que nós descobrimos para fazer essa representação.
 
-Mas o que exatamente é "linguagem" nesse contexto?
+#### Mas o que exatamente é "linguagem" nesse contexto?
 
-Uma Linguagem é um sistema de **símbolos** convencionais **falados, manuais ou escritos** que se combinam para **transmitir um significado**.
+Uma **Linguagem** é um sistema de **símbolos** convencionais **falados, manuais** ou escritos** que se combinam para **transmitir um significado**.
 
-Por meio dela, nós humanos (como membros de um grupo social e cultural) nos expressamos.
+Por meio dela, nós humanos (como membros de um grupo social e cultural) expressamos idéias complexas e abstratas.
+
+Uma das maiores funções de uma linguagem é a **comunicação.**
 
 .
 .
