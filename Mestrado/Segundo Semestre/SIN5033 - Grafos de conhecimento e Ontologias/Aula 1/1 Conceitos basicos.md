@@ -105,6 +105,12 @@ Para essa ***linguagem comum***, precisamos de:
 
 Assim, a máquina será capaz de fazer a captura da semântica de **conceitos**, **propriedades**, **relacionamentos** e **entidades**
 
+# Significado
+O **Significado** é um **relacionamento** entre dois tipos de coisas:
+* Símbolos; e
+* Objetos.
+
+
 .
 .
 .
