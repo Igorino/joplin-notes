@@ -122,7 +122,7 @@ Entendimento é, em geral, a capacidade de **captar o significado** de uma deter
 
 Essas informações são transmitidas em uma **mensagem**, que usa uma linguagem específica, de um **remetente** para um **receptor**
 
-A informação é considerada **entendida** pelo receptor se 
+A informação é considerada **entendida** pelo receptor se esse conseguir **interpretar sucedidamente** a informação contida na mensagem.
 
 .
 .
