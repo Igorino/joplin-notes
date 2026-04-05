@@ -120,6 +120,10 @@ flowchart LR
 # Entendimento
 Entendimento é, em geral, a capacidade de **captar o significado** de uma determinada **informação**.
 
+Essas informações são transmitidas em uma **mensagem**, que usa uma linguagem específica, de um **remetente** para um **receptor**
+
+A informação é considerada **entendida** pelo receptor se 
+
 .
 .
 .
