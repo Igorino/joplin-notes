@@ -62,6 +62,10 @@ Para essa ***linguagem comum***, precisamos de:
 * **Tesauros:** Associações e relações de conceitos;
 * **Ontologias:** Regras e conhecimento sobre que relações são permitidas e fazem sentido.
 
+# Linguagem como representação do conhecimento
+
+A Linguagem (N
+
 
 .
 .
