@@ -128,7 +128,12 @@ Para uma interpretação correta, precisa-se das características de uma linguag
 * Sintaxe;
 * Semântica;
 * Contexto;
-* Pr
+* Pragmática;
+* Experiência;
+* etc.
+
+### Sintaxe:
+Do Grego: 
 
 .
 .
