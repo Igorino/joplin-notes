@@ -79,7 +79,7 @@ A comunicação é a transmissão de informações entre 1 à N indivíduos atra
 
 ```mermaid
 flowchart LR
-	Conceito -- se refere a --> Objeto
+	Conceito -- se refere à --> Objeto
 	Símbolo -- simboliza --> Conceito
 	Símbolo -- significa --> Objeto
 ```
@@ -95,6 +95,7 @@ sequenceDiagram
     Alice-)John: See you later!
 ```
 
+Porém a Linguagem Natural (LN) **não é perfeita**: ela é afligida por coisas como **Ambiguidade**, **Parafraseio**, etc...
 .
 .
 .
