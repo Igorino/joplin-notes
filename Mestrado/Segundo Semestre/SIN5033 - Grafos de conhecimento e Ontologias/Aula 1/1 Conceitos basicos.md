@@ -92,6 +92,8 @@ Assim, as máquinas que lidarão com esses conhecimento vão ser capazes de ente
 
 # Representação formal do conhecimento:
 
+A Representação Formal do conhecimento é do campo da **Inteligência Artificial (IA)**.
+
 Segundo Davenport e Prusak (1997): "As pessoas não podem compartilhar conhecimento se não falarem uma ***linguagem comum***".
 
 Para essa ***linguagem comum***, precisamos de:
@@ -101,7 +103,7 @@ Para essa ***linguagem comum***, precisamos de:
 * **Tesauros:** Associações e relações de conceitos;
 * **Ontologias:** Regras e conhecimento sobre que relações são permitidas e fazem sentido.
 
-
+Assim, a máquina será capaz de fazer a captura 
 
 .
 .
