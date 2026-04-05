@@ -81,7 +81,7 @@ A comunicação é a transmissão de informações entre 1 à N indivíduos atra
 flowchart LR
 	Conceito -- se refere a --> Objeto
 	Símbolo -- simboliza --> Conceito
-	Símbolo 
+	Símbolo -- significa --> Objeto
 ```
 
 
