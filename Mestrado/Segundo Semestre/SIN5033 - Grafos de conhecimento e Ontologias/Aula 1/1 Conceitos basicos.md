@@ -35,13 +35,14 @@ mindmap
 
 # Conhecimento
 
-### **Conhecimento:**
+### Conhecimento:
 É a coleta apropriada de info, com intenção dela ser útil.
 
-### **Sabedoria:**
-é a *capacidade de fazer julgamento e decisões sensatas*.
+### Sabedoria:
+É a capacidade de fazer julgamento e decisões sensatas.
 
-Compreensão (entendimento) é um continuum que leva dos dados, informação, conhecimento e sabedoria.
+### Compreensão (entendimento) 
+É um continuum que leva dos dados, informação, conhecimento e sabedoria.
 
 ```mermaid
 graph LR
