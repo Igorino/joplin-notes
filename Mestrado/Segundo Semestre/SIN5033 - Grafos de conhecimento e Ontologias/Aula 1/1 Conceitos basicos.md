@@ -9,11 +9,11 @@ A arte do entendimento:
 
 ```mermaid
 mindmap
-	root((Conceitos básicos))
-		Tema A
-			Conceitos 1
-		Tema B
-			Conceito 2
+  root[Conceitos básicos]
+    Tema D
+	  Conceitos 1
+	Tema B
+      Conceito 2
 ```
 
 
