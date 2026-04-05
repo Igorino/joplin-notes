@@ -124,6 +124,12 @@ Essas informações são transmitidas em uma **mensagem**, que usa uma linguagem
 
 A informação é considerada **entendida** pelo receptor se esse conseguir **interpretar sucedidamente** a informação contida na mensagem.
 
+Para uma interpretação correta, precisa-se das características de uma linguagem comum que foi discutida anteriormente:
+* Sintaxe;
+* Semântica;
+* Contexto;
+* Pr
+
 .
 .
 .
