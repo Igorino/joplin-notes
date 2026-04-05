@@ -35,9 +35,11 @@ mindmap
 
 # Conhecimento
 
-Conhecimento é a coleta apropriada de info, com intenção dela ser útil.
+### **Conhecimento:**
+É a coleta apropriada de info, com intenção dela ser útil.
 
-Enquanto **sabedoria** é a capacidade de fazer julgamento e decisões sensatas.
+### **Sabedoria:**
+é a *capacidade de fazer julgamento e decisões sensatas*.
 
 Compreensão (entendimento) é um continuum que leva dos dados, informação, conhecimento e sabedoria.
 
