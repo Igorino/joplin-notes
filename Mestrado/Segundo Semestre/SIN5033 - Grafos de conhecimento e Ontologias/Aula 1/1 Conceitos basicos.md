@@ -117,6 +117,8 @@ flowchart LR
 	Símbolos/Palavras -- denotam --> Objetos
 ```
 
+# Entendimento
+Entendimento é, em geral, a capacidade de **captar o significado** de uma determinada **informação**.
 
 .
 .
