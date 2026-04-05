@@ -140,8 +140,8 @@ Na gramática, ela denota o estudo dos princípios e processos pelos quais as fr
 Já em linguagens formais, ela é um **subconjunto de regras** pelas quais expressões bem formadas podem ser criadas a partir de um conjunto fundamental de símbolos.
 
 Por exemplo:
-* Essa frase não verbo. e
-* A frase anterior não tem verbo.
+* *Essa frase não verbo.* ❌️
+* *A frase anterior não tem verbo.* ✅️
 .
 .
 .
