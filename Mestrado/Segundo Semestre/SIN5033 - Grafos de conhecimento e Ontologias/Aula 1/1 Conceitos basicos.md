@@ -60,11 +60,9 @@ Sabedoria é a cap de fazer julg e decis sensatas.
 
 Compreensão (entendimento) é um continuum que leva dos dados, informação, conhecimento e sabedoria.
 
-``` mermaid
+```mermaid
 graph LR
-	A[dados] --> B[info]
-	B --> C(conhec)
-	C --> D(sabedoria)
+	A[dados] --> Informação --> Conhecimento --> Sabedoria
 ```
 Conhecimento é um subconj justificado de todas as crenças verdadeiras.
 
