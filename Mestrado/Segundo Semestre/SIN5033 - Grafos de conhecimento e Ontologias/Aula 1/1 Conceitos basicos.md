@@ -70,7 +70,7 @@ A comunicação é a transmissão de informações entre 1 à N indivíduos atra
 flowchart LR
 	Conceito -- se refere à --> Objeto
 	Símbolo -- simboliza --> Conceito
-	Símbolo -- significa --> Objeto
+	Objeto -- é significado por --> Símbolo
 ```
 
 
@@ -134,7 +134,7 @@ Para uma interpretação correta, precisa-se das características de uma linguag
 
 --
 
-### Sintaxe:
+## Sintaxe:
 A **Sintaxe** vem do Grego que significa: Arranjo, Ordenação.
 
 Na gramática, ela denota o estudo dos princípios e processos pelos quais as frases são construídas em línguas específicas.
@@ -147,7 +147,7 @@ Por exemplo:
 
 --
 
-### Semântica
+## Semântica:
 A **Semântica** vem do Grego, que se diz respeito ao **caráter**, ao **estudo do significado**.
 
 Na linguística, ela é a parte que se concentra no **sentido** e no **significado** da linguagem (ou símbolos da linguagem).
