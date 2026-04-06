@@ -202,7 +202,9 @@ A **Compreensão** depende:
 * Do **Contexto** do *remetente* e do *destinatário*; e
 * Da **Pragmática** do remetente.
 
-A **Experiência** (pessoal) determina como o re
+A **Experiência** (pessoal) determina como o remetente e o destinatário interpretam a Semântica, o Contexto, e a Pragmática de uma mensagem.
+
+Logo, também determina o seu **significado pretendido**.
 
 
 
