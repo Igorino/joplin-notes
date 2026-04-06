@@ -158,6 +158,56 @@ A **Semântica** pergunta como o sentido e o significado de conceitos complexos 
 
 --
 
+## Contexto:
+O **Contexto** vem do Latim "Contextus", que significa "entrelaçado".
+
+Ele denota o entorno de um símbolo em um expressão, com relação ao relacionamento dela com as outras expressões ou elementos relacionados ou mencionados.
+
+O **Contexto** esclarece interpretações do conteúdo comunicado.
+
+Por exemplo: O "Jaguar" em "Esse jaguar é elegante" pode ser ambíguo, mas é esclarecido quando examinado em um ambiente onde está se falando de carros ou de animais.
+
+![Jaguar sendo um carro ou um animal](Jaguar sendo um carro ou um animal.png)
+
+--
+
+## Pragmática
+A **Pragmática** vem do Grego, significando "ação".
+
+Ela reflete a **intenção** por qual a linguagem é usada para comunicar uma determinada mensagem. Na linguística, ela denota o estudo da **aplicação da linguagem em diferentes situações**.
+
+Também pode denotar o **propósito** pretendido pelo orador.
+
+A **Pragmática** estuda as maneiras pelas quais o contexto contribui para o significado na oração.
+
+Por exemplo:
+> "Sobrou alguma cerveja na geladeira?"
+
+Pode significar:
+> "Vocês poderia ir até a geladeira e pegar um pouco de cerveja para mim?"
+
+--
+
+## Experiência
+A **Experiência** é o que considera todo o conhecimento que você adquiriu durante a vida para contextualizar a mensagem emitida.
+
+Ela, nesse sentido, é frequentemente chamada de **"senso comum"** ou **"conhecimento do mundo"**.
+
+# Comunicação bem-sucedida
+Para termos uma comunicação bem-sucedida, precisamos:
+* Que a informação seja **transmitida corretamente (Sintaxe)**
+*  Que o **significado (Semântica)** da informação seja **interpretado corretamente (Compreensão)**
+
+A **Compreensão** depende:
+* Do **Contexto** do *remetente* e do *destinatário*; e
+* Da **Pragmática** do remetente.
+
+A **Experiência** (pessoal) determina como o re
+
+
+
+
+
 
 
 .
