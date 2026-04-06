@@ -114,7 +114,7 @@ Palavras (e outros símbolos não verbais) são necessariamente **significativas
 
 ```mermaid
 flowchart LR
-	Símbolos/Palavras -- denotam --> Objetos
+	A(Símbolos ou Palavras) -- denotam --> Objetos
 ```
 
 # Entendimento
