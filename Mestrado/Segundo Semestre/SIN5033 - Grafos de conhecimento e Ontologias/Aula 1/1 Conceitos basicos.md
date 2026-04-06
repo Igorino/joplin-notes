@@ -132,6 +132,8 @@ Para uma interpretação correta, precisa-se das características de uma linguag
 * Experiência;
 * etc.
 
+--
+
 ### Sintaxe:
 A **Sintaxe** vem do Grego que significa: Arranjo, Ordenação.
 
@@ -143,6 +145,8 @@ Por exemplo:
 * *Essa frase não verbo.* ❌️
 * *A frase anterior não **tem** verbo.* ✅️
 
+--
+
 ### Semântica
 A **Semântica** vem do Grego, que se diz respeito ao **caráter**, ao **estudo do significado**.
 
@@ -151,6 +155,9 @@ Na linguística, ela é a parte que se concentra no **sentido** e no **significa
 Ela é o **estudo da interpretação de sinais ou símbolos**, que são usados por agentes ou comunidades em **circunstâncias e contextos específicos**.
 
 A **Semântica** pergunta como o sentido e o significado de conceitos complexos podem ser derivados de conceitos simples baseados nas **regras da sintaxe**.
+
+--
+
 
 
 .
