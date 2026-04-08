@@ -29,11 +29,12 @@ mindmap
 				(Precisamos de uma interface de consulta)
 					Navegação facetada
 						(Ex: Busca por palavra chave, por nó)
+					(*"usuário explora iterativamente, Interface amigável e Refinamento progressivo"*
 					Exs de GUIs:
-						Broccoli
-						VisiNav
-						SemFacet
-						GraFa
+						[Broccoli]
+						[VisiNav]
+						[SemFacet]
+						[GraFa]
 
 
 			
