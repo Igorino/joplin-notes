@@ -65,5 +65,9 @@ mindmap
 ```mermaid
 mindmap
 root(Big Data)
-	Processamento de 
+	Manipulação e processamento de grande quantidade de dados
+	Dados massivos
+	Conjunto de ferramentas orientadas à Big Data
+		Hadoop
+		
 ```
