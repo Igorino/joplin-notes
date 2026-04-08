@@ -110,7 +110,8 @@ Analisar dados sempre existiu, mas agora temos demandas para especialistas (como
 ## Caracterização de Big Data
 Pode ser caracterizado por :
 - **Grande volume de dados**;
-- **T**
+- **Tipos de dados variados**;
+- 
 .
 .
 .
