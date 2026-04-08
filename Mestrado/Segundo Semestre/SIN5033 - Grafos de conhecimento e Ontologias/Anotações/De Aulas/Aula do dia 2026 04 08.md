@@ -126,7 +126,10 @@ Cloud pode ser:
 - Multitenant.
 
 # Big Data: Por que o interesse agora?
-Fontes de dados diversificados 
+Fontes de dados diversificados, de vários lugares, em grande peso. 
+Os dados são valiosos demais para serem deletados.
+Nos últimos tempos, houve uma redução drástica no custo do hardware, principalmente no de armazenamento.
+Também houve um crescimento de soluções 
 
 # Tecnologias NoSQL:
 "Not Only SQL"
