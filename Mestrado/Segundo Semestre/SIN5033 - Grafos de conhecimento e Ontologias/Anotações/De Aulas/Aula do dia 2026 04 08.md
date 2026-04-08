@@ -54,7 +54,7 @@ mindmap
 		(Nova iniciativa usar LLMs para criar queries)
 			(Muito bom)
 				(mas pode dar erro em um caso específico)
-					(não lembro qual)
+					(não lembro qual kkkk)
 				(Daí tem que usar views)
 
 ```
