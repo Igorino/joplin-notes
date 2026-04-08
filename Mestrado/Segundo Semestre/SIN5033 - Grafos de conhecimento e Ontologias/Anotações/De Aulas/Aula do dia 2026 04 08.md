@@ -31,7 +31,7 @@ mindmap
 						(Ex: Busca por palavra chave, por nó)
 					(*"usuário explora iterativamente"*) 
 						(*"Interface amigável e refinamento progressivo"*)
-					("Query by example")
+					(*"Query by example"*)
 					Exs de GUIs:
 						[Broccoli]
 						[VisiNav]
