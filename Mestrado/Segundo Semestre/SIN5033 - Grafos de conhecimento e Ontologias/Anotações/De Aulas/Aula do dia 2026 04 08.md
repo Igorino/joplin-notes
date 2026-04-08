@@ -17,11 +17,12 @@ mindmap
 			*Arestas* são **relacionais**]
 
 		(🔑 Padrões de grafos:
-		 Básicos
-		- Complexos
-		- Navegacionais)
+		*- Básicos*
+		*- Complexos*
+		*- Navegacionais*)
 			
-			-Navigacionais
+			Navigacionais
+				[XML]
 				[Tipo o "X-path" do XML]
 				["Expressões de caminho"]
 				[Pode ter caminhos inversos]
