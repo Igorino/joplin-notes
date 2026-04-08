@@ -1,5 +1,8 @@
 ```mermaid
 mindmap
 	Grafos
-		ETLC
+		Pirâmide
+			Operacional -> Tático -> Est
+		ETL
+		
 ```
