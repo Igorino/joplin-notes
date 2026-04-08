@@ -29,6 +29,11 @@ mindmap
 				(Precisamos de uma interface de consulta)
 					Navegação facetada
 						(Ex: Busca por palavra chave, por nó)
+					Exs de GUIs:
+						Broccoli
+						VisiNav
+						SemFacet
+						GraFa
 
 
 			
