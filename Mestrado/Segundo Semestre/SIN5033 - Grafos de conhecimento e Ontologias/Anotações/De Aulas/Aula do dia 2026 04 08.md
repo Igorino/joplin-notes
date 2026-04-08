@@ -37,24 +37,24 @@ Root(Grafos)
 🤔 Frequentemente usado por não-especialistas
 
 ```mermaid
-mindmap	
-root(Precisamos de uma interface de consulta)
-	(Navegação facetada)
-		(Ex Busca por palavra chave, por nó)
-	(usuário explora iterativamente) 
-		(Interface amigável e refinamento progressivo)
-	(Query by example)
-	(Exs de GUIs)
-		[Broccoli]
-		[VisiNav]
-		[SemFacet]
-		[GraFa]
-	(Query answering systems)
-		(Usa linguagem natural para fazer pesquisas)
-	(Nova iniciativa usar LLMs para criar queries)
-		(Muito bom)
-			(mas pode dar erro em um caso específico)
-				(não lembro qual)
-			(Daí tem que usar views)
+mindmap
+	root(Precisamos de uma interface de consulta)
+		(Navegação facetada)
+			(Ex Busca por palavra chave, por nó)
+		(usuário explora iterativamente) 
+			(Interface amigável e refinamento progressivo)
+		(Query by example)
+		(Exs de GUIs)
+			[Broccoli]
+			[VisiNav]
+			[SemFacet]
+			[GraFa]
+		(Query answering systems)
+			(Usa linguagem natural para fazer pesquisas)
+		(Nova iniciativa usar LLMs para criar queries)
+			(Muito bom)
+				(mas pode dar erro em um caso específico)
+					(não lembro qual)
+				(Daí tem que usar views)
 
 ```
