@@ -78,8 +78,10 @@ root(Big Data)
 		))Nova tendência: NoSQL((
 			NoSQL: não usa SGBDs relacionais tradicionais
 			Outras techs relac. à armaz.\process. de dados em cluster:
-				Hadoop *um pouco defazado no momento*, spark, etc.		
+				(Hadoop *-um pouco defazado no momento-*, spark, etc.)
 		
 			
 	
 ```
+
+Precisamos de profissionais que lidam com grande volume de dados.
