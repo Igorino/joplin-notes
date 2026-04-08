@@ -4,6 +4,9 @@ mindmap
 		Pirâmide
 			Operacional -> Tático -> Est
 		ETL
-		DataLake
-			A(Dados não estruturados)
+		Tipos de bancos de dados:		
+			DataLake
+				A(Dados não estruturados)
+			Data Warehouse
+				Dados estruturados
 ```
