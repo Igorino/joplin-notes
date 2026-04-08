@@ -93,10 +93,9 @@ Analisar dados sempre existiu, mas agora temos demandas para especialistas (como
 **Hadoop** é baseado em MapReduce. Apesar ser muito bom para simplificar, nem tudo pode ser solucionado com essa abordagem. *Map Reduce: Mapeia e reduz, agregando resultados.*
 
 ## Cientista de dados x Engenheiro de dados
-- Cientista:
-	- Descoberta de conhecimento usando a análise de dados.
+- **Cientista de dados**:
+	- Descobre de conhecimento usando a análise de dados.
 	- Utilizam técnicas matemáticas e algoritmos para solucionar problemas de negócio.
-	- Usado em 
-- Engenheiro:
+- **Engenheiro**:
 	- Processar e tratar dados pra serem usados em aplicações de Big Data;
 	- Utilizam
