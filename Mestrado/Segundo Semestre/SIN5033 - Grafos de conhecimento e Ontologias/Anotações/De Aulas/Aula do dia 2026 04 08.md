@@ -126,7 +126,7 @@ Cloud pode ser:
 - Multitenant.
 
 # Big Data: Por que o interesse agora?
-Fontes de dados diversidida
+Fontes de dados diversificados 
 
 
 
