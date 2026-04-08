@@ -24,7 +24,10 @@ mindmap
 				["Expressões de caminho"]
 				[Pode ter caminhos inversos]
 
-		
+		(Grafos de conhecimento)
+			[Frequentemente usado por não-especialistas]
+				(Precisamos de uma interface de consulta)
+				
 
 
 			
