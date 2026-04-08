@@ -100,7 +100,10 @@ Analisar dados sempre existiu, mas agora temos demandas para especialistas (como
 	- Trabalha para processar e tratar dados pra serem usados em aplicações de Big Data.
 	- Utilizam conhecimento de ciência da computação p/ criar sistemas e resolver problemas de processamento de dados em **tempo real** e manipular quantidades imensas de dados.
 
-
+**Três "Vês"**
+- Volume (Tamanho)
+- Velocity (Tempo real, )
+- Variety
  
 .
 .
