@@ -16,7 +16,7 @@ mindmap
 			[*Rótulos* são **descritivos**
 			*Arestas* são **relacionais**]
 
-		Padrões de grafos
+		🔑 Padrões de grafos
 			Básicos
 			Complexos
 			Navigacionais
@@ -24,7 +24,6 @@ mindmap
 				["Expressões de caminho"]
 				[Pode ter caminhos inversos]
 				[Exemplo]
-				::icon(fa fa-book)
 
 
 			
