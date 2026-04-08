@@ -76,7 +76,9 @@ root(Big Data)
 		etc.
 	Nem toda gestão/análise de dados tradicional é boa
 		))Nova tendência: NoSQL((
-			NoSQL: não usa 
+			NoSQL: não usa SGBDs relacionais tradicionais
+			Outras techs relac. à armaz. de dados em cluster:
+				
 		
 			
 	
