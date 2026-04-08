@@ -91,3 +91,8 @@ Precisamos de profissionais que lidam com grande volume de dados.
 Analisar dados sempre existiu, mas agora temos demandas para especialistas (como engenheiro de dados, analista de dados, engenheiro de ML, etc.)
 
 **Hadoop** é baseado em MapReduce. Apesar ser muito bom para simplificar, nem tudo pode ser solucionado com essa abordagem. *Map Reduce: Mapeia e reduz, agregando resultados.*
+
+## Cientista de dados x Engenheiro de dados
+- Cientista:
+	- Descoberta de conhecimento usando a análise de dados.
+3
