@@ -12,11 +12,15 @@ mindmap
 				[Dados estruturados]
 
 		Rótulos vs Aresta
-			)Quando usar um e usar outro?(
+			*Quando usar um e usar outro?*
 			[*Rótulos* são **descritivos**
 			*Arestas* são **relacionais**]
 
-		Padrões de grafos complexos
+		Padrões de grafos
+			Básicos
+			Complexos
+			Navigacionais
+				(Tipo o "X-path" do XML)
 
 
 			
