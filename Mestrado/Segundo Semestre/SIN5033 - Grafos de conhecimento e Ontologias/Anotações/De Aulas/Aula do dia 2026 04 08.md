@@ -125,7 +125,8 @@ Cloud pode ser:
 - Single Tenant; ou
 - Multitenant.
 
-
+# Big Data: Por que o interesse agora?
+Fontes de dados diversidida
 
 
 
