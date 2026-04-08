@@ -13,8 +13,8 @@ mindmap
 
 		Rótulos vs Aresta
 			)Quando usar um e usar outro?(
-			[*Rótulos* são **descritivos**, 
-			*Arestas* são **relacionais**.]
+			[*Rótulos* são **descritivos**
+			*Arestas* são **relacionais**	]
 
 		
 
