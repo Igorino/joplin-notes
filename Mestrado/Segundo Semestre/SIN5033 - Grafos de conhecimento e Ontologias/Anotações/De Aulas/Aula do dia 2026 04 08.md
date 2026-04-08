@@ -98,4 +98,4 @@ Analisar dados sempre existiu, mas agora temos demandas para especialistas (como
 	- Utilizam técnicas matemáticas e algoritmos para solucionar problemas de negócio.
 - **Engenheiro**:
 	- Trabalha para processar e tratar dados pra serem usados em aplicações de Big Data;
-	- Utilizam conhecimento de CompSci p
+	- Utilizam conhecimento de CompSci p/ criar sistemas e resolver problemas de processamento de dados em **tempo real** e manipular quant. imensas de dados.
