@@ -25,8 +25,8 @@ mindmap
 				[Pode ter caminhos inversos]
 
 		(Grafos de conhecimento)
-			[Frequentemente usado por não-especialistas]
-				(Precisamos de uma interface de consulta)
+			[🤔 Frequentemente usado por não-especialistas]
+				(💡 Precisamos de uma interface de consulta)
 					Navegação facetada
 						(Ex: Busca por palavra chave, por nó)
 					(*"usuário explora iterativamente"*) 
