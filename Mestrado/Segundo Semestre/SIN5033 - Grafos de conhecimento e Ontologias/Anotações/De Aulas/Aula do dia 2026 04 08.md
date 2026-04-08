@@ -129,11 +129,13 @@ Cloud pode ser:
 Fontes de dados diversificados 
 
 
-ATOMIC:
-Atomica
-
-Isolamento: 
-
+ACID:
+- Atômica: Ou faz tudo, ou não faz nada.
+O
+Isolamento: Controle de concorrência.
+M
+I
+C
 
 
 
