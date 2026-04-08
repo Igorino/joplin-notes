@@ -43,7 +43,8 @@ mindmap
 						Usa *linguagem natural* para fazer pesquisas
 
 					Nova iniciativa: usar LLMs para criar querys
-						(Muito bom, mas pode dar erro em um caso específico *mas não lembro qual*) 
+						(Muito bom, mas pode dar erro em um caso específico *mas não lembro qual*)
+							Daí tem que usar *views*
 
 			
 ```
