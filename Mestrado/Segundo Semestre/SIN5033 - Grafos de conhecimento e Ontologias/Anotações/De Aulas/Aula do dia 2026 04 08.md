@@ -131,14 +131,11 @@ Fontes de dados diversificados
 
 ACID:
 - Atômica: Ou faz tudo, ou não faz nada.
-O
-Isolamento: Controle de concorrência.
-M
-I
-C
+- Consistência:
+- Isolamento: Controle de concorrência.
+- Durabilidade:
 
-
-
+Teorema CAP
 
 
 
