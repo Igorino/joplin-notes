@@ -139,14 +139,14 @@ Não precisam de um schema fixo, não usam junções, e relaxam uma ou mais das 
 
 **ACID:**
 - Atômica: Ou faz tudo, ou não faz nada.
-- Consistência:
-- Isolamento: Controle de concorrência.
+- Consistência: Uma transação tem que não pode mudar outras coisas no BD.
+- Isolamento: Controle de concorrência, duas transações não podem inter
 - Durabilidade:
 
 Teorema CAP:
-- C
-- A
-- P
+- Conssitência
+- Alta disponibilidade
+- Partição
 
 
 
