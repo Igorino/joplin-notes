@@ -75,6 +75,8 @@ root(Big Data)
 		Spark
 		etc.
 	Nem toda gestão/análise de dados tradicional é boa
-		Nova tendência
+		))Nova tendência: NoSQL((
+		
+			
 	
 ```
