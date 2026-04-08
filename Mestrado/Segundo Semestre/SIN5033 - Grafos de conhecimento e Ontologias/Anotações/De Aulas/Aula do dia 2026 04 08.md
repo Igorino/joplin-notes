@@ -41,9 +41,9 @@ mindmap
 	root(Precisamos de uma interface de consulta)
 		Navegação facetada
 			(Ex: Busca por palavra chave, por nó)
-		(*"usuário explora iterativamente"*) 
-			(*"Interface amigável e refinamento progressivo"*)
-		(*"Query by example"*)
+		(usuário explora iterativamente) 
+			(Interface amigável e refinamento progressivo)
+		(Query by example)
 		Exs de GUIs
 			[Broccoli]
 			[VisiNav]
@@ -52,9 +52,10 @@ mindmap
 		(Query answering systems)
 			Usa *linguagem natural* para fazer pesquisas
 
-		Nova iniciativa: usar LLMs para criar querys
-			(Muito bom, 
-				(mas pode dar erro em um caso específico mas não lembro qual)
-				(Daí tem que usar *views*)
+		Nova iniciativa usar LLMs para criar queries
+			(Muito bom)
+				(mas pode dar erro em um caso específico)
+					(não lembro qual)
+				(Daí tem que usar views)
 
 ```
