@@ -27,8 +27,8 @@ mindmap
 		(Grafos de conhecimento)
 			[Frequentemente usado por não-especialistas]
 				(Precisamos de uma interface de consulta)
-				(Navegação facetada)
-					Ex: Busca por palavra chave, por nó, etc.
+					Navegação facetada
+						(Ex: Busca por palavra chave, por nó)
 
 
 			
