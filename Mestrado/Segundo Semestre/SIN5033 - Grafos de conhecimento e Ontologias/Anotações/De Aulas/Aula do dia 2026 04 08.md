@@ -76,6 +76,7 @@ root(Big Data)
 		etc.
 	Nem toda gestão/análise de dados tradicional é boa
 		))Nova tendência: NoSQL((
+			NoSQL: não usa 
 		
 			
 	
