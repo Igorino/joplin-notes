@@ -61,7 +61,7 @@ mindmap
 
 
 Parte 2:
-
+Tecnologia de Big Data
 ```mermaid
 
-``
+```
