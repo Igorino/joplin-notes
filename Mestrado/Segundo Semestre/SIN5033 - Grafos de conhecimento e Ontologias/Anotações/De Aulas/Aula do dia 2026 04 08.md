@@ -23,6 +23,7 @@ mindmap
 				[Tipo o "X-path" do XML]
 				["Expressões de caminho"]
 				[Pode ter caminhos inversos]
+				[Exemplo: ![43cbc5403cc9d539857822374be7be5c.png](43cbc5403cc9d539857822374be7be5c.png)]
 
 
 			
