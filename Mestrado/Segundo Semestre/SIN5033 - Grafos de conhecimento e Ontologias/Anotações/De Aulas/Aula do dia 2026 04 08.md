@@ -24,6 +24,8 @@ mindmap
 				["Expressões de caminho"]
 				[Pode ter caminhos inversos]
 
+		
+
 
 			
 ```
