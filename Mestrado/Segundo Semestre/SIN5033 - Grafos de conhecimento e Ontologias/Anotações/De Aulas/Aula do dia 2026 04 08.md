@@ -119,6 +119,14 @@ Tem recentemente sido utilizados para o gerenciamento de dados em Big Data.
 DaaS -> Data as a Service
 IaaS -> Infrastructure as a Service
 
+Cloud permite escalabilidade, elasticidade, funcionamento em *commodity* hardware.
+
+Cloud pode ser:
+- Single Tenant; ou
+- Multitenant.
+
+
+
 
 
 
