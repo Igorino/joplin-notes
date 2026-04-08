@@ -74,5 +74,7 @@ root(Big Data)
 		VoltDB
 		Spark
 		etc.
+	Nem toda gestão/análise de dados tradicional é boa
+		Nova tendência
 	
 ```
