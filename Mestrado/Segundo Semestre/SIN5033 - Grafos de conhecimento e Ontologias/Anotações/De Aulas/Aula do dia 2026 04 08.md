@@ -110,9 +110,17 @@ Analisar dados sempre existiu, mas agora temos demandas para especialistas (como
 ## Caracterização de Big Data
 Pode ser caracterizado por :
 - **Grande volume de dados**: Terabytes, Petabytes, etc.
-- **Tipos de dados variados**: Armazenamento de dados complexos
-- **Armazenamento em clusters**
-- **Poder de crescimento elástico horizontal**
+- **Tipos de dados variados**: Armazenamento de dados complexos.
+- **Armazenamento em clusters**: Clusters de processadores de baixo custo.
+- **Poder de crescimento elástico horizontal**: Alocação/desalocação de recursos sob demanda.
+
+
+
+
+
+
+
+
 .
 .
 .
