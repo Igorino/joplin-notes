@@ -42,5 +42,8 @@ mindmap
 					(Query answering systems)
 						Usa *linguagem natural* para fazer pesquisas
 
+					Nova iniciativa: usar LLMs para criar querys
+						Muito bom, mas as vezes pode dar errro
+
 			
 ```
