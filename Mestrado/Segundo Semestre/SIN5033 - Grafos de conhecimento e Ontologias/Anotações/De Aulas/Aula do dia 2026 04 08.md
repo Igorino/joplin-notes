@@ -128,13 +128,15 @@ Cloud pode ser:
 # Big Data: Por que o interesse agora?
 Fontes de dados diversificados 
 
+# Tecnologias NoSQL:
+"Not Only SQL"
+Não precisam de um schema fixo, não usam junções, e relaxam uma ou mais das propriedades ACID:
 
-ACID:
+**ACID:**
 - Atômica: Ou faz tudo, ou não faz nada.
 - Consistência:
 - Isolamento: Controle de concorrência.
 - Durabilidade:
-
 Teorema CAP
 
 
