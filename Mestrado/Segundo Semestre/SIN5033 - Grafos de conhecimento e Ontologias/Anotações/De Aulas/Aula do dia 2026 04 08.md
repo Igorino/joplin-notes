@@ -86,4 +86,4 @@ root(Big Data)
 
 Precisamos de profissionais que lidam com grande volume de dados.
 
-Analisar dados sempre existiu, mas agora temos demandas para especialistas (como 
+Analisar dados sempre existiu, mas agora temos demandas para especialistas (como engenheiro de dados, analista de dados, etc.)
