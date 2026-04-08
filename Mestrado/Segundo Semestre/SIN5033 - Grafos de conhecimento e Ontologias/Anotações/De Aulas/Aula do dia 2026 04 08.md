@@ -16,9 +16,11 @@ mindmap
 			[*Rótulos* são **descritivos**
 			*Arestas* são **relacionais**]
 
-		(🔑 Padrões de grafos)
-			-Básicos
-			-Complexos
+		(🔑 Padrões de grafos:
+		 Básicos
+		- Complexos
+		- Navegacionais)
+			
 			-Navigacionais
 				[Tipo o "X-path" do XML]
 				["Expressões de caminho"]
@@ -37,8 +39,8 @@ mindmap
 						[VisiNav]
 						[SemFacet]
 						[GraFa]
-				(Query answering systems)
-					Usa *linguagem natural* para fazer pesquisas
+					(Query answering systems)
+						Usa *linguagem natural* para fazer pesquisas
 
 			
 ```
