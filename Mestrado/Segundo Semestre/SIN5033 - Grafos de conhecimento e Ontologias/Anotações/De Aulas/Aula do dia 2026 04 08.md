@@ -1,3 +1,4 @@
+# Parte 1: Grafos
 ```mermaid
 mindmap
 Root(Grafos)
@@ -60,8 +61,9 @@ mindmap
 ```
 
 
-Parte 2:
-Tecnologia de Big Data
+# Parte 2: Tecnologia de Big Data
 ```mermaid
-
+mindmap
+root(Big Data)
+	Processamento de 
 ```
