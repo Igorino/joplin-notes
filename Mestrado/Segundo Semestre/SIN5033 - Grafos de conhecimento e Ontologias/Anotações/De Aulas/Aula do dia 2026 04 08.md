@@ -1,12 +1,12 @@
 ```mermaid
 mindmap
-	Grafos
+	Root(Grafos)
 		Pirâmide
 			Operacional -> Tático -> Est
 		ETL
 		Tipos de bancos de dados:		
-			DataLake
-				A(Dados não estruturados)
-			Data Warehouse
-				Dados estruturados
+			(DataLake)
+				[Dados não estruturados]
+			(Data Warehouse)
+				[Dados estruturados]
 ```
