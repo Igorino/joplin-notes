@@ -23,7 +23,6 @@ mindmap
 				[Tipo o "X-path" do XML]
 				["Expressões de caminho"]
 				[Pode ter caminhos inversos]
-				[Exemplo]
 
 
 			
