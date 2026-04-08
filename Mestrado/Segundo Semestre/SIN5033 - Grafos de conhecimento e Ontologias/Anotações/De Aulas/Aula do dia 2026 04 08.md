@@ -115,7 +115,9 @@ Pode ser caracterizado por :
 - **Poder de crescimento elástico horizontal**: Alocação/desalocação de recursos sob demanda.
 
 # Cloud Computing
-Tem recentemente
+Tem recentemente sido utilizados para o gerenciamento de dados em Big Data.
+DaaS -> Data as a Service
+IaaS -> Infrastructure as a Service
 
 
 
