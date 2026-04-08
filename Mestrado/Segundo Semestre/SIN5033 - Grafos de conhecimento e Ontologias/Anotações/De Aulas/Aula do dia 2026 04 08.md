@@ -14,9 +14,9 @@ mindmap
 		Rótulos vs Aresta
 			)Quando usar um e usar outro?(
 			[*Rótulos* são **descritivos**
-			*Arestas* são **relacionais**	]
+			*Arestas* são **relacionais**]
 
-		
+		Padrões de grafos complexos
 
 
 			
