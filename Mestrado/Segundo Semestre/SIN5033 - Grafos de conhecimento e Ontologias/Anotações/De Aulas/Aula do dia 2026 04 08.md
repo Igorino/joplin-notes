@@ -23,7 +23,7 @@ mindmap
 				[Tipo o "X-path" do XML]
 				["Expressões de caminho"]
 				[Pode ter caminhos inversos]
-				[Exemplo: <img src(:/fc97f287c5844ca789af45b8a49a10b8)>]
+				[Exemplo: <img src=':/fc97f287c5844ca789af45b8a49a10b8'>]
 
 
 			
