@@ -37,7 +37,8 @@ mindmap
 						[VisiNav]
 						[SemFacet]
 						[GraFa]
-
+				(Query answering systems)
+					Usa *linguagem natural* para fazer pesquisas
 
 			
 ```
