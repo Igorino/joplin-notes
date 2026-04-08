@@ -58,3 +58,10 @@ mindmap
 				(Daí tem que usar views)
 
 ```
+
+
+Parte 2:
+
+```mermaid
+
+``
