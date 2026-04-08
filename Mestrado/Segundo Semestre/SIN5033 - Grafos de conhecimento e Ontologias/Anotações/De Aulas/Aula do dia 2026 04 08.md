@@ -129,6 +129,12 @@ Cloud pode ser:
 Fontes de dados diversificados 
 
 
+ATOMIC:
+Atomica
+
+Isolamento: 
+
+
 
 
 
