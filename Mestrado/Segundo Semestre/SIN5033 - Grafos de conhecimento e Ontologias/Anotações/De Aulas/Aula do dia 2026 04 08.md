@@ -129,7 +129,9 @@ Cloud pode ser:
 Fontes de dados diversificados, de vários lugares, em grande peso. 
 Os dados são valiosos demais para serem deletados.
 Nos últimos tempos, houve uma redução drástica no custo do hardware, principalmente no de armazenamento.
-Também houve um crescimento de soluções 
+Também houve um crescimento de soluções de Cloud.
+
+Gerenciamento de dados foi **Democratizado**.
 
 # Tecnologias NoSQL:
 "Not Only SQL"
@@ -140,7 +142,11 @@ Não precisam de um schema fixo, não usam junções, e relaxam uma ou mais das 
 - Consistência:
 - Isolamento: Controle de concorrência.
 - Durabilidade:
-Teorema CAP
+
+Teorema CAP:
+- C
+- A
+- P
 
 
 
