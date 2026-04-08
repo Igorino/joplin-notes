@@ -26,8 +26,17 @@ mindmap
 				["Expressões de caminho"]
 				[Pode ter caminhos inversos]
 
-		(Grafos de conhecimento)
-			[🤔 Frequentemente usado por não-especialistas]
+		
+
+			
+```
+
+(Grafos de conhecimento)
+			[🤔 Frequentemente usado por não-especialistas
+
+```mermaid
+mindmap
+	
 				(💡 Precisamos de uma interface de consulta)
 					Navegação facetada
 						(Ex: Busca por palavra chave, por nó)
@@ -46,5 +55,4 @@ mindmap
 						(Muito bom, mas pode dar erro em um caso específico *mas não lembro qual*)
 							Daí tem que usar *views*
 
-			
 ```
