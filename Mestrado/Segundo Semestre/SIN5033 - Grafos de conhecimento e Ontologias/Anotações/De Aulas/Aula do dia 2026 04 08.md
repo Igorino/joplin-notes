@@ -100,12 +100,14 @@ Analisar dados sempre existiu, mas agora temos demandas para especialistas (como
 	- Trabalha para processar e tratar dados pra serem usados em aplicações de Big Data.
 	- Utilizam conhecimento de ciência da computação p/ criar sistemas e resolver problemas de processamento de dados em **tempo real** e manipular quantidades imensas de dados.
 
-**Cinco "Vês" do Big Data**
-- Volume (Tamanho)
-- Velocidade (Tempo real)
-- Variedade (Diversidade de fontes)
+## **Cinco "Vês" do Big Data**
+- Volume 
+- Velocidade
+- Variedade
 - Veracidade
 - Valor
+
+## Caracterização de Big Data
 
 .
 .
