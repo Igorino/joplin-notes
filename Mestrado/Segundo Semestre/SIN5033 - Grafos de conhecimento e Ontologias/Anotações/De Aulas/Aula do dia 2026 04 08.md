@@ -38,13 +38,13 @@ mindmap
 
 ```mermaid
 mindmap	
-	Root(💡 Precisamos de uma interface de consulta)
+	root(Precisamos de uma interface de consulta)
 		Navegação facetada
 			(Ex: Busca por palavra chave, por nó)
 		(*"usuário explora iterativamente"*) 
 			(*"Interface amigável e refinamento progressivo"*)
 		(*"Query by example"*)
-		Exs de GUIs:
+		Exs de GUIs
 			[Broccoli]
 			[VisiNav]
 			[SemFacet]
@@ -53,7 +53,8 @@ mindmap
 			Usa *linguagem natural* para fazer pesquisas
 
 		Nova iniciativa: usar LLMs para criar querys
-			(Muito bom, mas pode dar erro em um caso específico *mas não lembro qual*)
+			(Muito bom, 
+				(mas pode dar erro em um caso específico mas não lembro qual)
 				(Daí tem que usar *views*)
 
 ```
