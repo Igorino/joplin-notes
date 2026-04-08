@@ -20,7 +20,8 @@ mindmap
 			Básicos
 			Complexos
 			Navigacionais
-				(Tipo o "X-path" do XML)
+				[Tipo o "X-path" do XML]
+				[Expressões de caminho]
 
 
 			
