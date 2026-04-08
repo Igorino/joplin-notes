@@ -135,7 +135,7 @@ Gerenciamento de dados foi **Democratizado**.
 
 # Tecnologias NoSQL:
 "Not Only SQL"
-No NoSQL, o importante é a velocidade, não a consistência.
+*No NoSQL, o importante é a velocidade, não a consistência.*
 Não precisam de um schema fixo, não usam junções, e relaxam uma ou mais das propriedades ACID de BDs:
 
 **ACID:**
@@ -151,6 +151,10 @@ Teorema **CAP**:
 
 Leituras consistentes (?)
 
+# Escalabilidade
+Tipos:
+- *Vertical*:
+- *Horizontal*:
 .
 .
 .
