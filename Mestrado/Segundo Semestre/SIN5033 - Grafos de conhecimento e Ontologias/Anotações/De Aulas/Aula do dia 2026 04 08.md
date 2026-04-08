@@ -153,8 +153,8 @@ Leituras consistentes (?)
 
 # Escalabilidade
 Tipos:
-- *Vertical*:
-- *Horizontal*:
+- *Vertical*: aumentar **armazenamento e memória**.
+- *Horizontal*: aumentar **hardware**.
 .
 .
 .
