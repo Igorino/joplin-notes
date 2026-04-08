@@ -135,18 +135,18 @@ Gerenciamento de dados foi **Democratizado**.
 
 # Tecnologias NoSQL:
 "Not Only SQL"
-Não precisam de um schema fixo, não usam junções, e relaxam uma ou mais das propriedades ACID:
+Não precisam de um schema fixo, não usam junções, e relaxam uma ou mais das propriedades ACID de BDs:
 
 **ACID:**
 - *Atômica*: Ou faz tudo, ou não faz nada.
 - *Consistência*: Uma transação tem que não pode mudar outras coisas no BD.
-- Isolamento: Controle de concorrência, duas transações não podem interferir uma a outra.
-- Durabilidade: Mudanças por transações efetivadas devem persistir sem importar falhas.
+- *Isolamento*: Controle de concorrência, duas transações não podem interferir uma a outra.
+- *Durabilidade*: Mudanças por transações efetivadas devem persistir sem importar falhas.
 
-Teorema CAP:
-- Conssitência
-- Alta disponibilidade
-- Partição
+Teorema **CAP**:
+- *Consistência*:
+- *Alta disponibilidade*:
+- *Partição*:
 
 
 
