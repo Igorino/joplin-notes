@@ -11,5 +11,7 @@ mindmap
 			(Data Warehouse)
 				[Dados estruturados]
 
-		
+		Rótulos vs Aresta
+			)Quando usar um e usar outro?(
+			Rótulos são descritivos, arestas são 
 ```
