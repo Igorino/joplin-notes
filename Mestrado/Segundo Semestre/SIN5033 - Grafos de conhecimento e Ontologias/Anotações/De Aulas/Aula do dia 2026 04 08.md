@@ -84,9 +84,10 @@ root(Big Data)
 	
 ```
 
+NoSQL não significa que é SQL, só que não é relacional.
+
 Precisamos de profissionais que lidam com grande volume de dados.
 
-Analisar dados sempre existiu, mas agora temos demandas para especialistas (como engenheiro de dados, analista de dados, etc.)
+Analisar dados sempre existiu, mas agora temos demandas para especialistas (como engenheiro de dados, analista de dados, engenheiro de ML, etc.)
 
-Hadoop é baseado em MapReduce. Apesar ser muito bom para simplificar, nem tudo pode ser solucionado com essa abordagem.
-*Map Reduce: Mapeia e reduz, agregando resultados.*
+**Hadoop** é baseado em MapReduce. Apesar ser muito bom para simplificar, nem tudo pode ser solucionado com essa abordagem. *Map Reduce: Mapeia e reduz, agregando resultados.*
