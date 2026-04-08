@@ -94,8 +94,8 @@ Analisar dados sempre existiu, mas agora temos demandas para especialistas (como
 
 ## Cientista de dados x Engenheiro de dados
 - **Cientista de dados**:
-	- Trabalha com a descoberta de conhecimento usando a análise de dados.
+	- Trabalha com a **descoberta de conhecimento** usando a análise de dados.
 	- Utilizam técnicas matemáticas e algoritmos para solucionar problemas de negócio.
 - **Engenheiro**:
-	- Trabalha para processar e tratar dados pra serem usados em aplicações de Big Data;
-	- Utilizam conhecimento de CompSci p/ criar sistemas e resolver problemas de processamento de dados em **tempo real** e manipular quant. imensas de dados.
+	- Trabalha para processar e tratar dados pra serem usados em aplicações de Big Data.
+	- Utilizam conhecimento de ciência da computação p/ criar sistemas e resolver problemas de processamento de dados em **tempo real** e manipular quantidades imensas de dados.
