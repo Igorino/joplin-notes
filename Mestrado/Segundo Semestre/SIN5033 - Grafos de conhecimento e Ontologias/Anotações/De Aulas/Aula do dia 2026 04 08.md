@@ -66,8 +66,13 @@ mindmap
 mindmap
 root(Big Data)
 	Manipulação e processamento de grande quantidade de dados
+		Mineração de dados
 	Dados massivos
-	Conjunto de ferramentas orientadas à Big Data
+	[Conjunto de ferramentas orientadas à Big Data]
 		Hadoop
-		
+		MongoDB
+		VoltDB
+		Spark
+		etc.
+	
 ```
