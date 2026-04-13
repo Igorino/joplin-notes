@@ -195,9 +195,17 @@ Verificação automática para ver se a ontologia (classes + axiomas + instânci
 Uma inconsistência ocorre quando axiomas combinados produzem uma **contradição lógica**. Um indivíduo forçado a pertencer a classes disjuntas, ou a violar uma restrição de cardinalidade.
 
 Por exemplo:
+
+#### Cenário 1:
 ```owl
 :Homem owl:disjointWith :Mulher
 :Pedro rdf:type :Homem .
 :Pedro rdf:type :Mulher ❌️ 
 
 // Inconsistência: Não é possível ser :Homem e :Mulher ao mesmo tempo
+```
+
+#### Cenário 2:
+```owl
+:EstudanteDesempregado owl:equivalentClass [
+	owl.intersectionOf (:Estudante :Empre
