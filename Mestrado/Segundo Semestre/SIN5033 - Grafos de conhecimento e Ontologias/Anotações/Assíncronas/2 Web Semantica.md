@@ -30,3 +30,7 @@ As principais tecnologias que auxiliaram essa mudança de *web antiga* para *web
 
 ```mermaid
 flowchart LR
+XML --> RDF --> RDFS --> OWL
+```
+
+## XML: estrutura, não significado.
