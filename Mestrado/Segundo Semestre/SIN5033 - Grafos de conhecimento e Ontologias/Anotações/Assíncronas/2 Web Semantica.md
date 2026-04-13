@@ -157,4 +157,8 @@ Inferido  -> :Carlos :temPai   :Ana .
 ### 4. Equivalência de classes
 Declara que duas classes descrevem exatamente o mesmo conjunto de indivíduos, mesmo que venham de ontologias **diferentes**. Ela é fundamental para a integração de **dados heterogêneos**.
 
-Por exemplo: A ontologia da USP chama de `
+Por exemplo: A ontologia da USP chama de `:Docente` o que a ontologia do MEC chama de `:Professor`. Ao declarar essa equivalência, as instâncias de uma ficam disponíveis na outra **automaticamente**.
+
+```owl
+ont-usp:Docente
+```
