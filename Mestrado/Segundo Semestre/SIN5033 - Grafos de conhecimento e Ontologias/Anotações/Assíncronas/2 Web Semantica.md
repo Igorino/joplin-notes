@@ -162,5 +162,8 @@ Por exemplo: A ontologia da USP chama de `:Docente` o que a ontologia do MEC cha
 ```owl
 ont-usp:Docente owl:equivalentClass ont-mec:Professor .
 
-Declarado em ont-usp -> 
+Declarado em ont-usp -> :João rdf:type ont-usp:Docente .
+Inferido 			 -> :João rdf:type ont-mec:Professor .
+
+// Isso é diferente de rdfs:subClassOf (unidirecional), 
 ```
