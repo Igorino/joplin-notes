@@ -232,10 +232,13 @@ Disjunção e consistência são os dois lados de uma mesma moeda: você usa `ow
 ---
 
 # Ontologias
+As Ontologias são a espinha dorsal da Web Semântica.
+
 > "Especificação *formal* e *explícita* de uma *conceitualização* *compartilhada*." - Gruber, 1993
 
-As Ontologias são a espinha dorsal da Web Semântica. Por ela que tudo se junta em uma coisa só. 
 
 | Conceitualização | Formal | Explícita | Compartilhada |
 | :---: | :---: | :---: | :---: |
 | Modelo dos **conceitos** mais relevantes do **domínio do mundo real**. | **Legível por máquinas**. A linguagem natural é **excluída** do formalismo | Tipos, relações e restrições tem que ser definidos de forma clara e não-ambígua | Conhecimento **consensual**, aceito por um grupo de pessoas/domínio |
+
+Por exemplo, os componentes de uma ontologia de Universidade:
