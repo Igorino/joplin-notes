@@ -220,5 +220,7 @@ Por exemplo:
 
 Relacionadores OWL (HermiT, Pellet) verificam consistência automaticamente e apontam qual axioma gerou a contradição, facilitando a depuração.
 
+Disjunção e consistência são os dois lados de uma mesma moeda: você usa `owl:disjointWith` 
+
 ---
 
