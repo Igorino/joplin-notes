@@ -77,5 +77,7 @@ O **RDF** é uma linguagem básica da *Web Semântica*. Ela faz afirmações sob
 Exemplo:
 
 ```RDF
-<#c
+<#CompanyA rdf:type #Physiotherapy>
+<#Lisa rdf:type #Therapist>
+<#Lisa worksFor #CompanyA>
 ```
