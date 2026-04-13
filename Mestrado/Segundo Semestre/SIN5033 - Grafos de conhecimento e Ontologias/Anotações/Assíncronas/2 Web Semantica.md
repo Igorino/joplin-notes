@@ -204,7 +204,7 @@ As Ontologias são a espinha dorsal da Web Semântica. Por ela que tudo se junta
 
 | Conceitualização | Formal | Explícita | Compartilhada |
 | :---: | :---: | :---: | :---: |
-| Modelo dos conceitos mais relevantes do domínio do mundo real. | Legível por máquinas. A linguagem natural é excluída do formalismo | 
+| Modelo dos conceitos mais relevantes do **domínio do mundo real**. | **Legível por máquinas**. A linguagem natural é excluída do formalismo | Tipos, relações e restrições tem que ser definidos de forma clara e não-ambígua | Conhecimento **consensual**, aceito por um grupo de pessoas/domínio |
 
 
 ### 6. Consistência:
