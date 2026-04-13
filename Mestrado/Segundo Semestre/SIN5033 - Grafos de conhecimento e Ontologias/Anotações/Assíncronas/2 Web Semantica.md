@@ -114,5 +114,8 @@ Por exemplo, não seria possível um `animal` ser `carnívoro` e `herbívoro`, o
 :Homem owl:disjointWith :Mulher
 
 :Ana rdf:type :Mulher
-:Ana rdf:type :
+:Ana rdf:type :Homem ❌️
 ```
+
+### 2. Cardinalidade:
+Restringe quantas vezes uma propriedade pode ser usada por indivíduos de uma classe.
