@@ -171,4 +171,6 @@ Inferido 			 -> :João rdf:type ont-mec:Professor .
 ```
 
 ### 5. Restrições locais de alcance
-RDFS só perim
+RDFS só permite alcance global de uma propriedade. O OWL permite restringir o alcance *localmente* para uma **classe específica**. Isso evita que restrições de um domínio "contaminem" toda a ontologia.
+
+Por exemplo: 
