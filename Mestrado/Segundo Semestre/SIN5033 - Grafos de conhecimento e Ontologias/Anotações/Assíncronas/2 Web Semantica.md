@@ -252,5 +252,6 @@ A lógica é importante porque dado um conhecimento explícito, racionadores aut
 
 Exemplo de inferência:
 $$
-
+\text{prof} (X) \implies \text{faculty} (X)
+\text{faculty} (X) \implies \text{staff} 
 $$
