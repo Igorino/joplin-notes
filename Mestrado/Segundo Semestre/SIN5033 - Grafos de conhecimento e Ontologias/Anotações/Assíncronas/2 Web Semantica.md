@@ -4,9 +4,28 @@ Os sites convencionais acabam usando o HTML para *aparência*, o CSS para *estil
 
 Exemplo de um HTML de um site de exemplo:
 
-`
+```HTML
+<h1>Agilitas Physiotherapy Centre</h1>
 
-Para uma máquina, a frase "Lisa Davenport é uma terapeuta" e "Kelly Townsend é uma secretária" são só strings, sequências de caracteres. Eles não conseguem (ou pelo menos não conseguiam) ler e descobrir o significado como nós. Um exemplo seria o do Jaguar da aula passada, onde um motor de buscas pode acabar retornando resultados misturados, entre o animal, o logotipo e o carro. 
+Welcome to the Agilitas Physiotherapy Centre home page.
+Do you feel pain? Have you had an injury? Let our staff
+Lisa Davenport, Kelly Townsend (our lovely secretary)
+and Steve Matthews take care of your body and soul.
+
+<h2>Consultation hours</h2>
+Mon 11am - 7pm<br>
+Tue 11am - 7pm<br>
+Wed 3pm - 7pm<br>
+Thu 11am - 7pm<br>
+Fri 11am - 3pm<p>
+But note that we do not offer consultation
+during the weeks of the
+<a href=¨ . . .¨>State of Origin</a> games.
+```
+
+Para uma máquina, seria difícil diferenciar as pessoas no exemplo acima. A frase "Lisa Davenport é uma terapeuta" e "Kelly Townsend é uma secretária" são só strings, sequências de caracteres. Eles não conseguem (ou pelo menos não conseguiam) ler e descobrir o significado como nós. 
+
+Um exemplo seria o do Jaguar da aula passada, onde um motor de buscas pode acabar retornando resultados misturados, entre o animal, o logotipo e o carro. 
 
 Sem **contexto semântico**, o computador não consegue distinguir os significados do mesmo termo (também chamados de **homônimos**).
 
