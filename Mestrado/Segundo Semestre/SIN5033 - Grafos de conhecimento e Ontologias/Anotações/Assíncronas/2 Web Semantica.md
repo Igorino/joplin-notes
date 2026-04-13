@@ -155,3 +155,6 @@ Inferido  -> :Carlos :temPai   :Ana .
 ```
 
 ### 4. Equivalência de classes
+Declara que duas classes descrevem exatamente o mesmo conjunto de indivíduos, mesmo que venham de ontologias **diferentes**. Ela é fundamental para a integração de **dados heterogêneos**.
+
+Por exemplo: A ontologia da USP chama de `
