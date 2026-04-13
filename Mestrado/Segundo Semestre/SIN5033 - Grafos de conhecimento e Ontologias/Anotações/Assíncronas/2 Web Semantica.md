@@ -258,3 +258,5 @@ $\text{prof}(\text{Michael}) \quad \text{[fato]}$
 $\therefore \text{faculty}(\text{Michael}) 
 \quad \text{[deduzido]}$
 $\therefore \text{staff}(\text{Michael}) \quad \text{[deduzido]}$
+
+Uma aplicação prática seria: $\text{loyalCustomer}(X) \implies \text{discount} (x, 5%$
