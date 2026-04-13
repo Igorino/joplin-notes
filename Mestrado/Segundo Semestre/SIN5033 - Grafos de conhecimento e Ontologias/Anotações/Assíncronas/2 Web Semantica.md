@@ -69,4 +69,6 @@ Por exemplo:
 </staff>
 ```
 
-Percebe-se que essa estrutura já deixa claro que *Lisa Davenport* e *Kelly Townsend* são ambas parte de *staff*, ou seja, da classe de funcionários. Também deixa explícito que são de duas funções diferentes. 
+Percebe-se que essa estrutura já deixa claro que *Lisa Davenport* e *Kelly Townsend* são ambas parte de *staff*, ou seja, da classe de funcionários. Também deixa explícito que são de duas funções diferentes. Isso já melhora bem para o entendimento de uma máquina quando comparado ao site de exemplo no início desse documento.
+
+## RDF: Triplas sujeito, predicado e objeto
