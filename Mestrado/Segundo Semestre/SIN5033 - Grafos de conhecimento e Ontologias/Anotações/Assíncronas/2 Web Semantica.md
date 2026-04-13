@@ -134,13 +134,17 @@ Exemplo:
 ```
 
 ### 3. Propriedades inversas:
-Se a propriedade $P$ relaciona $A \rarr B$, a propriedade inversa $Q$ automaticamente relaciona $B \rarr A$. Isso elimina a redundância e permite a inferência automática da relação oposta.
+Se a propriedade $P$ relaciona $A \rarr B$, a propriedade inversa $Q$ automaticamente relaciona $B \rarr A$. Isso elimina a redundância e permite a **inferência automática** da relação oposta.
 
 Por exemplo, Se *"Ana temFilho Carlos"* é verdade, então automaticamente *"Carlos temPai/Mãe Ana"* também é verdade, *sem precisar declarar explicitamente*.
 
 ```mermaid
 flowchart LR
 	Ana -- temFilho --> Carlos
-	Carlos -- temMãe
+	Carlos -- temMãe --> Ana
 ```
 
+```owl
+:temFilho owl:inverseOf :temPai
+
+Declarado: 
