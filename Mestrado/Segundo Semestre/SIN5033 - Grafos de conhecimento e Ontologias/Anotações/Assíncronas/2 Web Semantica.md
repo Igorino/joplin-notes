@@ -174,7 +174,7 @@ Inferido 			 -> :João rdf:type ont-mec:Professor .
 // Todo membro de A é membro de B, e vice-versa.
 ```
 
-As propriedades inversas e de equivalência de classes são duas ferramentas principais na integração de dados. As Inversas evitam duplicação de triplas numa ontologia, e a equivalência 
+As propriedades inversas e de equivalência de classes são duas ferramentas principais na integração de dados. As Inversas evitam duplicação de triplas numa ontologia, e a equivalência conecta ontologias de fontes diferentes.
 
 ### 5. Restrições locais de alcance
 RDFS só permite alcance global de uma propriedade. O OWL permite restringir o alcance *localmente* para uma **classe específica**. Isso evita que restrições de um domínio "contaminem" toda a ontologia.
@@ -194,6 +194,8 @@ owl:someValuesFrom :Humano // Existe ao menos 1 Humano
 // Todo piloto de VôoComercial deve ser PilotoComercial
 // A retrição é local, não afeta :VôoParticular
 ```
+
+As restrições locais de alcance corrigem uma limitação estrutural do RDFS: como `rdfs:range` é global, restringir o tipo do valor de uma propriedade numa classe acaba restringindo pra todo mundo, "contaminando" as outras que usam a mesma proprie
 
 ### 6. Consistência:
 Verificação automática para ver se a ontologia (classes + axiomas + instâncias) é logicamente coerente. Ou seja, se **não tem contradições** que o tornem uma classe "unsatisfiable" (impossível de ter membros).
