@@ -188,3 +188,6 @@ owl:someValuesFrom :Humano // Existe ao menos 1 Humano
 // Todo piloto de VôoComercial deve ser PilotoComercial
 // A retrição é local, não afeta :VôoParticular
 ```
+
+### 6. Consistência:
+Verificação automática para ver se a ontologia (classes + axiomas + instâncias) é logicamente coerente. Ou seja, se **não tem contradições** que o tornem uma classe "unsatisfiable"
