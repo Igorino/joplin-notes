@@ -157,6 +157,7 @@ Inferido  -> :Carlos :temPai   :Ana .
 // sem nenhuma declaração extra.
 ```
 
+
 ### 4. Equivalência de classes
 Declara que duas classes descrevem exatamente o mesmo conjunto de indivíduos, mesmo que venham de ontologias **diferentes**. Ela é fundamental para a integração de **dados heterogêneos**.
 
@@ -172,6 +173,8 @@ Inferido 			 -> :João rdf:type ont-mec:Professor .
 // Essa é bidirecional: 
 // Todo membro de A é membro de B, e vice-versa.
 ```
+
+As propriedades inversas e de equivalência de classes são duas ferramentas principais na integração de dados. As Inversas evitam duplicação de triplas numa ontologia, e a equivalência 
 
 ### 5. Restrições locais de alcance
 RDFS só permite alcance global de uma propriedade. O OWL permite restringir o alcance *localmente* para uma **classe específica**. Isso evita que restrições de um domínio "contaminem" toda a ontologia.
