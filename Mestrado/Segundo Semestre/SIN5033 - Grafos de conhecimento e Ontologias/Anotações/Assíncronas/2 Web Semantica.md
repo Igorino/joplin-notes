@@ -145,6 +145,10 @@ flowchart LR
 ```
 
 ```owl
-:temFilho owl:inverseOf :temPai
+:temFilho owl:inverseOf :temPai .
 
-Declarado: 
+Declarado -> :Ana    :temFilho :Carlos .
+Inferido  -> :Carlos :temPai   :Ana .
+
+// O racionador infere a tripla inversa automaticamente
+// Sem 
