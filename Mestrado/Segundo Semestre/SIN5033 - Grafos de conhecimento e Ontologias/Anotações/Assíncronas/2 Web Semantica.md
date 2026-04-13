@@ -259,4 +259,8 @@ $\therefore \text{faculty}(\text{Michael})
 \quad \text{[deduzido]}$
 $\therefore \text{staff}(\text{Michael}) \quad \text{[deduzido]}$
 
-Uma aplicação prática seria: $\text{loyalCustomer}(X) \implies \text{discount} (x, 5%$
+Uma aplicação prática seria: $\text{loyalCustomer}(X) \implies \text{discount} (x, 5%)$. Os agentes podem tomar decisões automaticamente.
+
+![b002f039ca5838c1d6ca75451df246d9.png](b002f039ca5838c1d6ca75451df246d9.png)
+
+# A
