@@ -26,4 +26,7 @@ Basicamente, é uma camada que adicionamos sobre a web antiga, de forma a facili
 | Conteúdo para **humanos**; máquinas enxergam *estrutura* (HTML), mas não o *significado*. | Conteúdo anotado com **metadados**; máquinas entendem o *significado* dos dados. |
 
 # Tecnologias-chave
-As principais tecnologias que auxiliaram essa mudança de web antiga para
+As principais tecnologias que auxiliaram essa mudança de *web antiga* para *web semântica*, foram: XML, RDF, RDFS, e OWL, nessa ordem de complexidade e implementação.
+
+```mermaid
+flowchart LR
