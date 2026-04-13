@@ -179,4 +179,10 @@ Por exemplo: Se `temNome rdfs:range xsd:string`, isso vale pra *todos* que usam 
 owl:allValuesFrom :Humano  // Todo valor é Humano
 owl:someValuesFrom :Humano // Existe ao menos 1 Humano
 
-:VooCo
+:VôoComercial rdfs:subClassOf [
+	rdf:type owl:Restriction ;
+	owl:onProperty :temPiloto ;
+	owl:allValuesFrom :PilotoComercial 
+] .
+
+// Todo piloto de VôoCom
