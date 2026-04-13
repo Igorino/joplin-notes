@@ -77,9 +77,9 @@ O **RDF** (**R**esource **D**escription **F**ramework)  é uma linguagem básica
 Exemplo:
 
 ```RDF
-<#CompanyA rdf:type #Physiotherapy>
-<#Lisa rdf:type #Therapist>
-<#Lisa worksFor #CompanyA>
+CompanyA rdf:type Physiotherapy
+Lisa rdf:type Therapist
+Lisa worksFor CompanyA
 ```
 
 ## RDFS: Vocabulário e hierarquia de tipos
@@ -88,5 +88,8 @@ O **RDFS** ou **RDF Schema** é uma construção em cima do RDF, criada para adi
 Exemplo:
 
 ```RDFS
-<#Student, 
+<#Student, rdfs:subClassOf, #Person>
+<#hasName, rdfs:domain, #Person>
+<#hasName, rdfs:range, xsd:string>
 ```
+
