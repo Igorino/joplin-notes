@@ -251,11 +251,9 @@ Por exemplo, os componentes de uma ontologia de Universidade:
 A lógica é importante porque dado um conhecimento explícito, racionadores automatizados conseguem deduzir o conhecimento *implícito*. Há um trade-off entre expressividade e a eficiência computacional durante a leitura/escrita.
 
 Exemplo de inferência:
-$$
-\text{prof}(X) \implies \text{faculty}(X)
-\text{faculty}(X) \implies \text{staff}(X)
-\text{prof}(\text{Michael}) \text{[fato]}
+$\text{prof}(X) \implies \text{faculty}(X)$
+$\text{faculty}(X) \implies \text{staff}(X)$
+$\text{prof}(\text{Michael}) \quadd \text{[fato]}$
 
-\qed \text{faculty}(\text{Michael}) \text{[deduzido]}
-\qed \text{staff}(\text{Michael}) \text{[deduzido]}
-$$
+$\therefore \text{faculty}(\text{Michael}) \text{[deduzido]}$
+$\therefore \text{staff}(\text{Michael}) \text{[deduzido]}$
