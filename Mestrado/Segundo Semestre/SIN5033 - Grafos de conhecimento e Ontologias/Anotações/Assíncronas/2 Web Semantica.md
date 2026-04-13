@@ -12,4 +12,6 @@ Sem **contexto semântico**, o computador não consegue distinguir os significad
 - **Combinar** e **reutilizar** informações entre sites.
 
 # O que é a "Web Semântica"?
-> "A Web Semântica é uma extensão da web atual, na qual a informação recebe um **significado bem definido**, per
+> "A Web Semântica é uma extensão da web atual, na qual a informação recebe um **significado bem definido**, permitindo que computadores e pessoas trabalhem em cooperação" - Tim Berners-Lee, 2001
+
+Basicamente, é uma camada que adicionamos sobre a web antiga, de forma a facilitar a leitura de informação por computadores.
