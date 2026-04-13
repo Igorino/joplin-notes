@@ -129,5 +129,9 @@ Exemplo:
 	owl:onProperty :temNome ;
 	owl:cadinality "1"^^xsd:nonNegativeInteger
 ] .
+
+\\ Toda *Pessoa* tem exatamente 1 nome.
 ```
+
+### 3. Propriedades inversas
 
