@@ -245,4 +245,6 @@ Por exemplo, os componentes de uma ontologia de Universidade:
 
 | Conceito | Propriedade | Relação | Axioma |
 | --- | --- | --- | --- |
-| `Person`, `Student`, `Professor`, `Lecture` | `name`, `email`, `researchField` | `Student attends Lecture`, `Professor holds Lecture` | 
+| `Person`, `Student`, `Professor`, `Lecture` | `name`, `email`, `researchField` | `Student attends Lecture`, `Professor holds Lecture` | `holds(Professor, Lecture)` $\rarr$ `Lecture.topic = Professor.researchField`
+
+# Ló
