@@ -7,4 +7,7 @@ Para uma máquina, a frase "Lisa Davenport é uma terapeuta" e "Kelly Townsend �
 Sem **contexto semântico**, o computador não consegue distinguir os significados do mesmo termo (também chamados de **homônimos**).
 
 ### As três limitações fundamentais:
-- En
+- Encontrar informações **relevantes**;
+- Extrair informação **relevante**; e
+- **Combinar** e **reutilizar** informações entre sites.
+
