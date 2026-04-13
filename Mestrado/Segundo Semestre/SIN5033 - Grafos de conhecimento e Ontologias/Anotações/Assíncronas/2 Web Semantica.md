@@ -98,8 +98,9 @@ No exemplo acima, o código descreve que há uma classe *Student* que é filha d
 ## OWL: Ontologias ricas e raciocínio avançado
 O **OWL**, ou **O**tology **W**eb **L**anguage, é uma evolução sobre o RDFS, superando suas limitações e permitindo:
 - Disjunção;
-- Cadinalidade;
+- Cardinalidade;
 - Propriedades inversas;
 - Equivalência de classes;
 - Restrições locais;
-- 
+- Consistência;
+- etc.
