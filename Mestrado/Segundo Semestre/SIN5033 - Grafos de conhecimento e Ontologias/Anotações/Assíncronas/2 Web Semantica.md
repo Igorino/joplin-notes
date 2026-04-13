@@ -134,5 +134,5 @@ Exemplo:
 ```
 
 ### 3. Propriedades inversas:
-Se a propriedade $P$ 
+Se a propriedade $P$ relaciona $A \rarr B$, a propriedade inversa $Q$ automaticamente relaciona $B \rarr A$. 
 
