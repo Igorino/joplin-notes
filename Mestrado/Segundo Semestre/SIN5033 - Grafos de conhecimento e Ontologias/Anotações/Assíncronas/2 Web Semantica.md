@@ -104,3 +104,4 @@ O **OWL**, ou **O**tology **W**eb **L**anguage, é uma evolução sobre o RDFS, 
 - Restrições locais;
 - Consistência;
 - etc.
+
