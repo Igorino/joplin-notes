@@ -150,5 +150,8 @@ flowchart LR
 Declarado -> :Ana    :temFilho :Carlos .
 Inferido  -> :Carlos :temPai   :Ana .
 
-// O racionador infere a tripla inversa automaticamente
-// Sem 
+// O racionador infere a tripla inversa automaticamente,
+// sem nenhuma declaração extra.
+```
+
+### 4. Equivalência de classes
