@@ -120,5 +120,10 @@ Por exemplo, não seria possível um `animal` ser `carnívoro` e `herbívoro`, o
 ### 2. Cardinalidade:
 Restringe quantas vezes uma propriedade pode ser usada por indivíduos de uma classe. Permite restringir relacionamentos para *"exatamente 1", "no mínimo 2", "no máximo 5"*, etc.
 
-Por exemplo, uma `pessoa` só pode ter *exatamente 1* `data_de_nascimento`. Um timpe
+Por exemplo, uma `pessoa` só pode ter *exatamente 1* `data_de_nascimento`. Um time de futebol tem *exatamente 11* jogadores em campo, um carro tem *no mínimo 3 e no máximo 5* portas, etc.
+
+Exemplo:
+```OWL
+
+```
 
