@@ -19,6 +19,6 @@ Basicamente, é uma camada que adicionamos sobre a web antiga, de forma a facili
 ## Os três princípios de projeto:
 - Disponibilizar dados estruturados em **formatos padronizados**;
 - Tornar cada elemento de dado e suas relações **acessíveis individualmente**; e
-- Descrever a **semântica pretendida** de forma que máquinas possam processesar-la;
+- Descrever a **semântica pretendida** de forma que máquinas possam processá-la;
 
-- 
+| **WEB ANTIGA** | 
