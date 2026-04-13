@@ -47,4 +47,4 @@ Por exemplo:
 </staff>
 ```
 
-Percebe-se que essa estrutura já deixa claro que *"Lisa Davenport"* e *"Kelly Town"*
+Percebe-se que essa estrutura já deixa claro que *Lisa Davenport* e *Kelly Townsend* são ambas parte de *staff*, ou seja, da classe de funcionários. Também deixa implí
