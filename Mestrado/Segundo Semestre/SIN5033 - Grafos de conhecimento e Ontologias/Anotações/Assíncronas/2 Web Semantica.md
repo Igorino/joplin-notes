@@ -37,3 +37,10 @@ Elaborando mais sobre essas tecnologias:
 
 ## - XML: estrutura, não significado.
 O **XML** permite descrever a **estrutura** da informação, mas não necessariamente o seu *significado semântico*. É basicamente um *Markup Language.
+
+```XML
+<staff>
+	<therapist>Lisa Davenport</therapist>
+	<secretary>Kelly Townserd
+</staff>
+```
