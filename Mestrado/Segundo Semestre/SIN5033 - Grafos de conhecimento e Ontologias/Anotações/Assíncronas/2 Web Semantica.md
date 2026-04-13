@@ -93,5 +93,6 @@ Exemplo:
 <#hasName, rdfs:range, xsd:string>
 ```
 
-No exemplo acima, o código descreve que há uma classe *Student* que é filha da classe *Person (e logo herda seus atributos). Também descreve que a propriedade *hasName* é exclusiva do domínio do tipo *Person*, e que *hasName* é do tipo *String* (Não números ou outros tipos)
+No exemplo acima, o código descreve que há uma classe *Student* que é filha da classe *Person (e logo herda seus atributos). Também descreve que a propriedade *hasName* é exclusiva do domínio do tipo *Person*, e que *hasName* é do tipo *String* (Não números ou outros tipos).
 
+## OWL: Ontologias ricas e raciocínio avançado
