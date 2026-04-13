@@ -242,3 +242,7 @@ As Ontologias são a espinha dorsal da Web Semântica.
 | Modelo dos **conceitos** mais relevantes do **domínio do mundo real**. | **Legível por máquinas**. A linguagem natural é **excluída** do formalismo | Tipos, relações e restrições tem que ser definidos de forma clara e não-ambígua | Conhecimento **consensual**, aceito por um grupo de pessoas/domínio |
 
 Por exemplo, os componentes de uma ontologia de Universidade:
+
+| Conceito | Propriedade | Relação | Axioma |
+| --- | --- | --- | --- |
+| `Person`, `Student`, `Professor`, `Lecture` | `an
