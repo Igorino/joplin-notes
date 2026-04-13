@@ -174,3 +174,9 @@ Inferido 			 -> :João rdf:type ont-mec:Professor .
 RDFS só permite alcance global de uma propriedade. O OWL permite restringir o alcance *localmente* para uma **classe específica**. Isso evita que restrições de um domínio "contaminem" toda a ontologia.
 
 Por exemplo: Se `temNome rdfs:range xsd:string`, isso vale pra *todos* que usam `temNome`, inclusive classes que deveriam ter objetos como nome. Com o OWL, podemos fazer "Para Classe `:Pesssoa`, a propriedade `:temNome` tem o alcance de `xsd:string`" sem precisar afetar as outras classes.
+
+```owl
+owl:allValuesFrom :Humano  // Todo valor é Humano
+owl:someValuesFrom :Humano // Existe ao menos 1 Humano
+
+:VooCo
