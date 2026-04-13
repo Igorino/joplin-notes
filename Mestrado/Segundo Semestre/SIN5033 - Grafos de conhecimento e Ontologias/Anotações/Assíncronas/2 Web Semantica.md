@@ -270,4 +270,7 @@ Cada camada é compatível com a camada de baixo, e oferece entendimento para a 
 
 # Analogias
 Imaginemos uma biblioteca:
-- HTML: É a disposição física das prateleiras (estrutura visual)
+- **HTML**: É a disposição física das prateleiras (estrutura visual);
+- **XML**: São as etiquetas nas lombadas dos livros (estrutura de dados);
+- **RDF**: É o catálogo que diz "este livro é sobre X, escrito por Y e do gênero Z";
+- **RDFS/OWL**: São as
