@@ -110,8 +110,8 @@ Declara que duas classes *não podem ter membros em comum*. Nenhum indivíduo po
 
 Por exemplo, não seria possível um `animal` ser `carnívoro` e `herbívoro`, ou uma pessoa ser `homem` e `mulher` ao mesmo tempo:
 ```OWL
-:Carnívoro owl:disjointWith :Herbívoro
-:Homem owl:disjointWith :Mulher
+:Carnívoro owl:disjointWith :Herbívoro .
+:Homem owl:disjointWith :Mulher .
 
 :Ana rdf:type :Mulher
 :Ana rdf:type :Homem ❌️
@@ -124,6 +124,10 @@ Por exemplo, uma `pessoa` só pode ter *exatamente 1* `data_de_nascimento`. Um t
 
 Exemplo:
 ```OWL
-:P
+:Pessoa rdfs:subClass of [
+	rdf:type owl:Restriction ;
+	owl:onProperty :temNome ;
+	owl:cadinality "1"^^xsd:nonNegativeInteger
+] .
 ```
 
