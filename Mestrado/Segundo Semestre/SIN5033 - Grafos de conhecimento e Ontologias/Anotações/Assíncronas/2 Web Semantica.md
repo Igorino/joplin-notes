@@ -58,7 +58,7 @@ XML --> RDF --> RDFS --> OWL
 Elaborando mais sobre essas tecnologias:
 
 ## - XML: estrutura, não significado.
-O **XML** (E**X**tensible **M**arkup **L**anguage) permite descrever a **estrutura** da informação, mas não necessariamente o seu *significado semântico*. Como o nome diz é basicamente uma *Markup Language*.
+O **XML**, ou E**X**tensible **M**arkup **L**anguage, permite descrever a **estrutura** da informação, mas não necessariamente o seu *significado semântico*. Como o nome diz é basicamente uma *Markup Language*.
 
 Exemplo:
 
@@ -72,7 +72,7 @@ Exemplo:
 Percebe-se que essa estrutura já deixa claro que *Lisa Davenport* e *Kelly Townsend* são ambas parte de *staff*, ou seja, da classe de funcionários. Também deixa explícito que são de duas funções diferentes. Isso já melhora bem para o entendimento de uma máquina quando comparado ao site de exemplo no início desse documento.
 
 ## RDF: Triplas de sujeito, predicado e objeto
-O **RDF** (**R**esource **D**escription **F**ramework)  é uma linguagem básica da *Web Semântica*. Ela faz afirmações sobre recursos usando grafos de triplas identificadas por URIs (Uniform Resource Identifier).
+O **RDF**, ou **R**esource **D**escription **F**ramework,  é uma linguagem básica da *Web Semântica*. Ela faz afirmações sobre recursos usando grafos de triplas identificadas por URIs (Uniform Resource Identifier).
 
 Exemplo:
 
@@ -96,3 +96,4 @@ Exemplo:
 No exemplo acima, o código descreve que há uma classe *Student* que é filha da classe *Person (e logo herda seus atributos). Também descreve que a propriedade *hasName* é exclusiva do domínio do tipo *Person*, e que *hasName* é do tipo *String* (Não números ou outros tipos).
 
 ## OWL: Ontologias ricas e raciocínio avançado
+O **OWL**, ou **O**tology **W**eb **L**anguage, é 
