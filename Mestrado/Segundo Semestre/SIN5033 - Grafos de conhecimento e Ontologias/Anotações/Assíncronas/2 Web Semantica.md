@@ -134,6 +134,8 @@ Exemplo:
 \\ Toda *Pessoa* tem exatamente 1 nome.
 ```
 
+A Cardinalidade resolve um problema que o RDFS
+
 ### 3. Propriedades inversas:
 Se a propriedade $P$ relaciona $A \rarr B$, a propriedade inversa $Q$ automaticamente relaciona $B \rarr A$. Isso elimina a redundância e permite a **inferência automática** da relação oposta.
 
@@ -220,7 +222,7 @@ Por exemplo:
 
 Relacionadores OWL (HermiT, Pellet) verificam consistência automaticamente e apontam qual axioma gerou a contradição, facilitando a depuração.
 
-Disjunção e consistência são os dois lados de uma mesma moeda: você usa `owl:disjointWith` 
+Disjunção e consistência são os dois lados de uma mesma moeda: você usa `owl:disjointWith` para declarar que duas classes são mutuamente exclusivas, e o verificador de consistência detecta alguma violação dessa propriedade na hora de popular a ontologia com dados.
 
 ---
 
