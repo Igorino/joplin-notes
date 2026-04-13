@@ -200,6 +200,10 @@ As restrições locais de alcance corrigem uma limitação estrutural do RDFS: c
 # Ontologias
 > "Especificação formal e explícita de uma conceitualização compartilhada." - Gruber, 1993
 
+As Ontologias são a espinha dorsal da Web Semântica. Por ela que tudo se junta em uma coisa só.
+
+
+
 ### 6. Consistência:
 Verificação automática para ver se a ontologia (classes + axiomas + instâncias) é logicamente coerente. Ou seja, se **não tem contradições** que o tornem uma classe "unsatisfiable" (impossível de ter membros).
 
