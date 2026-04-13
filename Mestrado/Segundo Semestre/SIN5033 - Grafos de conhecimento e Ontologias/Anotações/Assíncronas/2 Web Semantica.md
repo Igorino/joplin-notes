@@ -190,4 +190,4 @@ owl:someValuesFrom :Humano // Existe ao menos 1 Humano
 ```
 
 ### 6. Consistência:
-Verificação automática para ver se a ontologia (classes + axiomas + instâncias) é logicamente coerente. Ou seja, se **não tem contradições** que o tornem uma classe "unsatisfiable"
+Verificação automática para ver se a ontologia (classes + axiomas + instâncias) é logicamente coerente. Ou seja, se **não tem contradições** que o tornem uma classe "unsatisfiable" (impossível de ter membros)
