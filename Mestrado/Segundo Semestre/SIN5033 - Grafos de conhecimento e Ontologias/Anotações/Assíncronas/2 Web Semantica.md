@@ -133,5 +133,6 @@ Exemplo:
 \\ Toda *Pessoa* tem exatamente 1 nome.
 ```
 
-### 3. Propriedades inversas
+### 3. Propriedades inversas:
+Se a propriedade $P$ 
 
