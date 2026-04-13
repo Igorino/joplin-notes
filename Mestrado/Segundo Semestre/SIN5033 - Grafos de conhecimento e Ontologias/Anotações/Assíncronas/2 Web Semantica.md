@@ -81,3 +81,6 @@ Exemplo:
 <#Lisa rdf:type #Therapist>
 <#Lisa worksFor #CompanyA>
 ```
+
+## RDFS: Vocabulário e hierarquia de tipos
+O **RDFS** ou **RDF Schema**
