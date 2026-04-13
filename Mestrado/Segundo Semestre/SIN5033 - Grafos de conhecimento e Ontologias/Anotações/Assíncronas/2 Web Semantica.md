@@ -247,4 +247,5 @@ Por exemplo, os componentes de uma ontologia de Universidade:
 | --- | --- | --- | --- |
 | `Person`, `Student`, `Professor`, `Lecture` | `name`, `email`, `researchField` | `Student attends Lecture`, `Professor holds Lecture` | `holds(Professor, Lecture)` $\rarr$ `Lecture.topic = Professor.researchField`
 
-# Ló
+# Lógica e Raciocínio Automático
+A lógica é importante porque dado conhecimento explícito, racionadores automatizados deduzem conhecimento *implícito*. Há um trade-off entre expressividade e eficie
