@@ -134,7 +134,7 @@ Exemplo:
 \\ Toda *Pessoa* tem exatamente 1 nome.
 ```
 
-A Cardinalidade resolve um problema que o RDFS
+A Cardinalidade resolve um problema que o RDFS simplesmente ignora: a quantidade de valores. RDFS diz "a propriedade `temNome` tem alcance `xsd:string`" mas não fala nada sobre se uma pessoa pode ter 0 ou 100 nomes.
 
 ### 3. Propriedades inversas:
 Se a propriedade $P$ relaciona $A \rarr B$, a propriedade inversa $Q$ automaticamente relaciona $B \rarr A$. Isso elimina a redundância e permite a **inferência automática** da relação oposta.
