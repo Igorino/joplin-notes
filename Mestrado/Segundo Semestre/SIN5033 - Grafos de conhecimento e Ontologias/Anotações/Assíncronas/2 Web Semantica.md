@@ -22,5 +22,5 @@ Basicamente, é uma camada que adicionamos sobre a web antiga, de forma a facili
 - Descrever a **semântica pretendida** de forma que máquinas possam processá-la;
 
 | **WEB ANTIGA** | **WEB SEMÂNTICA** |
-| --- | --- |
-| Conteúdo para **humanos**; máquinas enxergam *estrutura* (HTML), mas não o *significado* | Conteúdo anotado com **metada**
+| :--- | --- |
+| Conteúdo para **humanos**; máquinas enxergam *estrutura* (HTML), mas não o *significado* | Conteúdo anotado com **metadados**; máquinas entendem o *significado* dos dados. |
