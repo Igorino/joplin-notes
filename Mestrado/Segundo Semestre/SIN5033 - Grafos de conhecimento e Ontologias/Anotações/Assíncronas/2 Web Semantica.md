@@ -215,3 +215,6 @@ Por exemplo:
 
 \\ Agora :EstudanteDesempregado é UNSATIFIABLE,
 \\ Já que nenhum indivíduo pode existir nessa classe
+```
+
+Relacionadores OWL (HermiT, Pellet) verificam consistência automaticamente 
