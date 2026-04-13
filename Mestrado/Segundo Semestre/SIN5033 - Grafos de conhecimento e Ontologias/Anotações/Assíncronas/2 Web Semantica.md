@@ -110,6 +110,9 @@ Declara que duas classes *não podem ter membros em comum*. Nenhum indivíduo po
 
 Por exemplo, não seria possível um `animal` ser `carnívoro` e `herbívoro`, ou uma pessoa ser `homem` e `mulher` ao mesmo tempo:
 ```OWL
-:Carnivoro
+:Carnívoro owl:disjointWith :Herbívoro
 :Homem owl:disjointWith :Mulher
+
+:Ana rdf:type :Mulher
+:Ana rdf:type :
 ```
