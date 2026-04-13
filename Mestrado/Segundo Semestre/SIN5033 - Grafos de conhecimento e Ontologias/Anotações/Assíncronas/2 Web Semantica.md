@@ -185,4 +185,6 @@ owl:someValuesFrom :Humano // Existe ao menos 1 Humano
 	owl:allValuesFrom :PilotoComercial 
 ] .
 
-// Todo piloto de VôoCom
+// Todo piloto de VôoComercial deve ser PilotoComercial
+// A retrição é local, não afeta :VôoParticular
+```
