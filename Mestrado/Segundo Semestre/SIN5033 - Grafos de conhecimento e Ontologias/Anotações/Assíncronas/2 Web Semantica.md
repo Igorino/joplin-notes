@@ -124,6 +124,6 @@ Por exemplo, uma `pessoa` só pode ter *exatamente 1* `data_de_nascimento`. Um t
 
 Exemplo:
 ```OWL
-
+:P
 ```
 
