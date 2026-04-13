@@ -58,7 +58,7 @@ XML --> RDF --> RDFS --> OWL
 Elaborando mais sobre essas tecnologias:
 
 ## - XML: estrutura, não significado.
-O **XML** (E**X**tensible **M**arkup **L**anguage) permite descrever a **estrutura** da informação, mas não necessariamente o seu *significado semântico*. É basicamente um *Markup Language.
+O **XML** (E**X**tensible **M**arkup **L**anguage) permite descrever a **estrutura** da informação, mas não necessariamente o seu *significado semântico*. Como o nome diz é basicamente uma *Markup Language*.
 
 Exemplo:
 
