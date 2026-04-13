@@ -208,4 +208,10 @@ Por exemplo:
 #### Cenário 2:
 ```owl
 :EstudanteDesempregado owl:equivalentClass [
-	owl.intersectionOf (:Estudante :Empre
+	owl.intersectionOf (:Estudante :Empregado)
+] .
+
+:Estudante owl:disjointWith :Empregado . 
+
+\\ Agora :EstudanteDesempregado é UNSATIFIABLE,
+\\ Já que nenhum indivíduo pode existir nessa classe
