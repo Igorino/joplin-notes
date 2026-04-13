@@ -198,4 +198,6 @@ Por exemplo:
 ```owl
 :Homem owl:disjointWith :Mulher
 :Pedro rdf:type :Homem .
-:Pedro rdf:
+:Pedro rdf:type :Mulher ❌️ 
+
+// Inconsistência: Não é possível ser :Homem e :Mulher ao mesmo tempo
