@@ -108,5 +108,8 @@ O **OWL**, ou **O**tology **W**eb **L**anguage, é uma evolução sobre o RDFS, 
 ### 1. Disjunção:
 Declara que duas classes *não podem ter membros em comum*. Nenhum indivíduo pode pertencer à duas classes *ao mesmo tempo*.
 
-Por exemplo, não seria possível uma pessoa ser `homem` e `mulher` ao mesmo tempo:
+Por exemplo, não seria possível um `animal` ser `carnívoro` e `herbívoro`, ou uma pessoa ser `homem` e `mulher` ao mesmo tempo:
 ```OWL
+:Carnivoro
+:Homem owl:disjointWith :Mulher
+```
