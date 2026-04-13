@@ -217,4 +217,7 @@ Por exemplo:
 \\ Já que nenhum indivíduo pode existir nessa classe
 ```
 
-Relacionadores OWL (HermiT, Pellet) verificam consistência automaticamente 
+Relacionadores OWL (HermiT, Pellet) verificam consistência automaticamente e apontam qual axioma gerou a contradição, facilitando a depuração.
+
+---
+
