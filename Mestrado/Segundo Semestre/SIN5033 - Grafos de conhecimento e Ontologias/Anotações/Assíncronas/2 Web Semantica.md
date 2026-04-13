@@ -83,4 +83,10 @@ Exemplo:
 ```
 
 ## RDFS: Vocabulário e hierarquia de tipos
-O **RDFS** ou **RDF Schema** é uma construção em cima do RDF, criada para adicionar *classes, subclasses e propriedades* ao RDF. Ela permite
+O **RDFS** ou **RDF Schema** é uma construção em cima do RDF, criada para adicionar *classes, subclasses e propriedades* ao RDF. Ela permite fazer **inferências simples**, como **herança**.
+
+Exemplo:
+
+```RDFS
+<#Student, 
+```
