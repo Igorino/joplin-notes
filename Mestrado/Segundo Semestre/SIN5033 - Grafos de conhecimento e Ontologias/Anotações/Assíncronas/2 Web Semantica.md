@@ -265,4 +265,9 @@ Uma aplicação prática seria: $\text{loyalCustomer}(X) \implies \text{discount
 
 # A Arquitetura em camadas (Semantic Web Stack)
 Cada camada é compatível com a camada de baixo, e oferece entendimento para a camada de cima:
-S
+
+![d1e49469c7e84cbcba4f6a81b99e6621.png](d1e49469c7e84cbcba4f6a81b99e6621.png)
+
+# Analogias
+Imaginemos uma biblioteca:
+- HTML: É a disposição física das prateleiras (estrutura visual)
