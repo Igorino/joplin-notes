@@ -105,3 +105,5 @@ O **OWL**, ou **O**tology **W**eb **L**anguage, é uma evolução sobre o RDFS, 
 - Consistência;
 - etc.
 
+### 1. Disjunção:
+Declara que duas classes *não podem ter membros em comum*. Nenhum indivíduo pode pertencer à duas classes *ao mesmo tempo*.
