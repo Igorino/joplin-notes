@@ -273,4 +273,4 @@ Imaginemos uma biblioteca:
 - **HTML**: É a disposição física das prateleiras (estrutura visual);
 - **XML**: São as etiquetas nas lombadas dos livros (estrutura de dados);
 - **RDF**: É o catálogo que diz "este livro é sobre X, escrito por Y e do gênero Z";
-- **RDFS/OWL**: São as
+- **RDFS/OWL**: São as regras da biblioteca - "Todo Romance é Literatura; todo autor é uma Pessoa"
