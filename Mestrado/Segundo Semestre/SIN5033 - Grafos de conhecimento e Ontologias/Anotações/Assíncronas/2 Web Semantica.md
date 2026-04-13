@@ -200,8 +200,7 @@ As restrições locais de alcance corrigem uma limitação estrutural do RDFS: c
 # Ontologias
 > "Especificação formal e explícita de uma conceitualização compartilhada." - Gruber, 1993
 
-As Ontologias são a espinha dorsal da Web Semântica. Por ela que tudo se junta em uma coisa só.
-
+As Ontologias são a espinha dorsal da Web Semântica. Por ela que tudo se junta em uma coisa só. Através dela que temos um modelo dos conceitos mais relevantes do domínio do mundo real. 
 
 
 ### 6. Consistência:
