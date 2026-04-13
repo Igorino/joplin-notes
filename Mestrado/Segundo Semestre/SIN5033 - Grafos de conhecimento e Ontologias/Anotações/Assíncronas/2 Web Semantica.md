@@ -18,9 +18,8 @@ Tue 11am - 7pm<br>
 Wed 3pm - 7pm<br>
 Thu 11am - 7pm<br>
 Fri 11am - 3pm<p>
-But note that we do not offer consultation
-during the weeks of the
-<a href=¨ . . .¨>State of Origin</a> games.
+	
+But note that we do not offer consultation during the weeks of the <a href=¨ . . .¨>State of Origin</a> games.
 ```
 
 Para uma máquina, seria difícil diferenciar as pessoas no exemplo acima. A frase "Lisa Davenport é uma terapeuta" e "Kelly Townsend é uma secretária" são só strings, sequências de caracteres. Eles não conseguem (ou pelo menos não conseguiam) ler e descobrir o significado como nós. 
@@ -70,4 +69,4 @@ Por exemplo:
 </staff>
 ```
 
-Percebe-se que essa estrutura já deixa claro que *Lisa Davenport* e *Kelly Townsend* são ambas parte de *staff*, ou seja, da classe de funcionários. Também deixa explícito que são de duas funções diferentes.
+Percebe-se que essa estrutura já deixa claro que *Lisa Davenport* e *Kelly Townsend* são ambas parte de *staff*, ou seja, da classe de funcionários. Também deixa explícito que são de duas funções diferentes. 
