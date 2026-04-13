@@ -1,6 +1,6 @@
-## Motivação - Por que a web atual era limitada?
+## Motivação - Por que a web antiga era limitada?
 ## Problema central:
-Os sites convencionais acabam usando o HTML para *aparência*, o CSS para *estilo* e o JS para *comportamento* dentro do seu ambiente. Mas o conteúdo só é legível (ou é mais legível) para nós humanos, já que esses foram criados para gerar estruturas legíveis para seres humanos. (Pelo menos foi assim antes da IA que lê linguagem natural kkkkk)
+Os sites convencionais usavam o HTML para *aparência*, o CSS para *estilo* e o JS para *comportamento* dentro do seu ambiente. Mas o conteúdo só é legível (ou é mais legível) para nós humanos, já que esses foram criados para gerar estruturas legíveis para seres humanos. (Pelo menos foi assim antes da IA que lê linguagem natural kkkkk)
 
 Exemplo de um HTML de um site de exemplo:
 
@@ -19,7 +19,8 @@ Wed 3pm - 7pm<br>
 Thu 11am - 7pm<br>
 Fri 11am - 3pm<p>
 	
-But note that we do not offer consultation during the weeks of the <a href=¨ . . .¨>State of Origin</a> games.
+But note that we do not offer consultation during the weeks of the
+	<a href=¨ . . .¨>State of Origin</a> games.
 ```
 
 Para uma máquina, seria difícil diferenciar as pessoas no exemplo acima. A frase "Lisa Davenport é uma terapeuta" e "Kelly Townsend é uma secretária" são só strings, sequências de caracteres. Eles não conseguem (ou pelo menos não conseguiam) ler e descobrir o significado como nós. 
