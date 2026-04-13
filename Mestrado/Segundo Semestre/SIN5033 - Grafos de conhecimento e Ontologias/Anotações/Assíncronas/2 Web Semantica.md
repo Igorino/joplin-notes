@@ -160,5 +160,7 @@ Declara que duas classes descrevem exatamente o mesmo conjunto de indivíduos, m
 Por exemplo: A ontologia da USP chama de `:Docente` o que a ontologia do MEC chama de `:Professor`. Ao declarar essa equivalência, as instâncias de uma ficam disponíveis na outra **automaticamente**.
 
 ```owl
-ont-usp:Docente
+ont-usp:Docente owl:equivalentClass ont-mec:Professor .
+
+Declarado em ont-usp -> 
 ```
