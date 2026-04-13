@@ -263,4 +263,6 @@ Uma aplicação prática seria: $\text{loyalCustomer}(X) \implies \text{discount
 
 ![b002f039ca5838c1d6ca75451df246d9.png](b002f039ca5838c1d6ca75451df246d9.png)
 
-# A
+# A Arquitetura em camadas (Semantic Web Stack)
+Cada camada é compatível com a camada de baixo, e oferece entendimento para a camada de cima:
+S
