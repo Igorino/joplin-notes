@@ -165,5 +165,10 @@ ont-usp:Docente owl:equivalentClass ont-mec:Professor .
 Declarado em ont-usp -> :João rdf:type ont-usp:Docente .
 Inferido 			 -> :João rdf:type ont-mec:Professor .
 
-// Isso é diferente de rdfs:subClassOf (unidirecional), 
+// Isso é diferente de rdfs:subClassOf (unidirecional). 
+// Essa é bidirecional: 
+// Todo membro de A é membro de B, e vice-versa.
 ```
+
+### 5. Restrições locais de alcance
+RDFS só perim
