@@ -93,3 +93,4 @@ Exemplo:
 <#hasName, rdfs:range, xsd:string>
 ```
 
+No exemplo acima, o código descreve que há uma classe *Student* que é filha da classe *Person (e logo herda seus atributos). Também descreve que a propriedade **
