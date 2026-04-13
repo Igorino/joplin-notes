@@ -197,6 +197,9 @@ owl:someValuesFrom :Humano // Existe ao menos 1 Humano
 
 As restrições locais de alcance corrigem uma limitação estrutural do RDFS: como `rdfs:range` é global, restringir o tipo do valor de uma propriedade numa classe acaba restringindo pra todo mundo, "contaminando" as outras que usam a mesma propriedade. O OWL isola isso com o `owl:Restriction` + `owl:onProperty`, deixando a restrição válida apenas para a classe que a declara.
 
+# Ontologias
+> "Especificação formal e explícita de uma conceitualização compartilhada." - Gruber, 1993
+
 ### 6. Consistência:
 Verificação automática para ver se a ontologia (classes + axiomas + instâncias) é logicamente coerente. Ou seja, se **não tem contradições** que o tornem uma classe "unsatisfiable" (impossível de ter membros).
 
