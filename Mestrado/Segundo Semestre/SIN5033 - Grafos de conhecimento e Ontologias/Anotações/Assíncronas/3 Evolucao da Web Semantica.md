@@ -29,5 +29,6 @@ flowchart TB
 	B -- |link?| --> C
 	subgraph (Web de documentos)
 
-	J[José] -- |worksFor
+	J[José] -- |"`worksFor`"| --> E[EACH-USP]
+	J --> |"`livesIn`"| --> S[São Paulo]
 	subgraph (Web de dados)
