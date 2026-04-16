@@ -24,12 +24,12 @@ A Web de Dados se propõe a resolver isso trocando os *documentos* por *coisas*,
 
 ```mermaid
 flowchart TB
-	A(Página A) -- |link?| -- > B(Página B)
+	A(Página A) --|link?| -- > B(Página B)
 	A -- |link?| --> C(Página C)
 	B -- |link?| --> C
-	subgraph We
+	subgraph doc[Web de documentos]
 	
 	J[José] -- |"`worksFor`"| --> E[EACH-USP]
 	J --> |"`livesIn`"| --> S[São Paulo]
 	E --> |"`basedIn`"| --> S
-	subgraph Web
+	subgraph dados [Web de dados]
