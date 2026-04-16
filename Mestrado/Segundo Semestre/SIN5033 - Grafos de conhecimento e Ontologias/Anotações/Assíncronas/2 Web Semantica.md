@@ -261,17 +261,18 @@ $\therefore \text{staff}(\text{Michael}) \quad \text{[deduzido]}$
 
 Uma aplicação prática seria: $\text{loyalCustomer}(X) \implies \text{discount} (x, 5%)$. Os agentes podem tomar decisões automaticamente.
 
-![b002f039ca5838c1d6ca75451df246d9.png](b002f039ca5838c1d6ca75451df246d9.png)
+![Comparação entre as diferentes abordagens.](b002f039ca5838c1d6ca75451df246d9.png)
 
 # A Arquitetura em camadas (Semantic Web Stack)
 Cada camada é compatível com a camada de baixo, e oferece entendimento para a camada de cima:
 
-![d1e49469c7e84cbcba4f6a81b99e6621.png](d1e49469c7e84cbcba4f6a81b99e6621.png)
+![Diferentes camadas a Web Semântica.](d1e49469c7e84cbcba4f6a81b99e6621.png)
 
-# Analogias
-Imaginemos uma biblioteca:
-- **HTML**: É a disposição física das prateleiras (estrutura visual);
-- **XML**: São as etiquetas nas lombadas dos livros (estrutura de dados);
-- **RDF**: É o catálogo que diz "este livro é sobre X, escrito por Y e do gênero Z";
-- **RDFS/OWL**: São as regras da biblioteca - "Todo Romance é Literatura; todo autor é uma Pessoa"
-- **S**
+Diagrama:
+```mermaid
+flowchart LR
+	A(Company A) ==|rdf:type| ==> Physiotherapy
+	A(Company A) -- employs --> L(Lisa Davenport)
+	L(Lisa Davenport) -- rdf:type --> Therapist
+	Therapist -. subClassOf .-> Person
+```
