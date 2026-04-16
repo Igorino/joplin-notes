@@ -30,13 +30,16 @@ flowchart TB
 ```
 
 ```mermaid
-flowchart TB
+flowchart LF
 	subgraph doc[Web de documentos]
 	A(Página A) -- link? --> B(Página B)
 	A -- link? --> C(Página C)
 	B -- link? --> C
 	end
-	
+```
+
+```mermaid
+flowchart TB
 	subgraph dados [Web de dados]
 	J[José] -- "*worksFor*" --> E[EACH-USP]
 	J -- "*livesIn*" --> S[São Paulo]
