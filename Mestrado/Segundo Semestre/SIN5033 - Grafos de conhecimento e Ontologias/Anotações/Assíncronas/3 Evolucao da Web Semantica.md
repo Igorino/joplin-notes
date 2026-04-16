@@ -13,7 +13,9 @@ De onde viemos até os Grafos de Conhecimento:
 - **2006** - Dados Ligados (Linked Data):
 	- Pensam em uma bordagem "bottom-up", "de baixo para cima": publicar dados estruturados usando URIs + RDF + HTTP, ligando conjuntos de dados entre si. Ênfase na *interoperabilidade*, não necessariamente na *riqueza ontológica*. Muito mais fácil e barato de aplicar em larga escala.
 - **2012** - Grafos de Conhecimento e Google:
-	- Em 2012, a Google populariza o termo com o seu *Knowledge Graphs* baseado no [schema.org](schema.org). Diferença principal: GCs são *internamente consistentes e controlados* (indústria). Eles não são abertos com o projeto da LOD Cloud. Microsoft, IBM, Facebook e eBay adotam o conceito. Ele também tem forte ligação com os conceitos de Machine Learning e Deep Learning.
+	- Em 2012, a Google populariza o termo com o seu *Knowledge Graphs* baseado no [schema.org](schema.org). Diferença principal: GCs são *internamente consistentes e controlados* (indústria). Eles não são abertos como o projeto da LOD Cloud. A Microsoft, IBM, Facebook e eBay adotam o conceito. Ele também tem forte ligação com os conceitos de Machine Learning e Deep Learning.
 - **Hoje** - Convergência da Web Semântica com Linked Data e GC:
-	- Hoje os três pilares convivem: Ontologias servem para fornecer o *vocabulário formal*; Linked data serve para publicar e conectar os dados; Enquanto Grafos de Conhecimento estruturam o conhecimento para aplicações industriais e de IA.
+	- Hoje os três pilares convivem: **Ontologias** servem para fornecer o *vocabulário formal*; **Linked data** serve para publicar e conectar os dados; Enquanto **Grafos de Conhecimento** estruturam o conhecimento para aplicações industriais e de IA.
 
+# A virada central
+A web que hoje nós conhecemos é uma **web de documentos**
