@@ -13,4 +13,4 @@ De onde viemos até os Grafos de Conhecimento:
 - **2006** - Dados Ligados (Linked Data):
 	- Abordagem "bottom-up", "de baixo para cima": publicar dados estruturados usando URIs + RDF + HTTP, ligando conjuntos de dados entre si. Ênfase na *interoperabilidade*, não necessariamente na *riqueza ontológica*. Muito mais fácil e barato de aplicar em larga escala.
 - **2012** - Grafos de Conhecimento e Google:
-	- Em 2012, a Google populariza o termo com o seu *Kowledge Graphs* baseado no [schema.org](schema.org)
+	- Em 2012, a Google populariza o termo com o seu *Kowledge Graphs* baseado no [schema.org](schema.org). Diferença principal: GCs são *internamente consistentes e controlados (indústria)*. não são abertos com o projeto da 
