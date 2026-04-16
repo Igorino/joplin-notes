@@ -18,4 +18,6 @@ De onde viemos até os Grafos de Conhecimento:
 	- Hoje os três pilares convivem: **Ontologias** servem para fornecer o *vocabulário formal*; **Linked data** serve para publicar e conectar os dados; Enquanto **Grafos de Conhecimento** estruturam o conhecimento para aplicações industriais e de IA.
 
 # A virada central
-A web que hoje nós conhecemos é uma **web de documentos**: HTML é usado para fazer a sua *estrutura visual*, HTTP é usado para *comunicação* e URI é usado para fazer o *endereçamento*. Os *hiperlinks* ligam as páginas, mas não dizem o **porquê**. A máquina não sabe se o link é "é autor de", "trabalha em" ou "contradiz" o conteúdo! Isso é problema dos enlaces ( 
+A web que hoje nós conhecemos é uma **web de documentos**: HTML é usado para fazer a sua *estrutura visual*, HTTP é usado para *comunicação* e URI é usado para fazer o *endereçamento*. Os *hiperlinks* ligam as páginas, mas não dizem o **porquê**. A máquina não sabe se o link é "é autor de", "trabalha em" ou "contradiz" o conteúdo! Isso é problema dos enlaces (ou ligações) não tipados.
+
+A Web de Dados se propõe a resolver isso trocando os *documentos* por *coisas*, e *hiperlinks genéricos* por *enlaces tipados em RDF*
