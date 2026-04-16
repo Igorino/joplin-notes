@@ -5,7 +5,7 @@ De onde viemos até os Grafos de Conhecimento:
 - **1965** - Primeiras conexões:
 	- **Ted Nelson** pensou em uma organização de objetos de forma altamente conectada. Elementos: **nós** (pedaços de texto) + **hiperlinks** (conexões lógicas entre nós). Na época, foi conceptualizado com apenas texto, sem multimídia.
 - **1980s** - Hipermídia:
-	- A evolução do hipertexto: recursos multimídia (imagens, vídeo, audio, etc.) passam a fazer parte da estrutura ligada de nós. Ainda não tem a semântica.
+	- Na década de 1980, começa-se a pensar em uma evolução do hipertexto: com recursos multimídia (imagens, vídeo, audio, etc.) que passam a fazer parte da estrutura ligada de nós. Ainda não tem a semântica.
 - **1990** - :
 	- Tim Berners-Lee conceptualiza um sistema de hipermídia exemplar, proposto no CERN (Sim, aquele CERN mesmo, do acelerador de partículas, que é só mais um dos seus projetos relacionados a pesquisa nuclear). Combina **URI** (Identidade) + **HTTP** (comunicação) + **HTML** (representação). Os links entre documentos não são tipados, a máquina *não sabe* por que A aponta para B.
 - **2001** - Berners-Lee, Hendler e Lassila:
