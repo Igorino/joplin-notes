@@ -39,5 +39,7 @@ flowchart TB
 	J -- "*livesIn*" --> S[São Paulo]
 	E -- "*basedIn*" --> S
 	end
-	class
+	classDef J stroke:#f00
+    classDef E stroke:#0f0
+    classDef S stroke:#00f
 ```
