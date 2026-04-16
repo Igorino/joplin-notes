@@ -27,8 +27,9 @@ flowchart TB
 	A(Página A) -- |link?| -- > B(Página B)
 	A -- |link?| --> C(Página C)
 	B -- |link?| --> C
-	subgraph (Web de documentos)
-
+	subgraph We
+	
 	J[José] -- |"`worksFor`"| --> E[EACH-USP]
 	J --> |"`livesIn`"| --> S[São Paulo]
-	subgraph (Web de dados)
+	E --> |"`basedIn`"| --> S
+	subgraph Web
