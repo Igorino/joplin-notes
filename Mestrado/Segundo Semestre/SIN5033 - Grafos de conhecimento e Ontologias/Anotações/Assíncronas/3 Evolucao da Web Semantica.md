@@ -1,3 +1,4 @@
 # Linha do tempo
 De onde viemos até os Grafos de Conhecimento:
-- **1945** - Memex, o precursor de tudo: 
+- **1945** - Memex, o precursor de tudo:
+	- Vannevar Bush imaginou o Memex: uma máquina que daria acesos a grande coleções de texto via trilhas de links e anotações, não dissemelhante à internet moderna e seus hiperlinks). Nunca foi con
