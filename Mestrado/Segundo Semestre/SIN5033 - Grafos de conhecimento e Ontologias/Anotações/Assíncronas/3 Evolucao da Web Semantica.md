@@ -7,7 +7,7 @@ De onde viemos até os Grafos de Conhecimento:
 - **1980s** - Hipermídia:
 	- A evolução do hipertexto: recursos multimídia (imagens, vídeo, audio, etc.) passam a fazer parte da estrutura ligada de nós. Ainda não tem a semântica.
 - **1990** - :
-	- Tim Berners-Lee pensa em um sistema de hipermídia exemplar, proposto no CERN (Sim, aquele CERN mesmo, do acelerador de partículas). Combina **URI** (Identidade) + **HTTP** (comunicação) + **HTML** (representação). Os links entre documentos não são tipados, a máquina *não sabe* por que A aponta para B.
+	- Tim Berners-Lee conceptualiza um sistema de hipermídia exemplar, proposto no CERN (Sim, aquele CERN mesmo, do acelerador de partículas, que é só mais um dos seus projetos relacionados a pesquisa nuclear). Combina **URI** (Identidade) + **HTTP** (comunicação) + **HTML** (representação). Os links entre documentos não são tipados, a máquina *não sabe* por que A aponta para B.
 - **2001** - Berners-Lee, Hendler e Lassila:
 	- Visão "top-down", "de cima para baixo": anotar o conteúdo existente com significado formal via ontologias (OWL, RDFS). Foco em *raciocínio automático*. Grandes resultados em medicina/biologia (Gene Ontology, SNOMED CT, etc.). Mas criar ontologias é caro e complexo demais.
 - **2006** - Dados Ligados (Linked Data):
