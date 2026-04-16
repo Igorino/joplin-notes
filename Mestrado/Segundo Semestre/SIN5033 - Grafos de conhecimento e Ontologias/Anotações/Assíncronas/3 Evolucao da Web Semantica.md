@@ -8,4 +8,5 @@ De onde viemos até os Grafos de Conhecimento:
 	- A evolução do hipertexto: recursos multimídia (imagens, vídeo, audio, etc.) passam a fazer parte da estrutura ligada de nós. Ainda não tem a semântica.
 - **1990** - Tim Berners-Lee:
 	- Sistema de hipermídia exemplar, proposto no CERN (Sim, aquele CERN mesmo, do acelerador de partículas). Combina **URI** (Identidade) + **HTTP** (comunicação) + **HTML** (representação). Os links entre documentos não são tipados, a máquina *não sabe* por que A aponta para B.
-- **2001** - Berners-Lee, Hendler e Lassila
+- **2001** - Berners-Lee, Hendler e Lassila:
+	- Visão "top-down": anotar o conteúdo existente com significado formal via ontologias (OWL, RDFS). Foco em *raciocínio automático*. Grandes resultados em medicina/biologia
