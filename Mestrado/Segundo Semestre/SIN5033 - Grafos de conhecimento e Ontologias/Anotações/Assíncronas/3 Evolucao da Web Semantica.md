@@ -11,4 +11,4 @@ De onde viemos até os Grafos de Conhecimento:
 - **2001** - Berners-Lee, Hendler e Lassila:
 	- Visão "top-down": anotar o conteúdo existente com significado formal via ontologias (OWL, RDFS). Foco em *raciocínio automático*. Grandes resultados em medicina/biologia (Gene Ontology, SNOMED CT, etc.). Mas criar ontologias é caro e complexo demais.
 - **2006** - Dados Ligados (Linked Data):
-	- Abordagem "bottom-up"
+	- Abordagem "bottom-up": publicar dados estruturados usando URIs + RDF + HTTP, ligando conjuntos de dados entre si
