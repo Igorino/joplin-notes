@@ -24,8 +24,9 @@ A Web de Dados se propõe a resolver isso trocando os *documentos* por *coisas*,
 
 
 ```mermaid
-flowchart LR
-	subgraph doc[Web de documentos]
+flowchart TB
+	subgraph doc["**Web de documentos**
+	*links não tipados*"]
 	A(Página A) -. link? .-> B(Página B)
 	A -. link? .-> C(Página C)
 	B -. link? .-> C
