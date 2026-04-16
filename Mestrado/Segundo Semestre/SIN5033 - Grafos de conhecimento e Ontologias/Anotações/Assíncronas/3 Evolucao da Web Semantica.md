@@ -23,3 +23,4 @@ A web que hoje nós conhecemos é uma **web de documentos**: HTML é usado para 
 A Web de Dados se propõe a resolver isso trocando os *documentos* por *coisas*, e *hiperlinks genéricos* por *enlaces tipados em RDF*. 
 
 ```mermaid
+flowchart
