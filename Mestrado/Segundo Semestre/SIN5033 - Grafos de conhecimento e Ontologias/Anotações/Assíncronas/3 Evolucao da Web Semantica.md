@@ -25,7 +25,9 @@ A Web de Dados se propõe a resolver isso trocando os *documentos* por *coisas*,
 ```mermaid
 flowchart TB
 	A(Página A) -- |link?| -- > B(Página B)
-	A --
+	A -- |link?| --> C(Página C)
+	B -- |link?| --> C
 	subgraph (Web de documentos)
 
+	J[José] -- |worksFor
 	subgraph (Web de dados)
