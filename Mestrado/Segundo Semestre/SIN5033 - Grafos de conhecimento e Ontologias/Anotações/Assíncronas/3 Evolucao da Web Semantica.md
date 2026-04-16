@@ -22,19 +22,13 @@ A web que hoje nós conhecemos é uma **web de documentos**: HTML é usado para 
 
 A Web de Dados se propõe a resolver isso trocando os *documentos* por *coisas*, e *hiperlinks genéricos* por *enlaces tipados em RDF*. 
 
-```mermaid
-flowchart TB
-	subgraph doc [Web de documentos]
-	A(Página A) -- "*link?*" -->B(Página B)
-	end
-```
 
 ```mermaid
-flowchart LF
+flowchart LR
 	subgraph doc[Web de documentos]
-	A(Página A) -- link? --> B(Página B)
-	A -- link? --> C(Página C)
-	B -- link? --> C
+	A(Página A) -. link? .-> B(Página B)
+	A -. link? .-> C(Página C)
+	B -. link? .-> C
 	end
 ```
 
