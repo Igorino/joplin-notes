@@ -7,4 +7,4 @@ De onde viemos até os Grafos de Conhecimento:
 - **1980s** - Hipermídia:
 	- A evolução do hipertexto: recursos multimídia (imagens, vídeo, audio, etc.) passam a fazer parte da estrutura ligada de nós. Ainda não tem a semântica.
 - **1990** - Tim Berners-Lee:
-	- Sistema de hipermídia exemplar, proposto no CERN (Sim, aquele CERN mesmo, do acelerador de partículas). Combina **URI** (Identidade) + **HTTP** (comunicação) + **HTML** (
+	- Sistema de hipermídia exemplar, proposto no CERN (Sim, aquele CERN mesmo, do acelerador de partículas). Combina **URI** (Identidade) + **HTTP** (comunicação) + **HTML** (representação). Os links entre documentos não são tipados, a máquina *não sabe* por que A aponta para B.
