@@ -14,6 +14,12 @@ A ideia é sempre a mesma: prova por refutação. Ou seja, você nega a conclus�
 
 ## Regras básicas:
 | Tipo | Fórmula | Resultado |
+| --- | --- | --- |
+| $\alpha$ (conjuntiva) | $x \land y$ | Adiciona $x$ e $y$ no mesmo caminho. |
+| \beta
+
+
+
 
 .
 .
