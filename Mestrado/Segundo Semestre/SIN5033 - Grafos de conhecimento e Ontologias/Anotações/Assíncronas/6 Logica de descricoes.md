@@ -21,7 +21,8 @@ A ideia é sempre a mesma: prova por refutação. Ou seja, você nega a conclus�
 Um caminho é **fechado** quando contém $x$ e $\neg x$. Se **todos os caminhos fecham**, a fórmula original é provada (a negação dela é contraditória).
 
 **Exemplo 1**:
-1. Nega a fórmula $\to$ aplica regras $\alpha$ sucessivamente
+1. Nega a fórmula $\to$ aplica regras $\alpha$ sucessivamente.
+2. Obtém $q$, 
 
 
 
