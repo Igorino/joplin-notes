@@ -18,6 +18,7 @@ A ideia é sempre a mesma: prova por refutação. Ou seja, você nega a conclus�
 | $\alpha$ (conjuntiva) | $x \land y$ | Adiciona $x$ e $y$ no mesmo caminho. |
 | $\beta$ (disjuntiva) | $x \lor y$ | Bifurca o caminho em $x$ ou em $y$ |
 
+Um caminho é **fechado** quando contém
 
 
 
