@@ -22,7 +22,8 @@ Um caminho é **fechado** quando contém $x$ e $\neg x$. Se **todos os caminhos 
 
 **Exemplo 1**:
 1. Nega a fórmula $\to$ aplica regras $\alpha$ sucessivamente.
-2. Obtém $q$, 
+2. Obtém $q$, $r$, $q$ e $\neg r$ no mesmo caminho.
+3. $r$ e $\neg r$ $\to$ contradição $\to$ tableaux fechado $\to$
 
 
 
