@@ -29,6 +29,9 @@ Um caminho é **fechado** quando contém $x$ e $\neg x$. Se **todos os caminhos 
 1. $\gamma$ (universal $\forall$): substitui a variável por qualquer termo $t$;
 2. $\delta$ (existencial $\exists$): introduz uma nova constante $c$
 
+# 3. Por que não usar LPO pura para a Web Semântica
+
+
 
 
 
