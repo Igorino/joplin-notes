@@ -26,7 +26,8 @@ Um caminho é **fechado** quando contém $x$ e $\neg x$. Se **todos os caminhos 
 3. $r$ e $\neg r$ $\to$ contradição $\to$ tableaux fechado $\to$ fórmula válida $\checkmark$
 
 **Extensão** para LPO acrescenta duas regras:
-1. $\gamma$ (universal $\forall$
+1. $\gamma$ (universal $\forall$): substitui a variável por qualquer termo $t$;
+2. $\delta$ (existencial $\exists$): introduz uma nova constante $c$
 
 
 
