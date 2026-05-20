@@ -12,7 +12,9 @@ O motor de raciocínio automático central da aula.
 
 A ideia é sempre a mesma: prova por refutação. Ou seja, você nega a conclusão que você quer provar e tenta derivar uma contradição ($\perp$) disso. 
 
-# 
+## Regras básicas:
+| Tipo | Fórmula | Resultado |
+
 .
 .
 .
