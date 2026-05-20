@@ -10,4 +10,27 @@ A solução foi pegar um **fragmento** da LPO que seja decidível e expressivo o
 
 O motor de raciocínio automático central da aula. 
 
-A ideia é sempre a mesma: prova pro refutação. Você nega a conclusç
+A ideia é sempre a mesma: prova por contradição. Você nega a conclusão que você quer provar e tenta derivar uma contradição ($\perp$) disso. 
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
