@@ -93,8 +93,12 @@ Todos esses problemas são **reduzidos à insatisfatoriedade**, o reasoner sempr
 
 # 9. OWA vs. CWA: Diferença filosófica mais importante
 
-Essa distinção é fundamental para entender o comportamento de ontologias OWL
+Essa distinção é fundamental para entender o comportamento de ontologias OWL.
 
+**Hipótese do Mundo Aberto (OWA)**, adotada pela Web Semântica:
+> *"O que não está declarado é **desconhecido**, não falso.*
+
+**Hi**
 .
 .
 .
