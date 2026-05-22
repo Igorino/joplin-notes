@@ -98,7 +98,11 @@ Essa distinção é fundamental para entender o comportamento de ontologias OWL.
 **Hipótese do Mundo Aberto (OWA)**, adotada pela Web Semântica:
 > *"O que não está declarado é **desconhecido**, não falso.*
 
-**Hi**
+**Hipótese do Mundo Fechado (CWA)**, adotada por bancos de dados e Prolog:
+> *"O que não está declarado é falso"*
+
+**Exemplo clássifo com Harry Potter:**
+
 .
 .
 .
