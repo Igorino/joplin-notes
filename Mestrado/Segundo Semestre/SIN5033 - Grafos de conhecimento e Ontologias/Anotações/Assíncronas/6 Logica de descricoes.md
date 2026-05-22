@@ -89,7 +89,11 @@ O que um reasoner pode responder sobre uma BC (Base de Conhecimento):
 | As classes $C$ e $D$ são disjuntas? | $C \sqcap D \models \bot ?$ |
 | O indivíduo $a$ pertence a $C$? | $C(a)?$
 
-Todos esses problemas são **reduzidos à insatisfatoriedade**, o reasoner sempre 
+Todos esses problemas são **reduzidos à insatisfatoriedade**, o reasoner sempre testa se uma contradição existe.
+
+# 9. OWA vs. CWA: Diferença filosófica mais importante
+
+Essa distinção é fundamental para entender o comportamento de ontologias OWL
 
 .
 .
