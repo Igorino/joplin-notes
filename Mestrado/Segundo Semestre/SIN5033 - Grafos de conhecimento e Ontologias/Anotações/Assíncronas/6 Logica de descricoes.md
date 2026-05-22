@@ -63,8 +63,8 @@ Os blocos de montagem da linguagem são:
 - $\text{Novela} \equiv \text{Prosa} \to$ novela e prosa são exatamente o mesmo conjunto
 
 ## Diferença crucial entre $\forall$ e $\exists$ sobre roles:
-- $\text{Livro \sqsubseteq \foall \text{Autor}.\text{Escritor} \to$ se um livro tem um autor, esse autor **deve** ser escritor.
-- $\test{Livro} \sqsubset
+- $\text{Livro} \sqsubseteq \forall \text{Autor}.\text{Escritor} \to$ se um livro tem um autor, esse autor **deve** ser escritor.
+- $\test{Livro} \sqsubseteq \forall \text{autor Pessoa}$
 
 
 .
