@@ -103,9 +103,11 @@ Essa distinção é fundamental para entender o comportamento de ontologias OWL.
 
 **Exemplo clássifo com Harry Potter:**
 
-Base de Conhecimento: $\text{hasPet}(\text{HarryPotter, Hedwig)$ e $Owl(Hedwig)$
+Base de Conhecimento: $\text{hasPet}(\text{HarryPotter}, \text{Hedwig})$ e $\text{Owl}(\text{Hedwig})$
 
-Pergunta:
+Pergunta: todos os pets de Harry Potter são corujas? ($\forall \text{hasPet}.\text{Owl}$)
+
+
 .
 .
 .
