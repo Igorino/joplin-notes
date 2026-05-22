@@ -67,7 +67,8 @@ Os blocos de montagem da linguagem são:
 - $\text{Livro} \sqsubseteq \forall \text{autor Pessoa} \top$ todo livro tem **ao menos um** autor que é Pessoa (restrição aberta)
 
 # 6. Semântica de Modelos ALC
-A LD tem significado formal via interpretações $I = (\$
+A LD tem significado formal via interpretações $I = (\Delta¹, .¹)$, onde:
+- $\Delta$ 
 
 
 .
