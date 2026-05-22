@@ -55,7 +55,8 @@ Os blocos de montagem da linguagem são:
 | Disjunção | $C \cup D$ | *"É livro **ou** revista* |
 | Negação | $\neg C$ | *"**Não** é poesia"* | 
 | Universal | $\forall R.C$ | *"**Todos** os autores são Escritores"* |
-| Existencial | $\exists R.C$ | *"**Tem ao menos**"*
+| Existencial | $\exists R.C$ | *"**Tem ao menos** um autor que é Pessoa"* | 
+| Top/Bottom | $\
 
 
 .
