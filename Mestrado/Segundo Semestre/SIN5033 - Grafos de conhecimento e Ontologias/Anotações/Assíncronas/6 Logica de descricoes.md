@@ -116,7 +116,9 @@ Isso explica por que adicionar apenas $\le 1 \text{hasPet}.T$ (Harry tem no máx
 
 Para rodar o tableaux numa BC LD, dois passos extras são necessários:
 
-1. **Negation Normal Form (NNF)**: Empurrar todas as negações para dentro, direto sobre classes atômicas. Inclusions $C \sqsubseteq D$ viram $\neg 
+1. **Negation Normal Form (NNF)**: Empurrar todas as negações para dentro, direto sobre classes atômicas. Inclusions $C \sqsubseteq D$ viram $\neg C \sqcup D$, e depois as transformações de De Morgan são aplicadas recursivamente.
+
+2. **Bloqueio (Blocking)**: o problema de terminação. Com $\exists R.C$, o algortimo pode criar indifví
 
 
 
