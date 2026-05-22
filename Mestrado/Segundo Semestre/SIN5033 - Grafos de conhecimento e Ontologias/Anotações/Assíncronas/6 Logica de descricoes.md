@@ -118,7 +118,7 @@ Para rodar o tableaux numa BC LD, dois passos extras são necessários:
 
 1. **Negation Normal Form (NNF)**: Empurrar todas as negações para dentro, direto sobre classes atômicas. Inclusions $C \sqsubseteq D$ viram $\neg C \sqcup D$, e depois as transformações de De Morgan são aplicadas recursivamente.
 
-2. **Bloqueio (Blocking)**: o problema de terminação. Com $\exists R.C$, o algoritmo pode criar indivíduos infinitamente ($\text{Bill} \to x_1 \to x_2 \to ...$). O bloqueio para isso: se o conjunto de classes de um novo indivíduo 
+2. **Bloqueio (Blocking)**: o problema de terminação. Com $\exists R.C$, o algoritmo pode criar indivíduos infinitamente ($\text{Bill} \to x_1 \to x_2 \to ...$). O bloqueio para isso: se o conjunto de classes de um novo indivíduo $x_n$ é subconjunto do de um ancestral, ele é bloqueado, representando um ciclo no modelo. Isso garante a terminação e é o que torna ALC decidível.
 
 
 
