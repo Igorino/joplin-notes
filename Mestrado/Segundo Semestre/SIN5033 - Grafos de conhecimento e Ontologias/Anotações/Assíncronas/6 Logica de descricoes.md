@@ -41,7 +41,7 @@ A Lógica de Descrição mais básica é a ALC (Attribute Language with Compleme
 
 | Componente | O que guarda | Exemplo |
 | --- | --- | --- |
-| TBox | Conhecimento terminológico (classes/conceitos) | $\text{escritor} \equiv \text{pessoa} \hat \text{autor} \text{Livro}$
+| TBox | Conhecimento terminológico (classes/conceitos) | $\text{escritor} \equiv \text{pessoa} \squarecap \text{autor} \text{Livro}$
 
 
 .
