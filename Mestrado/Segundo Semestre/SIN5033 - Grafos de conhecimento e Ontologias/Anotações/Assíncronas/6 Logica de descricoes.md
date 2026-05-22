@@ -31,7 +31,7 @@ Um caminho é **fechado** quando contém $x$ e $\neg x$. Se **todos os caminhos 
 
 # 3. Por que não usar LPO pura para a Web Semântica
 
-É por que ela é semi-decidível, ou seja, um algoritmo pode ficar rodando pra sempre sem nunca chegar no final e cheg
+É por que ela é semi-decidível, ou seja, um algoritmo pode ficar rodando pra sempre sem nunca chegar no final e chegar a nenhuma conclusão. Nós precisamos de um fim da execução garanti
 
 
 .
