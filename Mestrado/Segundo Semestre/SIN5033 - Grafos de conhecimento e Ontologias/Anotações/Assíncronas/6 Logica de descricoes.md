@@ -51,8 +51,10 @@ Os blocos de montagem da linguagem são:
 
 | Construtor | Símbolo | Exemplo legível |
 | --- | --- | --- |
-| Conjunção | $C \cap D$ | *"É livro e Ficção* |
-| Disjunção | $C \cup 
+| Conjunção | $C \cap D$ | *"É livro **e** Ficção* |
+| Disjunção | $C \cup D$ | *"É livro **ou** revista* |
+| Negação | $\neg C$ | *"**Não** é poesia"* | 
+| 
 
 
 .
