@@ -47,7 +47,12 @@ A Lógica de Descrição mais básica é a ALC (Attribute Language with Compleme
 
 # 5. Construtores ALC
 
-Os blocos de montagem dessa 
+Os blocos de montagem da linguagem são:
+
+| Construtor | Símbolo | Exemplo legível |
+| --- | --- | --- |
+| Conjunção | $C \cap D$ | *"É livro e Ficção* |
+| Disjunção | $C \cup 
 
 
 .
