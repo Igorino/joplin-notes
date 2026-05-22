@@ -64,7 +64,10 @@ Os blocos de montagem da linguagem são:
 
 ## Diferença crucial entre $\forall$ e $\exists$ sobre roles:
 - $\text{Livro} \sqsubseteq \forall \text{Autor}.\text{Escritor} \to$ se um livro tem um autor, esse autor **deve** ser escritor.
-- $\text{Livro} \sqsubseteq \forall \text{autor Pessoa}$
+- $\text{Livro} \sqsubseteq \forall \text{autor Pessoa} \top$ todo livro tem **ao menos um** autor que é Pessoa (restrição aberta)
+
+# 6. Semântica de Modelos ALC
+A LD tem significado formal via interpretações
 
 
 .
