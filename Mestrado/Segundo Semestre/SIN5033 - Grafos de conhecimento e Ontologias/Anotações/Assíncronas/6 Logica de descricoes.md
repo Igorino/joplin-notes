@@ -105,7 +105,11 @@ Essa distinção é fundamental para entender o comportamento de ontologias OWL.
 
 Base de Conhecimento: $\text{hasPet}(\text{HarryPotter}, \text{Hedwig})$ e $\text{Owl}(\text{Hedwig})$
 
-Pergunta: todos os pets de Harry Potter são corujas? ($\forall \text{hasPet}.\text{Owl}$)
+Pergunta: todos os pets de Harry Potter são corujas? $(\forall \text{hasPet}.\text{Owl})?$
+
+- **OWA**: (OWL, LD): *não sei*. Pode existir outro pet ainda não declarado.
+- **CWA**: *Sim*
+
 
 
 .
