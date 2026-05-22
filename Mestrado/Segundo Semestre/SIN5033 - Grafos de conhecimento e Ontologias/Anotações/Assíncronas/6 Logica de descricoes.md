@@ -64,7 +64,7 @@ Os blocos de montagem da linguagem são:
 
 ## Diferença crucial entre $\forall$ e $\exists$ sobre roles:
 - $\text{Livro} \sqsubseteq \forall \text{Autor}.\text{Escritor} \to$ se um livro tem um autor, esse autor **deve** ser escritor.
-- $\t{Livro} \sqsubseteq \forall \text{autor Pessoa}$
+- $\text{Livro} \sqsubseteq \forall \text{autor Pessoa}$
 
 
 .
