@@ -110,7 +110,13 @@ Pergunta: todos os pets de Harry Potter são corujas? $(\forall \text{hasPet}.\t
 - **OWA**: (OWL, LD): *não sei*. Pode existir outro pet ainda não declarado.
 - **CWA**: *Sim*. O que não está na base não existe.
 
-Isso explica por que adicionar apenas $\le 1 \text{hasPet}.T$ (Harry tem no máximo 
+Isso explica por que adicionar apenas $\le 1 \text{hasPet}.T$ (Harry tem no máximo um pet) muda a resposta para sim mesmo sob o OWA, aí podemos inferir que o Hedgwig é único.
+
+# 10. Tableaux para ALC: NNF e Bloqueio
+
+Para rodar o tableaux numa BC LD, dois passos extras são necessários:
+
+1. 
 
 
 
