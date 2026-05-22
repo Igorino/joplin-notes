@@ -37,7 +37,11 @@ Um caminho é **fechado** quando contém $x$ e $\neg x$. Se **todos os caminhos 
 
 Lógicas de descrição são fragmentos decidíveis da LPO. Cada LD é uma "família" com diferentes poderes de se expressar.
 
-A Lógica de Descrição mais básica é a ALC (Attribt
+A Lógica de Descrição mais básica é a ALC (Attribute Language with Complements)
+
+| Componente | O que guarda | Exemplo |
+| --- | --- | --- |
+| TBox | Conhecimento 
 
 
 .
