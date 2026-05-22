@@ -87,9 +87,9 @@ O que um reasoner pode responder sobre uma BC (Base de Conhecimento):
 | Classe $C$ é sempre vazia? | $C \equiv \bot ?$ |
 | $C$ é subclasse de $D$? | $C \sqsubseteq D ?$ |
 | As classes $C$ e $D$ são disjuntas? | $C \sqcap D \models \bot ?$ |
-| O indivíduo $a$ pertence a C?
+| O indivíduo $a$ pertence a $C$? | $C(a)?$
 
-
+Todos esses problemas são **reduzidos à insatisfatoriedade**, o reasoner sempre 
 
 .
 .
