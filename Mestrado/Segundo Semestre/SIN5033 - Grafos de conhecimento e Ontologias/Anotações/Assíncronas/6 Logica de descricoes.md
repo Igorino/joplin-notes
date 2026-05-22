@@ -43,7 +43,12 @@ A Lógica de Descrição mais básica é a ALC (Attribute Language with Compleme
 | --- | --- | --- |
 | TBox | Conhecimento terminológico (classes/conceitos) | $\text{escritor} \equiv \text{pessoa} \sqcap \text{autor} \text{Livro}$ |
 | ABox | Conhecimento assertivo (indivíduos) | $\text{Escritor} (\text{GeorgeOrwell})$ , $\text{autor} (1984, \text{GeorgeOrwell})$
-| RBox | Hierarquia de papeis (roles) | $\text{coAutor} \sqcp
+| RBox | Hierarquia de papeis (roles) | $\text{coAutor} \sqsubseteq \text{autor}$ |
+
+# 5. Construtores ALC
+
+Os blocos de montagem dessa 
+
 
 .
 .
