@@ -108,7 +108,10 @@ Base de Conhecimento: $\text{hasPet}(\text{HarryPotter}, \text{Hedwig})$ e $\tex
 Pergunta: todos os pets de Harry Potter são corujas? $(\forall \text{hasPet}.\text{Owl})?$
 
 - **OWA**: (OWL, LD): *não sei*. Pode existir outro pet ainda não declarado.
-- **CWA**: *Sim*
+- **CWA**: *Sim*. O que não está na base não existe.
+
+Isso explica por que adicionar apenas $\le 1 \text{hasPet}.T$ (Harry tem no máximo 
+
 
 
 
