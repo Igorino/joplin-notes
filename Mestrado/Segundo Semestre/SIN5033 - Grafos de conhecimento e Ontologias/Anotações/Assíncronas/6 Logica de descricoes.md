@@ -73,7 +73,15 @@ A LD tem significado formal via interpretações $I = (\Delta¹, .¹)$, onde:
 
 Isso serve para dar significado preciso às afirmações: $C(a)$ é verdadeiro somente se $a^I \in C^I$.
 
-# 7. Família de 
+# 7. Família de LDs e OWL
+
+Cada letra da sopa-de-letrinhas representa uma extensão sobre a ALC
+
+# 8. Problemas de inferência
+
+
+
+
 
 
 .
