@@ -79,9 +79,12 @@ Cada letra da sopa-de-letrinhas representa uma extensão sobre a ALC
 
 # 8. Problemas de inferência
 
-O que um reasoner pode responder sobre uma BC:
+O que um reasoner pode responder sobre uma BC (Base de Conhecimento):
 
-
+| Pergunta | Formal |
+| --- | --- |
+| A BC é consistente? | $BC \models \bot ?$ |
+| Classe C é sempre vazia? | $C \
 
 
 
