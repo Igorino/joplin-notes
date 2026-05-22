@@ -68,7 +68,10 @@ Os blocos de montagem da linguagem são:
 
 # 6. Semântica de Modelos ALC
 A LD tem significado formal via interpretações $I = (\Delta¹, .¹)$, onde:
-- $\Delta$ 
+- $\Delta¹$ é o domínio (conjunto de indivíduos)
+- $.¹$ mapeia nomes de classes para os subconjuntos do domínio, e roles para de elementos.
+
+Isso serve para dar significado preciso às afirmações: $C(a)$
 
 
 .
