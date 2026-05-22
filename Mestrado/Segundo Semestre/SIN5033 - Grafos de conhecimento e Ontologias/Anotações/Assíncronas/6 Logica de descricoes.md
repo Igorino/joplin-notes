@@ -116,7 +116,7 @@ Isso explica por que adicionar apenas $\le 1 \text{hasPet}.T$ (Harry tem no máx
 
 Para rodar o tableaux numa BC LD, dois passos extras são necessários:
 
-1. 
+1. **Negation Normal Form (NNF)**: Empurrar todas as negações para dentro, direto sobre classes atômicas. Inclusions $C \sqsubseteq D$ viram $\neg 
 
 
 
