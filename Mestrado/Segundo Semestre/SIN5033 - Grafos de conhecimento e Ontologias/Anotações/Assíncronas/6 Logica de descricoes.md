@@ -59,7 +59,10 @@ Os blocos de montagem da linguagem são:
 | Top/Bottom | $\top \bot$ | *"Tudo / nada"* |
 
 ## Inclusão vs. Equivalência:
-- $\text{Novela} \sqsubseteq \text{Livro$
+- $\text{Novela} \sqsubseteq \text{Livro} \to$ toda novela é livro (subclasse)
+- $\text{Novela} \equiv \text{Prosa} \to$ novela e prosa são exatamente o mesmo conjunto
+
+## Diferença crucial entre $\forall$ e $\exists$ sobre roles
 
 
 .
