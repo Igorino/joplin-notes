@@ -58,7 +58,8 @@ Os blocos de montagem da linguagem são:
 | Existencial | $\exists R.C$ | *"**Tem ao menos** um autor que é Pessoa"* | 
 | Top/Bottom | $\top \bot$ | *"Tudo / nada"* |
 
-
+## Inclusão vs. Equivalência:
+- $\text{Novela} \sqsubseteq \text{Livro$
 
 
 .
