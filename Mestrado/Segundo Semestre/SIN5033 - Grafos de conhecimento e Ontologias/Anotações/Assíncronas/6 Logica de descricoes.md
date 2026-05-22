@@ -41,8 +41,8 @@ A Lógica de Descrição mais básica é a ALC (Attribute Language with Compleme
 
 | Componente | O que guarda | Exemplo |
 | --- | --- | --- |
+| ABox | Conhecimento assertivo (indivíduos) | $\text{Escritor} (\text{GeorgeOrwell})$ , $
 | TBox | Conhecimento terminológico (classes/conceitos) | $\text{escritor} \equiv \text{pessoa} \sqcap \text{autor} \text{Livro}$ |
-| ABox | Conhecimento assertivo (indivíduos) | 
 
 .
 .
