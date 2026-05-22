@@ -79,6 +79,7 @@ Cada letra da sopa-de-letrinhas representa uma extensão sobre a ALC
 
 # 8. Problemas de inferência
 
+O que um reasoner pode responder sobre uma BC:
 
 
 
