@@ -71,7 +71,9 @@ A LD tem significado formal via interpretações $I = (\Delta¹, .¹)$, onde:
 - $\Delta¹$ é o domínio (conjunto de indivíduos)
 - $.¹$ mapeia nomes de classes para os subconjuntos do domínio, e roles para de elementos.
 
-Isso serve para dar significado preciso às afirmações: $C(a)$
+Isso serve para dar significado preciso às afirmações: $C(a)$ é verdadeiro somente se $a^I \in C^I$.
+
+# 7. Família de 
 
 
 .
