@@ -6,14 +6,14 @@
 	- **explicabilidade**; e
 	- **comportamento emergente**.
 - A pergunta foca na tensão entre **emergência** e **explicabilidade**.
-- **Explicabilidade** é o eixo que game AI quase nunca trata como critério. É a sua contribuição.
+- **Explicabilidade** é o eixo que game AI quase nunca trata como critério. *(Pode ser minha contribuição?)*
 
 # Ajuste sobre LLMs (ponto revisado)
 
-- Dois argumentos distintos contra LLM-por-NPC, não confundir.
-- Custo/escalabilidade: latência e VRAM por agente, inviável em multidão. Vale para LLM.
-- Explicabilidade/controle: caixa-preta. Vale para LLM e para NN.
-- Para rede neural pequena, sobra só a explicabilidade. Não colapsar "LLM" e "NN".
+- Dois argumentos distintos contra LLM-por-NPC, **não confundir**:
+	- Custo/escalabilidade: latência e VRAM por agente, inviável em multidão. Vale para LLM.
+	- Explicabilidade/controle: caixa-preta. Vale para LLM e para NN.
+	- Para rede neural pequena, sobra só a explicabilidade. (Não colapsar "LLM" e "NN".
 
 # Bibliografia
 
