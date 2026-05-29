@@ -5,7 +5,7 @@
 	- **controlabilidade**;
 	- **explicabilidade**; e
 	- **comportamento emergente**.
-- A pergunta foca na tensão entre **emergência** e **explicabilidade**.
+- A pergunta poderia focar na tensão entre **emergência** e **explicabilidade**.
 - **Explicabilidade** é o eixo que game AI quase nunca trata como critério. *(Pode ser minha contribuição?)*
 
 # Ajuste sobre LLMs (ponto revisado)
