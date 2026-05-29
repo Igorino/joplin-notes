@@ -54,7 +54,3 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 - Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
 - Objetivo: tornar visível a diferença de explicabilidade entre eles.
 
-# Fechamento
-
-Cinco perguntas concretas pros orientadores.
-Seção de referências com as onze fontes.
