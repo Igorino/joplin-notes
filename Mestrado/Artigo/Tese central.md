@@ -1,11 +1,12 @@
 # Tese central
-- A escolha de arquitetura de NPC é um posicionamento em trade-offs entre quatro eixos:
+- A escolha da arquitetura de NPC é baseado em trade-offs de quatro eixos:
 	- **Custo computacional / escalabilidade**;
 	- **controlabilidade / autoria**;
 	- **explicabilidade**; e
 	- **comportamento emergente**.
 - A pergunta poderia focar na tensão entre **emergência** e **explicabilidade**.
 - **Explicabilidade** é o eixo que game AI quase nunca trata como critério. *(Pode ser minha contribuição?)*
+- Pod
 
 # Ajuste sobre LLMs (ponto revisado)
 
