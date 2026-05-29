@@ -46,10 +46,14 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 
 | Nome do artigo | Resumo | Como ajuda a minha tese? |
 | --- | --- | --- |
-| **Zhu (2019): Behavior Tree + Q-learning em Unity3D** | Implementa BTs para NPCs em Unity e propõe um híbrido BT + RL. Foco em viabilidade e eficiência de execução (roda estável, baixo consumo). | **Sustentação fraca**. Exemplo de implementação de BT e de arquitetura híbrida (gancho para 'trabalhos futuros'). Não usar como autoridade conceitual, pois é fonte de baixo impacto. |
+| **Zhu (2019): Behavior Tree + Q-learning em Unity3D** | Implementação BTs para NPCs em Unity e propõe um híbrido BT + RL. Foco em viabilidade e eficiência de execução (roda estável, baixo consumo). | **Sustentação fraca**. Exemplo de implementação de BT e de arquitetura híbrida (gancho para 'trabalhos futuros'). Não usar como autoridade conceitual, pois é fonte de baixo impacto. |
 | **Silva & Ribeiro (2021, SBGames): SLR de comportamento crível** | Revisão sistemática (18 estudos) sobre NPCs com comportamento crível. Constrói taxonomia (decisão, emoção, papel) e aponta que técnicas tradicionais viram obstáculo: o designer perde "controle firme" das respostas conforme a complexidade cresce. | **Sustentação Forte**. Aliado metodológico, em português, no SBGames. Mapeia o campo e enuncia o eixo de controlabilidade. Fonte de mineração de referências canônicas (cita Colledanchise). |
 | **Chen (2024, LUT): SLR de NPC behavior e DDA** | Tese de mestrado. Moldura 'AI tradicional x real AI', percorre regras/FSM/BT até RL/deep learning. Cita interpretabilidade como vantagem da AI tradicional e a tensão autonomia x intenção de design. | **Forte**. Serve de modelo de estrutura (é uma SLR de mestrado) e de moldura para o argumento contra NN. Também fonte de garimpo de referências. |
 | **Nugraha et al. (2025): FSM em RPG Maker** |
 | **Magnenat et al. (2022, AAAI/AIIDE): NPC engine, MCTS para narrativa emergente** |
 | **Lapeyrade (2022, AAAI/AIIDE): raciocínio com ontologias (Prolog/WFS)** |
 | **Studiawan et al. (2018, JAREE): GOAP em jogo espacial** |
+| **AlJammaz, Wardrip-Fruin & Mateas (2023, FDG): Character Believability** |
+| **Gallotta et al. (2024, IEEE Transactions on Games): Survey & Roadmap de LLMs em jogos** |
+| **Echoes of Others (INLG 2025, faixa de demos): protótipo UE5 com back-ends intercambiáveis** |
+
