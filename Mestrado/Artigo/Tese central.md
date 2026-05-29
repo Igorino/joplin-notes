@@ -56,4 +56,4 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 | **AlJammaz, Wardrip-Fruin & Mateas (2023, FDG): Character Believability** |
 | **Gallotta et al. (2024, IEEE Transactions on Games): Survey & Roadmap de LLMs em jogos** |
 | **Echoes of Others (INLG 2025, faixa de demos): protótipo UE5 com back-ends intercambiáveis** |
-
+| **Andreasen & Esterle (2025, arXiv, PREPRINT)** 
