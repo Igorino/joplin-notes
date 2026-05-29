@@ -46,5 +46,5 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 
 | Artigo | O que diz | Função no possível no trabalho |
 | --- | --- | --- |
-| Zhu (2019): Behavior Tree + Q-learning em Unity3D | Implementa BTs para NPCs em Unity e propõe um híbrido BT + Q-learning. Foco em viabilidade e eficiência de execução (roda estável, baixo consumo). | **Sustentação fraca**. Exemplo de implementação de BT e de arquitetura híbrida (gancho para 'trabalhos futuros'). Não usar como autoridade conceitual, pois é fonte de baixo impacto. |
-| Silva & Ribeiro (2021, SBGames): SLR de comportamento crível | 
+| **Zhu (2019): Behavior Tree + Q-learning em Unity3D** | Implementa BTs para NPCs em Unity e propõe um híbrido BT + Q-learning. Foco em viabilidade e eficiência de execução (roda estável, baixo consumo). | **Sustentação fraca**. Exemplo de implementação de BT e de arquitetura híbrida (gancho para 'trabalhos futuros'). Não usar como autoridade conceitual, pois é fonte de baixo impacto. |
+| **Silva & Ribeiro (2021, SBGames): SLR de comportamento crível** | Revisão sistemática (18 estudos) sobre NPCs com comportamento crível. Constrói taxonomia (decisão, emoção, papel) e aponta que técnicas tradicionais viram obstáculo: o designer perde 'controle firme' das respostas conforme a complexidade cresce. | **Sustentação Forte**. Aliado metodológico, em português, no SBGames. Mapeia o campo e enuncia o eixo de controlabilidade. Fonte de mineração de referências canônicas (cita Colledanchise). |
