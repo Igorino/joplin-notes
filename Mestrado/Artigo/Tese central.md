@@ -19,12 +19,12 @@
 
 - Oito artigos no corpus central, mapeados por função.
 	- **Lapeyrade** e **Studiawan**: ancoram planejamento e explicabilidade.
-	- NPC engine (Magnenat): cruza emergência e inspeção da decisão.
-	- AlJammaz: vocabulário de credibilidade ("behavior understandability").
-	- Silva & Ribeiro e Chen: mapeiam o campo (SLRs).
-Três fontes de escalabilidade, com Gallotta et al. (IEEE ToG, revisado) como âncora.
+	- NPC engine (**Magnenat**): cruza emergência e inspeção da decisão.
+	- **AlJammaz**: vocabulário de credibilidade ("behavior understandability").
+	- **Silva & Ribeiro e Chen**: mapeiam o campo (SLRs).
+	- Três fontes de escalabilidade, com **Gallotta et al**. (IEEE ToG) como âncora.
 
-A lacuna
+# A lacuna
 
 Nenhuma fonte é sobre explicabilidade propriamente.
 Confirma que o ângulo é subexplorado (bom sinal).
