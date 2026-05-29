@@ -26,13 +26,13 @@ Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "N
 
 # A lacuna
 
-Nenhuma fonte é sobre explicabilidade propriamente.
-Confirma que o ângulo é subexplorado (bom sinal).
-Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
+- Nenhuma fonte é sobre explicabilidade propriamente.
+- Confirma que o ângulo é **subexplorado**.
+- Falta buscar literatura de XAI e plan-explanation. Prioridade de leitura.
 
-# Justificativa do recorte (BT/GOAP), em 4 movimentos
+# Justificativa do recorte (BT/GOAP)
 
-- Partir dos eixos, não das técnicas.
+- Partir dos eixos.
 - Argumento de viabilidade (custo).
 - Argumento de projeto (controle/explicabilidade).
 - Só se estuda explicabilidade em arquiteturas que a possuem, então focar em BT/GOAP é condição da própria contribuição.
