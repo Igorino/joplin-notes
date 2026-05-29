@@ -38,18 +38,6 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 - Argumento de projeto (controle/explicabilidade).
 - Fecho metodológico: só se estuda explicabilidade em arquiteturas que a possuem, então focar em BT/GOAP é condição da própria contribuição.
 
-# Estrutura do artigo
-
-- Sete partes:
-	- introdução,
-	- eixos,
-	- arquiteturas,
-	- justificativa do recorte,
-	- explicabilidade,
-	- demo,
-	- discussão e
-	- conclusão.
-
 # Demo em Godot
 
 - Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
