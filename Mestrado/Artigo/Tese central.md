@@ -11,13 +11,13 @@
 
 - Dois argumentos contra LLM-por-NPC:
 	- **Custo/escalabilidade**: latência e VRAM por agente, inviável em multidão. Vale para LLM.
-	- **Explicabilidade/controle**: caixa-preta. Vale para LLM e para NN.
+	- **Explicabilidade/controle**: caixa-preta. Vale para LLM e pra NN.
 
 Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "NN").
 
 # Bibliografia
 
-- Oito artigos no corpus central, mapeados por função.
+- Oito artigos:
 	- **Lapeyrade** e **Studiawan**: ancoram planejamento e explicabilidade.
 	- NPC engine (**Magnenat**): cruza emergência e inspeção da decisão.
 	- **AlJammaz**: vocabulário de credibilidade ("behavior understandability").
@@ -42,7 +42,7 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 - Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
 - Objetivo: tornar visível a diferença de explicabilidade entre eles?
 
-# Resumos
+# Artigos
 
 | Nome do artigo | Resumo | Como ajuda a minha tese? |
 | --- | --- | --- |
@@ -55,8 +55,8 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 | **Studiawan et al. (2018, JAREE): GOAP em jogo espacial** |
 | **AlJammaz, Wardrip-Fruin & Mateas (2023, FDG): Character Believability** |
 
-## Artigos sobre
-| Artigo | Resumo | Como pode me ajudar? |
+## Artigos que abordam escalabilidade de LLMs
+| Nome do artigo | Resumo | Como pode me ajudar? |
 | --- | --- | --- |
 | **Gallotta et al. (2024, IEEE Transactions on Games): Survey & Roadmap de LLMs em jogos** |
 | **Echoes of Others (INLG 2025, faixa de demos): protótipo UE5 com back-ends intercambiáveis** |
