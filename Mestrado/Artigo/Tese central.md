@@ -1,4 +1,5 @@
 # Tese central
+**Pergunta de pesquisa:** como diferentes arquiteturas de decisão de NPC posicionam o trade-off entre emergência e explicabilidade, sendo a explicabilidade o eixo que a área de game AI raramente trata como critério de projeto?
 
 - A escolha de arquitetura de NPC é um posicionamento em trade-offs entre quatro eixos:
 	- **custo/escalabilidade**;
