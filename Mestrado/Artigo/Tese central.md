@@ -42,4 +42,8 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 - Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
 - Objetivo: tornar visível a diferença de explicabilidade entre eles?
 
-# 
+# Bibliografia
+
+| Artigo | O que diz | Função no trabalho / alinhamento |
+| --- | --- | --- |
+| Zhu (2019): Behavior Tree + Q-learning em Unity3D | 
