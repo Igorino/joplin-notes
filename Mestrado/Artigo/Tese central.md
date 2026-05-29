@@ -58,6 +58,6 @@ Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "N
 ## Artigos que abordam escalabilidade de LLMs
 | Nome do artigo | Resumo | Como pode me ajudar? |
 | --- | --- | --- |
-| **Gallotta et al. (2024, IEEE Transactions on Games): Survey & Roadmap de LLMs em jogos** | Survey revisado por pares (autores incluem Togelius e Yannakakis). Mapeia os papéis de LLMs em jogos e discute limitações: custo computacional em tempo real, sustentabilidade e direitos autorais nos dados. | Âncora revisada do eixo de **escalabilidade**. Use esta como base (não o arXiv). Autores já citados no resto da sua bibliografia, com autoridade máxima. Também mapeia papéis de LLM (serve à seção de arquiteturas). |
+| **Gallotta et al. (2024, IEEE Transactions on Games): Survey & Roadmap de LLMs em jogos** | Survey revisado por pares (autores incluem Togelius e Yannakakis). Mapeia os papéis de LLMs em jogos e discute limitações: custo computacional em tempo real, sustentabilidade e direitos autorais nos dados. | Âncora revisada do **eixo de escalabilidade**. Usar como base (mas não a do arXiv). Autores já citados no resto da bibliografia. Também mapeia papéis de LLM (serve à seção de arquiteturas). |
 | **Echoes of Others (INLG 2025, faixa de demos): protótipo UE5 com back-ends intercambiáveis** |
 | **Andreasen & Esterle (2025, arXiv, PREPRINT)** |
