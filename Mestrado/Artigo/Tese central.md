@@ -1,7 +1,7 @@
 # Tese central
 - A escolha de arquitetura de NPC é um posicionamento em trade-offs entre quatro eixos:
-	- **custo/escalabilidade**;
-	- **controlabilidade**;
+	- **Custo computacional / escalabilidade**;
+	- **controlabilidade / autoria**;
 	- **explicabilidade**; e
 	- **comportamento emergente**.
 - A pergunta poderia focar na tensão entre **emergência** e **explicabilidade**.
@@ -9,10 +9,11 @@
 
 # Ajuste sobre LLMs (ponto revisado)
 
-- Dois argumentos contra LLM-por-NPC, **não confundir**:
+- Dois argumentos contra LLM-por-NPC:
 	- **Custo/escalabilidade**: latência e VRAM por agente, inviável em multidão. Vale para LLM.
 	- **Explicabilidade/controle**: caixa-preta. Vale para LLM e para NN.
-	- Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "NN").
+
+Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "NN").
 
 # Bibliografia
 
@@ -41,3 +42,4 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 - Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
 - Objetivo: tornar visível a diferença de explicabilidade entre eles?
 
+# 
