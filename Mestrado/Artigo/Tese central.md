@@ -54,6 +54,10 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 | **Lapeyrade (2022, AAAI/AIIDE): raciocínio com ontologias (Prolog/WFS)** |
 | **Studiawan et al. (2018, JAREE): GOAP em jogo espacial** |
 | **AlJammaz, Wardrip-Fruin & Mateas (2023, FDG): Character Believability** |
+
+## Artigos sobre
+| Artigo | Resumo | Como pode me ajudar? |
+| --- | --- | --- |
 | **Gallotta et al. (2024, IEEE Transactions on Games): Survey & Roadmap de LLMs em jogos** |
 | **Echoes of Others (INLG 2025, faixa de demos): protótipo UE5 com back-ends intercambiáveis** |
-| **Andreasen & Esterle (2025, arXiv, PREPRINT)** 
+| **Andreasen & Esterle (2025, arXiv, PREPRINT)** |
