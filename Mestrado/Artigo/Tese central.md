@@ -10,18 +10,18 @@
 
 # Ajuste sobre LLMs (ponto revisado)
 
-- Dois argumentos distintos contra LLM-por-NPC, **não confundir**:
-	- Custo/escalabilidade: latência e VRAM por agente, inviável em multidão. Vale para LLM.
-	- Explicabilidade/controle: caixa-preta. Vale para LLM e para NN.
-	- Para rede neural pequena, sobra só a explicabilidade. (Não colapsar "LLM" e "NN".
+- Dois argumentos contra LLM-por-NPC, **não confundir**:
+	- **Custo/escalabilidade**: latência e VRAM por agente, inviável em multidão. Vale para LLM.
+	- **Explicabilidade/controle**: caixa-preta. Vale para LLM e para NN.
+	- Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "NN").
 
 # Bibliografia
 
-Oito artigos no corpus central, mapeados por função.
-Lapeyrade e Studiawan: ancoram planejamento e explicabilidade.
-NPC engine (Magnenat): cruza emergência e inspeção da decisão.
-AlJammaz: vocabulário de credibilidade ("behavior understandability").
-Silva & Ribeiro e Chen: mapeiam o campo (SLRs).
+- Oito artigos no corpus central, mapeados por função.
+	- **Lapeyrade** e **Studiawan**: ancoram planejamento e explicabilidade.
+	- NPC engine (Magnenat): cruza emergência e inspeção da decisão.
+	- AlJammaz: vocabulário de credibilidade ("behavior understandability").
+	- Silva & Ribeiro e Chen: mapeiam o campo (SLRs).
 Três fontes de escalabilidade, com Gallotta et al. (IEEE ToG, revisado) como âncora.
 
 A lacuna
