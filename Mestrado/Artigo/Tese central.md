@@ -30,23 +30,31 @@ Nenhuma fonte é sobre explicabilidade propriamente.
 Confirma que o ângulo é subexplorado (bom sinal).
 Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 
-Justificativa do recorte (BT/GOAP), em 4 movimentos
+# Justificativa do recorte (BT/GOAP), em 4 movimentos
 
-Partir dos eixos, não das técnicas.
-Argumento de viabilidade (custo).
-Argumento de projeto (controle/explicabilidade).
-Fecho metodológico: só se estuda explicabilidade em arquiteturas que a possuem, então focar em BT/GOAP é condição da própria contribuição.
+- Partir dos eixos, não das técnicas.
+- Argumento de viabilidade (custo).
+- Argumento de projeto (controle/explicabilidade).
+- Fecho metodológico: só se estuda explicabilidade em arquiteturas que a possuem, então focar em BT/GOAP é condição da própria contribuição.
 
-Estrutura do artigo
+# Estrutura do artigo
 
-Sete partes: introdução, eixos, arquiteturas, justificativa do recorte, explicabilidade, demo, discussão e conclusão.
+- Sete partes:
+	- introdução,
+	- eixos,
+	- arquiteturas,
+	- justificativa do recorte,
+	- explicabilidade,
+	- demo,
+	- discussão e
+	- conclusão.
 
-Demo em Godot
+# Demo em Godot
 
-Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
-Objetivo: tornar visível a diferença de explicabilidade entre eles.
+- Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
+- Objetivo: tornar visível a diferença de explicabilidade entre eles.
 
-Fechamento
+# Fechamento
 
 Cinco perguntas concretas pros orientadores.
 Seção de referências com as onze fontes.
