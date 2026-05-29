@@ -1,17 +1,17 @@
-#Tese central
+# Tese central
 
-A escolha de arquitetura de NPC é um posicionamento em trade-offs entre quatro eixos: custo/escalabilidade, controlabilidade, explicabilidade e emergência.
-A pergunta foca na tensão entre emergência e explicabilidade.
-Explicabilidade é o eixo que game AI quase nunca trata como critério. É a sua contribuição.
+- A escolha de arquitetura de NPC é um posicionamento em trade-offs entre quatro eixos: custo/escalabilidade, controlabilidade, explicabilidade e emergência.
+- A pergunta foca na tensão entre emergência e explicabilidade.
+- Explicabilidade é o eixo que game AI quase nunca trata como critério. É a sua contribuição.
 
-Ajuste sobre LLMs (ponto revisado)
+# Ajuste sobre LLMs (ponto revisado)
 
-Dois argumentos distintos contra LLM-por-NPC, não confundir.
-Custo/escalabilidade: latência e VRAM por agente, inviável em multidão. Vale para LLM.
-Explicabilidade/controle: caixa-preta. Vale para LLM e para NN.
-Para rede neural pequena, sobra só a explicabilidade. Não colapsar "LLM" e "NN".
+- Dois argumentos distintos contra LLM-por-NPC, não confundir.
+- Custo/escalabilidade: latência e VRAM por agente, inviável em multidão. Vale para LLM.
+- Explicabilidade/controle: caixa-preta. Vale para LLM e para NN.
+- Para rede neural pequena, sobra só a explicabilidade. Não colapsar "LLM" e "NN".
 
-Bibliografia
+# Bibliografia
 
 Oito artigos no corpus central, mapeados por função.
 Lapeyrade e Studiawan: ancoram planejamento e explicabilidade.
