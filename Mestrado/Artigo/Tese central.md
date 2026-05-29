@@ -36,10 +36,10 @@ Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
 - Partir dos eixos, não das técnicas.
 - Argumento de viabilidade (custo).
 - Argumento de projeto (controle/explicabilidade).
-- Fecho metodológico: só se estuda explicabilidade em arquiteturas que a possuem, então focar em BT/GOAP é condição da própria contribuição.
+- Só se estuda explicabilidade em arquiteturas que a possuem, então focar em BT/GOAP é condição da própria contribuição.
 
 # Demo em Godot
 
 - Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
-- Objetivo: tornar visível a diferença de explicabilidade entre eles.
+- Objetivo: tornar visível a diferença de explicabilidade entre eles?
 
