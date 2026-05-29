@@ -6,9 +6,9 @@
 	- **comportamento emergente**.
 - A pergunta poderia focar na tensão entre **emergência** e **explicabilidade**.
 - **Explicabilidade** é o eixo que game AI quase nunca trata como critério. *(Pode ser minha contribuição?)*
-- Pod
+- Poderia também só fazer uma revisão sistemática usando esses quatros eixos.
 
-# Ajuste sobre LLMs (ponto revisado)
+# Sobre LLMs
 
 - Dois argumentos contra LLM-por-NPC:
 	- **Custo/escalabilidade**: latência e VRAM por agente, inviável em multidão. Vale para LLM.
@@ -18,8 +18,8 @@ Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "N
 
 # Bibliografia
 
-- Oito artigos:
-	- **Lapeyrade** e **Studiawan**: ancoram planejamento e explicabilidade.
+- Artigos:
+	- **Lapeyrade** e **Studiawan**: falam sobre planejamento e explicabilidade.
 	- NPC engine (**Magnenat**): cruza emergência e inspeção da decisão.
 	- **AlJammaz**: vocabulário de credibilidade ("behavior understandability").
 	- **Silva & Ribeiro e Chen**: mapeiam o campo (SLRs).
