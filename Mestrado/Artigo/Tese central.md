@@ -1,9 +1,10 @@
 # Tese central
+
 - A escolha da arquitetura de NPC é baseado em trade-offs de quatro eixos:
-	- **Custo computacional / escalabilidade**;
-	- **controlabilidade / autoria**;
-	- **explicabilidade**; e
-	- **comportamento emergente**.
+    - **Custo computacional / escalabilidade**;
+    - **controlabilidade / autoria**;
+    - **explicabilidade**; e
+    - **comportamento emergente**.
 - A pergunta poderia focar na tensão entre **emergência** e **explicabilidade**.
 - **Explicabilidade** é o eixo que game AI quase nunca trata como critério. *(Pode ser minha contribuição?)*
 - Poderia também só fazer uma revisão sistemática usando esses quatros eixos.
@@ -11,19 +12,19 @@
 # Sobre LLMs
 
 - Dois argumentos contra LLM-por-NPC:
-	- **Custo/escalabilidade**: latência e VRAM por agente, inviável em multidão. Vale para LLM.
-	- **Explicabilidade/controle**: caixa-preta. Vale para LLM e pra NN.
+    - **Custo/escalabilidade**: latência e VRAM por agente, inviável em multidão. Vale para LLM.
+    - **Explicabilidade/controle**: caixa-preta. Vale para LLM e pra NN.
 
 Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "NN").
 
 # Bibliografia
 
 - Artigos:
-	- **Lapeyrade** e **Studiawan**: falam sobre planejamento e explicabilidade.
-	- NPC engine (**Magnenat**): cruza emergência e inspeção da decisão.
-	- **AlJammaz**: vocabulário de credibilidade ("behavior understandability").
-	- **Silva & Ribeiro e Chen**: mapeiam o campo (SLRs).
-	- Três fontes de escalabilidade, com **Gallotta et al**. (IEEE ToG) como âncora.
+    - **Lapeyrade** e **Studiawan**: falam sobre planejamento e explicabilidade.
+    - NPC engine (**Magnenat**): cruza emergência e inspeção da decisão.
+    - **AlJammaz**: vocabulário de credibilidade ("behavior understandability").
+    - **Silva & Ribeiro e Chen**: mapeiam o campo (SLRs).
+    - Três fontes de escalabilidade, com **Gallotta et al**. (IEEE ToG) como âncora.
 
 # A Lacuna
 
@@ -47,16 +48,17 @@ Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "N
 
 | Nome do artigo | Resumo | Como ajuda a minha tese? |
 | --- | --- | --- |
-| **Zhu (2019): Behavior Tree + Q-learning em Unity3D** <br> link| Implementação BTs para NPCs em Unity e propõe um híbrido BT + RL. Foco em viabilidade e eficiência de execução (roda estável, baixo consumo). | **Sustentação fraca**. Exemplo de implementação de BT e de arquitetura híbrida (gancho para 'trabalhos futuros'). Fonte de baixo impacto. |
+| **Zhu (2019): Behavior Tree + Q-learning em Unity3D  <br>**<br><br>[Behavior tree design of intelligent behavior of non-player character (NPC) based on Unity3D.pdf](:/5bf79a8b64d94e62bf2ffbd0ca49ad79) | Implementação BTs para NPCs em Unity e propõe um híbrido BT + RL. Foco em viabilidade e eficiência de execução (roda estável, baixo consumo). | **Sustentação fraca**. Exemplo de implementação de BT e de arquitetura híbrida (gancho para 'trabalhos futuros'). Fonte de baixo impacto. |
 | **Silva & Ribeiro (2021, SBGames): SLR de comportamento crível** | Revisão sistemática (18 estudos) sobre NPCs com comportamento crível. Constrói taxonomia (decisão, emoção, papel) e aponta que técnicas tradicionais viram obstáculo: o designer perde "controle firme" das respostas conforme a complexidade cresce. | **Sustentação Forte**. Aliado metodológico, em português, no SBGames. Mapeia o campo e enuncia o eixo de controlabilidade. Fonte de mineração de referências canônicas (cita Colledanchise). |
 | **Chen (2024): SLR de NPC behavior e DDA** | Tese de mestrado. Moldura 'AI tradicional x real AI', percorre regras/FSM/BT até RL/deep learning. Cita interpretabilidade como vantagem da AI tradicional e a tensão autonomia x intenção de design. | **Forte**. Serve de modelo de estrutura (é uma SLR de mestrado) e de moldura para o argumento contra NN. Também fonte de garimpo de referências. |
 | **Nugraha et al. (2025): FSM em RPG Maker** | Implementa FSM (Patrol/Transition/Chase) com diálogo condicional. Mede tempo de resposta e uso de recursos. Recomenda explicitamente **estudo comparativo FSM x BT x AI**. | **Sustentação fraca**, e confirma a lacuna. A própria literatura pede o comparativo que posso fazer. *Citar de leve?* |
-| **Magnenat et al. (2022): NPC engine, MCTS para narrativa emergente** | Framework multiagente, modular, em Rust, para "narrativa emergente". Suporta valor estimado por rede neural opcional e, principalmente, recursos de depuração como plotar a árvore de busca. | **Extremamente interessante**. Único que cruza vários dos eixos: planejamento, emergência, inspeção da decisão (árvore plotável = proto-explicabilidade) e multiagente.
+| **Magnenat et al. (2022): NPC engine, MCTS para narrativa emergente** | Framework multiagente, modular, em Rust, para "narrativa emergente". Suporta valor estimado por rede neural opcional e, principalmente, recursos de depuração como plotar a árvore de busca. | **Extremamente interessante**. Único que cruza vários dos eixos: planejamento, emergência, inspeção da decisão (árvore plotável = proto-explicabilidade) e multiagente. |
 | **Lapeyrade (2022): raciocínio com ontologias (Prolog/WFS)** | Propõe decisão de NPC via "programação lógica e ontologias hierárquicas". Diz que a abordagem lógica "permite explicação fácil e completa do resultado, ao contrário de técnicas de aprendizado". Útil pra explicar o comportamento ao jogador. | **Bem próximo da tese**. Mesmos eixos (FSM/BT/Utility/Planning). Ataca NN pela opacidade/autoria. |
 | **Studiawan et al. (2018): GOAP em jogo espacial** | Implementa GOAP (Orkin/STRIPS) num real-time tactics. Plano de 3 a 5 nós em < 0,01 s. Um agente diverge do esperado, e o motivo é rastreável (aparentemente via a função de peso). | **Sustentação técnica**. Traz o primário de GOAP (Orkin) que faltava. O desvio rastreável é exemplo de explicabilidade na prática; a velocidade mostra que GOAP é barato, contrastando com o LLM, não com NN em geral. |
-| **AlJammaz, Wardrip-Fruin & Mateas (2023): Character Believability** | Separa **realismo** (*parecer humano*, avaliado por padrão objetivo) de **credibilidade** de personagem (*ilusão de vida*, avaliada pela **percepção** do jogador). Lista dimensões de avaliação, incluindo 'behavior understandability' (o jogador entende o raciocínio do NPC?). | **Interessante**. Conserta a confusão conceitual das outras SLRs. 'Behavior understandability' é explicabilidade voltada ao jogador, ponte direta para sua contribuição.
+| **AlJammaz, Wardrip-Fruin & Mateas (2023): Character Believability** | Separa **realismo** (*parecer humano*, avaliado por padrão objetivo) de **credibilidade** de personagem (*ilusão de vida*, avaliada pela **percepção** do jogador). Lista dimensões de avaliação, incluindo 'behavior understandability' (o jogador entende o raciocínio do NPC?). | **Interessante**. Conserta a confusão conceitual das outras SLRs. 'Behavior understandability' é explicabilidade voltada ao jogador, ponte direta para sua contribuição. |
 
 ## Artigos que abordam escalabilidade de LLMs
+
 | Nome do artigo | Resumo | Como pode me ajudar? |
 | --- | --- | --- |
 | **Gallotta et al. (2024, IEEE Transactions on Games): Survey & Roadmap de LLMs em jogos** | Survey revisado por pares (autores incluem Togelius e Yannakakis). Mapeia os papéis de LLMs em jogos e discute limitações: **custo computacional em tempo real, sustentabilidade e direitos autorais** nos dados. | Âncora do **eixo de escalabilidade**. Usar como base (mas não a do arXiv). Autores já citados no resto da bibliografia. Também mapeia papéis de LLM (serve à seção de arquiteturas). |
