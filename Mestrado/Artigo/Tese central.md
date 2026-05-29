@@ -28,10 +28,10 @@ Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "N
 # A Lacuna
 
 - Nenhuma fonte é sobre explicabilidade propriamente.
-- Confirma que o ângulo é **subexplorado**.
+- O ângulo é **subexplorado**.
 - Falta buscar literatura de XAI e plan-explanation. Prioridade de leitura.
 
-# Justificativa do recorte (BT/GOAP)
+# Como justificar
 
 - Partir dos eixos.
 - Argumento de viabilidade (custo).
@@ -41,7 +41,7 @@ Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "N
 # Demo em Godot
 
 - Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
-- Objetivo: tornar visível a diferença de explicabilidade entre eles?
+- Pode tornar visível a diferença de explicabilidade entre eles?
 
 # Artigos
 
