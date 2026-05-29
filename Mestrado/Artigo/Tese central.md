@@ -1,0 +1,48 @@
+#Tese central
+
+A escolha de arquitetura de NPC é um posicionamento em trade-offs entre quatro eixos: custo/escalabilidade, controlabilidade, explicabilidade e emergência.
+A pergunta foca na tensão entre emergência e explicabilidade.
+Explicabilidade é o eixo que game AI quase nunca trata como critério. É a sua contribuição.
+
+Ajuste sobre LLMs (ponto revisado)
+
+Dois argumentos distintos contra LLM-por-NPC, não confundir.
+Custo/escalabilidade: latência e VRAM por agente, inviável em multidão. Vale para LLM.
+Explicabilidade/controle: caixa-preta. Vale para LLM e para NN.
+Para rede neural pequena, sobra só a explicabilidade. Não colapsar "LLM" e "NN".
+
+Bibliografia
+
+Oito artigos no corpus central, mapeados por função.
+Lapeyrade e Studiawan: ancoram planejamento e explicabilidade.
+NPC engine (Magnenat): cruza emergência e inspeção da decisão.
+AlJammaz: vocabulário de credibilidade ("behavior understandability").
+Silva & Ribeiro e Chen: mapeiam o campo (SLRs).
+Três fontes de escalabilidade, com Gallotta et al. (IEEE ToG, revisado) como âncora.
+
+A lacuna
+
+Nenhuma fonte é sobre explicabilidade propriamente.
+Confirma que o ângulo é subexplorado (bom sinal).
+Falta buscar literatura de XAI e plan-explanation. É a prioridade de leitura.
+
+Justificativa do recorte (BT/GOAP), em 4 movimentos
+
+Partir dos eixos, não das técnicas.
+Argumento de viabilidade (custo).
+Argumento de projeto (controle/explicabilidade).
+Fecho metodológico: só se estuda explicabilidade em arquiteturas que a possuem, então focar em BT/GOAP é condição da própria contribuição.
+
+Estrutura do artigo
+
+Sete partes: introdução, eixos, arquiteturas, justificativa do recorte, explicabilidade, demo, discussão e conclusão.
+
+Demo em Godot
+
+Cérebros intercambiáveis (FSM, GOAP, Bayesiano, LLM) no mesmo cenário.
+Objetivo: tornar visível a diferença de explicabilidade entre eles.
+
+Fechamento
+
+Cinco perguntas concretas pros orientadores.
+Seção de referências com as onze fontes.
