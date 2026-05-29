@@ -50,9 +50,9 @@ Para rede neural pequena, sobra só a explicabilidade. (Não juntar "LLM" com "N
 | **Silva & Ribeiro (2021, SBGames): SLR de comportamento crível** | Revisão sistemática (18 estudos) sobre NPCs com comportamento crível. Constrói taxonomia (decisão, emoção, papel) e aponta que técnicas tradicionais viram obstáculo: o designer perde "controle firme" das respostas conforme a complexidade cresce. | **Sustentação Forte**. Aliado metodológico, em português, no SBGames. Mapeia o campo e enuncia o eixo de controlabilidade. Fonte de mineração de referências canônicas (cita Colledanchise). |
 | **Chen (2024): SLR de NPC behavior e DDA** | Tese de mestrado. Moldura 'AI tradicional x real AI', percorre regras/FSM/BT até RL/deep learning. Cita interpretabilidade como vantagem da AI tradicional e a tensão autonomia x intenção de design. | **Forte**. Serve de modelo de estrutura (é uma SLR de mestrado) e de moldura para o argumento contra NN. Também fonte de garimpo de referências. |
 | **Nugraha et al. (2025): FSM em RPG Maker** | Implementa FSM (Patrol/Transition/Chase) com diálogo condicional. Mede tempo de resposta e uso de recursos. Recomenda explicitamente **estudo comparativo FSM x BT x AI**. | **Sustentação fraca**, e confirma a lacuna. A própria literatura pede o comparativo que posso fazer. *Citar de leve?* |
-| **Magnenat et al. (2022): NPC engine, MCTS para narrativa emergente** | Framework multiagente, modular, em Rust, para narrativa emergente. Suporta valor estimado por rede neural opcional e, principalmente, recursos de depuração como plotar a árvore de busca. |
+| **Magnenat et al. (2022): NPC engine, MCTS para narrativa emergente** | Framework multiagente, modular, em Rust, para "narrativa emergente". Suporta valor estimado por rede neural opcional e, principalmente, recursos de depuração como plotar a árvore de busca. | **Ext**. Único que cruza vários dos eixos: planejamento, emergência, inspeção da decisão (árvore plotável = proto-explicabilidade) e multiagente.
 | **Lapeyrade (2022): raciocínio com ontologias (Prolog/WFS)** |
-| **Studiawan et al. (2018): GOAP em jogo espacial** |
+| **Studiawan et al. (2018): GOAP em jogo espacial** | 
 | **AlJammaz, Wardrip-Fruin & Mateas (2023): Character Believability** |
 
 ## Artigos que abordam escalabilidade de LLMs
