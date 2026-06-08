@@ -28,4 +28,4 @@ As classes de topo do domínio são `Filme`, `Pessoa`, `Usuário`, `Gênero`, `P
 - `Pessoa`, com as subclasses `Diretor`, `Ator`, `Produtor` e `Roteirista`. Essas subclasses **não** são disjuntas, pois a mesma pessoa pode acumular papéis. Por exemplo: dirigir e atuar ao mesmo tempo.
 - `FilmePremiado`, classe definida (não estrutural) usada para inferência automática.
 
-`Documentário` e `FilmeFiccional` recebem tratamentos diferentes de propósito. `Documentário` é uma classe asserida
+`Documentário` e `FilmeFiccional` recebem tratamentos diferentes de propósito. `Documentário` é uma classe asserida, pois carrega uma regra especial de cardinalidade. `FilmeFiccional` é uma classe definida como todo filme que não é documentário, o que permite ao Reasoner classificar os indivíduos sozinho.
