@@ -25,3 +25,5 @@ A ontologia foi desenvolvida seguindo o processo clássico de construção descr
 As classes de topo do domínio são `Filme`, `Pessoa`, `Usuário`, `Gênero`, `Prêmio`, `Evento`, `País`, `Idioma` e `Avaliação`, declaradas mutualmente disjuntas. A hierarquia principal é:
 
 - `Filme`, com a subclasse estrutural `Documentário` e a classe definida `FilmeFiccional`
+- `Pessoa`, com as subclasses `Diretor`, `Ator`, `Produtor` e `Roteirista`. Essas subclasses **não** são disjuntas, pois a mesma pessoa pode acumular papéis. Por exemplo: dirigir e atuar ao mesmo tempo.
+- `FilmePremiado`
