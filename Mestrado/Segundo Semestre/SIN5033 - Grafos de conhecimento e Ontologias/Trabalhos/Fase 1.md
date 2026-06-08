@@ -15,4 +15,5 @@ A ontologia foi desenvolvida seguindo o processo clássico de construção descr
 5. Definir as propriedades (de objeto e de dados) com domínio e contradomínio.
 6. Definir as restrições e axiomas que dão semântica e capacidade de inferência.
 7. Criar instâncias para popular a base de conhecimento.
-8. Reuso de vocabulários: os conceitos centrais foram alinhados, via rdfs:seeAlso, a vocabulários consolidados. A classe `Filme`
+
+**Reuso de vocabulários**: os conceitos centrais foram alinhados, via `rdfs:seeAlso`, a vocabulários consolidados. A classe `Filme` remete a 
