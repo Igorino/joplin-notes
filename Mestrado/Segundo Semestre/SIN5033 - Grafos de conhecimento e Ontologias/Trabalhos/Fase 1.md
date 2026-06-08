@@ -22,4 +22,6 @@ A ontologia foi desenvolvida seguindo o processo clássico de construção descr
 
 # 3. Modelagem da Ontologia
 ## 3.1 Classes e hierarquia
-As classes de topo do domínio são `Filme`, `Pessoa`, `Usuário`, `Gênero`, `Prêmio`, `Evento`, `
+As classes de topo do domínio são `Filme`, `Pessoa`, `Usuário`, `Gênero`, `Prêmio`, `Evento`, `País`, `Idioma` e `Avaliação`, declaradas mutualmente disjuntas. A hierarquia principal é:
+
+- `Filme`, com a subclasse estrutural `Documentário` e a classe definida `FilmeFiccional`
