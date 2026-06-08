@@ -6,4 +6,7 @@ O sistema se apoia em um base de conhecimento construída a partir de uma ontolo
 
 # 2. Metologia de construção
 
-A ontologia foi desenvolvida seguindo o processo clássico de construção descrito por Noy e McGuinness, organizado nas seguintes etapas.
+A ontologia foi desenvolvida seguindo o processo clássico de construção descrito por Noy e McGuinness, organizado nas seguintes etapas:
+
+1. Definir o domínio e o escopo: catálogo de filmes, usuários, preferências e avaliações, com foco em apoiar a recomendação híbrida.
+2. 
