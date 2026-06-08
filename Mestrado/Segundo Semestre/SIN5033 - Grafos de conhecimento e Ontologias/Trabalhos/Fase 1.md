@@ -18,4 +18,4 @@ A ontologia foi desenvolvida seguindo o processo clássico de construção descr
 
 **Reuso de vocabulários**: os conceitos centrais foram alinhados, via `rdfs:seeAlso`, a vocabulários consolidados. A classe `Filme` remete a `schema:Movie` e as classes `Pessoa` e `Usuário` remetem a `foaf:Person` e `schema:Person`. Esse alinhamento sinaliza a interoperabilidade sem abrir mão de uma ontologia própria, ajustada a tarefa de recomendação.
 
-**Linguagem e ferramentas**: a ontologia foi escrita em OWL 2, serializada no formato Turtle (RDF). A modelagem e a verificação de consistência são feitas no Protegé
+**Linguagem e ferramentas**: a ontologia foi escrita em OWL 2, serializada no formato Turtle (RDF). A modelagem e a verificação de consistência são feitas no Protegé, com o reasoner HermiT. A implementação prevista para a Fase 2 utiliza Python com a bilioteca OWLReady2.
