@@ -9,4 +9,8 @@ O sistema se apoia em um base de conhecimento construída a partir de uma ontolo
 A ontologia foi desenvolvida seguindo o processo clássico de construção descrito por Noy e McGuinness, organizado nas seguintes etapas:
 
 1. Definir o domínio e o escopo: catálogo de filmes, usuários, preferências e avaliações, com foco em apoiar a recomendação híbrida.
-2. 
+2. Considerar o reuso de vocabulários existentes.
+3. Enumerar os termos relevantes do domínio.
+4. Definir as classes e a hierarquia de classes.
+5. Definir as propriedades (de objeto e de dados) com domínio e contradomínio.
+6. 
