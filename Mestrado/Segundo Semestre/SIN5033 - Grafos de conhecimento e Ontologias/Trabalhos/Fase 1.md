@@ -13,4 +13,6 @@ A ontologia foi desenvolvida seguindo o processo clássico de construção descr
 3. Enumerar os termos relevantes do domínio.
 4. Definir as classes e a hierarquia de classes.
 5. Definir as propriedades (de objeto e de dados) com domínio e contradomínio.
-6. 
+6. Definir as restrições e axiomas que dão semântica e capacidade de inferência.
+7. Criar instâncias para popular a base de conhecimento.
+
