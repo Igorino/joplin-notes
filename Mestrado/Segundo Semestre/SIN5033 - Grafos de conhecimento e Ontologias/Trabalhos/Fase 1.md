@@ -71,5 +71,5 @@ A afirmação "um usuário deu N estrelas a um filme" é uma relação ternária
 ## 3.5 Axiomas e restrições
 
 Os axiomas a seguir dão semântica formal a ontologia e habilitam o raciocínio automático:
-1. Todo `Filme tem ao menos um Diretor, expresso por cardinalidade mínima qualificada sobre `temDiretor`
-2. Todo 
+1. Todo `Filme` tem ao menos um `Diretor`, expresso por cardinalidade mínima qualificada sobre `temDiretor`
+2. Todo `FilmeFiccional` tem ao menos um `Ator`. Como `Documentário` não é ficcional, a exceção do enunciado, segundo a qual documentários incluem apenas o diretor, fica satisfeita sem uma contra
