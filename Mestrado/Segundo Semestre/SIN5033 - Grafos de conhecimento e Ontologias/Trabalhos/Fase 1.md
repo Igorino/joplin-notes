@@ -57,9 +57,13 @@ As propriedades de dados associam indivíduos a valores literais.
 | tituloOriginal | Filme | String | Funcional |
 | tituloPortuguês | Filme | String | 
 | anoProdução | Filme | Integer | 
-| anoLancamento | Filme | Integer |
+| anoLançaamento | Filme | Integer |
 | nome | Pessoa ou Usuário | String | Domínio em união |
 | idade | Usuário | Integer |
 | email | Usuário | String |
-| whatsapp | Usuario | String |
-| notaEstrelas | Avaliacao | Integer
+| whatsapp | Usuário | String |
+| notaEstrelas | Avaliação | Integer | 
+
+## 3.4 Reificação da avaliação
+
+A afirmação "um usuário deu N estrelas a um filme" é uma relação ternária, pois envolve três elementos: o **usuário**, o **filme** e 
