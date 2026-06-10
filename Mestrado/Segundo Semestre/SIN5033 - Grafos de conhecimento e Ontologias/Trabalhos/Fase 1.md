@@ -45,4 +45,5 @@ As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cad
 | premioConcedidoEm | Premio | Evento |
 | prefereGenero | Usuario | Genero |
 | prefereAtor | Usuario | Ator |
-| feitaPor | Avaliação |
+| feitaPor | Avaliação | Usuario | Funcional |
+| sobreFilme | Avaliacao | Usuario | 
