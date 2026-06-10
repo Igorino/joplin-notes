@@ -74,4 +74,5 @@ Os axiomas a seguir dão semântica formal a ontologia e habilitam o raciocínio
 1. Todo `Filme` tem ao menos um `Diretor`, expresso por cardinalidade mínima qualificada sobre `temDiretor`
 2. Todo `FilmeFiccional` tem ao menos um `Ator`. Como `Documentário` não é ficcional, a exceção do enunciado, segundo a qual documentários incluem apenas o diretor, fica satisfeita sem uma contradição.
 3. `FilmePremiado` é equivalente a `Filme` que possui ao menos um `Prêmio` via `ganhouPrêmio`. O Reasoner classifica automaticamente como premiado qualquer filme que tenha ganho um prêmio.
-4. A propriedade `notaEstrelas` é restrita ao intervalo de 1 a 5
+4. A propriedade `notaEstrelas` é restrita ao intervalo de 1 a 5 por uma restrição de tipo de dado, com `minInclusive 1` e `maxInclusive 5`
+5. As nove classes de topo são declaradas mutuamente disjuntas, evitando que um mesmo indiví
