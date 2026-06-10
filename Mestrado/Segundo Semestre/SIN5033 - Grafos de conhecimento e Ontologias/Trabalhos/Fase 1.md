@@ -38,16 +38,16 @@ As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cad
 | temAtor | Filme | Ator | |
 | temProdutor | Filme | Produtor |
 | temRoteirista | Filme | Roteirista |
-| temGenero | Filme | Genero |
+| temGênero | Filme | Gênero |
 | temNacionalidade | Filme | País |
 | temIdiomaOriginal | Filme | Idioma | Funcional |
 | ganhouPremio | Filme | Premio |
 | premioConcedidoEm | Premio | Evento |
-| prefereGenero | Usuario | Genero |
-| prefereAtor | Usuario | Ator |
-| feitaPor | Avaliação | Usuario | Funcional |
-| sobreFilme | Avaliacao | Usuario | Funcional |
-| fezAvaliacao | Usuario | Avaliacao | Inversa de feitaPor |
+| prefereGênero | Usuário | Gênero |
+| prefereAtor | Usuário | Ator |
+| feitaPor | Avaliação | Usuário | Funcional |
+| sobreFilme | Avaliação | Usuário | Funcional |
+| fezAvaliação | Usuário | Avaliação | Inversa de feitaPor |
 
 ## 3.3 Propriedades de dados.
 As propriedades de dados associam indivíduos a valores literais.
@@ -56,10 +56,10 @@ As propriedades de dados associam indivíduos a valores literais.
 | --- | --- | --- | --- |
 | tituloOriginal | Filme | String | Funcional |
 | tituloPortuguês | Filme | String | 
-| anoProducao | Filme | Integer | 
+| anoProdução | Filme | Integer | 
 | anoLancamento | Filme | Integer |
-| nome | Pessoa ou Usuario | String | Domínio em união |
-| idade | Usuario | Integer |
-| email | Usuario | String |
+| nome | Pessoa ou Usuário | String | Domínio em união |
+| idade | Usuário | Integer |
+| email | Usuário | String |
 | whatsapp | Usuario | String |
 | notaEstrelas | Avaliacao | Integer
