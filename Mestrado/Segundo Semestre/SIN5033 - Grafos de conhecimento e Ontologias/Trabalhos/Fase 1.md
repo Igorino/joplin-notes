@@ -79,3 +79,4 @@ Os axiomas a seguir dão semântica formal a ontologia e habilitam o raciocínio
 6. `fezAvaliação` é a propriedade inversa de `feitaPor`, permitindo navegar do usuário para suas avaliações e vice-versa.
 
 # 4. Base de conhecimento (ABox)
+Para tornar a entrega uma base de conhecimento de fato, e não apenas um esquema vazio, a ontologia foi populada com instâncias de exemplo: três filmes
