@@ -66,4 +66,4 @@ As propriedades de dados associam indivíduos a valores literais.
 
 ## 3.4 Reificação da avaliação
 
-A afirmação "um usuário deu N estrelas a um filme" é uma relação ternária, pois envolve três elementos: o **usuário**, o **filme** e 
+A afirmação "um usuário deu N estrelas a um filme" é uma relação ternária, pois envolve três elementos: o **usuário**, o **filme** e o **valor da nota**. A OWL não oferece propriedades com valor qualificado, então a relação foi reificada na classe `Avaliação`.  Cada instância de `Avaliação` se liga ao usuário por `feitaPor`, ao filme 
