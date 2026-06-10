@@ -46,4 +46,10 @@ As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cad
 | prefereGenero | Usuario | Genero |
 | prefereAtor | Usuario | Ator |
 | feitaPor | Avaliação | Usuario | Funcional |
-| sobreFilme | Avaliacao | Usuario | 
+| sobreFilme | Avaliacao | Usuario | Funcional |
+| fezAvaliacao | Usuario | Avaliacao | Inversa de feitaPor |
+
+## 3.3 Propriedades de dados.
+As propriedades de dados associam indivíduos a valores literais.
+
+| Propriedade | Domínio | Tipo | Obe
