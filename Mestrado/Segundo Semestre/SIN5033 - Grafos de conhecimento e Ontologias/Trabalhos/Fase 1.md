@@ -89,4 +89,4 @@ As instâncias foram escolhidas para exercitar os axiomas:
 
 # 5. Estratégia de recomendação (visão geral)
 
-A recomendação por conteúdo representa cada filme e cada usuário como um vetor de características 
+A recomendação por conteúdo representa cada filme e cada usuário como um vetor de características, como gêneros e atores, e cal
