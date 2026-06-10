@@ -40,3 +40,9 @@ As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cad
 | temRoteirista | Filme | Roteirista |
 | temGenero | Filme | Genero |
 | temNacionalidade | Filme | País |
+| temIdiomaOriginal | Filme | Idioma | Funcional |
+| ganhouPremio | Filme | Premio |
+| premioConcedidoEm | Premio | Evento |
+| prefereGenero | Usuario | Genero |
+| prefereAtor | Usuario | Ator |
+| feitaPor | Avaliação |
