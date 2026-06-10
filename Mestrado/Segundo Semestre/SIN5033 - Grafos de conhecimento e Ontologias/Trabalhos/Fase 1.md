@@ -82,5 +82,6 @@ Os axiomas a seguir dão semântica formal a ontologia e habilitam o raciocínio
 Para tornar a entrega uma base de conhecimento de fato, e não apenas um esquema vazio, a ontologia foi populada com instâncias de exemplo: três filmes, sete pessoas, dois usuários, vários gêneros, países e idiomas, um prêmio e três avaliações.
 
 As instâncias foram escolhidas para exercitar os axiomas:
-- Pulp Fiction: tem diretor e atores, pertence aos gêneros Crime e Ação, e ganhou um prêmio. Ao rodar o reasoner, o filme é inferido como `FilmeFiccional` e também como `FilmePremiado`, sem que essas classes tenham sido atribuídas na mão.
-- 
+- **Pulp Fiction**: tem diretor e atores, pertence aos gêneros Crime e Ação, e ganhou um prêmio. Ao rodar o reasoner, o filme é inferido como `FilmeFiccional` e também como `FilmePremiado`, sem que essas classes tenham sido atribuídas na mão.
+- **Cidade de Deus**: é um filme ficcional brasileiro, com diretor e atores, útil para testar listagens por nacionalidade e idioma.
+- **Bowling for Columbine** é um documentário com apenas o diretor, sem atores.
