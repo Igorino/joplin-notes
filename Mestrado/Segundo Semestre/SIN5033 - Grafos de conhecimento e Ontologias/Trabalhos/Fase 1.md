@@ -34,4 +34,9 @@ As classes de topo do domínio são `Filme`, `Pessoa`, `Usuário`, `Gênero`, `P
 As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cada uma com seu domínio, contradomínio e características.
 | Propriedade | Domínio | Contradomínio | Características |
 | --- | --- | --- | --- |
-| temDiretor | Filme | Diretor |
+| temDiretor | Filme | Diretor | |
+| temAtor | Filme | Ator | |
+| temProdutor | Filme | Produtor |
+| temRoteirista | Filme | Roteirista |
+| temGenero | Filme | Genero |
+| temNacionalidade | Filme | País |
