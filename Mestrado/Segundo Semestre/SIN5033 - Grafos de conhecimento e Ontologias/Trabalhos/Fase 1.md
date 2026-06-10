@@ -34,19 +34,20 @@ As classes de topo do domínio são `Filme`, `Pessoa`, `Usuário`, `Gênero`, `P
 As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cada uma com seu domínio, contradomínio e características.
 | Propriedade | Domínio | Contradomínio | Características |
 | --- | --- | --- | --- |
-| temDiretor | Filme | Diretor | |
-| temAtor | Filme | Ator | |
-| temProdutor | Filme | Produtor |
-| temRoteirista | Filme | Roteirista |
-| temGênero | Filme | Gênero |
-| temNacionalidade | Filme | País |
-| temIdiomaOriginal | Filme | Idioma | Funcional |
-| ganhouPremio | Filme | Premio |
-| premioConcedidoEm | Premio | Evento |
-| prefereGênero | Usuário | Gênero |
-| prefereAtor | Usuário | Ator |
-| feitaPor | Avaliação | Usuário | Funcional |
-| sobreFilme | Avaliação | Usuário | Funcional |
+| `temDiretor | Filme | Diretor | |
+| `temAtor | Filme | Ator | |
+| `temProdutor | Filme | Produtor |
+| `temRoteirista | Filme | Roteirista |
+| `temGênero | Filme | Gênero |
+| `temNacionalidade | Filme | País |
+| `temIdiomaOriginal | Filme | Idioma | Funcional |
+| `ganhouPrêmio | Filme | Prêmio |
+| `premioConcedidoEm | Premio | Evento |
+| `prefereGênero | Usuário | Gênero |
+| `prefereAtor | Usuário | Ator |
+| `feitaPor | Avaliação | Usuário | Funcional |
+| v
+sobreFilme | Avaliação | Usuário | Funcional |
 | fezAvaliação | Usuário | Avaliação | Inversa de feitaPor |
 
 ## 3.3 Propriedades de dados.
@@ -57,7 +58,7 @@ As propriedades de dados associam indivíduos a valores literais.
 | tituloOriginal | Filme | String | Funcional |
 | tituloPortuguês | Filme | String | 
 | anoProdução | Filme | Integer | 
-| anoLançaamento | Filme | Integer |
+| anoLançamento | Filme | Integer |
 | nome | Pessoa ou Usuário | String | Domínio em união |
 | idade | Usuário | Integer |
 | email | Usuário | String |
@@ -72,4 +73,5 @@ A afirmação "um usuário deu N estrelas a um filme" é uma relação ternária
 
 Os axiomas a seguir dão semântica formal a ontologia e habilitam o raciocínio automático:
 1. Todo `Filme` tem ao menos um `Diretor`, expresso por cardinalidade mínima qualificada sobre `temDiretor`
-2. Todo `FilmeFiccional` tem ao menos um `Ator`. Como `Documentário` não é ficcional, a exceção do enunciado, segundo a qual documentários incluem apenas o diretor, fica satisfeita sem uma contra
+2. Todo `FilmeFiccional` tem ao menos um `Ator`. Como `Documentário` não é ficcional, a exceção do enunciado, segundo a qual documentários incluem apenas o diretor, fica satisfeita sem uma contradição.
+3. `FilmePremiado` é equivalente a `Filme` que possui ao menos um `Prêmio`
