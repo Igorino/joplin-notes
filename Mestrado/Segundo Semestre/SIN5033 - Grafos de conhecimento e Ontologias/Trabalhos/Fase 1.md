@@ -90,3 +90,5 @@ As instâncias foram escolhidas para exercitar os axiomas:
 # 5. Estratégia de recomendação (visão geral)
 
 A recomendação por conteúdo representa cada filme e cada usuário como um vetor de características, como gêneros e atores, e calcula a afinidade por uma métrica de similaridade, por exemplo o índice de Jaccard ou o cosseno entre os vetores. A descrição ontológica permite refinar essa métrica, ponderando coincidências pela proximidade na hierarquia de classes.
+
+A recomendação colaborativa monta a matriz de usuários por filmes a partir das notas, calcula a similaridade entre usuários, por exemplo a correlação de Pearson sobre os filmes avaliados em comum
