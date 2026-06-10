@@ -86,9 +86,3 @@ As instâncias foram escolhidas para exercitar os axiomas:
 - **Cidade de Deus**: é um filme ficcional brasileiro, com diretor e atores, útil para testar listagens por nacionalidade e idioma.
 - **Bowling for Columbine** é um documentário com apenas o diretor, sem atores. Usado para comprovar que a regra do ator se aplica apenas a filmes ficcionais.
 - O usuário **João** prefere os gêneros Ação e Crime e a atriz Uma Thurman, o que casa com Pulp Fiction, e demonstra a recomendação por conteúdo. João e **Maria** avaliaram bem Cidade de Deus, fornecendo a semente para a recomendação colaborativa.
-
-# 5. Estratégia de recomendação (visão geral)
-
-A recomendação por conteúdo representa cada filme e cada usuário como um vetor de características, como gêneros e atores, e calcula a afinidade por uma métrica de similaridade, por exemplo o índice de Jaccard ou o cosseno entre os vetores. A descrição ontológica permite refinar essa métrica, ponderando coincidências pela proximidade na hierarquia de classes.
-
-A recomendação colaborativa monta a matriz de usuários por filmes a partir das notas, calcula a similaridade entre usuários, por exemplo a correlação de Pearson sobre os filmes avaliados em comum, e estima a nota de um filme ainda não visto como média ponderada pelas notas dos usuários mais parecidos. A nota final que ordena as recomendações combina as duas abordagens. 
