@@ -73,4 +73,5 @@ A afirmação "um usuário deu N estrelas a um filme" é uma relação ternária
 Os axiomas a seguir dão semântica formal a ontologia e habilitam o raciocínio automático:
 1. Todo `Filme` tem ao menos um `Diretor`, expresso por cardinalidade mínima qualificada sobre `temDiretor`
 2. Todo `FilmeFiccional` tem ao menos um `Ator`. Como `Documentário` não é ficcional, a exceção do enunciado, segundo a qual documentários incluem apenas o diretor, fica satisfeita sem uma contradição.
-3. `FilmePremiado` é equivalente a `Filme` que possui ao menos um `Prêmio`
+3. `FilmePremiado` é equivalente a `Filme` que possui ao menos um `Prêmio` via `ganhouPrêmio`. O Reasoner classifica automaticamente como premiado qualquer filme que tenha ganho um prêmio.
+4. A propriedade `notaEstrelas` é restrita ao intervalo de 1 a 5
