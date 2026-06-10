@@ -31,4 +31,7 @@ As classes de topo do domínio são `Filme`, `Pessoa`, `Usuário`, `Gênero`, `P
 `Documentário` e `FilmeFiccional` recebem tratamentos diferentes de propósito. `Documentário` é uma classe asserida, pois carrega uma regra especial de cardinalidade. `FilmeFiccional` é uma classe definida como todo filme que não é documentário, o que permite ao Reasoner classificar os indivíduos sozinho.
 
 ## 3.2 Propriedades de objeto
-As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cada uma com seu domínio, contradomínio
+As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cada uma com seu domínio, contradomínio e características.
+| Propriedade | Domínio | Contradomínio | Características |
+| --- | --- | --- | --- |
+| temDiretor | Filme | Diretor |
