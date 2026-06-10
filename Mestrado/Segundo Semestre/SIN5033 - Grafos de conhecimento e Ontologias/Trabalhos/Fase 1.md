@@ -85,4 +85,8 @@ As instâncias foram escolhidas para exercitar os axiomas:
 - **Pulp Fiction**: tem diretor e atores, pertence aos gêneros Crime e Ação, e ganhou um prêmio. Ao rodar o reasoner, o filme é inferido como `FilmeFiccional` e também como `FilmePremiado`, sem que essas classes tenham sido atribuídas na mão.
 - **Cidade de Deus**: é um filme ficcional brasileiro, com diretor e atores, útil para testar listagens por nacionalidade e idioma.
 - **Bowling for Columbine** é um documentário com apenas o diretor, sem atores. Usado para comprovar que a regra do ator se aplica apenas a filmes ficcionais.
-- O usuário **João** prefere os gêneros Ação e Crime e a atriz Uma Thurman, o que casa com Pulp Fiction, e demonstra a recomendação 
+- O usuário **João** prefere os gêneros Ação e Crime e a atriz Uma Thurman, o que casa com Pulp Fiction, e demonstra a recomendação por conteúdo. João e **Maria** avaliaram bem Cidade de Deus, fornecendo a semente para a recomendação colaborativa.
+
+# 5. Estratégia de recomendação (visão geral)
+
+A recomendação por conteúdo representa cada filme e cada usu
