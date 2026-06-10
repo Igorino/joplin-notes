@@ -55,7 +55,11 @@ As propriedades de dados associam indivíduos a valores literais.
 | Propriedade | Domínio | Tipo | Observação |
 | --- | --- | --- | --- |
 | tituloOriginal | Filme | String | Funcional |
-| tituloPortugues | Filme | String | 
+| tituloPortuguês | Filme | String | 
 | anoProducao | Filme | Integer | 
 | anoLancamento | Filme | Integer |
-| 
+| nome | Pessoa ou Usuario | String | Domínio em união |
+| idade | Usuario | Integer |
+| email | Usuario | String |
+| whatsapp | Usuario | String |
+| notaEstrelas | Avaliacao | Integer
