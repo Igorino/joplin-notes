@@ -55,14 +55,14 @@ As propriedades de dados associam indivíduos a valores literais.
 | Propriedade | Domínio | Tipo | Observação |
 | --- | --- | --- | --- |
 | `tituloOriginal` | `Filme` | `String` | `Funcional` |
-| tituloPortuguês | Filme | `String` | 
-| anoProdução | Filme | Integer | 
-| anoLançamento | Filme | Integer |
-| nome | Pessoa ou Usuário | String | Domínio em união |
-| idade | Usuário | Integer |
-| email | Usuário | String |
-| whatsapp | Usuário | String |
-| notaEstrelas | Avaliação | Integer | 
+| `tituloPortuguês` | `Filme` | `String` | 
+| `anoProdução` | `Filme` | `Integer` | 
+| `anoLançamento` | `Filme` | `Integer` |
+| `nome` | `Pessoa` ou `Usuário` | `String` | Domínio em união |
+| `idade` | `Usuário` | `Integer` |
+| `email` | `Usuário` | `String` |
+| `whatsapp` | `Usuário` | `String` |
+| `notaEstrelas` | `Avaliação` | `Integer` | 
 
 ## 3.4 Reificação da avaliação
 
