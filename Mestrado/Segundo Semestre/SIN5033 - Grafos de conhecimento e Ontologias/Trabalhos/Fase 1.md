@@ -34,21 +34,20 @@ As classes de topo do domínio são `Filme`, `Pessoa`, `Usuário`, `Gênero`, `P
 As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cada uma com seu domínio, contradomínio e características.
 | Propriedade | Domínio | Contradomínio | Características |
 | --- | --- | --- | --- |
-| `temDiretor | Filme | Diretor | |
-| `temAtor | Filme | Ator | |
-| `temProdutor | Filme | Produtor |
-| `temRoteirista | Filme | Roteirista |
-| `temGênero | Filme | Gênero |
-| `temNacionalidade | Filme | País |
-| `temIdiomaOriginal | Filme | Idioma | Funcional |
-| `ganhouPrêmio | Filme | Prêmio |
-| `premioConcedidoEm | Premio | Evento |
-| `prefereGênero | Usuário | Gênero |
-| `prefereAtor | Usuário | Ator |
-| `feitaPor | Avaliação | Usuário | Funcional |
-| v
-sobreFilme | Avaliação | Usuário | Funcional |
-| fezAvaliação | Usuário | Avaliação | Inversa de feitaPor |
+| `temDiretor` | `Filme` | Diretor | |
+| `temAtor` | `Filme` | Ator | |
+| `temProdutor` | `Filme` | Produtor |
+| `temRoteirista` | `Filme` | Roteirista |
+| `temGênero` | `Filme` | Gênero |
+| `temNacionalidade` | `Filme` | País |
+| `temIdiomaOriginal` | `Filme` | Idioma | Funcional |
+| `ganhouPrêmio` | `Filme` | Prêmio |
+| `premioConcedidoEm` | `Prêmio` | Evento |
+| `prefereGênero` | `Usuário` | Gênero |
+| `prefereAtor` | `Usuário` | Ator |
+| `feitaPor` | Avaliação | Usuário | Funcional |
+| `sobreFilme` | Avaliação | Usuário | Funcional |
+| `fezAvaliação` | Usuário | Avaliação | Inversa de feitaPor |
 
 ## 3.3 Propriedades de dados.
 As propriedades de dados associam indivíduos a valores literais.
