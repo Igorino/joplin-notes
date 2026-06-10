@@ -68,4 +68,8 @@ As propriedades de dados associam indivíduos a valores literais.
 
 A afirmação "um usuário deu N estrelas a um filme" é uma relação ternária, pois envolve três elementos: o **usuário**, o **filme** e o **valor da nota**. A OWL não oferece propriedades com valor qualificado, então a relação foi reificada na classe `Avaliação`.  Cada instância de `Avaliação` se liga ao usuário por `feitaPor`, ao filme por `sobreFilme`, e carrega a nota em `notaEstrelas`. As três propriedades de ligação são funcionais, garantindo que uma avaliação pertença a exatamente um usuário, a um filme e a uma nota.
 
-## 3.5 
+## 3.5 Axiomas e restrições
+
+Os axiomas a seguir dão semântica formal a ontologia e habilitam o raciocínio automático:
+1. Todo `Filme tem ao menos um Diretor, expresso por cardinalidade mínima qualificada sobre `temDiretor`
+2. Todo 
