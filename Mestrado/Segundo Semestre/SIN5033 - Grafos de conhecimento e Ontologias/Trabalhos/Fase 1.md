@@ -52,4 +52,10 @@ As propriedades de objeto ligam indivíduos entre si. A tabela abaixo resumo cad
 ## 3.3 Propriedades de dados.
 As propriedades de dados associam indivíduos a valores literais.
 
-| Propriedade | Domínio | Tipo | Obe
+| Propriedade | Domínio | Tipo | Observação |
+| --- | --- | --- | --- |
+| tituloOriginal | Filme | String | Funcional |
+| tituloPortugues | Filme | String | 
+| anoProducao | Filme | Integer | 
+| anoLancamento | Filme | Integer |
+| 
