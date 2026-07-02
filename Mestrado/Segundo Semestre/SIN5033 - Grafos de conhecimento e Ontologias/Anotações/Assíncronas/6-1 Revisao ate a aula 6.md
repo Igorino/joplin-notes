@@ -16,4 +16,7 @@ Aqui entra o problema central do curso. A web de hoje é como uma **biblioteca g
 
 A Web Semântica quer dar **olhos de leitura pra máquina**. As três tecnologias principais para isso são:
 1. **Grafos rotulados** como modelos de dados. Objetos viram nós, relações viram setas. O formalismo é o **RDF** (Resource Description Framework), que faz frases simples no formato **sujeito -> predicado -> objeto** (ou, uma "tripla"): Lisa -> Trabalha para -> EmpresaA. É praticamente uma frase de criança: sujeito, verbo e complemento.
-2. **URIs** (Uniform Resource Identifier). São endereços únicos globais pra identificar cada coisa (como um CPF pra conceitos, em vez de só 
+2. **URIs** (Uniform Resource Identifier). São endereços únicos globais pra identificar cada coisa (como um CPF pra conceitos, em vez de só "Lisa", que seria meio ambíguo).
+3. **Ontologias**. Que são vocabulários hierárquicos que dizem como que as coisas *são* e *como se relacionam*.
+
+A aula apresenta o famoso **"Bolo de camdas¨**
