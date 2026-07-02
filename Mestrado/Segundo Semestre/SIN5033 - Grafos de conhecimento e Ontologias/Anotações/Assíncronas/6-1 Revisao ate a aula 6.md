@@ -35,4 +35,6 @@ O coração da aula são os **Princípios dos Dados Ligados (Berners-Lee, 2006)*
 - **Inclua links pra outras URIs**, pra que os dados se conectem.
 
 ⭐⭐⭐⭐⭐
-É o tal de **Esquema das 5 estrelas**: quanto mais aberto e interligado o dado, mais estrelas. A filosofia é *bottom-up*: em vez de discutir linguagens perfeitas, o foco é básicamente em **cone**
+É o tal de **Esquema das 5 estrelas**: quanto mais aberto e interligado o dado, mais estrelas. A filosofia é *bottom-up*: em vez de discutir linguagens perfeitas, o foco é basicamente em **conectar dados estruturados na web**, como costurar ilhas de informação numa rede. 
+
+O resultado: a "Nuvem LOD" saltou de 570 datasets (2014) pra mais de 1300 datasets e 16.000 links (2020
