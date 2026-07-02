@@ -21,4 +21,8 @@ A Web Semântica quer dar **olhos de leitura pra máquina**. As três tecnologia
 
 A aula apresenta o famoso **"Bolo de camadas"**: na base, o **XML** (sintaxe). Acima dele, **RDF** (fatos), e **RDF Schema** (Ontologia simples). E no topo de tudo, o **OWL** (Ontology Web Language, que é uma linguagem ontológica robusta).
 
-Por que subir até o OWL? Porque o RDFS é fraquinho: ele não sabe dizer "ninguém pode ser Homem e Mulher ao mesmo tempo" ou "uma pessoa tem no máximo 1 nome". O OWL traz cardinalidade, disjunção
+Por que subir até o OWL? Porque o RDFS é fraquinho: ele não sabe dizer "ninguém pode ser Homem e Mulher ao mesmo tempo" ou "uma pessoa tem no máximo 1 nome". O OWL traz cardinalidade, disjunção, equivalência de classes, etc. É a diferença entre um dicionário de bolso e uma enciclopédia com regras de inferência.
+
+# Aula 03 - Evolução da Web Semântica
+
+Essa aula é a aula "árvore genealógica"
