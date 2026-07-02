@@ -43,3 +43,5 @@ O resultado: a "Nuvem LOD" saltou de 570 datasets (2014) pra mais de 1300 datase
 
 Esses três PDFs são artigos científicos que aprofundam a aula 03 sob ângulos diferentes. 
 
+## 03.1 - Knowledge Graphs *(Gutierrez & Sequeda, Communications of the ACM, 2021)*
+Esse conta a história de amor conturbada entre dados e conhecimento. É a saga de dois irmãos, a lógica (raciocínio)
