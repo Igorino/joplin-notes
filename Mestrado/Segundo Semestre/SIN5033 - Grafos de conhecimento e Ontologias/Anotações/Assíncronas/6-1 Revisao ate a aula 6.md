@@ -67,3 +67,5 @@ Este é o documentários sobre as raízes profundas. Chega a Turing e Church nos
 É tipo um carro esportivo cheio de recursos: cada botão extra deixa o carro mais pesado e difícil de dirigir. A Lógica de Primeira Ordem (FOL) é tão poderosa que se torna *indecidível*. O programa pode nunca parar de calcular. Esse dilema é o que motiva, lá na frente, escolher uma lógica mais "comportada". O artigo também reabilita os sistemas de regras: não foram um fracasso total, eles venceram disfarçados, virando a lógica de negócio de sistemas corporativos.
 
 # Aula 04 - Lógica e Raciocínio Automatizado
+
+Agora o curso muda 
