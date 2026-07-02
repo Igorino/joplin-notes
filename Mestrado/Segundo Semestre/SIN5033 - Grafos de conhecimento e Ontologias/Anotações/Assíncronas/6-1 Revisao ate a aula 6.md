@@ -9,4 +9,7 @@
 
 A aula também martela um ponto: **significado depende de contexto**. O exemplo clássico que é usado no slide é a frase "O jaguar parece elegante". Podemos estar falando do carro ou do animal.
 
-A mesma sequência de símbolos muda de sentido conforme o entorno. É por isso que o curso inteiro vai atrás de formas de deixar o significado **explícito e sem ambiguidade**, primne
+A mesma sequência de símbolos muda de sentido conforme o entorno. É por isso que o curso inteiro vai atrás de formas de deixar o significado **explícito e sem ambiguidade**, primeiro para nós humanos e depois para as máquinas.
+
+# Aula 02 - Web Semântica: Introdução
+Aqui entra o problema central do curso. A web de hoje é como uma **biblioteca gigante onde os livros estão escritos, mas o bibliotecário (o computador) não sabe ler ela de forma eficiente**
