@@ -51,4 +51,6 @@ Momentos marcantes: o workshop "Logic and Data Bases" (Toulouse, 1977) que casou
 A grande lição: integrar lógica e dados precisa ser um casamento bem amarrado, não só empilhar uma coisa sobre a outra. E o termo "Knowledge Graph" que a Google popularizou em 2012? É na verdade uma ideia antiga! Já aparecia numa tese de 1982, ela só encontrou finalmente o hardware e o momento certo.
 
 ## 03.2 - A Review of the Semantic Web Field (Pascal Hitzler, CACM, 2021)
-Isso aí é como uma "Foto aérea do campo". 
+Isso aí é como uma "Foto aérea do campo". É um balanço maduro de duas décadas. Um artigo da Scientific American de 2001 pelo GOAT Berners-Lee é frequentemente apontado como o marco de nascimento do campo.
+
+O artigo divide a história em 
