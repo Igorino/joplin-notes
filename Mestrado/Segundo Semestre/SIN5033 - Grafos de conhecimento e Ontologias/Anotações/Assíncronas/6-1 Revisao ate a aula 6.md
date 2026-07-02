@@ -34,4 +34,5 @@ O coração da aula são os **Princípios dos Dados Ligados (Berners-Lee, 2006)*
 - Forneça informação útil em RDF quando alguém acessar a URI;
 - **Inclua links pra outras URIs**, pra que os dados se conectem.
 
-é
+⭐⭐⭐⭐⭐
+É o tal de **Esquema das 5 estrelas**: quanto mais aberto e interligado o dado, mais estrelas. A filosofia é *bottom-up*: em vez de discutir linguagens perfeitas, o foco é básicamente em **cone**
