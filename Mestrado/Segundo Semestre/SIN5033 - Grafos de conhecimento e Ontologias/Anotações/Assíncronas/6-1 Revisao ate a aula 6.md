@@ -4,4 +4,5 @@
 
 - **Dados** são como os ingredientes de uma cozinha: "37, "molhado", "p". Sozinhos eles não conseguem dizer nada.
 - **Informação** é quando você organiza esses dados de uma forma útil: "a temperatura é 37 graus Célsius".
-- **Conhecimento** é saber o que isso significa: "37 graus de febre indica que a pessoa está doente". A informação foi enriquecida com a *semântica*
+- **Conhecimento** é saber o que isso significa: "37 graus de febre indica que a pessoa está doente". A informação foi enriquecida com a *semântica*.
+- **Sabedoria**
