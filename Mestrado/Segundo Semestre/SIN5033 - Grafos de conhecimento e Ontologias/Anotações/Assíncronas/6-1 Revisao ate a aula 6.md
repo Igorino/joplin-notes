@@ -55,4 +55,7 @@ Isso aí é como uma "Foto aérea do campo". É um balanço maduro de duas déca
 
 O artigo divide a história em eras:
 - **Era das Ontologias** (inícios dos anos 2000): muita empolgação, ontologias ricas, mas por volta de meados dos anos 2000, expectativas exageradas deram lugar a puma perspectiva mais sóbria, porque ontologias eram difíceis de manter e reutilizar.
-- **Era do Linked Data** (2006 em diante): abordagem mais simples e prática. Concetar grafos RDF. DBpedia, extraída da Wikipedia, é um dos datasets mais conhecidos dessa época, cobrindo cerca de 6 milhões de 
+- **Era do Linked Data** (2006 em diante): abordagem mais simples e prática. Conectar grafos RDF. DBpedia, extraída da Wikipedia, é um dos datasets mais conhecidos dessa época, cobrindo cerca de 6 milhões de entidades.
+- **Era dos Grafos de Conhecimento** (puxada pela indústria)
+
+O fio condutor são os três padrões da W3C que servem como uma 
