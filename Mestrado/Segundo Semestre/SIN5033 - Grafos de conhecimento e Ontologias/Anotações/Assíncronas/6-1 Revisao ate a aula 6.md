@@ -25,4 +25,6 @@ Por que subir até o OWL? Porque o RDFS é fraquinho: ele não sabe dizer "ningu
 
 # Aula 03 - Evolução da Web Semântica
 
-Essa aula é a aula "árvore genealógica"
+Essa aula é a aula "árvore genealógica". Ela mostra que a Web Semântica não nasceu do nada, ela é o último ramo de uma evolução:
+
+**Memex (1945) -> Hipertexto (1965)**
