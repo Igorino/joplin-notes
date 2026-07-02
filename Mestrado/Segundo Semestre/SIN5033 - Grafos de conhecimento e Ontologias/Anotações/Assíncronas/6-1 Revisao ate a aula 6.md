@@ -46,4 +46,6 @@ Esses três PDFs são artigos científicos que aprofundam a aula 03 sob ângulos
 ## 03.1 - Knowledge Graphs *(Gutierrez & Sequeda, Communications of the ACM, 2021)*
 Esse conta a história de amor conturbada entre dados e conhecimento. É a saga de dois irmãos, a lógica (raciocínio) e a estatística (dados, padrões), que ora se ignoram e ora se abraçam.
 
-Momentos marcantes: o workshop "Logic and Data Bases" (Toulouse, 1977) que casou lógica com bancos de dados. O Datalog (um subconjunto do Prolog pra dados). O boom dos sistemas especialistas nos anos 80, com tatno hype que viraram a "estrela a IA", até o "Iverno da IA" quando se descobriu que eram caros, difíceis de mantes e quebra
+Momentos marcantes: o workshop "Logic and Data Bases" (Toulouse, 1977) que casou lógica com bancos de dados. O Datalog (um subconjunto do Prolog pra dados). O boom dos sistemas especialistas nos anos 80, com tanto hype que viraram a "estrela a IA", até o "Inverno da IA" quando se descobriu que eram caros, difíceis de mantes e quebradiços (o famoso gargalo de aquisição de conhecimento).
+
+A grande lição: integrar
