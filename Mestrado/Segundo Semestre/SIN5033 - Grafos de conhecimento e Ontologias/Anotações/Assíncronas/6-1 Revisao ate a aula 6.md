@@ -48,4 +48,7 @@ Esse conta a história de amor conturbada entre dados e conhecimento. É a saga 
 
 Momentos marcantes: o workshop "Logic and Data Bases" (Toulouse, 1977) que casou lógica com bancos de dados. O Datalog (um subconjunto do Prolog pra dados). O boom dos sistemas especialistas nos anos 80, com tanto hype que viraram a "estrela a IA", até o "Inverno da IA" quando se descobriu que eram caros, difíceis de mantes e quebradiços (o famoso gargalo de aquisição de conhecimento).
 
-A grande lição: integrar lógica e dados precisa ser um casamento bem amarrado, não só empilhar uma coisa sobre a outra. E o termo "Knowledge Graph" que a Google popularizou em 2012? É na verdade uma ideia antiga! Já aparecia numa tese de 29
+A grande lição: integrar lógica e dados precisa ser um casamento bem amarrado, não só empilhar uma coisa sobre a outra. E o termo "Knowledge Graph" que a Google popularizou em 2012? É na verdade uma ideia antiga! Já aparecia numa tese de 1982, ela só encontrou finalmente o hardware e o momento certo.
+
+## 03.2 - A Review of the Semantic Web Field (Pascal Hitzler, CACM, 2021)
+Isso aí é como uma "Foto aérea do campo". 
