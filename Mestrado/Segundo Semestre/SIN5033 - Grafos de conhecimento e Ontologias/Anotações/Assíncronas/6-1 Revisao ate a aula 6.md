@@ -58,4 +58,7 @@ O artigo divide a história em eras:
 - **Era do Linked Data** (2006 em diante): abordagem mais simples e prática. Conectar grafos RDF. DBpedia, extraída da Wikipedia, é um dos datasets mais conhecidos dessa época, cobrindo cerca de 6 milhões de entidades.
 - **Era dos Grafos de Conhecimento** (puxada pela indústria)
 
-O fio condutor são os três padrões da W3C que servem como uma 
+O fio condutor são os três padrões da W3C que servem como uma "Língua franca": RDF, OWL e SPARQL (conhecido como o "SQL dos grafos")
+
+## 03.3 - Knowledge Representation and the Semantic Web
+Este é o documentários sobre as raízes profundas. Chega 
