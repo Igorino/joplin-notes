@@ -27,4 +27,7 @@ Por que subir até o OWL? Porque o RDFS é fraquinho: ele não sabe dizer "ningu
 
 Essa aula é a aula "árvore genealógica". Ela mostra que a Web Semântica não nasceu do nada, ela é o último ramo de uma evolução:
 
-**Memex (1945) -> Hipertexto (1965) -> Hipermídia -> Web (1990) -> Web Semântica (2001) -> Web de dados / Linked Data (2006) -> Grafos de **
+**Memex (1945) -> Hipertexto (1965) -> Hipermídia -> Web (1990) -> Web Semântica (2001) -> Web de dados / Linked Data (2006) -> Grafos de Conhecimento (2012)**
+
+O coração da aula são os **Princípios dos Dados Ligados (Berners-Lee, 2006)** que funcionam como um "manual de boas maneiras" pra publicar dados:
+- 
