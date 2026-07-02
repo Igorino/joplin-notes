@@ -30,4 +30,8 @@ Essa aula é a aula "árvore genealógica". Ela mostra que a Web Semântica não
 **Memex (1945) -> Hipertexto (1965) -> Hipermídia -> Web (1990) -> Web Semântica (2001) -> Web de dados / Linked Data (2006) -> Grafos de Conhecimento (2012)**
 
 O coração da aula são os **Princípios dos Dados Ligados (Berners-Lee, 2006)** que funcionam como um "manual de boas maneiras" pra publicar dados:
-- 
+- Use **URIs HTTP** como nomes pras coisas (não só pras páginas);
+- Forneça informação útil em RDF quando alguém acessar a URI;
+- **Inclua links pra outras URIs**, pra que os dados se conectem.
+
+é
