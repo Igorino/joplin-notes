@@ -12,4 +12,7 @@ A aula também martela um ponto: **significado depende de contexto**. O exemplo 
 A mesma sequência de símbolos muda de sentido conforme o entorno. É por isso que o curso inteiro vai atrás de formas de deixar o significado **explícito e sem ambiguidade**, primeiro para nós humanos e depois para as máquinas.
 
 # Aula 02 - Web Semântica: Introdução
-Aqui entra o problema central do curso. A web de hoje é como uma **biblioteca gigante onde os livros estão escritos, mas o bibliotecário (o computador) não sabe ler ela de forma eficiente**
+Aqui entra o problema central do curso. A web de hoje é como uma **biblioteca gigante onde os livros estão escritos, mas o bibliotecário (o computador) não sabe ler ela de forma eficiente**. Ele só consegue pegar o livro pela capa e pelas palavras-chave. Ele não entende que "Lisa Davenport é fisioterapeuta".
+
+A Web Semântica quer dar **olhos de leitura pra máquina**. As três tecnologias principais para isso são:
+1. **Grafos **
