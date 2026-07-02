@@ -53,4 +53,5 @@ A grande lição: integrar lógica e dados precisa ser um casamento bem amarrado
 ## 03.2 - A Review of the Semantic Web Field (Pascal Hitzler, CACM, 2021)
 Isso aí é como uma "Foto aérea do campo". É um balanço maduro de duas décadas. Um artigo da Scientific American de 2001 pelo GOAT Berners-Lee é frequentemente apontado como o marco de nascimento do campo.
 
-O artigo divide a história em 
+O artigo divide a história em eras:
+- **Era das Ontologias** (inícios dos anos 2000): muita empolgação, ontologias ricas, mas por volta de meados dos anos 2000, expectativas exageradas deram lugar a puma perspectiva mais sóbria, porque ontologias 
