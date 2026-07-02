@@ -64,4 +64,6 @@ O fio condutor são os três padrões da W3C que servem como uma "Língua franca
 Este é o documentários sobre as raízes profundas. Chega a Turing e Church nos anos 1930. A joia dessa leitura é o trade-off fundamental da representação do conhecimento:
 > Quanto **mais expressiva** a linguagem, **mais lento** (ou impossível) é o racionador automático.
 
-É tipo um carro esportivo cheio de recursos: cada botão extra deixa o carro mais pesado e difícil de dirigir. A Lógica de Primeira Ordem (FOL) é tão poderosa que se torna *indecidível*. O programa pode nunca parar de calcular. Esse dilema é o que motiva, lá na frente, escoher uma lógica mais "comportada"
+É tipo um carro esportivo cheio de recursos: cada botão extra deixa o carro mais pesado e difícil de dirigir. A Lógica de Primeira Ordem (FOL) é tão poderosa que se torna *indecidível*. O programa pode nunca parar de calcular. Esse dilema é o que motiva, lá na frente, escolher uma lógica mais "comportada". O artigo também reabilita os sistemas de regras: não foram um fracasso total, eles venceram disfarçados, virando a lógica de negócio de sistemas corporativos.
+
+# Aula 04 - Lógica e Raciocínio Automatizado
