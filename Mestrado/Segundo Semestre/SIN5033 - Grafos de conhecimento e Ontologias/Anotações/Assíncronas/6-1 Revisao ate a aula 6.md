@@ -61,4 +61,7 @@ O artigo divide a história em eras:
 O fio condutor são os três padrões da W3C que servem como uma "Língua franca": RDF, OWL e SPARQL (conhecido como o "SQL dos grafos")
 
 ## 03.3 - Knowledge Representation and the Semantic Web
-Este é o documentários sobre as raízes profundas. Chega 
+Este é o documentários sobre as raízes profundas. Chega a Turing e Church nos anos 1930. A joia dessa leitura é o trade-off fundamental da representação do conhecimento:
+> Quanto **mais expressiva** a linguagem, **mais lento** (ou impossível) é o racionador automático.
+
+É tipo um carro esportivo cheio de recursos: cada botão 
