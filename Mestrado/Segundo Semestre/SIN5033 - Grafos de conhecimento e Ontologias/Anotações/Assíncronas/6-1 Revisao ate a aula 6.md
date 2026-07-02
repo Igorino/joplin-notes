@@ -19,4 +19,6 @@ A Web Semântica quer dar **olhos de leitura pra máquina**. As três tecnologia
 2. **URIs** (Uniform Resource Identifier). São endereços únicos globais pra identificar cada coisa (como um CPF pra conceitos, em vez de só "Lisa", que seria meio ambíguo).
 3. **Ontologias**. Que são vocabulários hierárquicos que dizem como que as coisas *são* e *como se relacionam*.
 
-A aula apresenta o famoso **"Bolo de camadas"**: na base, o **XML** (sintaxe). Acima dele, **RDF** (fatos), e **RDF Schema** (Ontologia simples). E no topo de tudo, o **OWL** (Ontology Web Language, que é uma linguagem ontolói
+A aula apresenta o famoso **"Bolo de camadas"**: na base, o **XML** (sintaxe). Acima dele, **RDF** (fatos), e **RDF Schema** (Ontologia simples). E no topo de tudo, o **OWL** (Ontology Web Language, que é uma linguagem ontológica robusta).
+
+Por que subir até o OWL? Porque o RDFS é fraquinho: ele não sabe dizer "ninguém pode ser Homem e Mulher ao mesmo tempo" ou "uma pessoa tem no máximo 1 nome". O OWL traz cardinalidade, disjunção
