@@ -41,4 +41,5 @@ O resultado: a "Nuvem LOD" saltou de 570 datasets (2014) pra mais de 1300 datase
 
 # Aula 03.1, 03.2 e 03.3 - As três leituras acadêmicas
 
-Esta cont
+Esses três PDFs são artigos científicos que aprofundam a aula 03 sob ângulos diferentes. 
+
