@@ -99,7 +99,8 @@ A aula 6 amarra tudo. Pega o trade-off do 03.3 (expressividade vs. velocidade) e
 
 A linguagem mínima ensinada é a **ALC**. Ela organiza o conhecimento em "caixas": 
 - **TBox** (terminológico) = as **regras do jogo / dicionário**: "$\text{Escritor} \equiv \text{Pessoa} \sqcap \text{autor.Livro}$" (um escritor é uma pessoa que escreveu pelo menos um livro). É o esquema, o conhecimento geral.
-- **ABox** (assertivo) = os **fatos concretos / as peç**
+- **ABox** (assertivo) = os **fatos concretos / as peças no tabuleiro**: "Escritor(GeorgeOrwell)", "autor(1984, GeorgeOrwell)".
+- **RBox** = regras sobre os **papéis** em si (ex.: "coAutor $
 .
 .
 .
