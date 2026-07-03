@@ -74,13 +74,13 @@ A **lógica proposicional** monta argumentos com tijolinhos chamados de proposi�
 
 **Tabela-verdade** é o método "força bruta": testa *todas* as combinações possíveis.
 
-E qual seria o problema? Com `n` símbolos, ela teria **$2^n$ linhas**. Com só 10 proposições já seria 1024 linhas. Seria como verificar se uma fechadura funciona testando todas as combinações: garante o resultado eventualmente, mas não é viável na prática.
+E qual seria o problema? Com $n$ símbolos, ela teria **$2^n$ linhas**. Com só 10 proposições já seria 1024 linhas. Seria como verificar se uma fechadura funciona testando todas as combinações: garante o resultado eventualmente, mas não é viável na prática.
 
 É aí que chega as **regras de inferência**: elas são como "atalhos elegantes" que foram herdados de Aristóteles:
 
 - **Modus Ponens**: de "se chove $\rarr$ a rua molha" e "choveu", conclui-se "a rua molhou". É o clássico de "destacar" o consequente.
-- **Modus Tollens**: de "se chove $\rarr$ a rua molha" e "a rua **não** molhou", conclui-se "**não** choveu".
-- **Silogismo Hipotético**: de "A $\rarr$ B
+- **Modus Tollens**: de $se chove \rarr$ a rua molha" e "a rua **não** molhou", conclui-se "**não** choveu".
+- **Silogismo Hipotético**: de $A \rarr B$
 
 
 
