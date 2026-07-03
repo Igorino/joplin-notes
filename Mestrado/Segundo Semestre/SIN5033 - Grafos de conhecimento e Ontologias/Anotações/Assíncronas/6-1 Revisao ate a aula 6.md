@@ -102,7 +102,9 @@ A linguagem mínima ensinada é a **ALC**. Ela organiza o conhecimento em "caixa
 - **ABox** (assertivo) = os **fatos concretos / as peças no tabuleiro**: "Escritor(GeorgeOrwell)", "autor(1984, GeorgeOrwell)".
 - **RBox** = regras sobre os **papéis** em si (ex.: "coAutor $\sqsubseteq$ autor").
 
-Os **construtores** montam classes complexas: negação ($\neg C$), conjunção ($C \sqcap D$), disjunção ($C \sqcup D$), e os quantificadores $\exists R.C$ ("Existe pelo menos um") e $\forall R.C$ (
+Os **construtores** montam classes complexas: negação ($\neg C$), conjunção ($C \sqcap D$), disjunção ($C \sqcup D$), e os quantificadores $\exists R.C$ ("Existe pelo menos um") e $\forall R.C$ ("todos são").
+
+Por exemplo: $\text{Novela} \sqsubseteq \text{Livro}$ significa que "toda novela é também um livro", que em FOL seria $$
 
 
 
