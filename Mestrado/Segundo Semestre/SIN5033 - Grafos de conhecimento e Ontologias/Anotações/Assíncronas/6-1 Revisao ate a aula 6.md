@@ -74,7 +74,7 @@ A **lógica proposicional** monta argumentos com tijolinhos chamados de proposi�
 
 **Tabela-verdade** é o método "força bruta": testa *todas* as combinações possíveis.
 
-E qual seria o problema? Com `n` símbolos, ela 
+E qual seria o problema? Com `n` símbolos, ela teria **$2^n$ linhas**. Com só 10 proposições já seria 1024 linhas. Seria como verificar se uma fechadura funciona testando todas as combinações: garante o 
 
 
 
