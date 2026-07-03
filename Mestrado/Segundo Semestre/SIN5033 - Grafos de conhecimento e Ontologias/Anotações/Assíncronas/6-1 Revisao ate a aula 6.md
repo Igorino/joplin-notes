@@ -88,8 +88,9 @@ A aula fecha com duas ideias que vão estruturar tudo daqui pra frente: **valida
 Essa aula é um "**gabarito comentado**", onde a teoria da Aula 04 ganha força com exercícios resolvidos. 
 
 Os exercícios cobre uma escada de dificuldade:
-- **Tradução**: pegar frases em português ("Se Ana é alta e magra, então é elegante") e transforma ela em fórmulas ($p \rarr q$).
-- **Tabelas-verdade**: Para testar argumentos do mundo real. (Como "se chove, a rua molha, 
+- **Tradução**: pegar frases em português ("Se Ana é alta e magra, então é elegante") e transforma ela em fórmulas ($p \rarr q$);
+- **Tabelas-verdade**: Para testar argumentos do mundo real. (Como "se chove, a rua molha", etc.);
+- **Provas por refutação**: em vez de provar $r$ diretamente, você *assume o contrário* ($\neg r$
 
 
 .
