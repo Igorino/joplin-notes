@@ -98,7 +98,7 @@ Os exercícios cobre uma escada de dificuldade:
 A aula 6 amarra tudo. Pega o trade-off do 03.3 (expressividade vs. velocidade) e resolve com a Lógica de Descrições, já que ela não é nem fraca demais, nem expressiva demais a ponto de travar. Ponto "Cachinhos Dourados". É um **fragmento decidível da FOL**: poderoso o suficiente pra ser útil, mas comportado o suficiente pra sempre terminar o cálculo. Ele é a **base teórica do OWL** (a Web Ontology Language usa a Lógica de Descrições chamada de SROIQ(D)).
 
 A linguagem mínima ensinada é a **ALC**. Ela organiza o conhecimento em "caixas": 
-- **TBox** (terminológico) = as **regras do jogo / dicionário**: "$\text{Escritor}$
+- **TBox** (terminológico) = as **regras do jogo / dicionário**: "$\text{Escritor} \equiv \text{Pessoa} \sqcap \text{autor.Livro$
 .
 .
 .
