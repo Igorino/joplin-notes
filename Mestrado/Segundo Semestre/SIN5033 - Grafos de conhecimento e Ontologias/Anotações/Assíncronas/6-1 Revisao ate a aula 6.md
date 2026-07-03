@@ -106,7 +106,7 @@ Os **construtores** montam classes complexas: negação ($\neg C$), conjunção 
 
 Por exemplo: $\text{Novela} \sqsubseteq \text{Livro}$ significa que "toda novela é também um livro", que em FOL seria $\forall x (\text{Novela}(x) \rarr \text{Livro}(x))$.
 
-Como que a máquina raciocina sobre isso?
+Como que a máquina raciocina sobre isso? Com o **Algoritmo de Tableaux** (inventado por Beth em 1955, simplificado por Smullyan em 1968), que é a mesma ideia da prova por refutação da aula 05: pra provar alguma coisa, **assume-se a **
 
 
 
