@@ -78,8 +78,8 @@ E qual seria o problema? Com $n$ símbolos, ela teria **$2^n$ linhas**. Com só 
 
 É aí que chega as **regras de inferência**: elas são como "atalhos elegantes" que foram herdados de Aristóteles:
 
-- **Modus Ponens**: de "se chove $\rarr$ a rua molha" e "choveu", conclui-se "a rua molhou". É o clássico de "destacar" o consequente.
-- **Modus Tollens**: de "$\text{se chove} \rarr \text{a rua molha}$" e "$\text{a rua não molhou}$", conclui-se "**não** choveu".
+- **Modus Ponens**: de "$\text{se chove} \rarr \text{a rua molha}$" e "choveu", conclui-se "a rua molhou". É o clássico de "destacar" o consequente.
+- **Modus Tollens**: de "$\text{se chove} \rarr \text{a rua molha}$" e "$\text{a rua NÃO molhou}$", conclui-se "$\text{NÃO choveu}$".
 - **Silogismo Hipotético**: de $A \rarr B$
 
 
