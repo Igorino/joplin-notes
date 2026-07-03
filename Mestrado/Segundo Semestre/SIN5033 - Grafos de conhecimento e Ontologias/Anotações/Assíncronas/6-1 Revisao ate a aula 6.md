@@ -70,4 +70,27 @@ Este é o documentários sobre as raízes profundas. Chega a Turing e Church nos
 
 Agora o curso muda de marcha: sai da história e entra na maquinaria. Essa aula é a **gramática do raciocínio**.
 
-A **lógica proposicional** monta argumentos com tijolinhos chamados de proposições (`p`, `q`) e cola eles com conectivos: $\not$
+A **lógica proposicional** monta argumentos com tijolinhos chamados de proposições (`p`, `q`) e cola eles com conectivos: $\neg$ (não), $\land$ (e), $\lor$ (ou), $\rarr$ (então).
+
+**Tabela-verdade** é o método "força bruta: 
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
