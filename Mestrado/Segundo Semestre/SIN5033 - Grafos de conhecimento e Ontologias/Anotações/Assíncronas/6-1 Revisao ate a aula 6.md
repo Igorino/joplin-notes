@@ -95,7 +95,7 @@ Os exercícios cobre uma escada de dificuldade:
 - **Unificação** (lógica de primeira ordem): casar padrões como `cor(sapato(x), branco)` com `cor(sapato(suspeito), y)`, descobrindo que `x = suspeito` e `y = branco`. Como encaixar peças de quebra-cabeças.
 
 # Aula 06 - Lógica de Descrições (DL)
-A aula 6 amarra tudo. Pega o trade-off do 03.3 (expressividade vs. velocidade) e resolve com a Lógica de Descrições, já que ela não é nem fraca demais, nem expressiva demais a ponto de travar. Ponto "Cachinhos Dourados". É um **fragmento decidível da FOL**: poderoso o suficiente 
+A aula 6 amarra tudo. Pega o trade-off do 03.3 (expressividade vs. velocidade) e resolve com a Lógica de Descrições, já que ela não é nem fraca demais, nem expressiva demais a ponto de travar. Ponto "Cachinhos Dourados". É um **fragmento decidível da FOL**: poderoso o suficiente pra ser útil, mas comportado o suficiente pra sempre terminar o cálculo. Ele é a **base teórica do OWL** (a Web Ontology Language usa a Lógica de Descrições chamada de SROIQ(D)).
 
 .
 .
