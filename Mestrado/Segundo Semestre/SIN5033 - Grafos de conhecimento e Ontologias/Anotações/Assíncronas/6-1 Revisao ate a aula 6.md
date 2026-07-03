@@ -68,4 +68,6 @@ Este é o documentários sobre as raízes profundas. Chega a Turing e Church nos
 
 # Aula 04 - Lógica e Raciocínio Automatizado
 
-Agora o curso muda 
+Agora o curso muda de marcha: sai da história e entra na maquinaria. Essa aula é a **gramática do raciocínio**.
+
+A **lógica proposicional** monta argumentos com tijolinhos chamados de proposições (`p`, `q`) e cola eles com conectivos: $\not$
