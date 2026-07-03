@@ -91,7 +91,8 @@ Os exercícios cobre uma escada de dificuldade:
 - **Tradução**: pegar frases em português ("Se Ana é alta e magra, então é elegante") e transforma ela em fórmulas ($p \rarr q$);
 - **Tabelas-verdade**: Para testar argumentos do mundo real. (Como "se chove, a rua molha", etc.);
 - **Provas por refutação**: em vez de provar $r$ diretamente, você *assume o contrário* ($\neg r$) e mostra que isso gera uma contradição ($\perp$). Ou seja, uma **prova por absurdo**;
-- **Prolog e resolução SLD**: entra a lógica de programação, com aquele charmoso exemplo de "quem namora quem" e "quem é infiél
+- **Prolog e resolução SLD**: entra a lógica de programação, com aquele charmoso exemplo de "quem namora quem" e "quem é infiel", usando o `trace` pra enxergar o motor de inferência trabalhando.
+- **Unificação** (lógica de primeira ordem): casar padrões como `cor(sapato(x), branco)` com `cor
 
 
 .
