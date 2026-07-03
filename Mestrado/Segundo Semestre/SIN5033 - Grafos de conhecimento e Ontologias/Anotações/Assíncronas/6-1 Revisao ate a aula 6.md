@@ -85,7 +85,10 @@ E qual seria o problema? Com $n$ símbolos, ela teria **$2^n$ linhas**. Com só 
 A aula fecha com duas ideias que vão estruturar tudo daqui pra frente: **validade** (verdade em todos os modelos) e **satisfatibilidade** (verdade em *algum* modelo), além das propriedades que todos sistema de prova precisa ter: **corretude** (só prova o que é verdade) e **completude** (prova tudo que é verdade).
 
 # Aula 05 - Solução para exercícios de Lógica.
-Essa aula é um "
+Essa aula é um "**gabarito comentado**", onde a teoria da Aula 04 ganha força com exercícios resolvidos. 
+
+Os exercícios cobre uma escada de dificuldade:
+- **Tradução**: pegar frases em português ("Se 
 
 
 .
