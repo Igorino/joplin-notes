@@ -102,7 +102,7 @@ A linguagem mínima ensinada é a **ALC**. Ela organiza o conhecimento em "caixa
 - **ABox** (assertivo) = os **fatos concretos / as peças no tabuleiro**: "Escritor(GeorgeOrwell)", "autor(1984, GeorgeOrwell)".
 - **RBox** = regras sobre os **papéis** em si (ex.: "coAutor $\sqsubseteq$ autor").
 
-Os **construtores** montam classes complexas: negaçãoi
+Os **construtores** montam classes complexas: negação ($\neg C$), conjunção ($C \sqcap D$), disjunção ($C \sqcup D$)
 .
 .
 .
