@@ -82,7 +82,7 @@ E qual seria o problema? Com $n$ símbolos, ela teria **$2^n$ linhas**. Com só 
 - **Modus Tollens**: de "$\text{se chove} \rarr \text{a rua molha}$" e "$\text{a rua NÃO molhou}$", conclui-se "$\text{NÃO choveu}$".
 - **Silogismo Hipotético**: de $A \rarr B$ e $B \rarr C$, conclui-se $A \rarr C$. Isso é o encadeamento de dominós, ou relação transitiva na lógica.
 
-A aula ch
+A aula fecha com duas ideias que vão estruturar tudo daqui pra frente: **validade** (verdade em todos os modelos) e **satisfatibilidade** (verdade em *algum* modelo), além das propriedades que todos sistema de prova precisa ter
 
 
 
