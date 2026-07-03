@@ -104,7 +104,9 @@ A linguagem mínima ensinada é a **ALC**. Ela organiza o conhecimento em "caixa
 
 Os **construtores** montam classes complexas: negação ($\neg C$), conjunção ($C \sqcap D$), disjunção ($C \sqcup D$), e os quantificadores $\exists R.C$ ("Existe pelo menos um") e $\forall R.C$ ("todos são").
 
-Por exemplo: $\text{Novela} \sqsubseteq \text{Livro}$ significa que "toda novela é também um livro", que em FOL seria $$
+Por exemplo: $\text{Novela} \sqsubseteq \text{Livro}$ significa que "toda novela é também um livro", que em FOL seria $\forall x (\text{Novela}(x) \rarr \text{Livro}(x))$.
+
+Como que a máquina raciocina sobre isso?
 
 
 
