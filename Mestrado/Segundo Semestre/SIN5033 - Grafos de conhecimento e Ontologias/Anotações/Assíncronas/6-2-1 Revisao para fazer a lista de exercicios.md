@@ -9,3 +9,5 @@ São cinco construtores pra montar *classes* (conceitos):
 E dois "conectores" entre as classes, no nível dos Axiomas (a TBox):
 - $C \sqsubseteq D$ - Inclusão ("todo $C$ é $D$"). Em LPO vira $\forall x (C(x) \rarr D(x))$
 - $C \equiv D$ - Equivalência ("$C$ é exatamente $D$", os dois lados) $\rarr$ dá pra reescrever como "$C \sqsubseteq D$ e $D \sqsubseteq C$"
+
+Pegadinha: 
