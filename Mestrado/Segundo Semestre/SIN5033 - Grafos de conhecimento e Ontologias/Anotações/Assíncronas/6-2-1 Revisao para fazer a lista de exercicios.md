@@ -7,4 +7,5 @@ São cinco construtores pra montar *classes* (conceitos):
 5. $\forall R.C$ - Restrição de valor ("**todos** os $R$ são $C$")
 
 E dois "conectores" entre as classes, no nível dos Axiomas (a TBox):
-- $C \sqsubseteq D$ - Inclusão ("todo $C$ é $D$"). Em LPO vira $\forall x (C(x)$
+- $C \sqsubseteq D$ - Inclusão ("todo $C$ é $D$"). Em LPO vira $\forall x (C(x) \rarr D(x))$
+- $C \equiv D$ - Equivalência ("$C$ é exatamente $D$"
