@@ -6,4 +6,5 @@ São cinco construtores pra montar *classes* (conceitos):
 4. $\exists R.C$ - Restrição existencial ("tem **algum** $R$ que é $C$")
 5. $\forall R.C$ - Restrição de valor ("**todos** os $R$ são $C$")
 
-E dois "conectores" entre as cla
+E dois "conectores" entre as classes, no nível dos Axiomas (a TBox):
+- 
