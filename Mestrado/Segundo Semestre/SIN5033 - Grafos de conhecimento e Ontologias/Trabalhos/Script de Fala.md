@@ -6,21 +6,21 @@ Bom, gente, boa tarde! Hoje eu vou apresentar esse artigo aqui desse cara: o Lap
 
 ## Slide 2 — O Problema (2 min)
 
-Antes de qualquer coisa, eu queria que vocês pensassem num NPC burro que já viram. Todo mundo tem um. Aquele guarda que te viu roubando, você se esconde atrás de uma caixa por dez segundos, e ele fala "ah, deve ter sido o vento". Ou o NPC que repete a mesma frase pra sempre. Então, o problema que o artigo ataca é esse: NPC tem decisão pouco crível, comportamento repetitivo, ação inconsistente. E isso não é só em jogo comercial, vale pra jogo educacional, jogo sério, simulação.
+Antes de qualquer coisa, eu queria que vocês pensassem num NPC burro que já viram. Todo mundo tem um. Aquele guarda que te viu roubando, você se esconde atrás de uma caixa por dez segundos, e ele fala "ah, deve ter sido o vento". Ou o NPC que repete a mesma frase pra sempre. Então, o problema que o artigo ataca é esse: NPC tem decisão pouco crível, comportamento repetitivo, ação inconsistente. E isso não é só em jogo normal, vale pra jogo educacional, jogo sério, simulação.
 
-E aí vem a pergunta que guia a apresentação inteira, que eu acho genuinamente boa: lógica é uma das áreas mais maduras da IA. Por que nenhum NPC raciocina? A gente passa o semestre inteiro estudando inferência, e a indústria de games simplesmente... não usa. Por quê?
+E aí vem a pergunta que guia a apresentação inteira, que eu acho genuinamente boa: Por que nenhum NPC raciocina? A gente passa o semestre inteiro estudando inferência, e a indústria de games simplesmente... não usa. Por quê?
 
 ## Slide 3 — Por que a Indústria Simplifica? (2-3 min)
 
-O artigo dá três respostas, e elas são importantes porque qualquer proposta nova precisa responder às três, não adianta só ser "mais inteligente".
+O artigo dá três respostas, e elas são importantes porque qualquer proposta nova precisa responder às três, não adianta só ser "mais inteligente". (Como? Qual o custo)
 
 Primeira: recurso. Desenvolvimento de jogo é prazo apertado, crunch time, pressão pra reusar código. Inovação em IA é a última prioridade da fila.
 
 Segunda, e essa é mais sutil: controle. O designer QUER limitar o que pode acontecer. Um algoritmo que gera muitos comportamentos complexos também gera comportamentos que ninguém pediu, tipo bug, quebra de fluxo da história. Previsibilidade é feature, não limitação.
 
-Terceira: às vezes simples é melhor mesmo. Tem um conceito do Millington chamado complexity fallacy: um NPC pode parecer super inteligente rodando um algoritmo trivial, e vice-versa. E o objetivo do NPC nunca foi ser ótimo, é ser divertido. Ninguém quer jogar contra uma IA perfeita.
+Terceira: às vezes simples é melhor mesmo. Tem um conceito chamado Falácia da Complexidade: um NPC pode parecer super inteligente rodando um algoritmo trivial, e vice-versa. E o objetivo do NPC nunca foi ser ótimo, é ser divertido. Ninguém quer jogar contra uma IA perfeita.
 
-Guardem esses três, porque eles voltam lá no final. Duas vezes, na verdade.
+Vou explorar esses conceitos mais pra frente.
 
 ## Slide 4 — Como se Decide Hoje (1-2 min)
 
@@ -38,9 +38,7 @@ GOAP é bem mais esperto. Em vez de estados, você declara um objetivo, um estad
 
 Curiosidade: GOAP ficou famoso com F.E.A.R., em 2005, e os inimigos daquele jogo são elogiados até hoje. Então planejamento funciona em jogo, tá provado. O custo é que toda vez que o mundo muda, replaneja, e isso pesa em tempo real.
 
-Ah, e guardem essa imagem da cadeia, porque ela vai voltar. É proposital.
-
-## Slide 7 — FSM × GOAP × Reasoner (2 min)
+## Slide 7 — FSM vs. GOAP vs. Reasoner (2 min)
 
 Botando os três lado a lado, dá pra ver uma escada. FSM: tudo à mão, autoria total, emergência zero. GOAP: já monta planos sozinho, mas o mundo dele é uma lista plana de fatos, não tem estrutura de conhecimento. E o reasoner, que é a proposta do artigo, planeja E infere sobre uma ontologia. Uma regra escrita sobre "arma" vale automaticamente pra toda arma que existir, pra toda arma que você criar semestre que vem.
 
@@ -52,9 +50,7 @@ Deixa eu ser honesto: quando eu li isso pela primeira vez, minha reação foi "i
 
 A consulta do NPC é uma meta: "como abro o baú?". O backward chaining, que a gente conhece, decompõe essa meta em submetas até chegar em ações concretas. E aí vem o pulo do gato: a sequência de passos que fecha a prova É a sequência de ações do NPC. A prova é o plano. Ninguém escreveu um planejador, ele veio de brinde do mecanismo de inferência.
 
-E tem um bônus enorme: explicabilidade. Cada decisão carrega a própria justificativa, que é a prova. Isso conecta direto com XAI, que tá na ementa. Uma rede neural não te explica por que atacou; uma prova, sim.
-
-E o artigo ainda dá o contraponto pra quem achou gambiarra, citando o Jackson: sistema especialista emula a decisão de um especialista humano. E emular um "especialista", um personagem que sabe o papel dele no mundo... é literalmente o trabalho de um NPC. Então talvez não seja gambiarra, talvez seja a tecnologia voltando pra casa.
+E tem um bônus : explicabilidade. Cada decisão carrega a própria justificativa, que é a prova. Uma rede neural, por exemplo, pode não deixar explícito por que atacou. Uma prova, sim.
 
 ## Slide 9 — A Proposta do Artigo (2 min)
 
@@ -121,10 +117,6 @@ Chega de slide, deixa eu mostrar isso rodando.
 Agora tirando o chapéu de vendedor e botando o de cientista.
 
 Limitação principal: é um artigo de proposta, sem validação empírica. O protótipo era trabalho em andamento, o teste com estúdio comercial era futuro. As dúvidas que o próprio autor admite: desempenho em tempo real com vários NPCs, planos longos, consumo de recursos, e a barreira de adoção, porque ferramentas declarativas amigáveis existem e nem por isso pegaram.
-
-E a minha crítica, da perspectiva desta disciplina: as ontologias são hierarquias Prolog, sem a semântica formal e o ferramental do nosso ecossistema. Usar OWL de verdade seria uma extensão natural, ganharia mundo aberto nativo, mas pagaria caro em raciocínio.
-
-Dito isso, a força do artigo pra mim é dupla: o diagnóstico honesto de por que a indústria não usa lógica, e a elegância da WFS pra modelar ignorância. E fechando com a pergunta da abertura: hoje todo mundo só fala de LLM pra NPC. Raciocínio simbólico talvez seja o contrapeso: barato, determinístico, auditável. Talvez o futuro seja os dois juntos, LLM no diálogo, lógica na decisão.
 
 ## Slide 17 — Bônus: Meu Mestrado em Três Eixos (2 min)
 
