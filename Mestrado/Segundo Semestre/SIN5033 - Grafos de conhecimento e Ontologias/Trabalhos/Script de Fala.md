@@ -2,7 +2,7 @@
 
 ## Slide 1 — Título (30s)
 
-Bom, gente, boa tarde! Hoje eu vou apresentar esse artigo aqui desse cara: o Lapeyrade, que é de 2022. O título já fala: raciocínio com ontologias pra tomada de decisão de NPCs. Ou seja, é literalmente o conteúdo da nossa disciplina, só que aplicado num lugar que ninguém espera: videogame. E esse `?- decidir(npc, Acao).`  é uma consulta do Prolog. A ideia do artigo é basicamente essa: e se o cérebro do NPC fosse uma consulta?
+Bom, gente, boa tarde! Hoje eu vou apresentar esse artigo aqui desse cara: o Lapeyrade, que é de 2022. O título já fala: raciocínio com ontologias pra tomada de decisão de NPCs. A ideia do artigo é basicamente essa: e se o cérebro do NPC fosse uma consulta?
 
 ## Slide 2 — O Problema (2 min)
 
