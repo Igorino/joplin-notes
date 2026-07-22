@@ -24,7 +24,7 @@ Vou explorar esses conceitos mais pra frente.
 
 ## Slide 4 — Como se Decide Hoje (1-2 min)
 
-Antes de falar da proposta, deixa eu situar o terreno. Se você abrir qualquer jogo dos últimos trinta anos e olhar o cérebro do NPC, é quase certo que vai ser uma dessas quatro coisas.
+Antes de falar da proposta, deixa eu situar o terreno. Se você abrir qualquer jogo dos últimos trinta anos e olhar o cérebro do NPC, é quase certo que vai ser uma dessas três coisas.
 
 Máquina de estados, a mais antiga: o NPC tem modos e troca de modo quando acontece alguma coisa. Behaviour tree, que é o padrão hoje, é tipo uma árvore de decisão que a engine roda de cima pra baixo, e tanto Unity quanto Unreal já vêm com editor visual, o designer arrasta bloquinho e monta o comportamento sem escrever código. Utility AI é a lógica do The Sims: cada ação possível ganha uma nota, "comer" tá em oito porque tô com fome, "dormir" tá em três, e o NPC faz a de maior nota. E planejamento, tipo GOAP, que é o único do grupo que monta sequência de ação sozinho.
 
