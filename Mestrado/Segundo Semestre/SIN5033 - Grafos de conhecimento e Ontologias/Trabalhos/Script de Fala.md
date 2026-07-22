@@ -24,7 +24,13 @@ Vou explorar esses conceitos mais pra frente.
 
 ## Slide 4 — Como se Decide Hoje (1-2 min)
 
-Tá, e como a indústria faz hoje? Quatro técnicas dominam. FSM, máquinas de estado. Behaviour trees, que é o padrão atual, Unity e Unreal têm editor visual pra isso. Utility AI, que dá nota pra cada ação possível. E planejamento, tipo GOAP. Eu vou detalhar as duas das pontas nos próximos slides porque elas importam pra comparação. Mas o spoiler é: todas falham em algum eixo, e nenhuma, nenhuma delas, usa raciocínio lógico. Essa é a lacuna do artigo.
+Antes de falar da proposta, deixa eu situar o terreno. Se você abrir qualquer jogo dos últimos trinta anos e olhar o cérebro do NPC, é quase certo que vai ser uma dessas quatro coisas.
+
+Máquina de estados, a mais antiga: o NPC tem modos e troca de modo quando acontece alguma coisa. Behaviour tree, que é o padrão hoje, é tipo uma árvore de decisão que a engine roda de cima pra baixo, e tanto Unity quanto Unreal já vêm com editor visual, o designer arrasta bloquinho e monta o comportamento sem escrever código. Utility AI é a lógica do The Sims: cada ação possível ganha uma nota, "comer" tá em oito porque tô com fome, "dormir" tá em três, e o NPC faz a de maior nota. E planejamento, tipo GOAP, que é o único do grupo que monta sequência de ação sozinho.
+
+Cada uma tem seu ponto fraco, e eu vou detalhar a primeira e a última nos próximos slides, porque são elas que dialogam com a proposta do artigo.
+
+Mas repara numa coisa que essas quatro têm em comum. Nenhuma delas raciocina. Elas selecionam, pontuam, buscam, mas nenhuma faz inferência lógica. E a gente tá num curso inteiro sobre inferência. É essa a lacuna que o artigo aponta.
 
 ## Slide 5 — FSM (2 min)
 
