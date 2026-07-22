@@ -1,16 +1,16 @@
 # Script de Fala
 
-## Slide 1 — Título (30s)
+## Slide 1: Título (30s)
 
 Bom, gente, boa tarde! Hoje eu vou apresentar esse artigo aqui desse cara: o Lapeyrade, que é de 2022. O título já fala: raciocínio com ontologias pra tomada de decisão de NPCs. A ideia do artigo é basicamente essa: e se o cérebro do NPC fosse uma consulta?
 
-## Slide 2 — O Problema (2 min)
+## Slide 2: O Problema (2 min)
 
 Antes de qualquer coisa, eu queria que vocês pensassem num NPC burro que já viram. Todo mundo tem um. Aquele guarda que te viu roubando, você se esconde atrás de uma caixa por dez segundos, e ele fala "ah, deve ter sido o vento". Ou o NPC que repete a mesma frase pra sempre. Então, o problema que o artigo ataca é esse: NPC tem decisão pouco crível, comportamento repetitivo, ação inconsistente. E isso não é só em jogo normal, vale pra jogo educacional, jogo sério, simulação.
 
 E aí vem a pergunta que guia a apresentação inteira, que eu acho genuinamente boa: Por que nenhum NPC raciocina? A gente passa o semestre inteiro estudando inferência, e a indústria de games simplesmente... não usa. Por quê?
 
-## Slide 3 — Por que a Indústria Simplifica? (2-3 min)
+## Slide 3: Por que a Indústria Simplifica? (2-3 min)
 
 O artigo dá três respostas, e elas são importantes porque qualquer proposta nova precisa responder às três, não adianta só ser "mais inteligente". (Como? Qual o custo)
 
@@ -22,7 +22,7 @@ Terceira: às vezes simples é melhor mesmo. Tem um conceito chamado Falácia da
 
 Vou explorar esses conceitos mais pra frente.
 
-## Slide 4 — Como se Decide Hoje (1-2 min)
+## Slide 4: Como se Decide Hoje (1-2 min)
 
 Antes de falar da proposta, deixa eu situar o terreno. Se você abrir qualquer jogo dos últimos trinta anos e olhar o cérebro do NPC, é quase certo que vai ser uma dessas três coisas.
 
@@ -32,25 +32,25 @@ Cada uma tem seu ponto fraco, e eu vou detalhar a primeira e a última nos próx
 
 Mas repara numa coisa que essas quatro têm em comum. Nenhuma delas raciocina. Elas selecionam, pontuam, buscam, mas nenhuma faz inferência lógica. E a gente tá num curso inteiro sobre inferência. É essa a lacuna que o artigo aponta.
 
-## Slide 5 — FSM (2 min)
+## Slide 5: FSM (2 min)
 
 FSM é a mais antiga e a mais intuitiva. Cada comportamento é um modo: patrulhar, atacar, fugir. E eventos trocam o modo: viu inimigo, sai de patrulhar e vai pra atacar. Vida baixa, foge. Ficou seguro, volta a patrulhar. O NPC tá sempre em exatamente um estado, o que é barato de rodar e, principalmente, previsível, o que o designer ama, lembra do slide anterior.
 
 O problema é matemático: com n estados, você pode precisar de até n ao quadrado transições, todas escritas à mão. Quer adicionar um estado "pedir reforço"? Agora vai lá e pensa na transição dele com cada um dos outros. Escala muito mal.
 
-## Slide 6 — GOAP (2 min)
+## Slide 6: GOAP (2 min)
 
 GOAP é bem mais esperto. Em vez de estados, você declara um objetivo, um estado-alvo do mundo, tipo "baú aberto". E declara ações com pré-condições e efeitos: "abrir o baú" exige ter a chave, "pegar a chave" exige estar na torre. Aí um planejador, geralmente um A*, encadeia essas ações ligando o mundo atual ao objetivo. Olha a cadeia aqui do lado: torre, chave, baú. Ninguém escreveu essa sequência, o planejador montou.
 
 Curiosidade: GOAP ficou famoso com F.E.A.R., em 2005, e os inimigos daquele jogo são elogiados até hoje. Então planejamento funciona em jogo, tá provado. O custo é que toda vez que o mundo muda, replaneja, e isso pesa em tempo real.
 
-## Slide 7 — FSM vs. GOAP vs. Reasoner (2 min)
+## Slide 7: FSM vs. GOAP vs. Reasoner (2 min)
 
 Botando os três lado a lado, dá pra ver uma escada. FSM: tudo à mão, autoria total, emergência zero. GOAP: já monta planos sozinho, mas o mundo dele é uma lista plana de fatos, não tem estrutura de conhecimento. E o reasoner, que é a proposta do artigo, planeja E infere sobre uma ontologia. Uma regra escrita sobre "arma" vale automaticamente pra toda arma que existir, pra toda arma que você criar semestre que vem.
 
 E aqui embaixo tá o resumo do artigo em uma linha: a sacada é reciclar o motor de prova como planejador. Planejamento de graça. Como assim de graça? Próximo slide.
 
-## Slide 8 — A Sacada: a Prova é o Plano (2-3 min)
+## Slide 8: A Sacada: a Prova é o Plano (2-3 min)
 
 Deixa eu ser honesto: quando eu li isso pela primeira vez, minha reação foi "isso é meio gambiarra, né?". Pegar um provador de teoremas dos anos 70 e enfiar de cérebro de NPC. Mas olha como funciona, que a gambiarra é elegante.
 
@@ -58,15 +58,15 @@ A consulta do NPC é uma meta: "como abro o baú?". O backward chaining, que a g
 
 E tem um bônus : explicabilidade. Cada decisão carrega a própria justificativa, que é a prova. Uma rede neural, por exemplo, pode não deixar explícito por que atacou. Uma prova, sim.
 
-## Slide 9 — A Proposta do Artigo (2 min)
+## Slide 9: A Proposta do Artigo (2 min)
 
 Formalizando, a proposta tem três pilares. Um: reasoner lógico, Prolog no caso, como cérebro do NPC. O argumento é que designer já pensa o jogo em regras quase lógicas, "se o jogador tem a chave, o baú abre", então por que não escrever isso COMO lógica? Dois: ontologias hierárquicas e modulares, que dão conhecimento genérico e reutilizável, e isso responde a restrição de recursos lá do slide 3, dá pra reaproveitar entre jogos. Três: planejamento por backward chaining, que a gente acabou de ver, e que gera comportamento emergente mas sempre dentro das regras declaradas, o que responde a restrição de controle do designer. Viu? Os três problemas do slide 3, cada um com uma resposta.
 
-## Slide 10 — Relembrando: Prolog (1-2 min)
+## Slide 10: Relembrando: Prolog (1-2 min)
 
 Isso aqui é só pra reativar o vocabulário, porque o professor já cobriu Prolog com a gente. Fatos são o mundo do jogo: `em(chave, torre)`. Regras são o design do jogo. E a consulta é a decisão do NPC. A busca da prova, que a gente viu como resolução SLD lá na aula de lógica e inferência, é o que daqui a pouco vira planejamento. Só isso, sigo em frente.
 
-## Slide 11 — Ontologias Hierárquicas (2-3 min)
+## Slide 11: Ontologias Hierárquicas (2-3 min)
 
 Agora, atenção nesse slide, porque tem uma pegadinha terminológica que eu preciso destacar, senão o professor destaca por mim, haha.
 
@@ -74,13 +74,13 @@ A "ontologia" do artigo é isso aqui: espada é arma, arma é objeto. Hierarquia
 
 Só que... isso NÃO é uma ontologia OWL/DL como as que a gente estuda. Não tem semântica formal de lógica de descrições, não tem interoperabilidade RDF, não roda num reasoner de DL, não abre no Protégé. É uma hierarquia de predicados Prolog usando a palavra "ontologia" no sentido fraco, de vocabulário estruturado. Isso não invalida a proposta, mas é uma diferença conceitual importante pra nossa disciplina, e eu volto nela na crítica.
 
-## Slide 12 — Planejamento, Backward Chaining (2 min)
+## Slide 12: Planejamento, Backward Chaining (2 min)
 
 E aqui o planejamento rodando no exemplo do artigo... e olha a imagem: é a MESMA cadeia do slide do GOAP. Torre, chave, baú. De propósito. A diferença é quem monta: no GOAP, você precisou implementar um planejador A* pra isso. Aqui, você declarou `aberto(bau)` como meta, e o motor busca as subações sozinho, de trás pra frente. Mesma saída, só que o planejador veio de graça.
 
 E o detalhe que reconecta com o slide 3: ninguém programou essa sequência, ela emergiu. Mas ela só pode emergir dentro do que as regras permitem. Emergência contida. O designer continua no controle.
 
-## Slide 13 — O Problema da Negação, CWA (2 min)
+## Slide 13: O Problema da Negação, CWA (2 min)
 
 Beleza, até aqui tudo lindo. Agora o problema, que é onde o artigo fica realmente interessante.
 
@@ -88,7 +88,7 @@ Prolog é CWA, mundo fechado, com negação por falha: o que não é provável �
 
 Pra um agente que deveria parecer crível, ignorância e falsidade serem a mesma coisa é um problema de credibilidade. Como resolver?
 
-## Slide 14 — WFS: o 3º Valor de Verdade (3 min)
+## Slide 14: WFS: o 3º Valor de Verdade (3 min)
 
 Essa é a contribuição central do artigo, então capricho aqui.
 
@@ -98,7 +98,7 @@ E a sacada do artigo é usar esse indefinido pra representar ausência de conhec
 
 Conectando com o curso: a gente viu regras revogáveis resolvendo conflito com prioridades. A WFS oferece a outra saída, manter o não-sei como estado legítimo. E se lembram da LCWA como meio-termo entre mundo aberto e fechado? A WFS é outro meio-termo, só que no eixo da negação: mundo fechado, mas com espaço pra ignorância.
 
-## Slide 15 — Arquitetura de Integração (1-2 min)
+## Slide 15: Arquitetura de Integração (1-2 min)
 
 Na prática, como isso entra num jogo: Unity de um lado, SWI-Prolog do outro, uma DLL de interface no meio. O código que fala com Prolog fica isolado num módulo, então o designer usa a interface sabendo o mínimo de Prolog. E o SWI foi escolhido porque tem interface pra C#, da Unity, e C++, da Unreal.
 
@@ -118,13 +118,13 @@ Chega de slide, deixa eu mostrar isso rodando.
 
 *[Se algo der errado: `?- demo.` roda tudo de uma vez. Respira.]*
 
-## Slide 16 — Análise Crítica e Conclusão (2-3 min)
+## Slide 16: Análise Crítica e Conclusão (2-3 min)
 
 Agora tirando o chapéu de vendedor e botando o de cientista.
 
 Limitação principal: é um artigo de proposta, sem validação empírica. O protótipo era trabalho em andamento, o teste com estúdio comercial era futuro. As dúvidas que o próprio autor admite: desempenho em tempo real com vários NPCs, planos longos, consumo de recursos, e a barreira de adoção, porque ferramentas declarativas amigáveis existem e nem por isso pegaram.
 
-## Slide 17 — Bônus: Meu Mestrado em Três Eixos (2 min)
+## Slide 17: Bônus: Meu Mestrado em Três Eixos (2 min)
 
 Antes de encerrar, um bônus rápido conectando isso com a minha pesquisa de mestrado, porque a sobreposição é grande demais pra eu ignorar.
 
@@ -132,13 +132,13 @@ Minha pergunta de qualificação: FSM, BT e GOAP no mesmo cenário, como se comp
 
 E aí... vocês já viram esses três eixos hoje. São exatamente as três razões pelas quais a indústria simplifica, lá do slide 3. O que a indústria trata como restrição prática, eu tô tentando formalizar como eixo de avaliação.
 
-## Slide 18 — Onde o Artigo Toca Minha Pesquisa (2 min)
+## Slide 18: Onde o Artigo Toca Minha Pesquisa (2 min)
 
 E o Lapeyrade encosta na minha pesquisa em cheio. Mesmo diagnóstico: as políticas da indústria são meus eixos. E a aposta dele, planos emergentes dentro das regras, é uma afirmação fortíssima pro meu problema: ele tá prometendo emergência sem perder autoria, ou seja, prometendo dissolver exatamente o trade-off que eu estudo. Olha a balança aqui do lado.
 
 Só que é uma promessa sem evidência. E o que falta lá é o que eu faço: avaliação empírica comparativa com métricas. Então a ponte futura é natural: Prolog com WFS como quarta arquitetura candidata no meu framework, ao lado de FSM, BT e GOAP. A crítica ao artigo vira o meu trabalho futuro.
 
-## Slide 19 — Referências (30s)
+## Slide 19: Referências (30s)
 
 E é isso! Referências principais aqui: o artigo do Lapeyrade, o paper original da WFS de 91, o livro do Millington que é meio que a bíblia de IA pra jogos, Yannakakis e Togelius, e o trabalho do Calimeri com ASP na Unity, que é o parente mais próximo dessa proposta. Obrigado, gente! Perguntas?
 
