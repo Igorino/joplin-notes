@@ -1,7 +1,4 @@
-# Script de Fala — Slide a Slide (versão despojada)
-*~35-40 min com a demo. Os tempos são chute calibrado, ajusta no ensaio.*
-
----
+# Script de Fala
 
 ## Slide 1 — Título (30s)
 
