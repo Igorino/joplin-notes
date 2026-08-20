@@ -8,8 +8,8 @@ Interviewer quer ver julgamento: por que esse, qual o custo, quando você NÃO u
 
 ## Tabela de reconhecimento (o que você mais vai usar na hora)
 
-| Sintoma no problema                                          | Padrão                    |
-|--------------------------------------------------------------|---------------------------|
+| Sintoma no problema | Padrão |
+| --- | --- |
 | `if/else` ou `switch` sobre comportamentos intercambiáveis   | **Strategy**              |
 | Criar objetos com lógica condicional / esconder o `new`      | **Factory**               |
 | Objeto com muitos campos opcionais / construção passo a passo| **Builder**               |
