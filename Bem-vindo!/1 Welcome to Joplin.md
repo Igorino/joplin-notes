@@ -56,7 +56,7 @@ Joplin notes are organised into a tree of notebooks and sub-notebooks.
 - On **mobile**, press the "+" icon and select "New notebook".
 - On **terminal**, press `:mn`
 
-![](undefined)
+![](SubNotebooks.png)
 
 ### With tags
 
